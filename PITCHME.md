@@ -1,8 +1,7 @@
-<!-- 409-01 -->
-
 #HSLIDE
 
-##Welcome to GEO 409: Advanced topics in GIS
+#GEO 409:01
+##Advanced topics in GIS
 
 #HSLIDE
 
@@ -13,6 +12,10 @@
 #HSLIDE
 LiDAR tools in ArcGIS help create an   
 [elevation profile of connected interior spaces](https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces/)
+
+#HSLIDE
+LiDAR tools in ArcGIS help create an   
+<a href="https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces" target="_blank">elevation profile of connected interior spaces(</a>
 
 
 #HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg   
