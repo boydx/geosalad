@@ -16,10 +16,10 @@ Contact information in syllabus
 <a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
 
 #HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
-##I photograph
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
-##I hike
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I hike</h2>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
