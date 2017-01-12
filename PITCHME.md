@@ -16,12 +16,12 @@ Contact information in syllabus
 <a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-##I am a recent father
+<h2 style="color:#fff;">I am a recent father</h2>
 
 
 #HSLIDE
-##Course theme
-#Town Branch Trail & Commons
+###Course theme
+##Town Branch Trail & Commons
 ![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
 <a href="http://www.townbranch.org/" target="_blank">townbranch.org</a>
 
