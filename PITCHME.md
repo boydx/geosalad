@@ -12,7 +12,10 @@ Contact information in syllabus
 
 #HSLIDE
 What experiences help me teach
-###GIS (& Cartography)?
+###GIS & Cartography?
+
+#HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I teach</h2>
 
 #HSLIDE?image=images/01/map-cuga.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
@@ -68,20 +71,63 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 #HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
+<a href="http://boydx.github.io/collisions/" target="_blank">Bring in CARTO!</a>
 
+#HSLIDE
+##Publishing maps online needs a web page (and host)
+* http://sweb.uky.edu (slow but free)
+* GitHub Pages (comes with version control and syncing!)
+
+#HSLIDE
+#We will publish maps using GitHub Pages
+
+#HSLIDE
+##What tools will we use?
+
+#HSLIDE
+#More open source!
+* Students have asked for it
+* QGIS is robust, free, and runs on a macOS
+* We'll still use ArcGIS (You'll get a year license)
+
+#HSLIDE
+#More code!
+* Text-based instructions are cool
+* Platform independence
+* SQL, shell scripts, Python
+* GitHub will help manage our code, too!
+
+#HSLIDE
+#EXAMPLES?
 
 
 #HSLIDE
-###Course theme
-##Town Branch Trail & Commons
-![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
-<a href="http://www.townbranch.org/" target="_blank">townbranch.org</a>
+```sql
+/* Select Kentucky from polygon layer of states. */
+
+SELECT * FROM
+    state_polygon_layer
+WHERE
+    state_name = 'Kentucky'
+    
+/* That's it! */
+
+```
+#HSLIDE
+
+##Chunk of code, recipe, gist, etc.
+* Free you from the click click desktop
+* Can be easily executed on remote computers
+* Learn it once...
 
 
+#HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How acres have burned per county?</h2>
 
-
-
-
+#HSLIDE
+#Spatial Join
+###Intersect and summarize
+<a href="http://boydx.github.io/wildfires/" target="_blank">1992-2013 analysis</a>
 
 #HSLIDE
 
@@ -109,50 +155,56 @@ group by
 ```
 
 #HSLIDE
+#We'll do overaly analysis
+###Using SQL on spatial databases
+(SpatiaLite and PostGIS)
 
-```sql
-/* Select Kentucky from polygon layer of states. */
-
-SELECT * FROM
-    state_polygon_layer
-WHERE
-    state_name = 'Kentucky'
-    
-/* That's it! */
-
-```
 
 #HSLIDE
-**Topics**
-* Worm sleeping patterns
-* tonic water harvesting methods
-* windchime repair
+#We want more 3D!
+LiDAR data now available for Lexington
 
+#HSLIDE?image=images/01/lidar-00.jpg
+#HSLIDE?image=images/01/lidar-01.jpg
+#HSLIDE?image=images/01/lidar-02.jpg
+
+#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg   
+#HSLIDE
+Walking the urban core   
+[Spherical Photos](https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/)
 
 #HSLIDE
 LiDAR tools in ArcGIS help create an   
 <a href="https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces" target="_blank">elevation profile of connected interior spaces(</a>
-#HSLIDE?image=images/01/lidar-00.jpg
-#HSLIDE?image=images/01/lidar-01.jpg
-#HSLIDE?image=images/01/lidar-02.jpg
-#HSLIDE?image=https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg
 
 #HSLIDE
 ![Connected interior spaces](https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg)
 
 
+#HSLIDE?image=https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Sunrise in Lexington</h2>
 
-#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg   
+#HSLIDE?image=image/01/map-sunrise.jpg
+
 #HSLIDE
-Walking the urban core   
-[:beer:](https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/)
+##LiDAR can help accurately model scenic areas
+Which areas of town can see a sunrise with respect to buildings, trees, etc.
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?">Full map</a>
+
+#HSLIDE
+###We now arrive at a
+#Theme
 
 
-#HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
+#HSLIDE
+Spring 2017 course theme:
+##Town Branch Trail & Commons
+![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
+<a href="http://www.townbranch.org/" target="_blank">townbranch.org</a>
 
+#HSLIDE
+#What couyld go wrong?
 #HSLIDE?image=images/01/texas-v-alaska.jpg
 
-#HSLIDE?image=https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg
 
-#HSLIDE
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?"><img src="https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg" width="2048" height="1792" alt="Can you see the fall sunrise in Lexington, Kentucky?"></a>
+#HSLIDE?image=https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg
