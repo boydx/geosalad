@@ -7,6 +7,26 @@
 
 #Welcome!
 
+#HSLIDE
+
+```sql
+
+/* We want to select Kentucky from a polygon layer of US states. */
+
+SELECT * FROM
+    state_polygon_layer
+WHERE
+    state_name = 'Kentucky'
+
+```
+
+#HSLIDE
+
+**Topics**
+* Worm sleeping patterns
+* tonic water harvesting methods
+* windchime repair
+
 #HSLIDE?image=https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg
 
 #HSLIDE
