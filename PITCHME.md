@@ -7,18 +7,42 @@
 
 #Welcome!
 
-#HSLIDE?gist=327a8ab7d2675f1f019c38cf7b4601ee
+#HSLIDE
+
+```sql
+/* Sum wildfire acres by county polygon */
+
+SELECT 
+    sum(pts.fire_size) as fire_acres,
+    round((sum(pts.fire_size) / (poly.aland * 0.000247105)*100)::numeric,2) as percent_burned, 
+    poly.name, 
+    poly.geoid, 
+    poly.aland, 
+    poly.geom 
+from 
+    poly 
+join 
+    pts on ST_Intersects(pts.geom, poly.geom) 
+group by 
+    poly.name,
+    poly.geoid,
+    poly.aland,
+    poly.geom
+
+/* That's it! */
+```
 
 #HSLIDE
 
 ```sql
-
-/* We want to select Kentucky from a polygon layer of US states. */
+/* Select Kentucky from polygon layer of states. */
 
 SELECT * FROM
     state_polygon_layer
 WHERE
     state_name = 'Kentucky'
+    
+/* That's it! */
 
 ```
 
