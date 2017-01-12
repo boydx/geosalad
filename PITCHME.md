@@ -12,11 +12,11 @@ Contact information in syllabus
 
 
 #HSLIDE?image=images/01/map-cuga.jpg
-##I make maps
+<h2 style="color:#000;text-shadow: 2px 2px 4px #eee;">I make maps</h2>
 <a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I am a recent father</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
 
 
 #HSLIDE
