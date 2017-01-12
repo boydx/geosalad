@@ -5,7 +5,7 @@
 
 #HSLIDE
 
-#The End :)!!!
+#Welcome!
 
 #HSLIDE?image=https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg
 
@@ -30,3 +30,6 @@ Walking the urban core
 #HSLIDE?image=images/01/texas-v-alaska.jpg
 
 #HSLIDE?image=https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg
+
+#HSLIDE
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?"><img src="https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg" width="2048" height="1792" alt="Can you see the fall sunrise in Lexington, Kentucky?"></a>
