@@ -194,8 +194,8 @@ LiDAR tools in ArcGIS help create an
 
 #HSLIDE
 ##LiDAR can help accurately model scenic areas
-Which areas of town can see a sunrise with respect to buildings, trees, etc.
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?">Full map</a>
+Which areas of town can see a sunrise with respect to buildings, trees, etc.    
+<a href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?">Full map</a>
 
 #HSLIDE
 ###We now arrive at a
@@ -219,17 +219,18 @@ Spring 2017 course theme:
 
 #HSLIDE?image=http://www.townbranch.org/doc/TBT_at_NCR_2014.jpg
 
+#HSLIDE
 ##Mapping Town Branch
 * What is the current condition of the corridor?
-* Canopy, water, built environment
+* Canopy, water, built environment, walking paths, etc.
 * How might the cooridor look after trail is built?
 
 
 #HSLIDE
-#What couyld go wrong?
+#What couyd go wrong?
 #HSLIDE?image=images/01/texas-v-alaska.jpg
 
 
 #HSLIDE
-#Challenge
-What areas of Texas and Alaska?
+##Challenge for you
+What are the areas of Texas and Alaska?
