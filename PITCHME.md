@@ -14,8 +14,6 @@ Contact information in syllabus
 What experiences help me teach
 ###GIS & Cartography?
 
-#HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I teach</h2>
 
 #HSLIDE?image=images/01/map-cuga.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
@@ -34,6 +32,9 @@ What experiences help me teach
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h2>
 <a href="https://kuula.co/post/7ft7S" target="_blank">(with 3D maps)</a>
 
+#HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
+
 #HSLIDE
 ##How about you?
 * What is your name?
@@ -41,7 +42,8 @@ What experiences help me teach
 * What cartography/GIS courses have you taken?
 
 #HSLIDE
-##How have I taught GEO 409 in the past?
+##How have I taught GEO 409
+###in the past?
 
 #HSLIDE
 Create a theme:
@@ -49,14 +51,14 @@ Create a theme:
 #Walkability
 
 #HSLIDE?image=images/01/map-create-zones.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Divide the city into zones.</h2>
+<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Divide city into zones.</h2>
 
 #HSLIDE?image=images/01/map-digitize-paths.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Digitize the walking paths.</h2>
+<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Digitize walking paths.</h2>
 
 #HSLIDE
 #Build a network model
-###connecting the paths with streets with sidewalks. 
+###connecting paths to streets with sidewalks. 
 
 #HSLIDE
 ![Pedshed](images/01/map-pedshed.jpg)   
@@ -79,19 +81,19 @@ Create a pedshed to measure how many people can access what parts of town on foo
 * GitHub Pages (comes with version control and syncing!)
 
 #HSLIDE
-#We will publish maps using GitHub Pages
+##We will publish maps using GitHub Pages
 
 #HSLIDE
 ##What tools will we use?
 
 #HSLIDE
-#More open source!
+###More open source!
 * Students have asked for it
 * QGIS is robust, free, and runs on a macOS
 * We'll still use ArcGIS (You'll get a year license)
 
 #HSLIDE
-#More code!
+###More code!
 * Text-based instructions are cool
 * Platform independence
 * SQL, shell scripts, Python
@@ -115,7 +117,7 @@ WHERE
 ```
 #HSLIDE
 
-##Chunk of code, recipe, gist, etc.
+###Chunk of code, recipe, gist, etc.
 * Free you from the click click desktop
 * Can be easily executed on remote computers
 * Learn it once...
@@ -125,8 +127,8 @@ WHERE
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How acres have burned per county?</h2>
 
 #HSLIDE
-#Spatial Join
-###Intersect and summarize
+##Spatial Join
+intersect and summarize
 <a href="http://boydx.github.io/wildfires/" target="_blank">1992-2013 analysis</a>
 
 #HSLIDE
@@ -155,22 +157,24 @@ group by
 ```
 
 #HSLIDE
-#We'll do overaly analysis
-###Using SQL on spatial databases
-(SpatiaLite and PostGIS)
+##We'll do overaly analysis
+Using SQL on spatial databases (SpatiaLite and PostGIS)
 
 
 #HSLIDE
-#We want more 3D!
+##We want more 3D!
 LiDAR data now available for Lexington
 
 #HSLIDE?image=images/01/lidar-00.jpg
 #HSLIDE?image=images/01/lidar-01.jpg
 #HSLIDE?image=images/01/lidar-02.jpg
 
-#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg   
+#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to get high</h2>
+<p style="color:#eee;text-shadow: 2px 2px 4px #000;">and photograph</p>
+
 #HSLIDE
-Walking the urban core   
+###Walking the urban core   
 [Spherical Photos](https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/)
 
 #HSLIDE
@@ -184,7 +188,7 @@ LiDAR tools in ArcGIS help create an
 #HSLIDE?image=https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Sunrise in Lexington</h2>
 
-#HSLIDE?image=image/01/map-sunrise.jpg
+#HSLIDE?image=images/01/map-sunrise.jpg
 
 #HSLIDE
 ##LiDAR can help accurately model scenic areas
