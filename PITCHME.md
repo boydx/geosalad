@@ -41,25 +41,33 @@ What experiences help me teach
 ##How have I taught GEO 409 in the past?
 
 #HSLIDE
-###Create a theme:
+Create a theme:
 ##Analyzing
 #Walkability
 
 #HSLIDE?image=images/01/map-create-zones.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Divide the city into zones.</h2>
+<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Divide the city into zones.</h2>
 
 #HSLIDE?image=images/01/map-digitize-paths.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Digitize the walking paths.</h2>
+<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Digitize the walking paths.</h2>
 
 #HSLIDE
 #Build a network model
 ###connecting the paths with streets with sidewalks. 
 
-#HSLIDE?image=images/01/map-pedshed.jpg
+#HSLIDE
+![Pedshed](images/01/map-pedshed.jpg)   
+Create a pedshed to measure how many people can access what parts of town on foot.
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h2>
 <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
+
+#HSLIDE
+#Let's make Web Maps!
+
+#HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 
 
 
