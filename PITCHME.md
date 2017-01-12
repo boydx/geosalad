@@ -12,11 +12,21 @@ Contact information in syllabus
 
 
 #HSLIDE?image=images/01/map-cuga.jpg
-<h2 style="color:#000;text-shadow: 2px 2px 4px #eee;">I make maps</h2>
+##I make maps
 <a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
+
+#HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
+##I photograph
+
+#HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
+##I hike
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
+
+#HSLIDE?image=https://c1.staticflickr.com/1/585/31458905453_5db120e84d_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h2>
+<a href="https://kuula.co/post/7ft7S" target="_blank">(with 3D maps)</a>
 
 
 #HSLIDE
