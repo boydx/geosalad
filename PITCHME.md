@@ -13,6 +13,7 @@ LiDAR tools in ArcGIS help create an
 [elevation profile of connected interior spaces](https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces/)
 
 
-#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg
-LiDAR tools in ArcGIS help create an    
+#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg 
 [:beer:](https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/)
+
+#HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
