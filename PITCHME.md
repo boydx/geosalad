@@ -77,7 +77,7 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 #HSLIDE
 ##Publishing maps online needs a web page (and host)
-* http://sweb.uky.edu (slow but free)
+* Student web server @ sweb.uky.edu (slow but free)
 * GitHub Pages (comes with version control and syncing!)
 
 #HSLIDE
