@@ -175,14 +175,16 @@ LiDAR data now available for Lexington
 
 #HSLIDE
 ###Walking the urban core   
-[Spherical Photos](https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/)
+<a href="https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/" target="_blank">in spherical photos.</a>
 
-#HSLIDE
-LiDAR tools in ArcGIS help create an   
-<a href="https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces" target="_blank">elevation profile of connected interior spaces(</a>
 
 #HSLIDE
 ![Connected interior spaces](https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg)
+
+#HSLIDE
+LiDAR tools in ArcGIS help create an   
+<a href="https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces" target="_blank">elevation profile of connected interior spaces</a>
+
 
 
 #HSLIDE?image=https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg
@@ -206,9 +208,28 @@ Spring 2017 course theme:
 ![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
 <a href="http://www.townbranch.org/" target="_blank">townbranch.org</a>
 
+#HSLIDE?image=http://www.townbranch.org/info/wp-content/uploads/2013/05/TBT_news2.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">One mile already exists</h2>
+
+#HSLIDE?image=http://www.townbranch.org/info/wp-content/uploads/2016/11/TownBranchTiger.png
+
+#HSLIDE?image=http://www.townbranch.org/info/wp-content/uploads/2016/11/WaterFeature-1024x771.jpg
+
+#HSLIDE?image=http://www.kentucky.com/latest-news/38c860/picture43889769/ALTERNATES/FREE_960/ADAd5.So.79.jpeg
+
+#HSLIDE?image=http://www.townbranch.org/doc/TBT_at_NCR_2014.jpg
+
+##Mapping Town Branch
+* What is the current condition of the corridor?
+* Canopy, water, built environment
+* How might the cooridor look after trail is built?
+
+
 #HSLIDE
 #What couyld go wrong?
 #HSLIDE?image=images/01/texas-v-alaska.jpg
 
 
-#HSLIDE?image=https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg
+#HSLIDE
+#Challenge
+What areas of Texas and Alaska?
