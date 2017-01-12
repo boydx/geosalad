@@ -11,11 +11,15 @@
 Contact information in syllabus
 
 
-#HSLIDE
+#HSLIDE?image=images/01/map-cuga.jpg
 ##I make maps
-[outrageGIS.com](https://outrageGIS.com)
+<a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
+
+#HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
+##I am a recent father
 
 
+#HSLIDE
 ##Course theme
 #Town Branch Trail & Commons
 ![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
@@ -78,7 +82,7 @@ LiDAR tools in ArcGIS help create an
 <a href="https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces" target="_blank">elevation profile of connected interior spaces(</a>
 #HSLIDE?image=images/01/lidar-00.jpg
 #HSLIDE?image=images/01/lidar-01.jpg
-#HSLIDE?image=images/01/lidar-03.jpg
+#HSLIDE?image=images/01/lidar-02.jpg
 #HSLIDE?image=https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg
 
 #HSLIDE
