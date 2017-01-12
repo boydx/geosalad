@@ -10,6 +10,11 @@
 #Boyd Shearer
 Contact information in syllabus
 
+#HSLIDE
+What experiences help me teach
+###GIS (& Cartography)?
+
+
 
 #HSLIDE?image=images/01/map-cuga.jpg
 ##I make maps
