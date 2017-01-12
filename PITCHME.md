@@ -1,3 +1,5 @@
+<!-- 409-01 -->
+
 #HSLIDE
 
 ##Welcome to GEO 409: Advanced topics in GIS
@@ -13,7 +15,15 @@ LiDAR tools in ArcGIS help create an
 [elevation profile of connected interior spaces](https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces/)
 
 
-#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg 
+#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg   
+
+#HSLIDE
+Walking the urban core   
 [:beer:](https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/)
 
+
 #HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
+
+#HSLIDE?image=images/01/texas-v-alaska.jpg
+
+#HSLIDE?image=https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg
