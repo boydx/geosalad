@@ -1,17 +1,29 @@
 #HSLIDE
+#Welcome!
 
+#HSLIDE
 #GEO 409:01
 ##Advanced topics in GIS
 
 #HSLIDE
+#Instructor
+##Boyd Shearer
+Contact information in syllabus
 
-#Welcome!
 
 #HSLIDE
 
-#Town Branch Trail
+
+#Course theme
+##Town Branch Trail & Commons
 ![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
-[TownBranch.org](http://www.townbranch.org/)
+<a href="http://www.townbranch.org/" target="_blank">townbranch.org</a>
+
+
+
+
+
+
 
 #HSLIDE
 
@@ -59,19 +71,18 @@ WHERE
 * tonic water harvesting methods
 * windchime repair
 
+
+
+#HSLIDE?image=images/01/lidar-00.jpg
+#HSLIDE?image=images/01/lidar-01.jpg
+#HSLIDE?image=images/01/lidar-03.jpg
 #HSLIDE?image=https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg
-
-#HSLIDE
-LiDAR tools in ArcGIS help create an   
-[elevation profile of connected interior spaces](https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces/)
-
 #HSLIDE
 LiDAR tools in ArcGIS help create an   
 <a href="https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces" target="_blank">elevation profile of connected interior spaces(</a>
 
 
 #HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg   
-
 #HSLIDE
 Walking the urban core   
 [:beer:](https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/)
