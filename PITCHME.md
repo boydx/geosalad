@@ -16,7 +16,7 @@ Contact information in syllabus
 <a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-<h2 style="color:#fff;text-shadow: 2px 2px #ff0000;">I am a recent father</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I am a recent father</h2>
 
 
 #HSLIDE
