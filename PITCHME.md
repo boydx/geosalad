@@ -6,8 +6,8 @@
 ##Advanced topics in GIS
 
 #HSLIDE
-##Instructor
-#Boyd Shearer
+###Instructor
+##Boyd Shearer
 Contact information in syllabus
 
 #HSLIDE
@@ -42,8 +42,7 @@ What experiences help me teach
 * What cartography/GIS courses have you taken?
 
 #HSLIDE
-##How have I taught GEO 409
-###in the past?
+###How have I taught GEO 409 in the past?
 
 #HSLIDE
 Create a theme:
@@ -57,26 +56,26 @@ Create a theme:
 <h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Digitize walking paths.</h2>
 
 #HSLIDE
-#Build a network model
-###connecting paths to streets with sidewalks. 
+###Build a network model
+connecting paths to streets with sidewalks. 
 
 #HSLIDE
 ![Pedshed](images/01/map-pedshed.jpg)   
 Create a pedshed to measure how many people can access what parts of town on foot.
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h2>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
 <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
 
 #HSLIDE
-#Let's make Web Maps!
+##Let's make web maps!
 
 #HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 <a href="http://boydx.github.io/collisions/" target="_blank">Bring in CARTO!</a>
 
 #HSLIDE
-##Publishing maps online needs a web page (and host)
+**Publishing maps online needs a web page (and host)**
 * Student web server @ sweb.uky.edu (slow but free)
 * GitHub Pages (comes with version control and syncing!)
 
@@ -127,8 +126,8 @@ WHERE
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How acres have burned per county?</h2>
 
 #HSLIDE
-##Spatial Join
-intersect and summarize
+###Spatial Join
+intersect and summarize    
 <a href="http://boydx.github.io/wildfires/" target="_blank">1992-2013 analysis</a>
 
 #HSLIDE
@@ -157,12 +156,12 @@ group by
 ```
 
 #HSLIDE
-##We'll do overaly analysis
+###We'll do overaly analysis
 Using SQL on spatial databases (SpatiaLite and PostGIS)
 
 
 #HSLIDE
-##We want more 3D!
+###We want more 3D!
 LiDAR data now available for Lexington
 
 #HSLIDE?image=images/01/lidar-00.jpg
@@ -170,7 +169,7 @@ LiDAR data now available for Lexington
 #HSLIDE?image=images/01/lidar-02.jpg
 
 #HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to get high</h2>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to get high</h3>
 <p style="color:#eee;text-shadow: 2px 2px 4px #000;">and photograph</p>
 
 #HSLIDE
@@ -193,13 +192,13 @@ LiDAR tools in ArcGIS help create an
 #HSLIDE?image=images/01/map-sunrise.jpg
 
 #HSLIDE
-##LiDAR can help accurately model scenic areas
+###LiDAR can help accurately model scenic areas
 Which areas of town can see a sunrise with respect to buildings, trees, etc.    
 <a href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?">Full map</a>
 
 #HSLIDE
 ###We now arrive at a
-#Theme
+##Theme
 
 
 #HSLIDE
@@ -223,11 +222,11 @@ Spring 2017 course theme:
 ##Mapping Town Branch
 * What is the current condition of the corridor?
 * Canopy, water, built environment, walking paths, etc.
-* How might the cooridor look after trail is built?
+* How might the corridor look after trail is built?
 
 
 #HSLIDE
-#What couyd go wrong?
+##What couyld go wrong?
 #HSLIDE?image=images/01/texas-v-alaska.jpg
 
 
