@@ -14,17 +14,15 @@ Contact information in syllabus
 What experiences help me teach
 ###GIS (& Cartography)?
 
-
-
 #HSLIDE?image=images/01/map-cuga.jpg
-##I make maps
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
 <a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
 
 #HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I hike</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
@@ -32,6 +30,37 @@ What experiences help me teach
 #HSLIDE?image=https://c1.staticflickr.com/1/585/31458905453_5db120e84d_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h2>
 <a href="https://kuula.co/post/7ft7S" target="_blank">(with 3D maps)</a>
+
+#HSLIDE
+##How about you?
+* What is your name?
+* Major?
+* What cartography/GIS courses have you taken?
+
+#HSLIDE
+##How have I taught GEO 409 in the past?
+
+#HSLIDE
+###Create a theme:
+##Analyzing
+#Walkability
+
+#HSLIDE?image=images/01/map-create-zones.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Divide the city into zones.</h2>
+
+#HSLIDE?image=images/01/map-digitize-paths.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Digitize the walking paths.</h2>
+
+#HSLIDE
+#Build a network model
+###connecting the paths with streets with sidewalks. 
+
+#HSLIDE?image=images/01/map-pedshed.jpg
+
+#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h2>
+<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
+
 
 
 #HSLIDE
