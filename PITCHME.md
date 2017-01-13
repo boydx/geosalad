@@ -87,16 +87,16 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 #HSLIDE
 ###More open source!
-* Students have asked for it
-* QGIS is robust, free, and runs on a macOS
+* Students have requested it
+* QGIS is robust, free, and runs on a mac OS
 * We'll still use ArcGIS (You'll get a year license)
 
 #HSLIDE
 ###More code!
-* Text-based instructions are cool
-* Platform independence
+* Text-based instructions are cool, dude
+* ESC the desktop, free your workflow
 * SQL, shell scripts, Python
-* GitHub will help manage our code, too!
+
 
 #HSLIDE
 #EXAMPLES?
@@ -117,9 +117,9 @@ WHERE
 #HSLIDE
 
 ###Chunk of code, recipe, gist, etc.
-* Free you from the click click desktop
-* Can be easily executed on remote computers
-* Learn it once...
+* Avoid the click click desktop
+* Execute on remote servers (with terrabites of memory)
+* Write it once, use it forever
 
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
