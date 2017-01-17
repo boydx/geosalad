@@ -69,9 +69,9 @@ We'll use the git hosting service [GitHub.com/](https://github.com/) and their G
 
 #HSLIDE
 ###Our GitHub flow
-* Clone remote repository
-    * or create new local repo
-* Edit files ands save
+* Clone remote repository   
+  (or create new local repo)
+* Edit files and save
 * Commit and sync
 
 #HSLIDE
@@ -81,8 +81,9 @@ Use GitHub to publish web pages, including
 
 #HSLIDE
 ###GitHub.io
-* Create repo named ```<github-username>.github.io```
-    * must be a public repo
+* Create repo named    
+    ```<github-username>.github.io```    
+    must be a public repo
 * Create a ```docs``` folder inside private repo
 
 #HSLIDE?image=images/02/github-settings.jpg
