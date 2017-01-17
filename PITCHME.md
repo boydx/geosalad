@@ -8,8 +8,9 @@
 * Challenge: calculate areas of Texas and Alaska
 
 #HSLIDE
-##To do
+##Your to do:
 #Lesson 01
+on Canvas
 
 
 #HSLIDE
@@ -17,16 +18,16 @@
 ##Knowledge Worker
 
 #HSLIDE
-Need to
-##manage text
+##Need to
+#manage text
 
 #HSLIDE
-Particularly code
-##text-based instructions
+###Particularly code
+##plain text instructions
 
 #HSLIDE
-What are some code
-##languages?
+##What are some code
+#languages?
 
 #HSLIDE
 Structured Query Language
