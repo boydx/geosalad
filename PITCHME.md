@@ -276,17 +276,19 @@ Then open **QGIS menu > Database > DB Manager**
 
 #HSLIDE
 ##Connect new database
+Then **Import Layer**   
 ![Connect database in DB Manager](images/02/qgis-import-layer.jpg)    
-Then **Import Layer**
+
 
 #HSLIDE
 ##Import Layer
-![Import Layer](imagse/02/qgis-import-settings.jpg)    
-and select **Update options** and **Create spatial index**
+and select **Update options** and **Create spatial index**   
+![Import Layer](images/02/qgis-import-settings.jpg)    
+
 
 
 #HSLIDE
-##TFinally!
+##Finally!
 ![Open SQL window](images/02/qgis-connect-db.jpg)    
 open SQL Window
 
