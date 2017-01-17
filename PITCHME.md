@@ -56,32 +56,40 @@ Create a theme:
 ###Build a network model
 connecting paths to streets with sidewalks. 
 
+#HSLIDE  
+[Git](https://git-scm.com/) was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
+
+
 #HSLIDE
 ![Git](images/02/git.png)   
 [xctd](http://xkcd.com/)
-Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
-
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
-<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
 
 #HSLIDE
-##Let's make web maps!
-
-#HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
-<a href="http://boydx.github.io/collisions/" target="_blank">Bring in CARTO!</a>
+We'll use the git hosting service [GitHub.com/](https://github.com/) and their GitHub desktop app to manage our projects.
 
 #HSLIDE
-**Publishing maps online needs a web page (and host)**
-* Student web server @ sweb.uky.edu (slow but free)
-* GitHub Pages (comes with version control and syncing!)
+###Our GitHub flow
+* Clone remote repository
+    * or create new local repo
+* Edit files ands save
+* Commit and sync
 
 #HSLIDE
-##We will publish maps using GitHub Pages
+###GitHub Pages 
+Use GitHub to publish web pages, including 
+###Map Portfolio!
 
 #HSLIDE
-##What tools will we use?
+###GitHub.io
+* Create repo named ```<github-username>.github.io```
+    * must be a public repo
+* Create a ```docs``` folder inside private repo
+
+#HSLIDE?image=images/02/github-settings.jpg
+
+
+
+
 
 #HSLIDE
 ###More open source!
