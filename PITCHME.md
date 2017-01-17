@@ -150,7 +150,7 @@ via the lesson...
 ##```C01```
 inside your GEO409 repo for our first challenge
 
-#HSLIDE?images=image/02/natural-earth-download.jpg
+#HSLIDE?image=images/02/natural-earth-download.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Download data</h2>
 <a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/" target="_blank">Natural Earth</a>
 
@@ -171,7 +171,7 @@ inside your GEO409 repo for our first challenge
 ##Change your Data Frame's
 #Projection
 
-#HSLIDE?images=image/02/arcmap-projection.jpg
+#HSLIDE?image=images/02/arcmap-projection.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;">EPSG: 5070</h2>
 
 #HSLIDE
@@ -227,11 +227,11 @@ Datum: D_North_American_1983
 
 
 #HSLIDE
-##Select only those states we need
-#Definition Query
+###Select only those states we need
+##Definition Query
 ```"name" in ('Texas','Alaska','Kentucky')```
 
-#HSLIDE?images=image/02/arcmap-definition-query.jpg
+#HSLIDE?image=images/02/arcmap-definition-query.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
 
 
@@ -240,7 +240,7 @@ Datum: D_North_American_1983
 #Add Field
 as **Type: Float**
 
-#HSLIDE?images=image/02/arcmap-add-field.jpg
+#HSLIDE?image=images/02/arcmap-add-field.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
 
 #HSLIDE
@@ -248,7 +248,7 @@ as **Type: Float**
 #Field
 and **Calculate Geometry**
 
-#HSLIDE?images=image/02/arcmap-area.jpg
+#HSLIDE?image=images/02/arcmap-area.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
 
 
