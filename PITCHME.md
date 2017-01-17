@@ -129,8 +129,8 @@ Use GitHub to publish web pages, including
 
 
 #HSLIDE
-##Let's etup your local root 
-#GIS project directory
+###Let's setup your local root 
+##GIS project directory
 where all of your GIS projects, assets, files, repos, and everything else will be stored related to class.
 
 #HSLIDE
@@ -150,7 +150,7 @@ via the lesson...
 ##```C01```
 inside your GEO409 repo for our first challenge
 
-#HSLIDE?image=image/02/natural-earth-download.jpg
+#HSLIDE?images=image/02/natural-earth-download.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Download data</h2>
 <a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/" target="_blank">Natural Earth</a>
 
@@ -171,7 +171,7 @@ inside your GEO409 repo for our first challenge
 ##Change your Data Frame's
 #Projection
 
-#HSLIDE?image=image/02/arcmap-projection.jpg
+#HSLIDE?images=image/02/arcmap-projection.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;">EPSG: 5070</h2>
 
 #HSLIDE
@@ -231,7 +231,7 @@ Datum: D_North_American_1983
 #Definition Query
 ```"name" in ('Texas','Alaska','Kentucky')```
 
-#HSLIDE?image=image/02/arcmap-definition-query.jpg
+#HSLIDE?images=image/02/arcmap-definition-query.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
 
 
@@ -240,7 +240,7 @@ Datum: D_North_American_1983
 #Add Field
 as **Type: Float**
 
-#HSLIDE?image=image/02/arcmap-add-field.jpg
+#HSLIDE?images=image/02/arcmap-add-field.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
 
 #HSLIDE
@@ -248,7 +248,7 @@ as **Type: Float**
 #Field
 and **Calculate Geometry**
 
-#HSLIDE?image=image/02/arcmap-area.jpg
+#HSLIDE?images=image/02/arcmap-area.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
 
 
@@ -270,27 +270,27 @@ Kentucky,   104525
 
 #HSLIDE
 ##Create new SpatiaLite database
-![Create SpatiaLite database](image/02/qgis-new-database.jpg)    
+![Create SpatiaLite database](images/02/qgis-new-database.jpg)    
 Then open **QGIS menu > Database > DB Manager**
 
 
 #HSLIDE
 ##Connect new database
-![Connect database in DB Manager](image/02/qgis-import-layer.jpg)    
+![Connect database in DB Manager](images/02/qgis-import-layer.jpg)    
 Then **Import Layer**
 
 #HSLIDE
 ##Import Layer
-![Import Layer](image/02/qgis-import-settings.jpg)    
+![Import Layer](imagse/02/qgis-import-settings.jpg)    
 and select **Update options** and **Create spatial index**
 
 
 #HSLIDE
 ##TFinally!
-![Open SQL window](image/02/qgis-connect-db.jpg)    
+![Open SQL window](images/02/qgis-connect-db.jpg)    
 open SQL Window
 
-#HSLIDE?image=image/02/qgis-execute-sql.jpg
+#HSLIDE?image=images/02/qgis-execute-sql.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;">Execute SQL...</h2>
 
 
@@ -405,5 +405,5 @@ Kentucky,   104576.98
 #HSLIDE
 ##That's the
 #Challenge
-this semester!
+this semester and we'll keep at it!
 
