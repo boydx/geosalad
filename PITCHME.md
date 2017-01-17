@@ -1,14 +1,11 @@
 #HSLIDE
-#Welcome!
-
-#HSLIDE
-#GEO 409:01
+#GEO 409:02
 ##Advanced topics in GIS
 
 #HSLIDE
-###Instructor
-##Boyd Shearer
-Contact information in syllabus
+###Tools for the
+##Knowledge Worker
+
 
 #HSLIDE
 What experiences help me teach
@@ -60,8 +57,9 @@ Create a theme:
 connecting paths to streets with sidewalks. 
 
 #HSLIDE
-![Pedshed](images/01/map-pedshed.jpg)   
-Create a pedshed to measure how many people can access what parts of town on foot.
+![Git](images/02/git.png)   
+[xctd](http://xkcd.com/)
+Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
