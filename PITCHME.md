@@ -1,71 +1,114 @@
 #HSLIDE
-#GEO 409:02
+#GEO 409:01
 ##Advanced topics in GIS
+
+#HSLIDE
+##Topics
+* Tools for the knowledge worker
+* Challenge: calculate areas of Texas and Alaska
+
+#HSLIDE
+##To do
+#Lesson 01
+
 
 #HSLIDE
 ###Tools for the
 ##Knowledge Worker
 
+#HSLIDE
+Need to
+##manage text
 
 #HSLIDE
-What experiences help me teach
-###GIS & Cartography?
-
-
-#HSLIDE?image=images/01/map-cuga.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
-<a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
-
-#HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/1/585/31458905453_5db120e84d_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h2>
-<a href="https://kuula.co/post/7ft7S" target="_blank">(with 3D maps)</a>
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
+Particularly code
+##text-based instructions
 
 #HSLIDE
-##How about you?
-* What is your name?
-* Major?
-* What cartography/GIS courses have you taken?
+What are some code
+##languages?
 
 #HSLIDE
-###How have I taught GEO 409 in the past?
+Structured Query Language
+##SQL
+pronounced "sequel" & perhaps most used language to manage data
 
 #HSLIDE
-Create a theme:
-##Analyzing
-#Walkability
-
-#HSLIDE?image=images/01/map-create-zones.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Divide city into zones.</h2>
-
-#HSLIDE?image=images/01/map-digitize-paths.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Digitize walking paths.</h2>
+##GIS is
+#Big Data
 
 #HSLIDE
-###Build a network model
-connecting paths to streets with sidewalks. 
+Hypertext Markup Language
+##HTML
+The code that tells your browser how to display a web page
 
-#HSLIDE  
-[Git](https://git-scm.com/) was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
+#HSLIDE
+(Carto) Cascading Style Sheets 
+##CSS and CartoCSS
+Used with HTML to render pretty web pages
 
+#HSLIDE
+Start tinkering with examples
+##[w3schools.com](http://www.w3schools.com/)
+
+#HSLIDE
+##What is in our
+#Future?
+
+#HSLIDE
+We'll use a framework to start a web page
+##[Get Skeleton](http://getskeleton.com/)
+
+#HSLIDE
+Command-line processing using GDAL/OGR
+###OSGeo4W shell or Mac OS terminal
+E.g., command -input -output -parameters
+
+#HSLIDE
+Develop scripts to automate GIS workflow
+##(Python)[http://interactivepython.org/courselib/static/thinkcspy/index.html]
+Most-used programming language in GIS
+
+#HSLIDE
+Tools to
+##manage text
+
+#HSLIDE
+A good code editor
+##Language syntax highlighting
+auto-complete, find and replace, code folding
+
+#HSLIDE
+We'll use 
+##Brackets
+but install others like [Atom](https://atom.io/) and [Sublime](https://www.sublimetext.com)
+
+
+
+
+#HSLIDE?image=images/02/markdown.md.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Many ways to create</h2>
+<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown.md</a>
+
+
+
+#HSLIDE
+Manage projects to
+##Prevent loss of text
+and support collaboration
 
 #HSLIDE
 ![Git](images/02/git.png)   
 [xctd](http://xkcd.com/)
 
+
+#HSLIDE  
+[Git](https://git-scm.com/) was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
+
+
+
 #HSLIDE
-We'll use the git hosting service [GitHub.com/](https://github.com/) and their GitHub desktop app to manage our projects.
+We'll use the git hosting service [GitHub.com](https://github.com/) and their GitHub desktop app to manage our projects.
 
 #HSLIDE
 ###Our GitHub flow
