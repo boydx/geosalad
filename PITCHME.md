@@ -118,7 +118,7 @@ WHERE
 
 ###Chunk of code, recipe, gist, etc.
 * Avoid the click click desktop
-* Execute on remote servers (with terrabites of memory)
+* Execute on remote servers (with terrabites of memory :)
 * Write it once, use it forever
 
 
