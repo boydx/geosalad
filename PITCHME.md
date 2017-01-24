@@ -4,22 +4,35 @@
 
 #HSLIDE
 ##Topics
-* Tools for the knowledge worker
-* Challenge: calculate areas of Texas and Alaska
+* Build a spatial database
+* Query and analyze features in SQL
+* In class: make map of Kentucky waterways
+* Lab: create a Kentucky River watershed map
+* Lab: how long is Town Branch?
 
 #HSLIDE
 ##Your task:
 #Lesson 01
 on Canvas
 
+#HSLIDE
+###I know weather is
+##Blah
+and this lesson might kick your butt
+
+#HSLIDE?image=https://c1.staticflickr.com/3/2436/3532938292_6e091a7e9f_o.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Think Summertime</h2>
 
 #HSLIDE
-###Tools for the
-##Knowledge Worker
+##Note
+###I renumbered assignments
+The first lab and module is now "00"
+
+
 
 #HSLIDE?image=https://c1.staticflickr.com/1/550/32506050195_34e2b75f64_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Kentucky waterways map</h2>
-<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown.md</a>
+<a href="https://www.flickr.com/photos/28640579@N02/32506050195/in/dateposted-public/" target="_blank">example map</a>
 
 #HSLIDE
 ##We need to
