@@ -1,6 +1,6 @@
 #HSLIDE
 #GEO 409:01
-##Advanced topics in GIS
+##Week 03
 
 #HSLIDE
 ##Topics
@@ -16,6 +16,10 @@ on Canvas
 #HSLIDE
 ###Tools for the
 ##Knowledge Worker
+
+#HSLIDE?image=https://c1.staticflickr.com/1/550/32506050195_34e2b75f64_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Kentucky waterways map</h2>
+<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown.md</a>
 
 #HSLIDE
 ##We need to
@@ -85,9 +89,7 @@ We'll use
 but install others like <a href="https://atom.io/" target="_blank">Atom</a> and <a href="https://www.sublimetext.com" target="_blank">Sublime</a>.
 
 
-#HSLIDE?image=images/02/markdown.md.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Many ways to create</h2>
-<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown.md</a>
+
 
 #HSLIDE
 Manage projects to
