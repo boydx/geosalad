@@ -23,10 +23,10 @@ and this lesson might kick your butt
 #HSLIDE?image=https://c1.staticflickr.com/3/2436/3532938292_6e091a7e9f_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Think Summertime</h2>
 
-#HSLIDE?https://c1.staticflickr.com/9/8598/28904721335_5b9734c8dc_o.jpg
+#HSLIDE?image=https://c1.staticflickr.com/9/8598/28904721335_5b9734c8dc_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">In Lex</h2>
 
-#HSLIDE?https://c1.staticflickr.com/9/8532/29426262562_02449660b1_o.jpg
+#HSLIDE?image=https://c1.staticflickr.com/9/8532/29426262562_02449660b1_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">On the trail</h2>
 
 #HSLIDE
