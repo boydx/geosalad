@@ -65,3 +65,12 @@ find a list of statements on Canvas
 ###There is  
 ##video, too
 woohoo
+
+#HSLIDE
+###Open code editor  
+##save your SQL
+
+#HSLIDE
+###Use your Geo409 
+##repo
+and sync your work
