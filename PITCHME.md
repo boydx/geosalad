@@ -71,6 +71,12 @@ woohoo
 ##save your SQL
 
 #HSLIDE
-###Use your Geo409 
-##repo
-and sync your work
+###Use your Geo409 repo
+##sync
+your work between home and class
+
+#HSLIDE?image=https://c1.staticflickr.com/1/779/32407852142_a94ecb9fad_h.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lab challenge</h2>
+<a href="https://www.flickr.com/photos/28640579@N02/32407852142/in/dateposted-public/" target="_blank">example map</a>
+
+
