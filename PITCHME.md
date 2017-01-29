@@ -17,7 +17,7 @@ on Canvas
 
 #HSLIDE
 ###I know weather is
-##Blah
+##blah
 and this lesson might kick your butt
 
 #HSLIDE?image=https://c1.staticflickr.com/3/2436/3532938292_6e091a7e9f_o.jpg
@@ -63,7 +63,7 @@ find a list of statements on Canvas
 
 #HSLIDE
 ###There is  
-##video, too
+##video too
 woohoo
 
 #HSLIDE
