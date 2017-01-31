@@ -79,7 +79,7 @@ your work between home and class
 ##Lab 01
 Due this Sunday by end of day.
 
-#HSLIDE?image=http://www.kansascity.com/sports/college/big-12/university-of-kansas/kuy8n6/picture129414064/ALTERNATES/FREE_640/Kansas%20Kentucky%20Basketball%20(2)
+#HSLIDE?image=http://cdn.fansided.com/wp-content/uploads/usat-images/2017/01/9845065-ncaa-basketball-kansas-at-kentucky.jpeg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Don't worry about basketball!</h2>
 
 #HSLIDE
@@ -95,7 +95,7 @@ Two maps and a measurement
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">a minimal second map (20%)</h2>
 
 #HSLIDE?image=images/03/minimum-map.png
-<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Town Branch's length is (20%)</h4>
+<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Town Branch's length is</h4>
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">3.8 miles (10%)</h2>
 
 
@@ -111,7 +111,7 @@ Two maps and a measurement
 
 
 #HSLIDE
-###Download data from
+###Download more from
 ##The National Map
 <a href="https://viewer.nationalmap.gov/basic/" target="_blank">Raster and vector data download</a>
 
