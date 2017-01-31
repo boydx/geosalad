@@ -75,14 +75,14 @@ woohoo
 ##sync
 your work between home and class
 
-#HSlide
+#HSLIDE
 ##Lab 01
 Due this Sunday by end of day.
 
-#Hslide?image=http://www.kansascity.com/sports/college/big-12/university-of-kansas/kuy8n6/picture129414064/ALTERNATES/FREE_640/Kansas%20Kentucky%20Basketball%20(2)
+#HSLIDE?image=http://www.kansascity.com/sports/college/big-12/university-of-kansas/kuy8n6/picture129414064/ALTERNATES/FREE_640/Kansas%20Kentucky%20Basketball%20(2)
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Don't worry about basketball!</h2>
 
-#HSlide
+#HSLIDE
 ##Lab 01
 ###Requirements
 Two maps and a measurement
