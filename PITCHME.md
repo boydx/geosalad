@@ -75,8 +75,43 @@ woohoo
 ##sync
 your work between home and class
 
+#HSlide
+##Lab 01
+Due this Sunday by end of day.
+
+#Hlside?image=http://www.kansascity.com/sports/college/big-12/university-of-kansas/kuy8n6/picture129414064/ALTERNATES/FREE_640/Kansas%20Kentucky%20Basketball%20(2)
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Don't worry about basketball!</h2>
+
+#HSlide
+##Lab 01
+###Requirements
+Two maps and a measurement
+
+
+#HSLIDE?image=https://c1.staticflickr.com/1/550/32506050195_34e2b75f64_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Map in class (70%)</h2>
+
+#HSLIDE?image=images/03/minimum-map.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">a minimal second map (20%)</h2>
+
+#HSLIDE?image=images/03/minimum-map.png
+<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Town Branch's length is (20%)</h4>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">3.8 miles (10%)</h2>
+
+
 #HSLIDE?image=https://c1.staticflickr.com/1/779/32407852142_a94ecb9fad_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lab challenge</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lab challenge (+20%)</h2>
 <a href="https://www.flickr.com/photos/28640579@N02/32407852142/in/dateposted-public/" target="_blank">example map</a>
 
+#HSLIDE?image=images/03/nhd-hydro.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lab data</h2>
+* <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">stream flowline</h4>
+* <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">large stream areas</h4>
+* <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">waterbodies</h4>
+
+
+#HSLIDE
+###Download data from
+##The National Map
+<a href="https://viewer.nationalmap.gov/basic/" target="_blank">Raster and vector data download</a>
 
