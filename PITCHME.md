@@ -22,21 +22,34 @@
 on Canvas and <a href="https://uk.instructure.com/courses/1884348/pages/lesson-02-on-github?module_item_id=23086873" target="_blank">GitHub</a>
 
 #HSLIDE
-![Hay production])(images/04/hay.jpg)
+![Hay production](images/04/hay.jpg)
+
+#HSLIDE
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Look right?</h2>
 
 
 #HSLIDE
 ![Wheat production](images/04/wheat.jpg)
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">More area more production</h2>
+
+#HSLIDE
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">More area = more production</h2>
 <a href="https://www.nass.usda.gov/Charts_and_Maps/Crops_County/#oh" target="_blank">USDA maps</a>
 
 #HSLIDE
-##Choropleth map
-* Combine tables using shared field values
-* Fields contain unique identifiers
-	* Postal ID, geoid, your student ID...
-* Used to map tables without geometry
+##Choropleth mapping
+* Map quantity by enumeration units
+	* e.g., County population maps
+* Problem: larger areas can have larger quantities
+* Solution: normalize by area of unit to make density measure
+
+#HSLIDE?image=https://raw.githubusercontent.com/boydx/geo409_s17/master/module-02/module-02-graphics/q12-map-54009.png?token=AFDTVz0QR7DTYroeY8Ykrmzu28Oe-XoTks5Yo2M4wA%3D%3D
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">raw count</h2>
+
+#HSLIDE?image=https://raw.githubusercontent.com/boydx/geo409_s17/master/module-02/module-02-graphics/q22-people-per-sq-km.png?token=AFDTVy-eqTXLXWFTQN6m5_IP9S5LyCk3ks5Yo2OmwA%3D%3D
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">pop per sq km</h2>
+
+
+
 
 #HSLIDE
 ##Attribute Join
