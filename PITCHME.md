@@ -3,27 +3,49 @@
 ##Week 04
 
 #HSLIDE
-#Attribute Joins
+##Attribute Joins
 ##& choropleth maps
 
 
 #HSLIDE
 ##Topics
-* Build a spatial database
-* Query and analyze features in SQL
-* In class: make map of Kentucky waterways
-* Lab: create a Kentucky River watershed map
-* Lab: how long is Town Branch?
+* Quantity mapping: choropleth maps
+* Perform an attribute join in SQL
+* Edit tables and add custom coordinate systems
+* In class: world population density choropleth map
+* Lab: Fayette County population density map
+
 
 #HSLIDE
 ##Your task:
-#Lesson 01
-on Canvas
+#Lesson 02
+on Canvas and <a href="https://uk.instructure.com/courses/1884348/pages/lesson-02-on-github?module_item_id=23086873" target="_blank">GitHub</a>
+
+#HSLIDE?image=https://www.nass.usda.gov/Charts_and_Maps/Crops_County/images/AL-PR15-RGBChor.png<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Look right?</h2>
+
+#HSLIDE?image=https://www.nass.usda.gov/Charts_and_Maps/Crops_County/images/WW-PR16-RGBChor.png<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">More area more production</h2>
 
 #HSLIDE
-###I know weather is
-##blah
-and this lesson might kick your butt
+##Choropleth map
+* Combine tables using shared field values
+* Fields contain unique identifiers
+	* Postal ID, geoid, your student ID...
+* Used to map tables without geometry
+
+#HSLIDE
+##Attribute Join
+* Combine tables using shared field values
+* Fields contain unique identifiers
+	* Postal ID, geoid, your student ID...
+* Used to map tables without geometry
+
+#HSLIDE
+##(inner) join
+* Combine tables using shared field values
+* Fields contain unique identifiers
+	* Postal ID, geoid, your student ID...
+* Used to map tables without geometry
+
 
 #HSLIDE?image=https://c1.staticflickr.com/3/2436/3532938292_6e091a7e9f_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Think Summertime</h2>
