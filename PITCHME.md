@@ -21,9 +21,11 @@
 #Lesson 02
 on Canvas and <a href="https://uk.instructure.com/courses/1884348/pages/lesson-02-on-github?module_item_id=23086873" target="_blank">GitHub</a>
 
-#HSLIDE?image=images/04/hay.jpg<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Look right?</h2>
+#HSLIDE?image=images/04/hay.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Look right?</h2>
 
-#HSLIDE?image=images/04/wheat.jpg<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">More area more production</h2>
+#HSLIDE?image=images/04/wheat.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">More area more production</h2>
 
 #HSLIDE
 ##Choropleth map
