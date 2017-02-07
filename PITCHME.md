@@ -1,6 +1,11 @@
 #HSLIDE
-#GEO 409:01
-##Week 03
+#GEO 409:02
+##Week 04
+
+#HSLIDE
+#Attribute Joins
+##& choropleth maps
+
 
 #HSLIDE
 ##Topics
