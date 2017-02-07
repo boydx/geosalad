@@ -25,9 +25,11 @@ on Canvas and <a href="https://uk.instructure.com/courses/1884348/pages/lesson-0
 ![Hay production])(images/04/hay.jpg)
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Look right?</h2>
 
+
 #HSLIDE
 ![Wheat production](images/04/wheat.jpg)
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">More area more production</h2>
+<a href="https://www.nass.usda.gov/Charts_and_Maps/Crops_County/#oh" target="_blank">USDA maps</a>
 
 #HSLIDE
 ##Choropleth map
