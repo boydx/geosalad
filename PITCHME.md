@@ -42,10 +42,16 @@ on Canvas and <a href="https://uk.instructure.com/courses/1884348/pages/lesson-0
 * Problem: larger areas can have larger quantities
 * Solution: normalize by area of unit to make density measure
 
-#HSLIDE?image=https://github.com/boydx/geo409_s17/master/module-02/module-02-graphics/q12-map-54009.png?raw=true
+#HSLIDE
+![Raw count](image=https://github.com/boydx/geo409_s17/master/module-02/module-02-graphics/q12-map-54009.png?raw=true)
+
+#HSLIDE
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">raw count</h2>
 
-#HSLIDE?image=https://github.com/boydx/geo409_s17/blob/master/module-02/module-02-graphics/q22-people-per-sq-km.png?raw=true
+#HSLIDE
+![density](https://github.com/boydx/geo409_s17/blob/master/module-02/module-02-graphics/q22-people-per-sq-km.png?raw=true)
+
+#HSLIDE
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">pop per sq km</h2>
 
 
