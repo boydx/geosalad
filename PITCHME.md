@@ -54,7 +54,7 @@ on Canvas and <a href="https://uk.instructure.com/courses/1884348/pages/lesson-0
 * Mollweide Projection, EPSG: 54009 
 * Find projection definitions with PostGIS ```insert into``` statements on <a href="http://epsg.io" target="_blank">EPSG.io</a> 
 
-<!--
+
 #HSLIDE
 ##Attribute Join
 * Combine tables using shared field values
@@ -64,11 +64,21 @@ on Canvas and <a href="https://uk.instructure.com/courses/1884348/pages/lesson-0
 
 #HSLIDE
 ##(inner) join
-* Combine tables using shared field values
-* Fields contain unique identifiers
-	* Postal ID, geoid, your student ID...
-* Used to map tables without geometry
--->
+* Output table contains only matching records from both table
+* An intersection of tables
+
+
+
+#HSLIDE
+##left join
+* The left table (first table listed) keeps all records
+* Only matching records from the right table are included
+
+
+
+#HSLIDE
+#Lab time!
+
 
 #HSLIDE?image=https://c1.staticflickr.com/1/564/32726801546_72ad494960_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">lab</h2>
@@ -76,12 +86,5 @@ on Canvas and <a href="https://uk.instructure.com/courses/1884348/pages/lesson-0
 #HSLIDE?image=https://c1.staticflickr.com/1/283/31923848984_7ee788c819_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">challenge</h2>
 
-#HSLIDE
-#More on Thursday!
 
-
-#HSLIDE
-###Download more from
-##The National Map
-<a href="https://viewer.nationalmap.gov/basic/" target="_blank">Raster and vector data download</a>
 
