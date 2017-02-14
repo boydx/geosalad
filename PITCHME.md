@@ -8,6 +8,10 @@
 #HSLIDE
 ##Please work on lesson
 
+#HSLIDE
+##Big news!
+###Just got data from city showing where people bike!
+
 
 #HSLIDE?image=http://media.graytvinc.com/images/810*455/estill+forest+fire.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Wildfire in Kentucky</h2>
