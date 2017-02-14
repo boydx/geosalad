@@ -3,11 +3,14 @@
 ##Week 05
 
 #HSLIDE
-##Spatial Joins
-##& density analysis
+##Spatial join & density analysis
 
-#HSLIDE?image=https://c1.staticflickr.com/3/2832/32813689775_27afa15b82_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Town Branch</h2>
+#HSLIDE
+##Please work on lesson
+
+
+#HSLIDE?image=http://media.graytvinc.com/images/810*455/estill+forest+fire.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Wildfire in Kentucky</h2>
 
 
 #HSLIDE?image=https://c1.staticflickr.com/1/752/32464606700_d84d79ce9b_h.jpg
@@ -40,6 +43,8 @@
 * Area is same, so already normalized
 * Count by hexagon
 
+#HSLIDE?image=https://c1.staticflickr.com/3/2832/32813689775_27afa15b82_h.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Town Branch</h2>
 
 
 #HSLIDE
