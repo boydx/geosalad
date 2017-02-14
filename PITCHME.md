@@ -21,20 +21,20 @@
 <h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new project with EPSG: 3089</h3>
 
 #HSLIDE?image=images/05/L03-3.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new project with EPSG: 3089</h3>
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Import layers in correct SRID</h3>
 
 #HSLIDE?image=images/05/L03-4.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new project with EPSG: 3089</h3>
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Symbolize springs</h3>
 
 #HSLIDE?image=images/05/L03-5.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new project with EPSG: 3089</h3>
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Make hex grid</h3>
 
 #HSLIDE?image=images/05/L03-6.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new project with EPSG: 3089</h3>
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Add to Map Canvas</h3>
 
 
 #HSLIDE?image=images/05/L03-7.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new project with EPSG: 3089</h3>
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Multipart to singlepart tool</h3>
 
 #HSLIDE?image=images/05/L03-8.png
 <h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new project with EPSG: 3089</h3>
