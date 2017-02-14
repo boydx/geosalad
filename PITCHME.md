@@ -1,6 +1,6 @@
 #HSLIDE
-#GEO 409:02
-##Week 04
+#GEO 409:03
+##Week 05
 
 #HSLIDE
 ##Attribute Joins
@@ -77,14 +77,10 @@ on Canvas and <a href="https://uk.instructure.com/courses/1884348/pages/lesson-0
 
 
 #HSLIDE
-#Lab time!
+#Lab 03
 
 
-#HSLIDE?image=https://c1.staticflickr.com/1/564/32726801546_72ad494960_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">lab</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/1/283/31923848984_7ee788c819_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">challenge</h2>
-
+#HSLIDE?image=images/05/L03-1.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">pop per sq km</h2>
 
 
