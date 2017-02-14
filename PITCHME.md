@@ -11,10 +11,36 @@
 
 
 #HSLIDE?image=https://c1.staticflickr.com/1/752/32464606700_d84d79ce9b_h.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32464606700/in/photostream/" target="_blank">map</a></h3>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32464606700/in/photostream/" target="_blank">how much is here?</a></h3>
 
 #HSLIDE?image=https://c1.staticflickr.com/4/3855/32692041102_1f92661f70_h.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32692041102/in/photostream/" target="_blank">map</a></h3>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32692041102/in/photostream/" target="_blank">how much is here?</a></h3>
+
+#HSLIDE
+#Spatial join
+###how much of x is in y?
+
+#HSLIDE?image=https://c1.staticflickr.com/1/496/31340122270_488c594cad_k.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">How many trees are in the watershed?</h3>
+
+#HSLIDE?image=https://c1.staticflickr.com/1/496/31340122270_488c594cad_k.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">What is the average diameter?</h3>
+
+#HSLIDE
+##Point in polygon analysis 
+
+* Aggregate by polygon and count number
+* Perform summary statistics on numeric attributes
+* "many to one" join
+
+#HSLIDE
+##Hexagonal grids
+
+* Tessellation; create a grid of same polygon
+* Area is same, so already normalized
+* Count by hexagon
+
+
 
 #HSLIDE
 #Lab 03
@@ -48,6 +74,47 @@
 
 #HSLIDE?image=images/05/L03-9.png
 <h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Practice spatial join</h3>
+
+#HSLIDE
+```
+/* Spatial join prings to 5-mile long diagonal hexagon grid */
+
+/* uncomment when ready to insert 
+
+insert into  ky_springs_by_5mi_hexgrid
+
+(average_elev,
+average_flow_cfs,
+count,
+hex_id,
+hex_name,
+geom)
+
+*/
+
+
+select
+	 avg(dow_groundwater_springs.elevation) as average_elev,
+	 avg(dow_groundwater_springs.flowqty) as average_flow_cfs,
+	 count(dow_groundwater_springs.id) as count,
+	 ky_hexgrid_5mi_diagonal.id,
+	 ky_hexgrid_5mi_diagonal.Kentucky_springs_5mi_hexgrid,
+	 ky_hexgrid_5mi_diagonal.geom
+
+from
+	ky_hexgrid_5mi_diagonal
+join
+	dow_groundwater_springs
+on 
+	st_intersects(dow_groundwater_springs.geom, ky_hexgrid_5mi_diagonal.geom)
+and
+	dow_groundwater_springs.rowid in
+	(select dow_groundwater_springs.rowid from SpatialIndex
+	where f_table_name = 'dow_groundwater_springs'
+	and search_frame = ky_hexgrid_5mi_diagonal.geom)
+group by	
+	ky_hexgrid_5mi_diagonal.id
+	```
 
 #HSLIDE?image=images/05/L03-10.png
 <h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new table</h3>
