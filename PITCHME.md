@@ -161,3 +161,20 @@ group by
 #HSLIDE?image=images/05/L03-19.png
 <h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Spatial join springs to census blocks</h3>
 
+
+#HSLIDE?image=images/05/L03-20.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create heatmap raster</h3>
+
+#HSLIDE?image=images/05/L03-21.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Style properties for grayscale raster</h3>
+
+#HSLIDE?image=images/05/L03-22.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Pseudocolor singleband raster with transparency</h3>
+
+#HSLIDE?image=images/05/L03-23.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Final style properties for heatmap</h3>
+
+
+
+#HSLIDE?image=https://c1.staticflickr.com/3/2261/32077384194_cd27ccf612_k.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32077384194/in/dateposted-public/" target="_blank">how much is here?</a></h3>
