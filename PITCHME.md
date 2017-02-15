@@ -142,24 +142,18 @@ group by
 <h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Use numeric attributes</h3>
 
 #HSLIDE?image=images/05/L03-15.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Make hex grid for Fayette county</h3>
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Challenge: make hex grid for Fayette county</h3>
 
-#HSLIDE?image=images/05/L03-16.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Make table</h3>
-
-
-#HSLIDE?image=images/05/L03-17.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Make hex grid</h3>
 
 
 
 #HSLIDE?image=images/05/L03-18.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Spatial join springs to hex grid</h3>
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Challenge: spatial join springs to hex grid</h3>
 
 
 
 #HSLIDE?image=images/05/L03-19.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Spatial join springs to census blocks</h3>
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Challenge: spatial join springs to census polygons</h3>
 
 
 #HSLIDE?image=images/05/L03-20.png
@@ -177,4 +171,4 @@ group by
 
 
 #HSLIDE?image=https://c1.staticflickr.com/3/2261/32077384194_cd27ccf612_k.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32077384194/in/dateposted-public/" target="_blank">how much is here?</a></h3>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32077384194/in/dateposted-public/" target="_blank">Example map</a></h3>
