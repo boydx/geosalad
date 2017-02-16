@@ -12,6 +12,9 @@
 ##Big news!
 ###Just got data from city showing where people bike!
 
+#HSLIDE?image=https://c1.staticflickr.com/3/2427/32895996896_b64e682795_k.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32895996896/in/dateposted-public/" target="_blank">Bike trips</a></h3>
+
 
 #HSLIDE?image=http://media.graytvinc.com/images/810*455/estill+forest+fire.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Wildfire in Kentucky</h2>
