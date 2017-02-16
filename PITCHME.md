@@ -50,6 +50,47 @@
 * Area is same, so already normalized
 * Count by hexagon
 
+
+#HSLIDE
+##Intersect test
+
+* st_intersects() function
+* Tests two geometries for overlap
+* Exact fit but slow
+
+#HSLIDE
+##Spatial Index Query
+
+```
+select * from layer_a 
+join layer_b    
+on st_intersects(layer_a.geom, layer_b.geom)
+group by layer_a.id --or geoid, county_name, etc.
+```
+
+
+
+#HSLIDE
+##Spatial index
+
+* Create hidden tables spatially index layers storing:
+	* Minimum bounding rectangle for feature and its ID
+* Each feature ID is related all other intersecting IDs in database
+* Loose fit but fast
+
+#HSLIDE
+##Spatial Iindex query
+
+```
+select * from layer_a, layer_b    
+where layer_b.rowid in
+	(select rowid from SpatialIndex         
+	where f_table_name = 'layer_b'
+	and search_frame = layer_a.geom)
+```
+
+
+
 #HSLIDE?image=https://c1.staticflickr.com/3/2832/32813689775_27afa15b82_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Town Branch</h2>
 
