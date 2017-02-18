@@ -79,7 +79,7 @@ group by layer_a.id --or geoid, county_name, etc.
 * Loose fit but fast
 
 #HSLIDE
-##Spatial Iindex query
+##Spatial index query
 
 ```
 select * from layer_a, layer_b    
