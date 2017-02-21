@@ -96,7 +96,7 @@ where layer_b.rowid in
 * Density surface raster
 * Distance from each point weighted by curve
 
-#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Kernels.svg/590px-Kernels.svg.png
+#HSLIDE?image=images/05/Curves.png
 
 	
 #HSLIDE
