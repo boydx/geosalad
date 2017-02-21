@@ -89,6 +89,24 @@ where layer_b.rowid in
 	and search_frame = layer_a.geom)
 ```
 
+#HSLIDE
+##Heat Map
+
+* Hot spot map
+* Density surface raster
+* Distance from each point weighted by curve
+
+#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Kernels.svg/590px-Kernels.svg.png
+
+	
+#HSLIDE
+##Raster Data model
+* Array of cell values (always a number!)
+* Types of rasters
+	* Continuous, e.g., elevation
+	* Integer, landuse
+	* Imaging, photograph
+
 
 
 #HSLIDE?image=https://c1.staticflickr.com/3/2832/32813689775_27afa15b82_h.jpg
