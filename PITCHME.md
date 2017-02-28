@@ -31,8 +31,28 @@
 ####input data > function parameters > output data (output becomes input for another function)
 
 #HSLIDE
-##OSM data
+##OSM
 
+#HSLIDE
+##OSM data
+* .osm file is human-readable XML
+* Builds topology with nodes, ways, relations
+* Tags are built with key:value pairs
+
+#HSLIDE
+##Harvesting data
+* [OpenStreetMap.org](http://www.openstreetmap.org)
+* MapZen's [extracts](https://mapzen.com/data/metro-extracts/)
+* QuickOSM plugin in QGIS
+* DO NOT USE QGIS's Vector tools
+
+
+#HSLIDE
+##Styling data
+* Use Rule-based symbology with SQL
+* Simple statements like ```"highway" = 'motorway'```
+* Change symbols based on scale
+* Your first "slippy map!"
 
 #HSLIDE
 ##Geoprocessing
