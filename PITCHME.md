@@ -7,14 +7,19 @@
 
 #HSLIDE
 ##OpenStreetMap
-###Crowd-sourced map of local knowledge that users can freely harvest.
+####Crowd-sourced map of local knowledge that users can freely harvest.
 
 #HSLIDE?image=images/06/OSM.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://www.openstreetmap.org/note/704210#map=11/38.0492/-84.5000&layers=N" target="_blank">OSM</a></h2>
-###Greatest mapping project of all time
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Greatest mapping project of all time</h3>
 
-#HSLIDE?image=https://c1.staticflickr.com/3/2427/32895996896_b64e682795_k.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32895996896/in/dateposted-public/" target="_blank">Bike trips</a></h3>
+#HSLIDE
+##Geoprocessing
+####A tool (function) and workflow to manipulate spatial data in a GIS.
+
+#HSLIDE
+##Workflow
+####input data > function parameters > output data (becomes input data for another function)
 
 
 #HSLIDE?image=http://media.graytvinc.com/images/810*455/estill+forest+fire.jpg
