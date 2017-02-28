@@ -3,6 +3,12 @@
 ##Week 06
 
 #HSLIDE
+##Help for lab 03
+###If you weren't here last week...
+
+#HSLIDE?image=images/06/join.jpg
+
+#HSLIDE
 ##OpenStreetMap and Geoprocessing
 
 #HSLIDE
@@ -15,11 +21,25 @@
 
 #HSLIDE
 ##Geoprocessing
-####A tool (function) and workflow to manipulate spatial data in a GIS.
+####A tool (function, algorithm) and workflow to manipulate spatial data in a GIS.
 
 #HSLIDE
 ##Workflow
-####input data > function parameters > output data (becomes input data for another function)
+####input data > function parameters > output data (output becomes input for another function)
+
+
+
+#HSLIDE
+#Geoprocessing
+
+
+#HSLIDE
+##Bread 'n Butter GIS
+###How much of X is near Y?
+
+#HSLIDE
+##How many people
+###live within a half-mile of Town Branch Trail?
 
 
 #HSLIDE?image=http://media.graytvinc.com/images/810*455/estill+forest+fire.jpg
