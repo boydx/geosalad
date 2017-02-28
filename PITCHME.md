@@ -1,9 +1,9 @@
 #HSLIDE
-#GEO 409:03
-##Week 05
+#GEO 409:04
+##Week 06
 
 #HSLIDE
-##Spatial join & density analysis
+##OpenStreetMap and Geoprocessing
 
 #HSLIDE
 ##Please work on lesson
