@@ -46,7 +46,14 @@
 * Use Rule-based symbology with SQL
 * Simple statements like ```"highway" = 'motorway'```
 * Change symbols based on scale
-* Your first "slippy map!"
+* Your first "slippy map!" in QGIS
+
+#HSLIDE
+##Lab 4.1: Creating and saving styles
+* Create nicely symbolized OSM layers in QGIS
+* Add text to roads, streams, and other layers
+* Export to QML file format in QGIS
+
 
 #HSLIDE?image=https://c1.staticflickr.com/4/3671/32680153523_18c7d76906_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Spring Break!</h2>
@@ -56,7 +63,7 @@
 
 
 #HSLIDE
-#Geoprocessing
+##Geoprocessing
 
 
 #HSLIDE
@@ -73,8 +80,10 @@
 ####input data > function parameters > output data (output becomes input for another function)
 
 #HSLIDE
-##Practice lab
-###How many people live within one mile of Town Branch Trail?
+##Practice Lab 4.2: geoprocessing workflow
+* How many people live within one mile of a completed Town Branch Trail?
+* Explore how to solve this question in two environments
+* Use QML files to style base map
 
 #HSLIDE?image=https://c1.staticflickr.com/4/3832/32646236973_8176af1e3c_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32646236973/in/dateposted-public/" target="_blank">Example map</a></h2>
