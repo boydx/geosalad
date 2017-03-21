@@ -22,13 +22,7 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://www.openstreetmap.org/note/704210#map=11/38.0492/-84.5000&layers=N" target="_blank">OSM</a></h2>
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Greatest mapping project of all time</h3>
 
-#HSLIDE
-##Geoprocessing
-####A tool (function, algorithm) and workflow to manipulate spatial data in a GIS.
 
-#HSLIDE
-##Workflow
-####input data > function parameters > output data (output becomes input for another function)
 
 #HSLIDE
 ##OSM
@@ -70,6 +64,22 @@
 ###How much of X is near Y?
 
 #HSLIDE
-##How many people
-###live within a half-mile of Town Branch Trail?
+##Varieties of geoprocessing
+####A tool (function, algorithm) and workflow to manipulate spatial data in a GIS.
+
+#HSLIDE
+##Workflow
+###Chain of functions
+####input data > function parameters > output data (output becomes input for another function)
+
+#HSLIDE
+##Practice lab
+###How many people live within one mile of Town Branch Trail?
+
+#HSLIDE?image=https://c1.staticflickr.com/4/3832/32646236973_8176af1e3c_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32646236973/in/dateposted-public/" target="_blank">Example map</a></h2>
+
+#HSLIDE
+##Final lab
+###How many people live within 3/4 mile of Town Branch Trail?
 
