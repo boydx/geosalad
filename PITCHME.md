@@ -54,8 +54,15 @@
 * Change symbols based on scale
 * Your first "slippy map!"
 
+#HSLIDE?image=https://c1.staticflickr.com/4/3671/32680153523_18c7d76906_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Spring Break!</h2>
+
+#HSLIDE?image=https://c1.staticflickr.com/4/3830/32680157893_dcf220c00d_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32680157893/in/dateposted-public/" target="_blank">map in the wild!</a></h2>
+
+
 #HSLIDE
-##Geoprocessing
+#Geoprocessing
 
 
 #HSLIDE
