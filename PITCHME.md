@@ -15,6 +15,13 @@
 ##OpenStreetMap and Geoprocessing
 
 #HSLIDE
+##Challenge
+* How we can we do simple spatial analysis and make it look good?
+* For example, how many people live within 20 miles of a national park?
+* Then, how can we do it anywhere?
+* First, we must find a logically ordered global spatial dataset...
+
+#HSLIDE
 ##OpenStreetMap
 ####Crowd-sourced map of local knowledge that users can freely harvest.
 
@@ -64,25 +71,45 @@
 
 #HSLIDE
 ##Geoprocessing
+####A tool, function, or algorithm used to manipulate data in a GIS.
 
 
 #HSLIDE
 ##Bread 'n Butter GIS
 ###How much of X is near Y?
 
-#HSLIDE
-##Varieties of geoprocessing
-####A tool (function, algorithm) and workflow to manipulate spatial data in a GIS.
 
 #HSLIDE
 ##Workflow
-###Chain of functions
-####input data > function parameters > output data (output becomes input for another function)
+###Chain of tools
+####input data > tool parameters > output data (output becomes input for another tool)
+
+
+#HSLIDE
+##Flavors of geoprocessing
+* QGIS tools vs. SpatiaLite functions
+* Though they might appear wildly different, they are in fact based on the same processing library: GEOS (Geometry Engine Open Source)
+
+#HSLIDE
+##Common tools
+* Most often produce new data
+	* What happens to the new geometry?
+	* What happens to the attributes?
+* [Common QGIS tools](https://github.com/boydx/geo409_s17/blob/master/module-04/module-04.2.md#common-geoprocessing-tools-in-qgis)
+* Compare clip, interest, union, and dissolve
+
+
+#HSLIDE
+##Common mistake: you can fry your attributes!
+* Geometry measurements need to be recalculated after clip, intersect, etc.
+* Any measurement fields, e.g., population, need to be carefully inspected to determine if they are still accurate, e.g., after a union
+
+
 
 #HSLIDE
 ##Practice Lab 4.2: geoprocessing workflow
 * How many people live within one mile of a completed Town Branch Trail?
-* Explore how to solve this question in two environments
+* Explore how to solve with QGIS tools and SpatiaLite SQL
 * Use QML files to style base map
 
 #HSLIDE?image=https://c1.staticflickr.com/4/3832/32646236973_8176af1e3c_k.jpg
@@ -90,5 +117,12 @@
 
 #HSLIDE
 ##Final lab
-###How many people live within 3/4 mile of Town Branch Trail?
+###How many people live within <h2>3/4 mile</h2> of Town Branch Trail?
+
+#HSLIDE
+##Tool-based approach
+* Buffer
+* Clip (or Intersect)
+* Recalculate
+
 
