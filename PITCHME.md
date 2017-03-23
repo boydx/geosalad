@@ -161,12 +161,13 @@ select
     
 /********************************** Step 3 **********************************/
 
-/* Insert the buffer into the new table */
+/* Create buffer, cast to a multipart feature, and insert into table */
+/* The st_collect() function creates a single part, the CastToMulti() function ensures that we'll match the multipolygon geom type */
 
 insert into tbt_buffer_1mile 
 		(geom)
 select 
-	st_buffer(st_collect(geom),5280) as geom
+	CastToMulti(st_buffer(st_collect(geom),5280)) as geom
 from 
 	planned_tbt;
     
