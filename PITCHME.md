@@ -126,3 +126,131 @@
 * Recalculate
 
 
+#HSLIDE
+##SQL Approach
+* [SQL Statements](https://gist.github.com/boydx/eee1577dabb185baa89e6dc34ebf3ff0)
+
+
+#HSLIDE
+##SQL Approach
+```
+/* Find population within one mile of a completed Town Branch Trail */
+/* We'll add semicolon to indicate the end of a statement. Not needed in DB Manager, but standard in command line environments. */
+
+/* Remove table if it already exists. */ 
+
+drop table 
+	tbt_buffer_1mile;
+    
+/********************************** Step 1 **********************************/
+
+/* Add new table with an autoincrementing primary key called 'id' */
+
+create table tbt_buffer_1mile
+	(
+	id integer not null primary key autoincrement
+	);
+
+/********************************** Step 2 **********************************/
+
+/* Add empty geometry column */
+
+select 
+	AddGeometryColumn('tbt_buffer_1mile', 'geom', 3089, 'multipolygon', 'xy');
+    
+    
+/********************************** Step 3 **********************************/
+
+/* Insert the buffer into the new table */
+
+insert into tbt_buffer_1mile 
+		(geom)
+select 
+	st_buffer(st_collect(geom),5280) as geom
+from 
+	planned_tbt;
+    
+    
+/********************************** Step 4 **********************************/
+
+/* Clip the census blocks with town branch trail buffer and calculate area of blocks */
+
+select
+	st_intersection(tbt_buffer_1mile.geom,census_blocks_pop_2010.geom) as geom,
+	census_blocks_pop_2010.pop10,
+	st_area(census_blocks_pop_2010.geom)
+	
+from
+	census_blocks_pop_2010, tbt_buffer_1mile
+where 
+	st_intersection(tbt_buffer_1mile.geom,census_blocks_pop_2010.geom) is not null;
+    
+
+
+/********************************** Step 5 **********************************/
+
+/* Create table to receive clip of census blocks with town branch trail buffer and calculate area of blocks */
+
+create table tbt_pop
+(
+	id integer not null primary key autoincrement,
+	pop real,
+	area_feet real,
+	derived_pop real
+);
+
+
+/********************************** Step 6 **********************************/
+
+/* Add empty geometry column */
+
+select AddGeometryColumn('tbt_pop', 'geom', 3089, 'multipolygon', 'xy'); 
+
+
+/********************************** Step 7 **********************************/
+
+/* Insert the clip of census blocks with town branch trail buffer and calculate area of blocks */
+
+insert into tbt_pop
+
+(
+	geom,
+	pop,
+	area_feet
+)
+
+select
+	CastToMulti(st_intersection(tbt_buffer_1mile.geom,census_blocks_pop_2010.geom)) as geom,
+	census_blocks_pop_2010.pop10,
+	st_area(census_blocks_pop_2010.geom)
+	
+from
+	census_blocks_pop_2010, tbt_buffer_1mile
+where 
+	st_intersection(tbt_buffer_1mile.geom,census_blocks_pop_2010.geom) is not null;
+    
+    
+
+/********************************** Step 8 **********************************/
+
+/* Calculate column with ratio of populaiton in census block */
+
+update 
+	tbt_pop 
+set
+	derived_pop = pop*(st_area(geom)/area_feet);
+    
+    
+/********************************** Step 9 **********************************/
+
+/* Create summary table with populaiton estimates */
+
+select 
+	sum(pop) as total,
+	sum(derived_pop) as derived
+from 
+	tbt_pop;
+```
+
+
+
