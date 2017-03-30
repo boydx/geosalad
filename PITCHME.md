@@ -21,7 +21,7 @@
 #HSLIDE?image=images/07/m03.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Watershed</h2>
 
-#HSLIDE?image=images/07/m02.jpg
+#HSLIDE?image=images/07/m02.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lidar data</h2>
 
 #HSLIDE?image=https://c1.staticflickr.com/4/3830/32680157893_dcf220c00d_k.jpg
