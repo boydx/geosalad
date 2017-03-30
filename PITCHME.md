@@ -15,13 +15,23 @@
 <iframe width="100%" height="520" frameborder="0" src="https://nmp.carto.com/u/boyd/builder/52ef1fe6-14a6-11e7-a3f5-0e05a8b3e3d7/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 #HSLIDE
-##Final project time...
+##Final project ideas
 If you're struggling to finish labs and want to complete a final project, Town Branch Trail provides new opportunity.
 
-#HSLIDE?image=images/06/join.jpg
+#HSLIDE
+##Pivot in direction
+###Move towards publishing online maps and content
 
 #HSLIDE
-##OpenStreetMap and Geoprocessing
+#Raster Processing
+
+
+#HSLIDE
+##Example of what you'll produce
+###Terrain relief map of the Town Branch Corridor
+
+#HSLIDE
+<iframe width="100%" height="520" frameborder="0" src="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 #HSLIDE
 ##Challenge
