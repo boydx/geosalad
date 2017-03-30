@@ -1,9 +1,18 @@
 #HSLIDE
-#GEO 409:04
-##Week 06
+#GEO 409:05
+##Week 10
 
-#HSLIDE?image=https://c1.staticflickr.com/4/3908/32359209443_9a016da7d6_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Birthday!</h2>
+#HSLIDE?image=http://townbranchtiger.com/wp-content/uploads/2016/04/160429_-TBCTiger_Map.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New Town Branch Trail plans</h2>
+
+#HSLIDE?image=http://www.kentucky.com/news/local/counties/fayette-county/itl4rl/picture141169983/ALTERNATES/FREE_960/0_Town%20Branch%20Aerial
+
+#HSLIDE?image=http://www.kentucky.com/news/local/counties/fayette-county/q4nnsq/picture141170018/ALTERNATES/FREE_960/B_Midland%20Avenue%20typical%20bl
+
+#HSLIDE?image=http://www.kentucky.com/news/local/news-columns-blogs/tom-eblen/7erdw3/picture141170308/ALTERNATES/FREE_960/2_Vine%20Street%20near%20Rose
+
+#HSLIDE
+<iframe width="100%" height="520" frameborder="0" src="https://nmp.carto.com/u/boyd/builder/52ef1fe6-14a6-11e7-a3f5-0e05a8b3e3d7/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 #HSLIDE
 ##Help for lab 03
