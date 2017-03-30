@@ -106,7 +106,7 @@
 * Use Raster Calculator to calculate (B4 - B1)/(B1 + B4)
 * High density of vegetation is good in the city!
 
-#HSLIDE?image=images/07/q23.jpg?raw=true
+#HSLIDE?image=images/07/q23.jpg
 
 
 #HSLIDE
