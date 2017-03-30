@@ -30,7 +30,10 @@ If you're struggling to finish labs and want to complete a final project, Town B
 ##Example of what you'll produce
 ###Terrain relief map of the Town Branch Corridor
 
-#HSLIDE
+#HSLIDE?image=images/07/m01.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="_blank">map</a></h2>
+
+
 <iframe width="100%" height="520" frameborder="0" src="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 #HSLIDE
