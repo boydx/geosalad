@@ -23,7 +23,7 @@ If you're struggling to finish labs and want to complete a final project, Town B
 ###Move towards publishing online maps and content
 
 #HSLIDE
-#Raster Processing
+#Raster
 
 
 #HSLIDE
@@ -38,58 +38,73 @@ If you're struggling to finish labs and want to complete a final project, Town B
 ##Raster data model
 * Array of regularly spaced cells, aka grid
 * Cell values are numbers; quantities or categories?
-* Level of measurement
+* Level of data measurement
 	* Nominal
 	* Ordinal
 	* Interval
 	* Continuous
 
 #HSLIDE
-##OpenStreetMap
-####Crowd-sourced map of local knowledge that users can freely harvest.
+##Important properties
+* Resolution; who detailed is my data?
+	* Bit depth is number of values a cell can hold
+	* 2<sup>n</sup> values where n = number bits 
+* Single-band vs. multi-band
+* File formats can create data loss
+	
+#HSLIDE
+##Common rtypes
+* Integer, e.g., landuse
+	* 1-band, 1-bit or 8-bit format 
+* Continuous, e.g., elevation
+	* 1-band, 32-bit floating point
+* Imaging, e.g., satellite photography
+	* multi-band, 8-bit or 16-bit
 
-#HSLIDE?image=images/06/OSM.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://www.openstreetmap.org/note/704210#map=11/38.0492/-84.5000&layers=N" target="_blank">OSM</a></h2>
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Greatest mapping project of all time</h3>
+#HSLIDE
+##Terrain Analysis
+* Relief map showing elevation change
+* Hillshade tool to illuminate surface
+* Overlay aerial photography with transparency
+
 
 
 
 #HSLIDE
-##OSM
-
-#HSLIDE
-##OSM data
-* .osm file is human-readable XML
-* Builds topology with nodes, ways, relations
-* Tags are built with key:value pairs
-
-#HSLIDE
-##Harvesting data
-* [OpenStreetMap.org](http://www.openstreetmap.org)
-* MapZen's [extracts](https://mapzen.com/data/metro-extracts/)
-* QuickOSM plugin in QGIS
-* DO NOT USE QGIS's Vector tools
+##Terrain Analysis
+* Relief map showing elevation change
+* Digital Elevation Model provides input
+* Hillshade tool calculates illumination surface
+* Overlay aerial photography with transparency
 
 
 #HSLIDE
-##Styling data
-* Use Rule-based symbology with SQL
-* Simple statements like ```"highway" = 'motorway'```
-* Change symbols based on scale
-* Your first "slippy map!" in QGIS
+##NDVI Analysis
+* Normalized Difference Vegetation Index (NDVI) 
+* Color infrared photography (CIR) with 4-BandNAIP imagery
+* Use Raster Calculator to calculate (B4 - B1)/(B1 + B4)
+* High density of vegetation is good in the city!
 
 #HSLIDE
-##Lab 4.1: Creating and saving styles
-* Create nicely symbolized OSM layers in QGIS
-* Add text to roads, streams, and other layers
-* Export to QML file format in QGIS
+##Raster tile sets
+* Create slippy maps of raster layers
+* ```gdal2tiles``` tool
+* Output is folder with collection of raster tiles
+* Push to your repo to share with world
+
+#HSLIDE?image=images/07/m05.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/canopy/leaflet.html" target="_blank">Canopy near TBT</a></h2>
 
 
-#HSLIDE?image=https://c1.staticflickr.com/4/3671/32680153523_18c7d76906_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Spring Break!</h2>
 
-#HSLIDE?image=https://c1.staticflickr.com/4/3830/32680157893_dcf220c00d_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32680157893/in/dateposted-public/" target="_blank">map in the wild!</a></h2>
+
+
+
+
+
+
+
+
 
 
 
