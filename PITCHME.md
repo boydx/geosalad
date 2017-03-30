@@ -37,7 +37,7 @@
 * Collect photos and content for website
 
 #HSLIDE
-##Pivot in direction
+##Class pivots now
 ###Move towards publishing online maps and content
 
 #HSLIDE
