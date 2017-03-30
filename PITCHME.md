@@ -77,6 +77,9 @@ If you're struggling to finish labs and want to complete a final project, Town B
 * Hillshade tool calculates illumination surface
 * Overlay aerial photography with transparency
 
+#HSLIDE?image=https://github.com/boydx/geo409-qgis-modules/blob/master/module-05/module-05-graphics/q09.jpg?raw=true
+
+
 
 #HSLIDE
 ##NDVI Analysis
@@ -84,6 +87,9 @@ If you're struggling to finish labs and want to complete a final project, Town B
 * Color infrared photography (CIR) with 4-BandNAIP imagery
 * Use Raster Calculator to calculate (B4 - B1)/(B1 + B4)
 * High density of vegetation is good in the city!
+
+#HSLIDE?image=https://github.com/boydx/geo409-qgis-modules/blob/master/module-05/module-05-graphics/q23.jpg?raw=true
+
 
 #HSLIDE
 ##Raster tile sets
