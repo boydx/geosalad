@@ -27,21 +27,22 @@ If you're struggling to finish labs and want to complete a final project, Town B
 
 
 #HSLIDE
-##Example of what you'll produce
+##Example of what you'll produce:
 ###Terrain relief map of the Town Branch Corridor
 
 #HSLIDE?image=images/07/m01.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="_blank">map</a></h2>
 
 
-<iframe width="100%" height="520" frameborder="0" src="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
 #HSLIDE
-##Challenge
-* How we can we do simple spatial analysis and make it look good?
-* For example, how many people live within 20 miles of a national park?
-* Then, how can we do it anywhere?
-* First, we must find a logically ordered global spatial dataset...
+##Raster data model
+* Array of regularly spaced cells, aka grid
+* Cell values are numbers; quantities or categories?
+* Level of measurement
+	* Nominal
+	* Ordinal
+	* Interval
+	* Continuous
 
 #HSLIDE
 ##OpenStreetMap
