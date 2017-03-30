@@ -15,8 +15,23 @@
 <iframe width="100%" height="520" frameborder="0" src="https://nmp.carto.com/u/boyd/builder/52ef1fe6-14a6-11e7-a3f5-0e05a8b3e3d7/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 #HSLIDE
-##Final project ideas
-If you're struggling to finish labs and want to complete a final project, Town Branch Trail provides new opportunity.
+##Final project idea?
+###Desire to create cast metal 3D map of Town Branch watershed
+
+#HSLIDE?image=images/07/m03.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Watershed</h2>
+
+#HSLIDE?image=images/07/m02.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lidar data</h2>
+
+#HSLIDE
+##Replace individual projects?
+
+#HSLIDE
+##Would work in teams
+* Help build 3D model
+* Design project website
+* Collect photos and content for website
 
 #HSLIDE
 ##Pivot in direction
@@ -77,7 +92,7 @@ If you're struggling to finish labs and want to complete a final project, Town B
 * Hillshade tool calculates illumination surface
 * Overlay aerial photography with transparency
 
-#HSLIDE?image=https://github.com/boydx/geo409-qgis-modules/blob/master/module-05/module-05-graphics/q09.jpg?raw=true
+#HSLIDE?image=images/07/q09.jpg
 
 
 
@@ -88,7 +103,7 @@ If you're struggling to finish labs and want to complete a final project, Town B
 * Use Raster Calculator to calculate (B4 - B1)/(B1 + B4)
 * High density of vegetation is good in the city!
 
-#HSLIDE?image=https://github.com/boydx/geo409-qgis-modules/blob/master/module-05/module-05-graphics/q23.jpg?raw=true
+#HSLIDE?image=images/07/q23.jpg?raw=true
 
 
 #HSLIDE
