@@ -1,6 +1,6 @@
 #HSLIDE
 #GEO 409:04
-##Week 06
+##Week 06 - 08
 
 #HSLIDE?image=https://c1.staticflickr.com/4/3908/32359209443_9a016da7d6_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Birthday!</h2>
