@@ -1,123 +1,70 @@
 #HSLIDE
-#GEO 409:05
-##Week 10
+#GEO 409:06
+##Week 12,13
 
-#HSLIDE?image=http://townbranchtiger.com/wp-content/uploads/2016/04/160429_-TBCTiger_Map.jpg
-<h2 style="color:#f00;text-shadow: 2px 2px 4px #fff;">New Town Branch Trail plans</h2>
 
-#HSLIDE?image=http://www.kentucky.com/news/local/counties/fayette-county/itl4rl/picture141169983/ALTERNATES/FREE_960/0_Town%20Branch%20Aerial
-
-#HSLIDE?image=http://www.kentucky.com/news/local/counties/fayette-county/q4nnsq/picture141170018/ALTERNATES/FREE_960/B_Midland%20Avenue%20typical%20bl
-
-#HSLIDE?image=http://www.kentucky.com/news/local/news-columns-blogs/tom-eblen/7erdw3/picture141170308/ALTERNATES/FREE_960/2_Vine%20Street%20near%20Rose
 
 #HSLIDE
-<iframe width="100%" height="520" frameborder="0" src="https://nmp.carto.com/u/boyd/builder/52ef1fe6-14a6-11e7-a3f5-0e05a8b3e3d7/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+#CARTO
 
 #HSLIDE
-##Final project idea?
-###Desire to create cast metal 3D map of Town Branch watershed
-
-#HSLIDE?image=images/07/m03.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Watershed</h2>
-
-#HSLIDE?image=images/07/m02.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lidar data</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/4/3830/32680157893_dcf220c00d_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32680157893/in/dateposted-public/" target="_blank">metal map</a></h2>
-
-#HSLIDE
-##Replace individual projects?
-
-#HSLIDE
-##Would work in teams
-* Help build 3D model
-* Design project website
-* Collect photos and content for website
-
-#HSLIDE
-##Class pivots now
-###Move towards publishing online maps and content
-
-#HSLIDE
-#Raster
+##CARTO
+* Spatial Database PostgreSQL/PostGIS
+* SQL, HTML, CartoCSS
+* CARTO's 'Wizard' is Builder
 
 
 #HSLIDE
 ##Example of what you'll produce:
-###Terrain relief map of the Town Branch Corridor
+###Interactive maps
+
+#HSLIDE
+<iframe width="100%" height="520" frameborder="0" src="https://townbranchtrail.carto.com/builder/c67d9536-1952-11e7-b78b-0ee66e2c9693/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
 
 #HSLIDE?image=images/07/m01.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="_blank">map</a></h2>
-
-
-#HSLIDE
-##Raster data model
-* Array of regularly spaced cells, aka grid
-* Cell values are numbers; quantities or categories?
-* Level of data measurement
-	* Nominal
-	* Ordinal
-	* Interval
-	* Continuous
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="_blank">Made this in QGIS...</a></h2>
 
 #HSLIDE
-##Important properties
-* Resolution; who detailed is my data?
-	* Bit depth is number of values a cell can hold
-	* 2<sup>n</sup> values where n = number bits 
-* Single-band vs. multi-band
-* File formats can create data loss
-	
-#HSLIDE
-##Common rtypes
-* Integer, e.g., landuse
-	* 1-band, 1-bit or 8-bit format 
-* Continuous, e.g., elevation
-	* 1-band, 32-bit floating point
-* Imaging, e.g., satellite photography
-	* multi-band, 8-bit or 16-bit
+##...now use it in CARTO.
 
 #HSLIDE
-##Terrain Analysis
-* Relief map showing elevation change
-* Hillshade tool to illuminate surface
-* Overlay aerial photography with transparency
-
+<iframe width="100%" height="520" frameborder="0" src="https://townbranchtrail.carto.com/builder/fbef55ce-1957-11e7-8fcd-0e233c30368f/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 
 
 #HSLIDE
-##Terrain Analysis
-* Relief map showing elevation change
-* Digital Elevation Model provides input
-* Hillshade tool calculates illumination surface
-* Overlay aerial photography with transparency
-
-#HSLIDE?image=images/07/q09.jpg
-
+##SQL and PostGIS in CARTO
+* Very similar to SpatiaLite, just a little different syntax
+* 'the_geom' and 'carto_id'
+* all_lower_case_no_spaces in column and table names
 
 
 #HSLIDE
-##NDVI Analysis
-* Normalized Difference Vegetation Index (NDVI) 
-* Color infrared photography (CIR) with 4-BandNAIP imagery
-* Use Raster Calculator to calculate (B4 - B1)/(B1 + B4)
-* High density of vegetation is good in the city!
-
-#HSLIDE?image=images/07/q23.jpg
-
+```
+update 
+    tbt_2017
+set
+	length_feet = round((st_length(the_geom,true)*3.281)::numeric,0)	
+```
 
 #HSLIDE
-##Raster tile sets
-* Create slippy maps of raster layers
-* ```gdal2tiles``` tool
-* Output is folder with collection of raster tiles
-* Push to your repo to share with world
 
-#HSLIDE?image=images/07/m05.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/canopy/leaflet.html" target="_blank">Canopy near TBT</a></h2>
+```
+update
+	one_mile_buffer
+set
+	pop_per_sq_mile = round((derived_pop/(st_area(the_geom, true)/2.59e+6))::numeric,0)
+
+```
+
+#HSLIDE
+##Adding custom tile sets to CARTO
+```
+https://<username>.github.io/<location of tile set>/z}/{x}/{y}.png
+/* Example */
+http://boydx.github.io/tbt/xyz/hillshade/{z}/{x}/{y}.png
+```
 
 
 
