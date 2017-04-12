@@ -1,6 +1,5 @@
 #HSLIDE
-#GEO 409:05
-##Week 10
+#GEO 409
 
 #HSLIDE?image=http://townbranchtiger.com/wp-content/uploads/2016/04/160429_-TBCTiger_Map.jpg
 <h2 style="color:#f00;text-shadow: 2px 2px 4px #fff;">New Town Branch Trail plans</h2>
@@ -16,7 +15,7 @@
 
 #HSLIDE
 ##Final project idea?
-###Desire to create cast metal 3D map of Town Branch watershed
+###Desire to create physical 3D map of Town Branch Trail corridor
 
 #HSLIDE?image=images/07/m03.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Watershed</h2>
@@ -27,8 +26,6 @@
 #HSLIDE?image=https://c1.staticflickr.com/4/3830/32680157893_dcf220c00d_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32680157893/in/dateposted-public/" target="_blank">metal map</a></h2>
 
-#HSLIDE
-##Replace individual projects?
 
 #HSLIDE
 ##Would work in teams
@@ -52,32 +49,7 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="_blank">map</a></h2>
 
 
-#HSLIDE
-##Raster data model
-* Array of regularly spaced cells, aka grid
-* Cell values are numbers; quantities or categories?
-* Level of data measurement
-	* Nominal
-	* Ordinal
-	* Interval
-	* Continuous
 
-#HSLIDE
-##Important properties
-* Resolution; who detailed is my data?
-	* Bit depth is number of values a cell can hold
-	* 2<sup>n</sup> values where n = number bits 
-* Single-band vs. multi-band
-* File formats can create data loss
-	
-#HSLIDE
-##Common rtypes
-* Integer, e.g., landuse
-	* 1-band, 1-bit or 8-bit format 
-* Continuous, e.g., elevation
-	* 1-band, 32-bit floating point
-* Imaging, e.g., satellite photography
-	* multi-band, 8-bit or 16-bit
 
 #HSLIDE
 ##Terrain Analysis
@@ -118,6 +90,17 @@
 
 #HSLIDE?image=images/07/m05.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/canopy/leaflet.html" target="_blank">Canopy near TBT</a></h2>
+
+#HSLIDE
+##Add maps from previous labs
+* Waterways and Springs of the Bluegrass
+* Population density maps
+* Town Branch Trail alignment and OpenStreetMap data
+* Fill out your github.io public page
+
+#HSLIDE?image=images/tbt/webmap.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/" target="_blank">Visit page</a></h2>
+
 
 
 
