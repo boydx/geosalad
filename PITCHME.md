@@ -51,14 +51,6 @@
 
 
 
-#HSLIDE
-##Terrain Analysis
-* Relief map showing elevation change
-* Hillshade tool to illuminate surface
-* Overlay aerial photography with transparency
-
-
-
 
 #HSLIDE
 ##Terrain Analysis
@@ -92,13 +84,13 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/canopy/leaflet.html" target="_blank">Canopy near TBT</a></h2>
 
 #HSLIDE
-##Add maps from previous labs
+##Add previous lab projects to web page
 * Waterways and Springs of the Bluegrass
 * Population density maps
 * Town Branch Trail alignment and OpenStreetMap data
 * Fill out your github.io public page
 
-#HSLIDE?image=images/tbt/webmap.png
+#HSLIDE?image=images/tbt/webpage.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/" target="_blank">Visit page</a></h2>
 
 
