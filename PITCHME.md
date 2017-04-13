@@ -50,7 +50,7 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="_blank">map</a></h2>
 
 #HSLIDE
-<iframe width="100%" height="520" frameborder="0" src="http://boydx.github.io/tbt/3d/buildings_trail" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="http://boydx.github.io/tbt/3d/buildings_trail"></iframe>
 
 
 
