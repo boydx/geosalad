@@ -11,8 +11,14 @@
 ### [Avenza PDF Maps](http://www.avenza.com/pdf-maps)
 
 #HSLIDE
-## Then, add this map:
+## Then add this map in Avenza PDF maps:
 ###[https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf](https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf)
+
+#HSLIDE?image=https://c1.staticflickr.com/3/2897/33984681306_bcdb57c5f4_b.jpg
+
+#HSLIDE?image=https://c1.staticflickr.com/4/3942/33984696116_25158a208b_b.jpg
+
+#HSLIDE?image=https://c1.staticflickr.com/4/3942/33984696116_25158a208b_b.jpg
 
 
 #HSLIDE
