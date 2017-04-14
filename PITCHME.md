@@ -49,8 +49,9 @@
 #HSLIDE?image=images/07/m01.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="_blank">map</a></h2>
 
-#HSLIDE
-<iframe width="100%" height="520" frameborder="0" src="https://outrageGIS.com/3d/tbt/buildings_trail" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+#HSLIDE?image=https://boydx.github.io/tbt/images/3D_map_preview.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://outrageGIS.com/3d/tbt/buildings_trail" target="_blank">3d interactive map</a></h2>
+
 
 
 
