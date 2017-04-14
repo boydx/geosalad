@@ -20,7 +20,7 @@
 
 #HSLIDE
 ### You can add the map to Dropbox and connect Avenza PDF Maps or use the URL:
-* [https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf](https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf)
+[https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf](https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf)
 
 #HSLIDE?image=https://c1.staticflickr.com/3/2897/33984681306_bcdb57c5f4_b.jpg
 
