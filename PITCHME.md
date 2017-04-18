@@ -2,6 +2,15 @@
 #GEO 409:07
 ##Week 14
 
+#HSLIDE
+##Last lab!
+
+
+#HSLIDE
+##This week
+###Today do lab. Thursday catch up and look forward.
+
+
 
 
 #HSLIDE
@@ -13,10 +22,6 @@
 * Topographic mapping (ground returns)
 * Feature extraction (building and canopy)
 * [ftp://ftp.kymartian.ky.gov/kyaped/LAZ/](ftp://ftp.kymartian.ky.gov/kyaped/LAZ/)
-
-#HSLIDE
-##This week
-###Today do lab. Thursday catch up and look forward.
 
 
 
