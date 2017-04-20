@@ -1,9 +1,33 @@
 #HSLIDE
 #GEO 409
-##Town Branch Trail project
+##Final project
 
-#HSLIDE?image=http://townbranchtiger.com/wp-content/uploads/2016/04/160429_-TBCTiger_Map.jpg
-<h2 style="color:#f00;text-shadow: 2px 2px 4px #fff;">New Town Branch Trail plans</h2>
+#HSLIDE
+##Goal
+###Create detailed website showcasing Town Branch Trail
+
+#HSLIDE
+##Execute in teams
+* Research/story
+* Photography
+* 3D mapping
+* HTML/CARTO
+
+
+#HSLIDE
+##Research & story team
+* Research
+* Photography
+* 3D mapping
+* HTML/CARTO
+
+
+
+
+
+
+#HSLIDE
+<iframe src="https://www.google.com/maps/d/embed?mid=10WPfr2igd57kiIbN6W9xbRqpH5Q" width="100%" height="480"></iframe>
 
 #HSLIDE?image=http://www.kentucky.com/news/local/counties/fayette-county/itl4rl/picture141169983/ALTERNATES/FREE_960/0_Town%20Branch%20Aerial
 
@@ -14,9 +38,7 @@
 #HSLIDE
 <iframe width="100%" height="520" frameborder="0" src="https://nmp.carto.com/u/boyd/builder/52ef1fe6-14a6-11e7-a3f5-0e05a8b3e3d7/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-#HSLIDE
-##Final project idea?
-###Desire to create physical 3D map of Town Branch Trail corridor
+
 
 #HSLIDE?image=images/07/m03.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Watershed</h2>
