@@ -16,106 +16,56 @@
 
 #HSLIDE
 ##Research & story team
-* Research
-* Photography
-* 3D mapping
-* HTML/CARTO
+* Each member writes a short essay (400 words).
+* Topics could include any destination along trail.
+* Must include proper citations and references.
 
 
-
-
+#HSLIDE
+##Photography team
+* Each member must submit 8 photographs of UNIQUE locations.
+* If not your own, provide proper citation.
+* Location information must be provided in a metadata file.
+* Rephotography is a great idea...
 
 
 #HSLIDE
 <iframe src="https://www.google.com/maps/d/embed?mid=10WPfr2igd57kiIbN6W9xbRqpH5Q" width="100%" height="480"></iframe>
 
-#HSLIDE?image=http://www.kentucky.com/news/local/counties/fayette-county/itl4rl/picture141169983/ALTERNATES/FREE_960/0_Town%20Branch%20Aerial
-
-#HSLIDE?image=http://www.kentucky.com/news/local/counties/fayette-county/q4nnsq/picture141170018/ALTERNATES/FREE_960/B_Midland%20Avenue%20typical%20bl
-
-#HSLIDE?image=http://www.kentucky.com/news/local/news-columns-blogs/tom-eblen/7erdw3/picture141170308/ALTERNATES/FREE_960/2_Vine%20Street%20near%20Rose
-
 #HSLIDE
-<iframe width="100%" height="520" frameborder="0" src="https://nmp.carto.com/u/boyd/builder/52ef1fe6-14a6-11e7-a3f5-0e05a8b3e3d7/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-
-
-#HSLIDE?image=images/07/m03.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Watershed</h2>
-
-#HSLIDE?image=images/07/m02.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lidar data</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/4/3830/32680157893_dcf220c00d_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32680157893/in/dateposted-public/" target="_blank">metal map</a></h2>
+##3D map team
+* Each member must create 2 3D maps.
+* One in QGIS and the other in ArcScene (project will be provided)
+* Views should include building extrusions.
 
 
 #HSLIDE
-##Would work in teams
-* Help build 3D model
-* Design project website
-* Collect photos and content for website
-
-#HSLIDE
-##Class pivots now
-###Move towards publishing online maps and content
-
-#HSLIDE
-#Raster
+##HTML/CARTO team
+* Team must first build a mockup website using Lorem Ipsum.
+* When other team content is ready, replace Lorem Ipsum with final content.
+* CARTO map should contain point locations of the stories and photographs.
 
 
 #HSLIDE
-##Example of what you'll produce:
-###Terrain relief map of the Town Branch Corridor
-
-#HSLIDE?image=images/07/m01.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="_blank">map</a></h2>
-
-#HSLIDE?image=https://boydx.github.io/tbt/images/3D_map_preview.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://outrageGIS.com/3d/tbt/buildings_trail" target="_blank">3d interactive map</a></h2>
-
-
-
-
-
+##Requirements
+* Join Canvas discussion forum for your team.
+* Post your Geo409/docs repo address and topic of interest.
+* No duplicates! So post early.
+* By April 23.
 
 #HSLIDE
-##Terrain Analysis
-* Relief map showing elevation change
-* Digital Elevation Model provides input
-* Hillshade tool calculates illumination surface
-* Overlay aerial photography with transparency
-
-#HSLIDE?image=images/07/q09.jpg
-
-
+##Requirements
+* Content must be completed by May 1.
+* Post your finish content to your Geo409/docs repo.
+* Post in the discussion forum the URL to your content.
+* Submit your this same URL to the Canvas assignment page.
 
 #HSLIDE
-##NDVI Analysis
-* Normalized Difference Vegetation Index (NDVI) 
-* Color infrared photography (CIR) with 4-BandNAIP imagery
-* Use Raster Calculator to calculate (B4 - B1)/(B1 + B4)
-* High density of vegetation is good in the city!
+##Final presentation
+* We'll [web chat via Zoom](https://uky.zoom.us/j/9880451829) at May 5, starting at 10:30am.
+* Tweak the time?
+* The HTML/CARTO team will host the final presentation.
 
-#HSLIDE?image=images/07/q23.jpg
-
-
-#HSLIDE
-##Raster tile sets
-* Create slippy maps of raster layers
-* ```gdal2tiles``` tool
-* Output is folder with collection of raster tiles
-* Push to your repo to share with world
-
-#HSLIDE?image=images/07/m05.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/canopy/leaflet.html" target="_blank">Canopy near TBT</a></h2>
-
-#HSLIDE
-##Add previous lab projects to web page
-* Waterways and Springs of the Bluegrass
-* Population density maps
-* Town Branch Trail alignment and OpenStreetMap data
-* Fill out your github.io public page
 
 #HSLIDE?image=images/tbt/webpage.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/" target="_blank">Visit page</a></h2>
