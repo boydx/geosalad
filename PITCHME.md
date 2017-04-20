@@ -19,13 +19,16 @@
 * Each member writes a short essay (400 words).
 * Topics could include any destination along trail.
 * Must include proper citations and references.
+* Locations for each story must be provided in GeoJSON file.
+    * GeoJSON file must contain link element as attribute.
 
 
 #HSLIDE
 ##Photography team
 * Each member must submit 8 photographs of UNIQUE locations.
 * If not your own, provide proper citation.
-* Location information must be provided in a metadata file.
+* Locations for each photo must be provided in GeoJSON file.
+    * GeoJSON file must contain link element as attribute.
 * Rephotography is a great idea...
 
 
