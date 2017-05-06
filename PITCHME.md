@@ -27,7 +27,7 @@
 * QGIS is free and open source desktop GIS. It doesn't require license unlike ArcGIS.
 * The application runs on Windows, Mac OS, and Linux.
 * It has awesome tools to make sweet maps.
-* [download.qgis.org](download.qgis.org)
+* <a href="http://download.qgis.org" target="_blank">download.qgis.org</a>
 
 #HSLIDE
 ## Tuesday's goals
@@ -38,6 +38,7 @@
 
 #HSLIDE
 ## See you soon!
+#### (If you need the links to the apps and software, continue to the next slide...)
 
 
 #HSLIDE
@@ -55,6 +56,10 @@
 #HSLIDE
 ### You can add the map to Dropbox and connect Avenza PDF Maps or use the URL:
 [https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf](https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf)
+
+#HSLIDE
+## Install QGIS
+### <a href="http://download.qgis.org" target="_blank">download.qgis.org</a>
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg
 <h2 style="color:#f00;text-shadow: 2px 2px 4px #fff;">Trail map</h2>
