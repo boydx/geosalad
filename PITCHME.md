@@ -55,7 +55,7 @@
 
 #HSLIDE
 ### You can add the map to Dropbox and connect Avenza PDF Maps or use the URL:
-[https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf](https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf)
+<a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf" target="_blank">GeoPDF</a>
 
 #HSLIDE
 ## Install QGIS
