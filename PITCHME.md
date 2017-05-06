@@ -43,19 +43,19 @@
 
 #HSLIDE
 ## Install this free app:
-### [Avenza PDF Maps](http://www.avenza.com/pdf-maps)
+### <a href="http://www.avenza.com/pdf-maps">PDF Maps</a>
 
 #HSLIDE
 ## Get a Dropbox account:
-### [Dropbox](https://www.dropbox.com/home)
+### <a href="https://www.dropbox.com/home">Dropbox</a>
 
 #HSLIDE
 ## Then add this map in Avenza PDF maps:
-###[Forest area map](https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf)
+<a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf" target="_blank">GeoPDF</a>
 
 #HSLIDE
 ### You can add the map to Dropbox and connect Avenza PDF Maps or use the URL:
-<a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf" target="_blank">GeoPDF</a>
+<a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf" target="_blank">https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf</a>
 
 #HSLIDE
 ## Install QGIS
