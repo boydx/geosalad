@@ -43,11 +43,11 @@
 
 #HSLIDE
 ## Install this free app:
-### <a href="http://www.avenza.com/pdf-maps">PDF Maps</a>
+### <a href="http://www.avenza.com/pdf-maps" target="_blank">PDF Maps</a>
 
 #HSLIDE
 ## Get a Dropbox account:
-### <a href="https://www.dropbox.com/home">Dropbox</a>
+### <a href="https://www.dropbox.com/home" target="_blank">Dropbox</a>
 
 #HSLIDE
 ## Then add this map in Avenza PDF maps:
