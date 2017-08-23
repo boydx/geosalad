@@ -60,7 +60,7 @@ Create a theme, 2016:
 
 
 #HSLIDE?image=http://sweb.uky.edu/~blshea1/nre355/pksnp/assets/images/ElevationProfile.PNG
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Make measurements</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Make measurements</h2>
 <a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="_blank">and a website</a>
 
 #HSLIDE
@@ -70,7 +70,7 @@ Create a theme, 2015:
 
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/PineMountainCanopyTour.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Make measurements</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Make measurements</h2>
 <a href="http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour/" target="_blank">and a website</a>
 
 #HSLIDE
@@ -89,7 +89,7 @@ Create a theme, 2014:
 
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/RobinsonForestTrailMapping_th.jpg
-<a href="https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg" target="_blank">and a website</a>
+<a href="https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg" target="_blank">map</a>
 
 
 #HSLIDE
@@ -134,34 +134,20 @@ Create a pedshed to measure how many people can access what parts of town on foo
 ## What tools will we use?
 
 #HSLIDE
-### More open source!
-* Students have requested it
-* QGIS is robust, free, and runs on a mac OS
-* We'll still use ArcGIS (You'll get a year license)
+### ESRI ArcGIS
+* Leading, enterprise GIS software
+* Not free, but you'll get a year license
+* Separate programs: ArcMap, ArcCatalog, ArcScene
 
 #HSLIDE
-### More code!
-* Text-based instructions are cool, dude
-* ESC the desktop, free your workflow
-* SQL, shell scripts, Python
-
-
-#HSLIDE
-# EXAMPLES?
+### Other Apps
+* <a href="http://www.qgis.org/en/site/" target="_blank">QGIS</a>, the leading free and open source software (FOSS) desktop GIS app
+* <a href="http://www.qgis.org/en/site/" target="_blank">PDF Maps</a>, free app to display maps on mobile device without cellular data connection. Also will collect field data.
 
 
 
 #HSLIDE
-
-
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How acres have burned per county?</h2>
-
-
-
-#HSLIDE
-### We want more 3D!
+### We will explore the third dimension
 LiDAR data now available for Lexington
 
 #HSLIDE?image=images/01/lidar-00.jpg
