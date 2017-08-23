@@ -1,8 +1,8 @@
-#HSLIDE
-#Welcome!
+# HSLIDE
+# Welcome!
 
-#HSLIDE
-#GEO 409:01
+# HSLIDE
+#NRE 355
 ##Advanced topics in GIS
 
 #HSLIDE
