@@ -147,6 +147,45 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 
 #HSLIDE
+### We now propose a course
+## Theme
+
+#HSLIDE
+### Background from 
+## Spring 2017
+
+
+#HSLIDE
+Spring 2017 course students make maps and website for
+## Town Branch Trail & Commons
+![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
+<a href="http://www.townbranch.org/" target="_blank">townbranch.org</a>
+
+#HSLIDE
+### We found something
+## Curious
+### in our data
+
+#HLSIDE?image=images/01/trees.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">We can see tree heights!</h2>
+<a href="http://boydx.github.io/tbt/oblique/" target="_blank">map</a>
+
+#HSLIDE
+### Let's land on a central 
+## Question
+
+#HSLIDE
+### Where are the
+## tallest trees
+### in our neighborhoods?
+
+#HSLIDE
+### How do we 
+## Answer
+### this question?
+
+
+#HSLIDE
 ### We will explore the third dimension
 LiDAR data now available for Lexington
 
@@ -175,37 +214,33 @@ Which areas of town can see a sunrise with respect to buildings, trees, etc.
 <a href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?">Full map</a>
 
 #HSLIDE
-### We now arrive at a
-## Theme
+### We now have tree top
+## elevations
+
+#HSLIDE
+### What about
+## tree canopy?
+
+#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/LexingtonUrbanCanopy.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Extract from 2016 aerial imagery</h2>
+<a href="http://sweb.uky.edu/~blshea1/nre355/lexington-canopy-cover/" target="_blank">website</a>
+
+
+
 
 
 #HSLIDE
-Spring 2017 course theme:
-## Town Branch Trail & Commons
-![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
-<a href="http://www.townbranch.org/" target="_blank">townbranch.org</a>
-
-#HSLIDE?image=http://www.townbranch.org/info/wp-content/uploads/2013/05/TBT_news2.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">One mile already exists</h2>
-
-#HSLIDE?image=http://www.townbranch.org/info/wp-content/uploads/2016/11/TownBranchTiger.png
-
-#HSLIDE?image=http://www.townbranch.org/info/wp-content/uploads/2016/11/WaterFeature-1024x771.jpg
-
-#HSLIDE?image=http://www.kentucky.com/latest-news/38c860/picture43889769/ALTERNATES/FREE_960/ADAd5.So.79.jpeg
-
-#HSLIDE?image=http://www.townbranch.org/doc/TBT_at_NCR_2014.jpg
+# Benefits?
+* Promote the <a href="https://ukntrees.ca.uky.edu/urban-forest-initiative" target="_blank">Urban Forest Initiative</a>
+* Especially their Adopt-a-Tree Program and Education/Outreach mission
+* Show a big tree's ecosystem services
 
 #HSLIDE
-## Mapping Town Branch
-* What is the current condition of the corridor?
-* Canopy, water, built environment, walking paths, etc.
-* How might the corridor look after trail is built?
+# Methodology
+* Divide class into two-person teams
+* Divide Lexington into a series of neighborhoods
+* Let's use the Neighborhood Association polygons from the <a href="https://data.lexingtonky.gov/dataset/neighborhood-association" target="_blank">Lexington's Open Data Portal</a>
 
-
-#HSLIDE
-## What couyld go wrong?
-#HSLIDE?image=images/01/texas-v-alaska.jpg
 
 
 #HSLIDE
