@@ -181,7 +181,7 @@ Spring 2017 course students make maps and website for
 
 #HSLIDE
 ### How do we 
-## Answer
+## answer
 ### this question?
 
 
@@ -209,7 +209,7 @@ LiDAR tools in ArcGIS help create an
 #HSLIDE?image=images/01/map-sunrise.jpg
 
 #HSLIDE
-### LiDAR can help accurately model scenic areas
+### LiDAR can help accurately model top surface
 Which areas of town can see a sunrise with respect to buildings, trees, etc.    
 <a href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?">Full map</a>
 
