@@ -29,6 +29,7 @@ What experiences help me teach
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
 
 #HSLIDE
+## We need places to explore
 <iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="400px"></frame>
 
 
@@ -43,10 +44,10 @@ What experiences help me teach
 ## How about you?
 * What is your name?
 * Major?
-* What cartography/GIS courses have you taken?
+* What mapping courses have you taken?
 
 #HSLIDE
-### How have I taught GEO 409 in the past?
+### How have I taught NRE 355 in the past?
 
 #HSLIDE
 Create a theme:
