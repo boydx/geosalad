@@ -28,6 +28,10 @@ What experiences help me teach
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
 
+#HSLIDE
+<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="400px"></frame>
+
+
 #HSLIDE?image=https://c1.staticflickr.com/1/585/31458905453_5db120e84d_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h2>
 <a href="https://kuula.co/post/7ft7S" target="_blank">(with 3D maps)</a>
