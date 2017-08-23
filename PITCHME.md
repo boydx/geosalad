@@ -1,18 +1,18 @@
-# HSLIDE
+#HSLIDE
 # Welcome!
 
-# HSLIDE
-#NRE 355
-##Advanced topics in GIS
+#HSLIDE
+# NRE 355
+## Advanced topics in GIS
 
 #HSLIDE
-###Instructor
-##Boyd Shearer
+### Instructor
+## Boyd Shearer
 Contact information in syllabus
 
 #HSLIDE
 What experiences help me teach
-###GIS & Cartography?
+### GIS & Cartography?
 
 
 #HSLIDE?image=images/01/map-cuga.jpg
