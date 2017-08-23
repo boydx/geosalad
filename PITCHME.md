@@ -3,7 +3,7 @@
 
 #HSLIDE
 # NRE 355
-## Advanced topics in GIS
+## Geospatial applications
 
 #HSLIDE
 ### Instructor
@@ -33,9 +33,13 @@ What experiences help me teach
 <iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="400px"></frame>
 
 
-#HSLIDE?image=https://c1.staticflickr.com/1/585/31458905453_5db120e84d_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h2>
-<a href="https://kuula.co/post/7ft7S" target="_blank">(with 3D maps)</a>
+#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h3>
+
+
+#HSLIDE
+### Walking the urban core   
+<a href="https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/" target="_blank">in spherical photos.</a>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
@@ -50,7 +54,20 @@ What experiences help me teach
 ### How have I taught NRE 355 in the past?
 
 #HSLIDE
-Create a theme:
+Create a theme, 2016:
+## Pilot Knob SNP
+# Trails
+
+#HSLIDE?image=http://sweb.uky.edu/~blshea1/nre355/pksnp/assets/images/Explore3D_PilotKnobSNP_view02.jpg
+<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Bird's eye view</h2>
+
+#HSLIDE?image=http://sweb.uky.edu/~blshea1/nre355/pksnp/assets/images/ElevationProfile.PNG
+<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Trail measurements</h2>
+<a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="_blank">and a website</a>
+
+
+#HSLIDE
+Other themes from class:
 ## Analyzing
 # Walkability
 
@@ -124,14 +141,6 @@ LiDAR data now available for Lexington
 #HSLIDE?image=images/01/lidar-00.jpg
 #HSLIDE?image=images/01/lidar-01.jpg
 #HSLIDE?image=images/01/lidar-02.jpg
-
-#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to get high</h3>
-<p style="color:#eee;text-shadow: 2px 2px 4px #000;">and photograph</p>
-
-#HSLIDE
-### Walking the urban core   
-<a href="https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/" target="_blank">in spherical photos.</a>
 
 
 #HSLIDE
