@@ -163,10 +163,10 @@ Spring 2017 course students make maps and website for
 
 #HSLIDE
 ### We found something
-## Curious
+## curious
 ### in our data
 
-#HLSIDE?image=images/01/trees.jpg
+#HSLIDE?image=images/01/trees.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">We can see tree heights!</h2>
 <a href="http://boydx.github.io/tbt/oblique/" target="_blank">map</a>
 
@@ -222,21 +222,19 @@ Which areas of town can see a sunrise with respect to buildings, trees, etc.
 ## tree canopy?
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/LexingtonUrbanCanopy.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Extract from 2016 aerial imagery</h2>
+<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Extract from 2016 aerial imagery</h2>
 <a href="http://sweb.uky.edu/~blshea1/nre355/lexington-canopy-cover/" target="_blank">website</a>
 
 
 
-
-
 #HSLIDE
-# Benefits?
+## Benefits?
 * Promote the <a href="https://ukntrees.ca.uky.edu/urban-forest-initiative" target="_blank">Urban Forest Initiative</a>
 * Especially their Adopt-a-Tree Program and Education/Outreach mission
 * Show a big tree's ecosystem services
 
 #HSLIDE
-# Methodology
+## Methodology
 * Divide class into two-person teams
 * Divide Lexington into a series of neighborhoods
 * Let's use the Neighborhood Association polygons from the <a href="https://data.lexingtonky.gov/dataset/neighborhood-association" target="_blank">Lexington's Open Data Portal</a>
