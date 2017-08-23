@@ -56,7 +56,7 @@ What experiences help me teach
 #HSLIDE
 Create a theme, 2016:
 ## Pilot Knob SNP
-# Trails
+## Trails
 
 
 #HSLIDE?image=http://sweb.uky.edu/~blshea1/nre355/pksnp/assets/images/ElevationProfile.PNG
@@ -66,7 +66,7 @@ Create a theme, 2016:
 #HSLIDE
 Create a theme, 2015:
 ## Pine Mountain SRP
-# Scenic Analysis
+## Scenic Analysis
 
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/PineMountainCanopyTour.jpg
@@ -76,12 +76,20 @@ Create a theme, 2015:
 #HSLIDE
 Create a theme, 2014:
 ## Arboretum Woods
-# Tree Census
+## Tree Census
 
 
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg
+#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Make measurements</h2>
 <a href="https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg" target="_blank">and a website</a>
+
+#HSLIDE
+## Robinson Forest Camp
+### trail map
+
+
+#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/RobinsonForestTrailMapping_th.jpg
+<a href="https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg" target="_blank">and a website</a>
 
 
 #HSLIDE
