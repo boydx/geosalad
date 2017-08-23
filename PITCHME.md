@@ -58,12 +58,30 @@ Create a theme, 2016:
 ## Pilot Knob SNP
 # Trails
 
-#HSLIDE?image=http://sweb.uky.edu/~blshea1/nre355/pksnp/assets/images/Explore3D_PilotKnobSNP_view02.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Bird's eye view</h2>
 
 #HSLIDE?image=http://sweb.uky.edu/~blshea1/nre355/pksnp/assets/images/ElevationProfile.PNG
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Trail measurements</h2>
+<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Make measurements</h2>
 <a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="_blank">and a website</a>
+
+#HSLIDE
+Create a theme, 2015:
+## Pine Mountain SRP
+# Scenic Analysis
+
+
+#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/PineMountainCanopyTour.jpg
+<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Make measurements</h2>
+<a href="http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour/" target="_blank">and a website</a>
+
+#HSLIDE
+Create a theme, 2014:
+## Arboretum Woods
+# Tree Census
+
+
+#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg
+<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Make measurements</h2>
+<a href="https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg" target="_blank">and a website</a>
 
 
 #HSLIDE
