@@ -78,7 +78,6 @@ Early version of ArcGIS in which the name hints at the nature of spatial data mo
 ## Tabular data model  
 
 * A table of rows (feature) and columns (attribute)
-* * An attribute could be the feature's location, but it's not encoded to be immediately mappable
 * Formats include text-based files like a _.csv_ file (comma separated values), spreadsheets, or tables in a geodatabase
 * Attributes will have data types, e.g., numeric vs. alphanumeric
 
@@ -115,9 +114,8 @@ Connectivity and geometric relationships between features that model real-world 
 #HSLIDE
 ### Vector layers  
 
-* One layer holds only one feature type (point, line, or polygon)
-* We call this layer a _Feature Class_
-* Every individual feature in a layer is an object with a unique identifier (*OBJECTID* or *FID*)
+* One layer holds only one geometry type (point, line, or polygon)
+* Every feature in a layer is an object with a unique identifier (*OBJECTID* or *FID*)
 * Multifeatures (multipoint, multiline, multipolygon) have multiple features but only one record, e.g., how many polygons are Georgia?
 
 #HSLIDE?image=http://desktop.arcgis.com/en/arcmap/10.4/manage-data/geodatabases/GUID-49497935-EDB0-4BCA-8861-8BE08F89AAA9-web.gif
@@ -128,7 +126,7 @@ Connectivity and geometric relationships between features that model real-world 
 #HSLIDE
 ## Raster data model  
 
-* Array of cells or pixels (picture element)
+* Matric of cells or pixels (picture element)
 * **Cell size** determines raster resolution
 * * 10 m x 10 m cell size (100 sq m) has 10-meter resolution
 * Great for continuous phenomena, like land elevation and reflected sunlight.
@@ -136,7 +134,7 @@ Connectivity and geometric relationships between features that model real-world 
 #HSLIDE
 ### Raster cell values  
 
-* A numeric value represent homogenous conditions for the entire cell area
+* A numeric value represent same conditions for the entire cell area
 * * Aerial photography (average intensity of reflected sunlight)
 * * Land elevation (average height)
 * * Land cover (majority landcover type)
@@ -166,7 +164,7 @@ Connectivity and geometric relationships between features that model real-world 
 
 * A description or explanation of a dataset
 * Often attached as an *.xml* file (extensible markup language), a text-based method of encoding information
-* Look for ```<tag>value</tag>```, e.g., ```<author>Kentucky GeoNET</author>```
+* Open file in browser and look for ```<tag>value</tag>```, e.g., ```<author>Kentucky GeoNET</author>```
 
 #HSLIDE
 ## Summary 
@@ -178,9 +176,15 @@ When you get data to use in your GIS ask a few questions first:
 * What place does the data show? Does it "look right" on screen? 
 
 #HSLIDE
+## Our first lab and the geodatabase 
+
+Regardless of the source, format, or data model of your data, you will load this data into a **File Geodatabase**. This is goal of Lab 0.
+
+
+#HSLIDE
 ## More 
 
-Find more PDFs about scale, resolution, ArcMap, etc. on Canvas module this week.
+Find more PDFs about scale, resolution, ArcMap, data sources etc. on Canvas module this week.
 
 
 
