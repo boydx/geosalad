@@ -82,6 +82,11 @@ Early version of ArcGIS in which the name hints at the nature of spatial data mo
 * Formats include text-based files like a _.csv_ file (comma separated values), spreadsheets, or tables in a geodatabase
 * Attributes will have data types, e.g., numeric vs. alphanumeric
 
+#HSLIDE?image=http://desktop.arcgis.com/en/arcmap/10.4/manage-data/tables/GUID-E9C5D05E-5D42-4078-8E86-57BAD0FD5FC8-web.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">table</h2>
+<a href="http://desktop.arcgis.com/en/arcmap/10.4/manage-data/tables/what-are-tables-and-attribute-information.htm" target="_blank">link</a>
+
+
 #HSLIDE
 ## Vector data model  
 
@@ -115,6 +120,11 @@ Connectivity and geometric relationships between features that model real-world 
 * Every individual feature in a layer is an object with a unique identifier (*OBJECTID* or *FID*)
 * Multifeatures (multipoint, multiline, multipolygon) have multiple features but only one record, e.g., how many polygons are Georgia?
 
+#HSLIDE?image=http://desktop.arcgis.com/en/arcmap/10.4/manage-data/geodatabases/GUID-49497935-EDB0-4BCA-8861-8BE08F89AAA9-web.gif
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">vector</h2>
+<a href="http://desktop.arcgis.com/en/arcmap/10.4/manage-data/geodatabases/feature-class-basics.htm" target="_blank">link</a>
+
+
 #HSLIDE
 ## Raster data model  
 
@@ -139,6 +149,11 @@ Connectivity and geometric relationships between features that model real-world 
 * * Need an associated _worldfile_ to spatially reference in our GIS (_.tfw_ and _.jpw_ respectively)
 * We will use geodatabase rasters
 
+#HSLIDE?image=http://desktop.arcgis.com/en/arcmap/10.4/manage-data/raster-and-images/GUID-6754AF39-CDE9-4F9D-8C3A-D59D93059BDD-web.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">raster</h2>
+<a href="http://desktop.arcgis.com/en/arcmap/10.4/manage-data/raster-and-images/what-is-raster-data.htm" target="_blank">link</a>
+
+
 
 #HSLIDE
 ## A world of numbers  
@@ -151,7 +166,7 @@ Connectivity and geometric relationships between features that model real-world 
 
 * A description or explanation of a dataset
 * Often attached as an *.xml* file (extensible markup language), a text-based method of encoding information
-* Look for <tag>value</tag>, e.g., <author>Kentucky GeoNET</author>
+* Look for ```<tag>value</tag>```, e.g., ```<author>Kentucky GeoNET</author>```
 
 #HSLIDE
 ## Summary 
