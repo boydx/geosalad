@@ -26,37 +26,88 @@ GIS: The activity of spatial measurement and visualization of hazards and assets
 ### The space where we live
 We'll parse this space as a series of themed, overlapping layers
 
-#HSLIDE
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.78852090571!2d-84.48936984567271!3d38.0520137106569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884244fb16bc0c15%3A0x543114380232ce17!2sDuncan+Park%2C+Lexington%2C+KY+40508!5e0!3m2!1sen!2sus!4v1503845223217" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+#HSLIDE?image=https://www.jmu.edu/_images/facmgt/gis-layers-graphic.jpg
+
+#HSLIDE
+## Model
+an abstraction of real-world phenomena and processes.
 
 
 #HSLIDE?image=https://farm5.staticflickr.com/4429/36033302333_267b460188_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Duncan Park Centennial</h2>
+
+#HSLIDE
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.78852090571!2d-84.48936984567271!3d38.0520137106569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884244fb16bc0c15%3A0x543114380232ce17!2sDuncan+Park%2C+Lexington%2C+KY+40508!5e0!3m2!1sen!2sus!4v1503845223217" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+#HSLIDE?image=https://farm5.staticflickr.com/4387/36033305973_97c9d43dc8_h.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New tree</h2>
 
 
 #HSLIDE?image=https://i2.wp.com/www.outragegis.com/trails/wp-content/uploads/2014/12/NeighborhoodGreenIndex_MLKNA.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Green index</h2>
 <a href="https://www.outragegis.com/trails/2014/11/04/neighborhood-green-index/" target="_blank">map</a>
 
-#HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
-
 #HSLIDE
-## We need places to explore
-<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="400px"></frame>
-
-
-#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h3>
+## GIS
+### digitize, organize, analyze, visualize
 
 
 #HSLIDE
-### Walking the urban core   
-<a href="https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/" target="_blank">in spherical photos.</a>
+## Spatial data model
+the rules/constructs for how we represent features on earth in our GIS.
+
+
+
+#HSLIDE?image=http://www.esri.com/~/media/Images/Content/about-esri/about/graphics/timeline/1986.jpg 
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">1986</h3>
+
+#HSLIDE
+
+## ARC/INFO
+
+Early version of ArcGIS in which the name hints at the nature of spatial data model.
+
+* **ARC** is an array of coordinates giving locations.
+* **INFO** is a table of rows and columns (a database) of attributes.
+
+
+#HSLIDE
+## Tabular data model  
+
+* A table of rows (feature) and columns (attribute)
+* * An attribute could be the feature's location, but it's not encoded to be immediately mappable
+* Formats include text-based files like a _.csv_ file (comma separated values), spreadsheets, or tables in a geodatabase
+* Attributes will have data types, e.g., numeric vs. alphanumeric
+
+#HSLIDE
+## Vector data model  
+
+* Array of x,y coordinates (usually hidden from user)
+* Contains tabular data where each geographic feature (a row in the table) has columns of attributes
+* * The attribute table has one column that uniquely identifies each feature, e.g., FeatureID or ObjectID
+* Formats include the _Shapefile_ and geodatabase _Feature Class_
+
+#HSLIDE
+## Vector geometric primitives 
+
+* Point - single x,y coordinate value
+* Line - series of connected coordinate values (vertices) with two end points (nodes)
+* Polygon - a closed line 
+* Multipoint, multiline, multipolygon have multiple features but only one record, e.g., how many polygons make up the state of Georgia?
+* Great for discrete features (with distinct boundaries), e.g., lakes, trails, and campsites.
+
+#HSLIDE
+## Vector topology 
+
+Connectivity and geometric relationships between features that model real-world conditions.
+
+* Trails are connected by intersections
+* Lakes are adjacent to land
+* Islands are contained within lakes 
+
+
+
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
