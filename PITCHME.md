@@ -27,7 +27,9 @@ GIS: The activity of spatial measurement and visualization of hazards and assets
 We'll parse this space as a series of themed, overlapping layers
 
 
-#HSLIDE?image=https://www.jmu.edu/_images/facmgt/gis-layers-graphic.jpg
+#HSLIDE
+
+![The classic data model for GIS](https://www.jmu.edu/_images/facmgt/gis-layers-graphic.jpg)
 
 #HSLIDE
 ## Model
@@ -89,7 +91,7 @@ Early version of ArcGIS in which the name hints at the nature of spatial data mo
 * Formats include the _Shapefile_ and geodatabase _Feature Class_
 
 #HSLIDE
-## Vector geometric primitives 
+### Vector geometric primitives 
 
 * Point - single x,y coordinate value
 * Line - series of connected coordinate values (vertices) with two end points (nodes)
@@ -98,7 +100,7 @@ Early version of ArcGIS in which the name hints at the nature of spatial data mo
 * Great for discrete features (with distinct boundaries), e.g., lakes, trails, and campsites.
 
 #HSLIDE
-## Vector topology 
+### Vector topology 
 
 Connectivity and geometric relationships between features that model real-world conditions.
 
