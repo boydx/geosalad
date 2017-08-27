@@ -29,7 +29,7 @@ We'll parse this space as a series of themed, overlapping layers
 
 #HSLIDE
 
-<img src="https://www.jmu.edu/_images/facmgt/gis-layers-graphic.jpg" width="1005">
+<img src="https://www.jmu.edu/_images/facmgt/gis-layers-graphic.jpg" height="600px"">
 
 #HSLIDE
 ## Model
@@ -87,17 +87,16 @@ Early version of ArcGIS in which the name hints at the nature of spatial data mo
 
 * Array of x,y coordinates (usually hidden from user)
 * Contains tabular data where each geographic feature (a row in the table) has columns of attributes
-* * The attribute table has one column that uniquely identifies each feature, e.g., FeatureID or ObjectID
 * Formats include the _Shapefile_ and geodatabase _Feature Class_
 
 #HSLIDE
 ### Vector geometric primitives 
 
-* Point - single x,y coordinate value
-* Line - series of connected coordinate values (vertices) with two end points (nodes)
-* Polygon - a closed line 
-* Multipoint, multiline, multipolygon have multiple features but only one record, e.g., how many polygons make up the state of Georgia?
+* **Point** - single x,y coordinate value
+* **Line** - series of connected coordinate values (vertices) with two end points (nodes)
+* **Polygon** - a closed line 
 * Great for discrete features (with distinct boundaries), e.g., lakes, trails, and campsites.
+
 
 #HSLIDE
 ### Vector topology 
@@ -108,209 +107,66 @@ Connectivity and geometric relationships between features that model real-world 
 * Lakes are adjacent to land
 * Islands are contained within lakes 
 
+#HSLIDE
+### Vector layers  
 
-
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
+* One layer holds only one feature type (point, line, or polygon)
+* We call this layer a _Feature Class_
+* Every individual feature in a layer is an object with a unique identifier (*OBJECTID* or *FID*)
+* Multifeatures (multipoint, multiline, multipolygon) have multiple features but only one record, e.g., how many polygons are Georgia?
 
 #HSLIDE
-## How about you?
-* What is your name?
-* Major?
-* What mapping courses have you taken?
+## Raster data model  
+
+* Array of cells or pixels (picture element)
+* **Cell size** determines raster resolution
+* * 10 m x 10 m cell size (100 sq m) has 10-meter resolution
+* Great for continuous phenomena, like land elevation and reflected sunlight.
 
 #HSLIDE
-### How have I taught NRE 355 in the past?
+### Raster cell values  
 
-#HSLIDE
-Create a theme, 2016:
-## Pilot Knob SNP
-## Trails
-
-
-#HSLIDE?image=http://sweb.uky.edu/~blshea1/nre355/pksnp/assets/images/ElevationProfile.PNG
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Make measurements</h2>
-<a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="_blank">and a website</a>
-
-#HSLIDE
-Create a theme, 2015:
-## Pine Mountain SRP
-## Scenic Analysis
-
-
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/PineMountainCanopyTour.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Make measurements</h2>
-<a href="http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour/" target="_blank">and a website</a>
-
-#HSLIDE
-Create a theme, 2014:
-## Arboretum Woods
-## Tree Census
-
-
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Make measurements</h2>
-<a href="https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg" target="_blank">and a website</a>
-
-#HSLIDE
-## Robinson Forest Camp
-### trail map
-
-
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/RobinsonForestTrailMapping_th.jpg
-<a href="https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg" target="_blank">map</a>
+* A numeric value represent homogenous conditions for the entire cell area
+* * Aerial photography (average intensity of reflected sunlight)
+* * Land elevation (average height)
+* * Land cover (majority landcover type)
 
 
 #HSLIDE
-Other themes from class:
-## Analyzing
-# Walkability
+### Raster formats  
 
-#HSLIDE?image=images/01/map-create-zones.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Divide city into zones.</h2>
-
-#HSLIDE?image=images/01/map-digitize-paths.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Digitize walking paths.</h2>
-
-#HSLIDE
-### Build a network model
-connecting paths to streets with sidewalks. 
-
-#HSLIDE
-![Pedshed](images/01/map-pedshed.jpg)   
-Create a pedshed to measure how many people can access what parts of town on foot.
-
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
-<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
-
-#HSLIDE
-## Let's make web maps!
-
-#HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
-<a href="http://boydx.github.io/collisions/" target="_blank">Bring in CARTO!</a>
-
-#HSLIDE
-**Publishing maps online needs a web page (and host)**
-* Student web server @ sweb.uky.edu (slow but free)
-* GitHub Pages (comes with version control and syncing!)
-
-#HSLIDE
-## We will publish maps using GitHub Pages
-
-#HSLIDE
-## What tools will we use?
-
-#HSLIDE
-### ESRI ArcGIS
-* Leading, enterprise GIS software
-* Not free, but you'll get a year license
-* Separate programs: ArcMap, ArcCatalog, ArcScene
-
-#HSLIDE
-### Other Apps
-* <a href="http://www.qgis.org/en/site/" target="_blank">QGIS</a>, the leading free and open source software (FOSS) desktop GIS app
-* <a href="http://www.qgis.org/en/site/" target="_blank">PDF Maps</a>, free app to display maps on mobile device without cellular data connection. Also will collect field data.
-
+* The _.tif_ TIFF and _.jpg_ JPEG formats are common
+* * Need an associated _worldfile_ to spatially reference in our GIS (_.tfw_ and _.jpw_ respectively)
+* We will use geodatabase rasters
 
 
 #HSLIDE
-### We now propose a course
-## Theme
+## A world of numbers  
+
+* Be aware of your units of measure (meters vs. feet)
+* Is a number a quantity or a category (height of tree vs. zip code of tree)
 
 #HSLIDE
-### Background from 
-## Spring 2017
+## Metadata 
 
-
-#HSLIDE
-Spring 2017 course students make maps and website for
-## Town Branch Trail & Commons
-![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
-<a href="http://www.townbranch.org/" target="_blank">townbranch.org</a>
+* A description or explanation of a dataset
+* Often attached as an *.xml* file (extensible markup language), a text-based method of encoding information
+* Look for <tag>value</tag>, e.g., <author>Kentucky GeoNET</author>
 
 #HSLIDE
-### We found something
-## curious
-### in our data
+## Summary 
 
-#HSLIDE?image=images/01/trees.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">We can see tree heights!</h2>
-<a href="http://boydx.github.io/tbt/oblique/" target="_blank">map</a>
+When you get data to use in your GIS ask a few questions first: 
 
-#HSLIDE
-### Let's land on a central 
-## Question
+* What data model is it? What geometry type? 
+* Does it have attributes? Does it have metadata? 
+* What place does the data show? Does it "look right" on screen? 
 
 #HSLIDE
-### Where are the
-## tallest trees
-### in our neighborhoods?
+## More 
 
-#HSLIDE
-### How do we 
-## answer
-### this question?
-
-
-#HSLIDE
-### We will explore the third dimension
-LiDAR data now available for Lexington
-
-#HSLIDE?image=images/01/lidar-00.jpg
-#HSLIDE?image=images/01/lidar-01.jpg
-#HSLIDE?image=images/01/lidar-02.jpg
-
-
-#HSLIDE
-![Connected interior spaces](https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg)
-
-#HSLIDE
-LiDAR tools in ArcGIS help create an   
-<a href="https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces" target="_blank">elevation profile of connected interior spaces</a>
+Find more PDFs about scale, resolution, ArcMap, etc. on Canvas module this week.
 
 
 
-#HSLIDE?image=https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Sunrise in Lexington</h2>
 
-#HSLIDE?image=images/01/map-sunrise.jpg
-
-#HSLIDE
-### LiDAR can help accurately model top surface
-Which areas of town can see a sunrise with respect to buildings, trees, etc.    
-<a href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?">Full map</a>
-
-#HSLIDE
-### We now have tree top
-## elevations
-
-#HSLIDE
-### What about
-## tree canopy?
-
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/LexingtonUrbanCanopy.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Extract from 2016 aerial imagery</h2>
-<a href="http://sweb.uky.edu/~blshea1/nre355/lexington-canopy-cover/" target="_blank">website</a>
-
-
-
-#HSLIDE
-## Benefits?
-* Promote the <a href="https://ukntrees.ca.uky.edu/urban-forest-initiative" target="_blank">Urban Forest Initiative</a>
-* Especially their Adopt-a-Tree Program and Education/Outreach mission
-* Show a big tree's ecosystem services
-
-#HSLIDE
-## Methodology
-* Divide class into two-person teams
-* Divide Lexington into a series of neighborhoods
-* Let's use the Neighborhood Association polygons from the <a href="https://data.lexingtonky.gov/dataset/neighborhood-association" target="_blank">Lexington's Open Data Portal</a>
-
-
-
-#HSLIDE
-## Challenge for you
-What are the areas of Texas and Alaska?
