@@ -29,7 +29,7 @@ We'll parse this space as a series of themed, overlapping layers
 
 #HSLIDE
 
-![The classic data model for GIS](https://www.jmu.edu/_images/facmgt/gis-layers-graphic.jpg)
+<img src="https://www.jmu.edu/_images/facmgt/gis-layers-graphic.jpg" height="400px">
 
 #HSLIDE
 ## Model
