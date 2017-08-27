@@ -1,26 +1,43 @@
 #HSLIDE
-# Welcome!
+# Lesson 1
 
 #HSLIDE
 # NRE 355
 ## Geospatial applications
 
 #HSLIDE
-### Instructor
-## Boyd Shearer
-Contact information in syllabus
+# GIS
+## Geographic Information Systems
 
 #HSLIDE
-What experiences help me teach
-### GIS & Cartography?
+## Classic definition
+A multidisciplinary system of hardware, software, data, people, organizations, and institutional arrangements for collecting, storing, analyzing, and disseminating information about areas of the earth.
+
+#HSLIDE
+## We'll focus more
+GIS: The activity of spatial measurement and visualization of hazards and assets in our environment.
+
+#HSLIDE
+## Maps?
+### The story of place
+
+#HSLIDE
+## Place?
+### The space where we live
+We'll parse this space as a series of themed, overlapping layers
+
+#HSLIDE
+
+<iframe src="https://www.google.com/maps/place/Duncan+Park,+Lexington,+KY+40508/@38.0513886,-84.4886951,17z/data=!4m5!3m4!1s0x884244fb16bc0c15:0x543114380232ce17!8m2!3d38.0520703!4d-84.4871464">
 
 
-#HSLIDE?image=images/01/map-cuga.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
-<a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
+#HSLIDE?image=https://farm5.staticflickr.com/4429/36033302333_267b460188_h.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Duncan Park Centennial</h2>
 
-#HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
+
+#HSLIDE?image=https://i2.wp.com/www.outragegis.com/trails/wp-content/uploads/2014/12/NeighborhoodGreenIndex_MLKNA.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Green index</h2>
+<a href="https://www.outragegis.com/trails/2014/11/04/neighborhood-green-index/" target="_blank">map</a>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
