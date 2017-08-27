@@ -28,7 +28,7 @@ We'll parse this space as a series of themed, overlapping layers
 
 #HSLIDE
 
-<iframe src="https://www.google.com/maps/place/Duncan+Park,+Lexington,+KY+40508/@38.0513886,-84.4886951,17z/data=!4m5!3m4!1s0x884244fb16bc0c15:0x543114380232ce17!8m2!3d38.0520703!4d-84.4871464">
+<iframe src="https://www.google.com/maps/place/Duncan+Park,+Lexington,+KY+40508/@38.0513886,-84.4886951,17z/data=!4m5!3m4!1s0x884244fb16bc0c15:0x543114380232ce17!8m2!3d38.0520703!4d-84.4871464" width="100%" height="400px"></iframe>
 
 
 #HSLIDE?image=https://farm5.staticflickr.com/4429/36033302333_267b460188_h.jpg
