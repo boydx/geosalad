@@ -69,9 +69,8 @@ an abstraction of real-world phenomena and processes.
 
 #HSLIDE
 ## OpenStreetMap
+<h3><a href="http://www.openstreetmap.org/#map=18/38.05201/-84.48796" target="_blank">View Map on OSM</a></h3>
 
-#HSLIDE
-<iframe width="800" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-84.48990046977997%2C38.04974280702231%2C-84.4860166311264%2C38.05427117037335&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/#map=18/38.05201/-84.48796" target="_blank">View Larger Map</a></small>
 
 #HSLIDE?image=https://farm5.staticflickr.com/4387/36033305973_97c9d43dc8_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New tree</h2>
