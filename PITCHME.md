@@ -33,7 +33,7 @@ GIS: The activity of spatial measurement and visualization of hazards and assets
 #### Humanitarian OpenStreetMap Team
 
 OSM, the wikipedia of maps, is a crowd-source mapping project. HOT brings that experience to areas without much official data. 
-<a href="https://www.hotosm.org/about" target="_blank">HOT</a> | <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a> | <a href="http://osmlab.github.io/show-me-the-way/" target="_blank">Real-time edits</a> | <a href="http://bl.ocks.org/lxbarth/raw/6545162/#1/52/-31" target="_blank">Raw view of data</a>
+<br><a href="https://www.hotosm.org/about" target="_blank">HOT</a> | <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br><a href="http://osmlab.github.io/show-me-the-way/" target="_blank">Real-time edits</a> | <a href="http://bl.ocks.org/lxbarth/raw/6545162/#1/52/-31" target="_blank">Raw view of data</a>
 
 #HSLIDE?image=https://www.hotosm.org/sites/default/files/styles/banner/public/30144517616_fe5c10a6bf_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">2016 Hurricane Matthew</h2>
