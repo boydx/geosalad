@@ -106,6 +106,7 @@ Early version of ArcGIS in which the name hints at the nature of spatial data mo
 * **ARC** is an array of coordinates giving locations.
 * **INFO** is a table of rows and columns (a database) of attributes.
 
+GIS software timeline: <a href="https://www.gislounge.com/gis-timeline/" target="_blank">gislounge.com/gis-timeline</a>
 
 #HSLIDE
 ## Tabular data model  
