@@ -26,13 +26,14 @@ GIS: The activity of spatial measurement and visualization of hazards and assets
 <a href="http://www.wpc.ncep.noaa.gov/kml/kmlproducts.php" target="_blank">National Weather Service GIS weather data</a>
 
 #HSLIDE?image=https://www.hotosm.org/sites/default/files/styles/banner/public/2015_Nepal_Earthquake_USGS_map_0.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Humanitarian OpenStreetMap</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Humanitarian OpenStreetMap Team</h2>
 
 #HSLIDE
-## HOT
+### HOT
 #### Humanitarian OpenStreetMap Team
 
-OSM is the wikipedia of maps, the largest crowd-source mapping project, and HOT brings that experience to areas without much official data. <a href="https://www.hotosm.org/about" target="_blank">learn more</a>
+OSM is the wikipedia of maps, the largest crowd-source mapping project, and HOT brings that experience to areas without much official data. 
+<a href="https://www.hotosm.org/about" target="_blank">HOT</a> | <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a>
 
 #HSLIDE?image=https://www.hotosm.org/sites/default/files/styles/banner/public/30144517616_fe5c10a6bf_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">2016 Hurricane Matthew</h2>
@@ -60,7 +61,16 @@ an abstraction of real-world phenomena and processes.
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Duncan Park Centennial</h2>
 
 #HSLIDE
+## Google Maps
+
+#HSLIDE
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.78852090571!2d-84.48936984567271!3d38.0520137106569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884244fb16bc0c15%3A0x543114380232ce17!2sDuncan+Park%2C+Lexington%2C+KY+40508!5e0!3m2!1sen!2sus!4v1503845223217" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+#HSLIDE
+## OpenStreetMap
+
+#HSLIDE
+<iframe width="800" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-84.48990046977997%2C38.04974280702231%2C-84.4860166311264%2C38.05427117037335&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/#map=18/38.05201/-84.48796">View Larger Map</a></small>
 
 #HSLIDE?image=https://farm5.staticflickr.com/4387/36033305973_97c9d43dc8_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New tree</h2>
