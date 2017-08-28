@@ -17,6 +17,26 @@ A multidisciplinary system of hardware, software, data, people, organizations, a
 ## We'll add
 GIS: The activity of spatial measurement and visualization of hazards and assets in our environment.
 
+#HSLIDE?image=http://www.weather.gov/images/hgx/graphicast/image4.png
+
+#HSLIDE?image=http://www.weather.gov/images/hgx/graphicast/image5.png
+
+#HSLIDE
+## FYI: Lots of data
+<a href="http://www.wpc.ncep.noaa.gov/kml/kmlproducts.php" target="_blank">National Weather Service GIS weather data</a>
+
+#HSLIDE?image=https://www.hotosm.org/sites/default/files/styles/banner/public/2015_Nepal_Earthquake_USGS_map_0.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Humanitarian OpenStreetMap</h2>
+
+#HSLIDE
+## HOT
+#### Humanitarian OpenStreetMap Team
+
+OSM is the wikipedia of maps, the largest crowd-source mapping project, and HOT brings that experience to areas without much official data. <a href="https://www.hotosm.org/about" target="_blank">learn more</a>
+
+#HSLIDE?image=https://www.hotosm.org/sites/default/files/styles/banner/public/30144517616_fe5c10a6bf_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">2016 Hurricane Matthew</h2>
+
 #HSLIDE
 ## Maps
 ### The story of place?
