@@ -14,17 +14,17 @@
 A multidisciplinary system of hardware, software, data, people, organizations, and institutional arrangements for collecting, storing, analyzing, and disseminating information about areas of the earth.
 
 #HSLIDE
-## We'll focus more
+## We'll add
 GIS: The activity of spatial measurement and visualization of hazards and assets in our environment.
 
 #HSLIDE
-## Maps?
-### The story of place
+## Maps
+### The story of place?
 
 #HSLIDE
-## Place?
+## Place
 ### The space where we live
-We'll parse this space as a series of themed, overlapping layers
+We'll parse place into a series of themed, overlapping layers.
 
 
 #HSLIDE
@@ -52,7 +52,10 @@ an abstraction of real-world phenomena and processes.
 
 #HSLIDE
 ## GIS
-### digitize, organize, analyze, visualize
+### digitize
+### organize
+### analyze
+### visualize
 
 
 #HSLIDE
