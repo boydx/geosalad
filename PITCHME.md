@@ -220,6 +220,37 @@ Regardless of the source, format, or data model of your data, you will load this
 
 Find more PDFs about scale, resolution, ArcMap, data sources etc. on Canvas module this week.
 
+#HSLIDE
+## Challenge
+### Selecting attributes
+
+#HSLIDE
+### Vector data model contains attributes
+We use the attribute "RDCLASS" to classify and symbolize our streets for Fayette County. Notice that the interstate ramps are the same class as the interstate.
+
+
+#HSLIDE
+### Selecting attributes to change them
+ArcGIS uses SQL (Structure Query Language) to select attributes. Notice the attribute "TYPE" which has a value 'RAMP'. Can we select interstate ramps?
+
+#HSLIDE
+### Selecting Ramps
+```
+"TYPE" = 'RAMP'
+```
+
+#HSLIDE
+### Selecting Interstates and ramps
+```
+"TYPE" = 'RAMP' AND "RDCLASS" = 1
+```
+
+#HSLIDE
+### Changing attributes
+
+Once you have a correct selection of features, you can use **Field Calculator** to create a new class in the "RDCLASS" field. Beware! If you don't have a correct selection, you can damage your data. Are there other solutions?
+
+
 
 
 
