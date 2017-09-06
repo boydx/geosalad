@@ -12,6 +12,9 @@
 #HSLIDE
 # All maps are distortions
 
+#HSLIDE
+# but they're still cool
+
 
 #HSLIDE?image=https://farm5.staticflickr.com/4435/36900423222_2799e7cb97_h.jpg
 
