@@ -36,7 +36,7 @@ This is the primary CRS that we will use in class.
 
 #HSLIDE
 ## Geodesy
-### The study of the shape of earth, which is not a perfect sphere.
+### The study of the shape of earth (not a perfect sphere).
 
 
 #HSLIDE
@@ -55,13 +55,13 @@ This is the primary CRS that we will use in class.
 
 #HSLIDE
 ## Common GCS
-NAD83 for North America = GCS NAD83
-WGS84 for world datasets = GCS WGS84
+* NAD83 for North America = GCS NAD83
+* WGS84 for world datasets = GCS WGS84
 
 
 #HSLIDE
 ## Find
-Lexington's GCS coordinates
+### Lexington's GCS coordinates
 
 #HSLIDE
 ## Projected Coordinate Systems (PCS)
@@ -105,7 +105,7 @@ A systematic method of transforming points of latitude and longitude (geographic
 
 #HSLIDE
 ## Interrupted Projections
-* Preserve the area and shape of features
+* Preserve the area and shape of features (sorta)
 * distorts direction
 * used for uber cool 
 
@@ -113,4 +113,29 @@ A systematic method of transforming points of latitude and longitude (geographic
 
 #HSLIDE?image=http://www.lynceans.org/wp-content/uploads/2016/12/Cahill-Keyes.jpg
 
+#HSLIDE
+## Equirectangular projections
+* Preserves nothing
+* distorts everything
+* default projection for data without a PCS 
+
 #HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tissot_indicatrix_world_map_equirectangular_proj.svg/2000px-Tissot_indicatrix_world_map_equirectangular_proj.svg.png
+
+#HSLIDE
+## Sum it up
+* CRS = PCS (which contains a GCS)
+* We are using EPSG: 3089
+
+
+#HSLIDE
+## Check out
+### Reading and PDF presentation 
+
+#HSLIDE
+## Let's play with map projections!
+
+
+
+
+
+
