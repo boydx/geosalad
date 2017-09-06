@@ -1,25 +1,31 @@
 #HSLIDE
-# Lesson 1
+# Lesson 2
+### Week 3
 
 #HSLIDE
 # NRE 355
 ## Geospatial applications
 
 #HSLIDE
-# GIS
-## Geographic Information Systems
+# All maps lie
+
+
+#HSLIDE?image=https://farm5.staticflickr.com/4435/36900423222_2799e7cb97_h.jpg
 
 #HSLIDE
-## Classic definition
-A multidisciplinary system of hardware, software, data, people, organizations, and institutional arrangements for collecting, storing, analyzing, and disseminating information about areas of the earth.
+# CRS
+## Coordinate Reference Systems
+
 
 #HSLIDE
-## We'll add
-GIS: The activity of spatial measurement and visualization of hazards and assets in our environment.
+## EPSG: 3089
+This is the primary CRS that we will use in class.
 
-#HSLIDE?image=http://www.weather.gov/images/hgx/graphicast/image4.png
 
-#HSLIDE?image=http://www.weather.gov/images/hgx/graphicast/image5.png
+
+#HSLIDE?image=https://hexnet.org/files/images/hexnet/dymaxion-map.png
+
+#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/6/61/Fuller_projection_with_Tissot%27s_indicatrix_of_deformation.png
 
 #HSLIDE
 ## FYI: Lots of data
