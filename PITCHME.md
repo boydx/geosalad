@@ -25,7 +25,7 @@ This is the primary CRS that we will use in class.
 
 #HSLIDE?image=https://hexnet.org/files/images/hexnet/dymaxion-map.png
 
-#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/6/61/Fuller_projection_with_Tissot%27s_indicatrix_of_deformation.png
+#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/6/61/Fuller_projection_with_Tissot's_indicatrix_of_deformation.png
 
 #HSLIDE
 ## FYI: Lots of data
