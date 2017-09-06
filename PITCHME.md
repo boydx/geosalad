@@ -9,6 +9,9 @@
 #HSLIDE
 # All maps lie
 
+#HSLIDE
+# All maps are distortions
+
 
 #HSLIDE?image=https://farm5.staticflickr.com/4435/36900423222_2799e7cb97_h.jpg
 
@@ -16,247 +19,98 @@
 # CRS
 ## Coordinate Reference Systems
 
+#HSLIDE
+## As map makers
+### It's our job to pick the right one.
+
 
 #HSLIDE
 ## EPSG: 3089
 This is the primary CRS that we will use in class.
 
+#HSLIDE
+## Anatomy of a CRS
+* Framework for defining real-world locations:
+* Unit of measure, e.g., feet
+* A origin: (0,0)
 
+#HSLIDE
+## Geodesy
+### The study of the shape of earth, which is not a perfect sphere.
+
+
+#HSLIDE
+## Geographic Coordinate Systems (GCS)
+* Define the shape of the sphere-like earth
+* angular unit of measure
+* spheroid and datum
+
+#HSLIDE
+## GCS graticule
+* grid on a sphere
+* latitude, aka parallels
+* longitude, aka meridians
+
+#HSLIDE?image=https://www.kidsdiscover.com/wp-content/uploads/2013/09/Latitude_Longitude_2.jpg
+
+#HSLIDE
+## Common GCS
+NAD83 for North America = GCS NAD83
+WGS84 for world datasets = GCS WGS84
+
+
+#HSLIDE
+## Find
+Lexington's GCS coordinates
+
+#HSLIDE
+## Projected Coordinate Systems (PCS)
+* Shows earth on plane with grid
+* linear unit of measure
+* contains a GCS
+
+#HSLIDE
+## PCS use map projection
+A systematic method of transforming points of latitude and longitude (geographic coordinates) onto a plane with grid coordinates.
+
+#HSLIDE
+### Projections can generally preserve shape and area, but not both simultaneously.
+
+#HSLIDE
+### Projections are tuned to the areas they cover to minimize distortion.
+
+#HSLIDE
+## Conformal Projections
+* Preserve the shape of features
+* distorts area
+* used for navigation
+
+#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tissot_indicatrix_world_map_Mercator_proj.svg/2000px-Tissot_indicatrix_world_map_Mercator_proj.svg.png
+
+#HSLIDE
+## Equal Area Projections
+* Preserve the area of features
+* distorts shape
+* used for thematic world maps 
+
+#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/3/30/Tissot_indicatrix_world_map_Winkel_Tripel_proj.svg
+
+#HSLIDE
+## Compromise Projections
+* Preserve neither area nor shape
+* A good compromise
+* used for thematic world maps  
+
+#HSLIDE?image=http://gis.osu.edu/img/projections.png
+
+#HSLIDE
+## Interrupted Projections
+* Preserve the area and shape of features
+* distorts direction
+* used for uber cool 
 
 #HSLIDE?image=https://hexnet.org/files/images/hexnet/dymaxion-map.png
 
-#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/6/61/Fuller_projection_with_Tissot's_indicatrix_of_deformation.png
+#HSLIDE?image=http://www.lynceans.org/wp-content/uploads/2016/12/Cahill-Keyes.jpg
 
-#HSLIDE
-## FYI: Lots of data
-<a href="http://www.wpc.ncep.noaa.gov/kml/kmlproducts.php" target="_blank">National Weather Service GIS weather data</a>
-
-#HSLIDE?image=https://www.hotosm.org/sites/default/files/styles/banner/public/2015_Nepal_Earthquake_USGS_map_0.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Humanitarian OpenStreetMap Team</h2>
-
-#HSLIDE
-### HOT
-#### Humanitarian OpenStreetMap Team
-
-OSM, the wikipedia of maps, is a crowd-source mapping project. HOT brings that experience to areas without much official data. 
-<br><a href="https://www.hotosm.org/about" target="_blank">HOT</a> | <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br><a href="http://osmlab.github.io/show-me-the-way/" target="_blank">Real-time edits</a> | <a href="http://bl.ocks.org/lxbarth/raw/6545162/#1/52/-31" target="_blank">Raw view of data</a>
-
-#HSLIDE?image=https://www.hotosm.org/sites/default/files/styles/banner/public/30144517616_fe5c10a6bf_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">2016 Hurricane Matthew</h2>
-
-
-#HSLIDE
-## Maps
-### The story of place?
-
-#HSLIDE
-## Place
-### The space where we live
-We'll parse place into a series of themed, overlapping layers.
-
-
-#HSLIDE
-
-<img src="https://www.jmu.edu/_images/facmgt/gis-layers-graphic.jpg" height="600px">
-
-#HSLIDE
-## Model
-an abstraction of real-world phenomena and processes.
-
-
-#HSLIDE?image=https://farm5.staticflickr.com/4429/36033302333_267b460188_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Duncan Park Centennial</h2>
-
-#HSLIDE
-## Google Maps
-
-#HSLIDE
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.78852090571!2d-84.48936984567271!3d38.0520137106569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884244fb16bc0c15%3A0x543114380232ce17!2sDuncan+Park%2C+Lexington%2C+KY+40508!5e0!3m2!1sen!2sus!4v1503845223217" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-#HSLIDE
-## OpenStreetMap
-<h3><a href="http://www.openstreetmap.org/#map=18/38.05201/-84.48796" target="_blank">View Map on OSM</a></h3>
-
-
-#HSLIDE?image=https://farm5.staticflickr.com/4387/36033305973_97c9d43dc8_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New tree</h2>
-
-
-#HSLIDE?image=https://i2.wp.com/www.outragegis.com/trails/wp-content/uploads/2014/12/NeighborhoodGreenIndex_MLKNA.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Green index</h2>
-<a href="https://www.outragegis.com/trails/2014/11/04/neighborhood-green-index/" target="_blank">map</a>
-
-#HSLIDE
-## GIS
-### digitize
-### organize
-### analyze
-### visualize
-
-
-#HSLIDE
-## Spatial data model
-the rules/constructs for how we represent features on earth in our GIS.
-
-
-
-#HSLIDE?image=http://www.esri.com/~/media/Images/Content/about-esri/about/graphics/timeline/1986.jpg 
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">1986</h3>
-
-#HSLIDE
-
-## ARC/INFO
-
-Early version of ArcGIS in which the name hints at the nature of spatial data model.
-
-* **ARC** is an array of coordinates giving locations.
-* **INFO** is a table of rows and columns (a database) of attributes.
-
-GIS software timeline: <a href="https://www.gislounge.com/gis-timeline/" target="_blank">gislounge.com/gis-timeline</a>
-
-#HSLIDE
-## Tabular data model  
-
-* A table of rows (feature) and columns (attribute)
-* Formats include text-based files like a _.csv_ file (comma separated values), spreadsheets, or tables in a geodatabase
-* Attributes will have data types, e.g., numeric vs. alphanumeric
-
-#HSLIDE?image=http://desktop.arcgis.com/en/arcmap/10.4/manage-data/tables/GUID-E9C5D05E-5D42-4078-8E86-57BAD0FD5FC8-web.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">table</h2>
-<a href="http://desktop.arcgis.com/en/arcmap/10.4/manage-data/tables/what-are-tables-and-attribute-information.htm" target="_blank">link</a>
-
-
-#HSLIDE
-## Vector data model  
-
-* Array of x,y coordinates (usually hidden from user)
-* Contains tabular data where each geographic feature (a row in the table) has columns of attributes
-* Formats include the _Shapefile_ and geodatabase _Feature Class_
-
-#HSLIDE
-### Vector geometric primitives 
-
-* **Point** - single x,y coordinate value
-* **Line** - series of connected coordinate values (vertices) with two end points (nodes)
-* **Polygon** - a closed line 
-* Great for discrete features (with distinct boundaries), e.g., lakes, trails, and campsites.
-
-
-#HSLIDE
-### Vector topology 
-
-Connectivity and geometric relationships between features that model real-world conditions.
-
-* Trails are connected by intersections
-* Lakes are adjacent to land
-* Islands are contained within lakes 
-
-#HSLIDE
-### Vector layers  
-
-* One layer holds only one geometry type (point, line, or polygon)
-* Every feature in a layer is an object with a unique identifier (*OBJECTID* or *FID*)
-* Multifeatures (multipoint, multiline, multipolygon) have multiple features but only one record, e.g., how many polygons are Georgia?
-
-#HSLIDE?image=http://desktop.arcgis.com/en/arcmap/10.4/manage-data/geodatabases/GUID-49497935-EDB0-4BCA-8861-8BE08F89AAA9-web.gif
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">vector</h2>
-<a href="http://desktop.arcgis.com/en/arcmap/10.4/manage-data/geodatabases/feature-class-basics.htm" target="_blank">link</a>
-
-
-#HSLIDE
-## Raster data model  
-
-* Matric of cells or pixels (picture element)
-* **Cell size** determines raster resolution
-* * 10 m x 10 m cell size (100 sq m) has 10-meter resolution
-* Great for continuous phenomena, like land elevation and reflected sunlight.
-
-#HSLIDE
-### Raster cell values  
-
-* A numeric value represent same conditions for the entire cell area
-* * Aerial photography (average intensity of reflected sunlight)
-* * Land elevation (average height)
-* * Land cover (majority landcover type)
-
-
-#HSLIDE
-### Raster formats  
-
-* The _.tif_ TIFF and _.jpg_ JPEG formats are common
-* * Need an associated _worldfile_ to spatially reference in our GIS (_.tfw_ and _.jpw_ respectively)
-* We will use geodatabase rasters
-
-#HSLIDE?image=http://desktop.arcgis.com/en/arcmap/10.4/manage-data/raster-and-images/GUID-6754AF39-CDE9-4F9D-8C3A-D59D93059BDD-web.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">raster</h2>
-<a href="http://desktop.arcgis.com/en/arcmap/10.4/manage-data/raster-and-images/what-is-raster-data.htm" target="_blank">link</a>
-
-
-
-#HSLIDE
-## A world of numbers  
-
-* Be aware of your units of measure (meters vs. feet)
-* Is a number a quantity or a category (height of tree vs. zip code of tree)
-
-#HSLIDE
-## Metadata 
-
-* A description or explanation of a dataset
-* Often attached as an *.xml* file (extensible markup language), a text-based method of encoding information
-* Open file in browser and look for ```<tag>value</tag>```, e.g., ```<author>Kentucky GeoNET</author>```
-
-#HSLIDE
-## Summary 
-
-When you get data to use in your GIS ask a few questions first: 
-
-* What data model is it? What geometry type? 
-* Does it have attributes? Does it have metadata? 
-* What place does the data show? Does it "look right" on screen? 
-
-#HSLIDE
-## Our first lab and the geodatabase 
-
-Regardless of the source, format, or data model of your data, you will load this data into a **File Geodatabase**. This is goal of Lab 0.
-
-
-#HSLIDE
-## More 
-
-Find more PDFs about scale, resolution, ArcMap, data sources etc. on Canvas module this week.
-
-#HSLIDE
-## Challenge
-### Selecting attributes
-
-#HSLIDE
-### Vector data model contains attributes
-We use the attribute "RDCLASS" to classify and symbolize our streets for Fayette County. Notice that the interstate ramps are the same class as the interstate.
-
-
-#HSLIDE
-### Selecting attributes to change them
-ArcGIS uses SQL (Structure Query Language) to select attributes. Notice the attribute "TYPE" which has a value 'RAMP'. Can we select interstate ramps?
-
-#HSLIDE
-### Selecting Ramps
-```
-"TYPE" = 'RAMP'
-```
-
-#HSLIDE
-### Selecting Interstates and ramps
-```
-"TYPE" = 'RAMP' AND "RDCLASS" = 1
-```
-
-#HSLIDE
-### Changing attributes
-
-Once you have a correct selection of features, you can use **Field Calculator** to create a new class in the "RDCLASS" field. Beware! If you don't have a correct selection, you can damage your data. Are there other solutions?
-
-
-
-
-
+#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tissot_indicatrix_world_map_equirectangular_proj.svg/2000px-Tissot_indicatrix_world_map_equirectangular_proj.svg.png
