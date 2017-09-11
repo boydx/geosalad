@@ -1,19 +1,40 @@
 #HSLIDE
-# Lesson 2
-### Week 3
+# Lesson 3
+### Week 4
 
 #HSLIDE
 # NRE 355
 ## Geospatial applications
 
 #HSLIDE
-# All maps lie
+# Functional maps
+### Base mapping and geometry measurement
 
 #HSLIDE
-# All maps are distortions
+## Geometry measurement
+* Length, area, perimeter most common
+* Unit of measure in the CRS
 
 #HSLIDE
-# but they're still cool
+## ArcGIS File Geodatabase
+* Automatically maintains geometry measures
+* Shape_Length is length of line segment or perimeter of polygon
+* Shape_Area is area of polygon
+
+
+#HSLIDE
+## Calculate Geometry...
+* A tool in the ArcMap Attribute Table to add geometry measurements
+* Select the CRS of the Data Frame or layer
+
+
+
+#HSLIDE
+# How many acres is campus?
+
+
+#HSLIDE?image=images/measure_arcmap.png
+
 
 
 #HSLIDE?image=https://farm5.staticflickr.com/4435/36900423222_2799e7cb97_h.jpg
