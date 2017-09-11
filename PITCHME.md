@@ -51,152 +51,51 @@
 * Count of grid cells
 
 #HSLIDE
-# Map Layout
+# Map layout
+
+### map + presentation
+
 
 #HSLIDE
-# War of words shapes color
-
+## Would your mom understand your map?
 
 #HSLIDE
-# shapes color
+# Map properties
+
+#HSLIDE
+# words shapes colors
+
+
 
 #HSLIDE?image=https://farm8.staticflickr.com/7002/26751499204_58b988ce25_h.jpg
 
-#HSLIDE
-# words
 
-#HSLIDE?image=http://images.bigcartel.com/product_images/97352167/Chicago.jpg
+#HSLIDE?image=http://mappinglondon.co.uk/wp-content/uploads/2012/09/axis1.jpg
+
+#HSLIDE?image=http://images.bigcartel.com/product_images/97352707/London.jpg
 
 #HSLIDE
-# always about place
+# about place
 
 #HSLIDE?image=https://farm8.staticflickr.com/7480/27309184576_75539ed2bc_h.jpg
 
 
+#HSLIDE
+# in visual hierarchy
+
+#HSLIDE?image=https://farm5.staticflickr.com/4342/36335187654_8fd5df22a8_h.jpg
+
+
+#HSLIDE
+# Layout elements
+### The map, legend, title, metadata, scale, north, and support graphics
+
+
+#HSLIDE
+## KAMP 2017 map winner
 
 
 #HSLIDE
 ## <a href="https://outragegis.com/gap/map/" target="_blank">Cumberland Gap</a>
 
 <iframe src="https://outragegis.com/gap/map/" height=300 width=600></iframe>
-
-#HSLIDE
-## As map makers
-### It's our job to pick the right one.
-
-
-#HSLIDE
-## EPSG: 3089
-This is the primary CRS that we will use in class.
-
-#HSLIDE
-## Anatomy of a CRS
-* Framework for defining real-world locations:
-* Unit of measure, e.g., feet
-* A origin: (0,0)
-
-#HSLIDE
-## Geodesy
-### The study of the shape of earth (not a perfect sphere).
-
-
-#HSLIDE
-## Geographic Coordinate Systems (GCS)
-* Define the shape of the sphere-like earth
-* angular unit of measure
-* spheroid and datum
-
-#HSLIDE
-## GCS graticule
-* grid on a sphere
-* latitude, aka parallels
-* longitude, aka meridians
-
-#HSLIDE?image=http://images.bigcartel.com/product_images/97352167/Chicago.jpg
-
-#HSLIDE
-## Common GCS
-* NAD83 for North America = GCS NAD83
-* WGS84 for world datasets = GCS WGS84
-
-
-#HSLIDE
-## Find
-### Lexington's GCS coordinates
-
-#HSLIDE
-## Projected Coordinate Systems (PCS)
-* Shows earth on plane with grid
-* linear unit of measure
-* contains a GCS
-
-#HSLIDE
-## PCS use map projection
-A systematic method of transforming points of latitude and longitude (geographic coordinates) onto a plane with grid coordinates.
-
-#HSLIDE
-### Projections can generally preserve shape and area, but not both simultaneously.
-
-#HSLIDE
-### Projections are tuned to the areas they cover to minimize distortion.
-
-#HSLIDE
-## Conformal Projections
-* Preserve the shape of features
-* distorts area
-* used for navigation
-
-#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tissot_indicatrix_world_map_Mercator_proj.svg/2000px-Tissot_indicatrix_world_map_Mercator_proj.svg.png
-
-#HSLIDE
-## Equal Area Projections
-* Preserve the area of features
-* distorts shape
-* used for thematic world maps 
-
-#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/3/30/Tissot_indicatrix_world_map_Winkel_Tripel_proj.svg
-
-#HSLIDE
-## Compromise Projections
-* Preserve neither area nor shape
-* A good compromise
-* used for thematic world maps  
-
-#HSLIDE?image=http://gis.osu.edu/img/projections.png
-
-#HSLIDE
-## Interrupted Projections
-* Preserve the area and shape of features (sorta)
-* distorts direction
-* used for uber cool 
-
-#HSLIDE?image=https://hexnet.org/files/images/hexnet/dymaxion-map.png
-
-#HSLIDE?image=http://www.lynceans.org/wp-content/uploads/2016/12/Cahill-Keyes.jpg
-
-#HSLIDE
-## Equirectangular projections
-* Preserves nothing
-* distorts everything
-* default projection for data without a PCS 
-
-#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tissot_indicatrix_world_map_equirectangular_proj.svg/2000px-Tissot_indicatrix_world_map_equirectangular_proj.svg.png
-
-#HSLIDE
-## Sum it up
-* CRS = PCS (which contains a GCS)
-* We are using EPSG: 3089
-
-
-#HSLIDE
-## Check out
-### Reading and PDF presentation 
-
-#HSLIDE
-## Let's play with map projections!
-
-
-
-
-
-
