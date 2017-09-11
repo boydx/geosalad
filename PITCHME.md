@@ -33,12 +33,44 @@
 
 #HSLIDE?image=images/measure_arcmap.png
 
+#HSLIDE
+## Compare area in these CRS
+* EPSG: 3857
+* EPSG: 3089
+* EPSG: 6350
+
+#HSLIDE
+## Why are they different?
+
+
 
 #HSLIDE
 ## Area measurement in raster layers
-* Each grid cell is the size
 * Consult layer's CRS for cell size and unit of measure
+* since each grid cell is the same size.
 * Count of grid cells
+
+#HSLIDE
+# Map Layout
+
+#HSLIDE
+# War of words shapes color
+
+
+#HSLIDE
+# shapes color
+
+#HSLIDE?image=https://farm8.staticflickr.com/7002/26751499204_58b988ce25_h.jpg
+
+#HSLIDE
+# words
+
+#HSLIDE?image=http://images.bigcartel.com/product_images/97352167/Chicago.jpg
+
+#HSLIDE
+# always about place
+
+#HSLIDE?https://farm8.staticflickr.com/7480/27309184576_75539ed2bc_h.jpg
 
 
 
@@ -80,7 +112,7 @@ This is the primary CRS that we will use in class.
 * latitude, aka parallels
 * longitude, aka meridians
 
-#HSLIDE?image=https://www.kidsdiscover.com/wp-content/uploads/2013/09/Latitude_Longitude_2.jpg
+#HSLIDE?image=http://images.bigcartel.com/product_images/97352167/Chicago.jpg
 
 #HSLIDE
 ## Common GCS
