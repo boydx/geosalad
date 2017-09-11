@@ -70,7 +70,7 @@
 #HSLIDE
 # always about place
 
-#HSLIDE?https://farm8.staticflickr.com/7480/27309184576_75539ed2bc_h.jpg
+#HSLIDE?image=https://farm8.staticflickr.com/7480/27309184576_75539ed2bc_h.jpg
 
 
 
