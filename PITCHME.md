@@ -12,22 +12,20 @@
 
 #HSLIDE
 ## Geometry measurement
-* Length, area, perimeter most common
+* Length, area, and perimeter most common
 * Unit of measure in the CRS
 
 #HSLIDE
 ## ArcGIS File Geodatabase
 * Automatically maintains geometry measures
-* Shape_Length is length of line segment or perimeter of polygon
-* Shape_Area is area of polygon
+* ```Shape_Length``` is length of line segment or perimeter of polygon
+* ```Shape_Area``` is area of polygon
 
 
 #HSLIDE
 ## Calculate Geometry...
-* A tool in the ArcMap Attribute Table to add geometry measurements
+* A tool in an ArcMap vector Attribute Table to add geometry measurements
 * Select the CRS of the Data Frame or layer
-
-
 
 #HSLIDE
 # How many acres is campus?
@@ -36,12 +34,22 @@
 #HSLIDE?image=images/measure_arcmap.png
 
 
+#HSLIDE
+## Area measurement in raster layers
+* Each grid cell is the size
+* Consult layer's CRS for cell size and unit of measure
+* Count of grid cells
+
+
+
+
 
 #HSLIDE?image=https://farm5.staticflickr.com/4435/36900423222_2799e7cb97_h.jpg
 
 #HSLIDE
-# CRS
-## Coordinate Reference Systems
+## Cumberland Gap
+
+<iframe src="https://outragegis.com/gap/map/" height=300></iframe>
 
 #HSLIDE
 ## As map makers
