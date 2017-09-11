@@ -99,3 +99,31 @@
 ## <a href="https://outragegis.com/gap/map/" target="_blank">Cumberland Gap</a>
 
 <iframe src="https://outragegis.com/gap/map/" height=300 width=600></iframe>
+
+#HSLIDE
+## Consult presentation PDF for other examples.
+
+#HSLIDE
+## Lab 1
+### Make a base map of your neighborhood and measure its area.
+
+#HSLIDE?image=images/neighborhood_associations.png
+
+#HSLIDE
+### Neighborhood Associations (pick one)
+* Ashland
+* Ashland Park
+* Aylesford Place
+* Cardinal Valley
+* Castlewood
+* Columbia Heights
+* M.L. King
+* North Limestone
+* Northside
+
+#HSLIDE
+## Lab 1: Practice
+### Make a base map campus and measure its area.
+
+
+#HSLIDE?image=images/campus_map_build.png
