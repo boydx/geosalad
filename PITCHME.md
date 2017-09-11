@@ -43,13 +43,10 @@
 
 
 
-
-#HSLIDE?image=https://farm5.staticflickr.com/4435/36900423222_2799e7cb97_h.jpg
-
 #HSLIDE
-## Cumberland Gap
+## <a href="https://outragegis.com/gap/map/" target="_blank">Cumberland Gap</a>
 
-<iframe src="https://outragegis.com/gap/map/" height=300></iframe>
+<iframe src="https://outragegis.com/gap/map/" height=300 width=600></iframe>
 
 #HSLIDE
 ## As map makers
