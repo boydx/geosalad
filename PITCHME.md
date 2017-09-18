@@ -12,20 +12,24 @@
 
 #HSLIDE
 ## Simple data model
-* Cell size used to calculate area
-* Cell values are numeric and represent a magnitude or a type
-	* E.g., elevation versus land cover
+* Cell or pixel (picture element)
+* Cell resolution: size on the ground
+* Count of cells gives area measurement
+
 
 
 #HSLIDE
 # Cell numbers!
-### Correctly interpreting numbers associated with cell values.
+### Correctly interpreting numbers associated with cell values is crucial.
 
 #HSLIDE
 ## Cell values
-* Resolution: it's size on the ground.
+* Values are numeric and represent a magnitude or a type
+	* E.g., elevation versus land cover
 * Bit depth: 2<sup>n</sup> number of distinct values
 * Integer vs. ratio values?
+
+
 
 
 #HSLIDE
@@ -61,8 +65,73 @@
 
 #HSLIDE?image=images/raster-data/04.png
 
+#HSLIDE
+# Raster types
+
+#HSLIDE
+## Thematic raster
+* aka discrete or integer grids
+* Maps difference of type
+* 1-bit to 8-bit range of values
 
 
+#HSLIDE
+## Continuous raster
+* aka surface or floating-point grids
+* Maps difference of magnitude
+* 16-bit to 32-bit range of values
+
+
+#HSLIDE
+## Imaging raster
+* aka photographs or images
+* Maps magnitude of reflected or emitted light
+* 8-bit to 32-bit range of values
+
+#HSLIDE
+## Multiple band rasters
+* Imaging rasters with multiple spectral bands
+* Same time and scene, just different wavelengths of light
+* Red, green, blue (RGB) of true-color (human-visible) light
+
+#HSLIDE
+## NASA MODIS Worldview
+### Near real-time views of Earth in multiple wavelengths of light.
+<br><a href="https://worldview.earthdata.nasa.gov" target="_blank">link</a>
+
+#HSLIDE?image=images/raster-data/044.png
+
+
+#HSLIDE
+## Histogram
+### Graphical representation showing the frequency distribution of data.
+
+#HSLIDE?image=images/raster-data/05.png
+
+#HSLIDE
+## Challenge
+### Find the highest elevations inside New Circle
+
+#HSLIDE
+## Map Algebra expression
+### ArcMap > ArcToolbox > Spatial Analyst tools > Map Algebra > Raster Calculator
+
+```
+"Ky_DEM_5ft" >= 1070
+```
+
+#HSLIDE?image=images/raster-data/06.png
+
+#HSLIDE?image=images/raster-data/07.png
+
+
+#HSLIDE
+## Image Analysis window
+
+### ArcMap > Windows > Image Analysis
+
+
+#HSLIDE?image=images/raster-data/08.png
 
 
 
