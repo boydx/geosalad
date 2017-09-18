@@ -114,7 +114,7 @@
 
 #HSLIDE
 ## Map Algebra expression
-### ArcMap > ArcToolbox > Spatial Analyst tools > Map Algebra > Raster Calculator
+ArcMap > ArcToolbox > Spatial Analyst tools > Map Algebra > Raster Calculator
 
 ```
 "Ky_DEM_5ft" >= 1070
@@ -127,8 +127,7 @@
 
 #HSLIDE
 ## Image Analysis window
-
-### ArcMap > Windows > Image Analysis
+ArcMap > Windows > Image Analysis
 
 
 #HSLIDE?image=images/raster-data/08.png
