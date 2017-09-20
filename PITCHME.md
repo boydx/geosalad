@@ -150,7 +150,7 @@ ArcMap > Windows > Image Analysis
 ## Landsat 8 imagery
 * 16-day repetitive Earth coverage collecting 393 GB per day.
 * First satellite in series launched in 1972.
-* 30 and 100 meter spatial resolution with a href="https://landsat.usgs.gov/what-are-band-designations-landsat-satellites" target="_blank">11 spectral bands</a> that can be composited for <a href="https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/" target="_blank">analysis</a>.
+* 30 and 100 meter spatial resolution with <a href="https://landsat.usgs.gov/what-are-band-designations-landsat-satellites" target="_blank">11 spectral bands</a> that can be composited for <a href="https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/" target="_blank">analysis</a>.
 
 #HSLIDE
 ## September 10, 2017
@@ -196,6 +196,9 @@ Use higher-resolution panchromatic (broad spectrum, aka b/w image) raster (band 
 ### Field Calculate... count of cells by ((3.281<sup>2</sup>)/43560)
 
 #HSLIDE?image=images/raster-data/15.jpg
+
+#HSLIDE
+# 28%
 
 #HSLIDE
 .
