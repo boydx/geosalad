@@ -201,6 +201,9 @@ Use higher-resolution panchromatic (broad spectrum, aka b/w image) raster (band 
 # 28%
 
 #HSLIDE
+## How do we get a tree canopy raster, anyhoo?
+
+#HSLIDE
 .
 
 
