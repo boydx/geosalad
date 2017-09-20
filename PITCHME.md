@@ -11,6 +11,11 @@
 ### matrix of cell values
 
 #HSLIDE
+## More info in Canvas
+RasterAnalysis_I_04_Presentation.pdf
+RasterAnalysis_II_04_Presentation.pdf
+
+#HSLIDE
 ## Simple data model
 * Cell or pixel (picture element)
 * Cell resolution: size on the ground
@@ -95,6 +100,7 @@
 * Red, green, blue (RGB) of true-color (human-visible) light
 
 #HSLIDE
+# Data
 ## NASA MODIS Worldview
 ### Near real-time views of Earth in multiple wavelengths of light.
 <br><a href="https://worldview.earthdata.nasa.gov" target="_blank">link</a>
@@ -132,8 +138,69 @@ ArcMap > Windows > Image Analysis
 
 #HSLIDE?image=images/raster-data/08.png
 
+#HSLIDE
+# Data
+## USGS Earth Explorer
+### Landsat 8 Archive (among other _remote sensing_ imagery)
+<br><a href="https://earthexplorer.usgs.gov/" target="_blank">link</a>
+
+#HSLIDE?image=images/raster-data/09.png
+
+#HSLIDE
+## Landsat 8 imagery
+* 16-day repetitive Earth coverage collecting 393 GB per day.
+* First satellite in series launched in 1972.
+* 30 and 100 meter spatial resolution with a href="https://landsat.usgs.gov/what-are-band-designations-landsat-satellites" target="_blank">11 spectral bands</a> that can be composited for <a href="https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/" target="_blank">analysis</a>.
+
+#HSLIDE
+## September 10, 2017
+### Southern Bluegrass country
+<a href="https://www.dropbox.com/s/8nkm0zel1qp2phr/LC08_L1TP_020034_20170910_20170910_01_RT.zip?dl=0" target="_blank">Download scene</a>
+
+#HSLIDE
+## Composite bands 4,3,2 (RGB)
+### Create true color image
+ArcMap > ArcToolbox > Data Management tools > Raster > Raster Processing > Composite Bands
+
+#HSLIDE?image=images/raster-data/10.jpg
+
+#HSLIDE?image=images/raster-data/11.jpg
+
+#HSLIDE
+## Panchromatic sharpening
+Use higher-resolution panchromatic (broad spectrum, aka b/w image) raster (band 8) to sharpen lower-resolution true color image that we just created.
+
+#HSLIDE?image=images/raster-data/12.jpg
+## Band 8
+
+#HSLIDE?image=images/raster-data/13.jpg
+
 
 
 
 #HSLIDE
+## Challenge
+### Find the tree canopy cover percentage and total acreage inside New Circle.
+
+#HSLIDE
+## Solution
+
+#HSLIDE
+## Area inside New Circle
+### Calculate Geometry... for polygon layer.
+
+#HSLIDE?image=images/raster-data/14.jpg
+
+#HSLIDE
+## Tree canopy area
+### Field Calculate... count of cells by ((3.281<sup>2</sup>)/43560)
+
+#HSLIDE?image=images/raster-data/15.jpg
+
+#HSLIDE
 .
+
+
+#HSLIDE
+
+updated: September 20
