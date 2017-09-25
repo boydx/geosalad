@@ -1,6 +1,6 @@
 #HSLIDE
 # Lesson 4
-### Week 5
+### Week 5-6
 
 #HSLIDE
 # NRE 355
@@ -51,7 +51,7 @@ RasterAnalysis_II_04_Presentation.pdf
 
 #HSLIDE
 ## Ordinal type
-* Numbers represent ranked categories, e.g., suitability 
+* Numbers represent ranked categories, e.g., suitability
 * Rank is not magnitude, e.g., 2 is not twice as much as 1
 
 #HSLIDE?image=images/raster-data/02.png
@@ -103,7 +103,7 @@ RasterAnalysis_II_04_Presentation.pdf
 # Data
 ## NASA MODIS Worldview
 ### Near real-time views of Earth in multiple wavelengths of light.
-<br><a href="https://worldview.earthdata.nasa.gov" target="_blank">link</a>
+<a href="https://worldview.earthdata.nasa.gov" target="blank">link</a>
 
 #HSLIDE?image=images/raster-data/044.png
 
@@ -142,7 +142,7 @@ ArcMap > Windows > Image Analysis
 # Data
 ## USGS Earth Explorer
 ### Landsat 8 Archive (among other _remote sensing_ imagery)
-<br><a href="https://earthexplorer.usgs.gov/" target="_blank">link</a>
+<br><a href="https://earthexplorer.usgs.gov/" target="blank">link</a>
 
 #HSLIDE?image=images/raster-data/09.png
 
