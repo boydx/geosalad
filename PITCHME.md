@@ -242,8 +242,15 @@ NDVI = (NIR – R) / (NIR + R)
 ## Map Algebra
 * If raster bands are integer data type, we need to convert them to float data type.
 ```
-Float(NIR – R)/ Float(NIR + R)
+Float(NIR – R)/Float(NIR + R)
 ```
+
+#HSLIDE
+## NDVI output
+* Range from -1 to 1.
+* < 0 is not vegetation
+* > 0.5 (approx) tree canopy
+
 
 #HSLIDE
 # NDVI
@@ -265,10 +272,6 @@ Float(NIR – R)/ Float(NIR + R)
 
 #HSLIDE?image=images/raster-data/18.jpg
 
-#HSLIDE
-## September 10, 2017
-### Southern Bluegrass country
-Note: The following three slides used the Landsat 8 surface reflectance raster bands
 
 
 #HSLIDE
