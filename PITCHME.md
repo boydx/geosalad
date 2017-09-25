@@ -150,12 +150,12 @@ ArcMap > Windows > Image Analysis
 ## Landsat 8 imagery
 * 16-day repetitive Earth coverage collecting 393 GB per day.
 * First satellite in series launched in 1972.
-* 30 and 100 meter spatial resolution with <a href="https://landsat.usgs.gov/what-are-band-designations-landsat-satellites" target="_blank">11 spectral bands</a> that can be composited for <a href="https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/" target="_blank">analysis</a>.
+* 30 and 100 meter spatial resolution with <a href="https://landsat.usgs.gov/what-are-band-designations-landsat-satellites" target="blank">11 spectral bands</a> that can be composited for <a href="https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/" target="blank">analysis</a>.
 
 #HSLIDE
 ## September 10, 2017
 ### Southern Bluegrass country
-<a href="https://www.dropbox.com/s/8nkm0zel1qp2phr/LC08_L1TP_020034_20170910_20170910_01_RT.zip?dl=0" target="_blank">Download scene</a>
+<a href="https://www.dropbox.com/s/8nkm0zel1qp2phr/LC08_L1TP_020034_20170910_20170910_01_RT.zip?dl=0" target="blank">Download scene</a>
 
 #HSLIDE
 ## Composite bands 4,3,2 (RGB)
@@ -204,9 +204,34 @@ Use higher-resolution panchromatic (broad spectrum, aka b/w image) raster (band 
 ## How do we get a tree canopy raster, anyhoo?
 
 #HSLIDE
+# NDVI
+### Normalized difference vegetation index
+
+#HSLIDE
+## Remote sensing
+### Measuring objects without holding them.
+* Airplanes and satellites use sensors to collect light that we cannot see.
+* All objects have spectral signatures.
+
+#HSLIDE?image=https://cdn.vox-cdn.com/thumbor/lDwjufCQb_IraX7Fgk_ey8HfjRM=/0x0:4000x2667/1200x800/filters:focal(1706x887:2346x1527)/cdn.vox-cdn.com/uploads/chorus_image/image/56807481/DSC_0314r.0.jpg
+
+#HSLIDE
+## Four raster resolutions
+* Spatial (size of pixel)
+* Spectral (wavelength of light)
+* Radiometric (level of sensitivity, aka bit depth)
+* Temporal (leaf-on)
+
+
+#HSLIDE
+### NDVI is calculated as a ratio between the red (R) and near infrared (NIR) bands
+NDVI = (NIR – R) / (NIR + R)
+
+
+#HSLIDE
 .
 
 
 #HSLIDE
 
-updated: September 20
+updated: September 25
