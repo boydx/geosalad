@@ -203,29 +203,72 @@ Use higher-resolution panchromatic (broad spectrum, aka b/w image) raster (band 
 #HSLIDE
 ## How do we get a tree canopy raster, anyhoo?
 
-#HSLIDE
-# NDVI
-### Normalized difference vegetation index
+
 
 #HSLIDE
 ## Remote sensing
 ### Measuring objects without holding them.
 * Airplanes and satellites use sensors to collect light that we cannot see.
 * All objects have spectral signatures.
+* <a href="https://earthobservatory.nasa.gov/Features/RemoteSensing/" target="blank">Nice tutorial</a>
 
-#HSLIDE?image=https://cdn.vox-cdn.com/thumbor/lDwjufCQb_IraX7Fgk_ey8HfjRM=/0x0:4000x2667/1200x800/filters:focal(1706x887:2346x1527)/cdn.vox-cdn.com/uploads/chorus_image/image/56807481/DSC_0314r.0.jpg
+#HSLIDE?image=http://www.gatorsports.com/wp-content/uploads/2017/09/AP17267044765752.jpg
 
 #HSLIDE
-## Four raster resolutions
+## Four raster resolutions in remote sensing
 * Spatial (size of pixel)
 * Spectral (wavelength of light)
 * Radiometric (level of sensitivity, aka bit depth)
-* Temporal (leaf-on)
+* Temporal (leaf-on v. leaf-off)
+
+
+#HSLIDE
+## Spectral signature
+* Healthy plants highly absorb red light (we can see) and reflect near infrared light (we cannot see).
+* Use precise wavelengths to identify healthy vegetation.
+
+#HSLIDE
+# NDVI
+### Normalized difference vegetation index
 
 
 #HSLIDE
 ### NDVI is calculated as a ratio between the red (R) and near infrared (NIR) bands
 NDVI = (NIR – R) / (NIR + R)
+
+
+
+#HSLIDE
+## Map Algebra
+* If raster bands are integer data type, we need to convert them to float data type.
+```
+Float(NIR – R)/ Float(NIR + R)
+```
+
+#HSLIDE
+# NDVI
+### Higher values, more vegetation. Tree canopy is the highest value (especially jungle canopy).
+
+
+#HSLIDE
+## RGB Composite
+
+#HSLIDE?image=images/raster-data/16.jpg
+
+#HSLIDE
+## NDVI
+
+#HSLIDE?image=images/raster-data/17.jpg
+
+#HSLIDE
+## What values are canopy?
+
+#HSLIDE?image=images/raster-data/18.jpg
+
+#HSLIDE
+## September 10, 2017
+### Southern Bluegrass country
+Note: The following three slides used the Landsat 8 surface reflectance raster bands
 
 
 #HSLIDE
