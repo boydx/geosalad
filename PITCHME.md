@@ -214,7 +214,7 @@ Use higher-resolution panchromatic (broad spectrum, aka b/w image) raster (band 
 
 #HSLIDE?image=http://www.gatorsports.com/wp-content/uploads/2017/09/AP17267044765752.jpg
 
-#HSLIDE?image=http://media.hometeamsonline.com/photos/hockey/UKHOCKEY/2013-2014_UK_Hockey_Team.JPG
+#HSLIDE?image=http://media.hometeamsonline.com/photos/hockey/UKHOCKEY/31917695863_ae8eaaff2a_o.jpg
 
 #HSLIDE
 ## Four raster resolutions in remote sensing
