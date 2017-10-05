@@ -4,6 +4,23 @@
 #HSLIDE
 <h1><a href="https://outrageGIS.com" target="blank">outrageGIS mapping</a><h1>
 
+#HSLIDE?image=images/01/map-cuga.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">We make maps</h2>
+<a href="https://outrageGIS.com" target="blank">outrageGIS.com</a>
+
+#HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">We photograph</h2>
+
+#HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">We have walked a lot</h2>
+
+#HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Both dads...</h2>
+
+#HSLIDE
+## always looking for new places to explore.
+<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="400px"></frame>
+
 #HSLIDE
 # Team
 ## Boyd Shearer & John Thompson
@@ -25,22 +42,7 @@
 
 
 
-#HSLIDE?image=images/01/map-cuga.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
-<a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
 
-#HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
-
-#HSLIDE
-## We need places to explore
-<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="400px"></frame>
 
 
 #HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
