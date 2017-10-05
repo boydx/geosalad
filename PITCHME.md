@@ -8,13 +8,17 @@
 # Team
 ## Boyd Shearer & John Thompson
 
+#HSLIDE?image=http://pixel.outragegis.com/d/23271-2/xEI_06-The+Horses+on+High.jpg.pagespeed.ic.rfYZnLsill.webp
+
 
 #HSLIDE
 # History
 <a href="https://web.archive.org/web/20000531221159/http://outragegis.com/" target="blank">2000</a> | <a href="https://web.archive.org/web/20090403025358/http://outragegis.com/" target="blank">2009</a> | <a href="https://web.archive.org/web/20090401000000*/http://outragegis.com/" target="blank">Totally wayback</a>
 
 #HSLIDE?image=http://pixel.outragegis.com/d/3840-2/acg.jpg
-<a href="https://outragegis.com/gorge/index.html" target="blank"><h1>Gorge 2001</h1></a>
+<a href="https://outragegis.com/gorge/index.html" target="blank"><h2>Gorge 2001</h2></a>
+
+
 
 
 #HSLIDE?image=images/01/map-cuga.jpg
