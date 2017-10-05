@@ -8,7 +8,11 @@
 # Team
 ## Boyd Shearer & John Thompson
 
-#HSLIDE?image=http://pixel.outragegis.com/d/23271-2/xEI_06-The+Horses+on+High.jpg.pagespeed.ic.rfYZnLsill.webp
+#HSLIDE?image=images/bikes.jpg
+
+#HSLIDE?image=http://pixel.outragegis.com/d/20389-2/DSCN4977.jpg
+
+#HSLIDE?image=http://pixel.outragegis.com/d/3439-2/aba.jpg
 
 
 #HSLIDE
