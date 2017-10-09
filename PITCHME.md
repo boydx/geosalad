@@ -1,38 +1,32 @@
 #HSLIDE
-# Lesson 4
-### Week 5-6
+# Lesson 5
+### Week 8
 
 #HSLIDE
 # NRE 355
 ## Geospatial applications
 
+
 #HSLIDE
-# Raster data
-### matrix of cell values
+## Practice midterm!
+* How many acres are in neighborhood x?
+* How many acres of tree canopy?
+* Can you put a map in a layout with the answers to the questions?
+
+
+#HSLIDE
+# GNSS
+### global navigation satellite system
 
 #HSLIDE
 ## More info in Canvas
-RasterAnalysis_I_04_Presentation.pdf
-RasterAnalysis_II_04_Presentation.pdf
-
-#HSLIDE
-## Simple data model
-* Cell or pixel (picture element)
-* Cell resolution: size on the ground
-* Count of cells gives area measurement
-
+GPSandDataInputs_05_Presentation.pdf
 
 
 #HSLIDE
-# Cell numbers!
-### Correctly interpreting numbers associated with cell values is crucial.
-
-#HSLIDE
-## Cell values
-* Values are numeric and represent a magnitude or a type
-	* E.g., elevation versus land cover
-* Bit depth: 2<sup>n</sup> number of distinct values
-* Integer vs. ratio values?
+## Many satellites
+<iframe src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Comparison_satellite_navigation_orbits.svg"></iframe><br>
+<a href="https://upload.wikimedia.org/wikipedia/commons/b/b4/Comparison_satellite_navigation_orbits.svg" target="b">link</a>
 
 
 
