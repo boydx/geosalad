@@ -19,6 +19,9 @@
 ### global navigation satellite system
 
 #HSLIDE
+<iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1507575670973!6m8!1m7!1svVNSZEDbuMlY1nbfxW53Bw!2m2!1d37.48683309261982!2d-83.91049174452553!3f70.16291202522274!4f-14.888733232591136!5f0.4000000000000002" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+#HSLIDE
 ## More info in Canvas
 GPSandDataInputs_05_Presentation.pdf
 
@@ -99,13 +102,13 @@ That's your receiver, aka $$$! phone.
 # Ranging
 ## Use speed of light to determine distance
 ```
-Distance (range) =  Velocity (speed of light (186,282 mi/s) *  Time (offset in time between sat and receiver)
+Distance (range) =  Velocity (speed of light @ 186,282 mi/s) *  Time (offset in time between satellite and receiver)
 ```
 
 #HSLIDE
 ## Error
-“What bubble do you live in?”
-"The gov't is messing with you."
+“What bubble do you live in?”<br>
+"Yes, the gov't is messing with you."
 
 #HSLIDE?image=http://www.gps.gov/systems/gps/modernization/sa/data/timeline.gif
 
@@ -129,5 +132,5 @@ Distance (range) =  Velocity (speed of light (186,282 mi/s) *  Time (offset 
 ## Accuracy of modern phone
 * Motion sensors
 * WAAS (Wide area augmentation system)
-* Cell radio
+* Cell tower pings
 * = **5-10 meters** of true location
