@@ -22,6 +22,11 @@
 ## More info in Canvas
 GPSandDataInputs_05_Presentation.pdf
 
+#HSLIDE
+# GPS
+## global positioning system
+### One constellation among many
+
 
 #HSLIDE
 ## Many satellites
@@ -32,40 +37,57 @@ GPSandDataInputs_05_Presentation.pdf
 
 
 #HSLIDE
-## Levels of measurement
-### to assign numeric values to real-world things.
+# Time
+## is the key to location.
 
 
-#HSLIDE
-## Nominal type
-* Numbers represent unranked categories, e.g., land cover type
-* Avoid symbology that implies preference or order
-
-#HSLIDE?image=images/raster-data/01.png
+#HSLIDE?image=http://collections.rmg.co.uk/mediaLib/450/media-450724/large.jpg
 
 #HSLIDE
-## Ordinal type
-* Numbers represent ranked categories, e.g., suitability
-* Rank is not magnitude, e.g., 2 is not twice as much as 1
+## Finding longitude
+* Precise clocks and astronomical charts
+* Set clock time to home port and watch the sunrise
+* Offset in time is distance from home port
+* 15&deg; is one hour. *<a href="https://en.wikipedia.org/wiki/History_of_longitude" target="b">history of longitude</a>*
+
+#HSLIDE?image=http://www.rmg.co.uk/sites/default/files/styles/slider/public/rog/wp-content/uploads/sites/2/2015/03/shep-clock.jpg
+
+#HSLIDE
+# GMT
+## Greenwich Mean Time
+* For Lexington, KY our time is
+* -4 hours during Daylight Saving Time (March – Nov), EDST
+* -5 hours Eastern Standard Time, EST
 
 #HSLIDE?image=images/raster-data/02.png
 
 #HSLIDE
-## Interval type
-* Numbers represent continuous range with arbitrary scale, e.g., temperature
-* 20&deg; is not twice as hot as 10&deg;
+# GPS
+## atomic clocks
+* Among the best clocks ever made
+* Three-billionths of a second precision
+* They continuously synchronize time for cell networks, computers, you.
+* *<a href="https://timeandnavigation.si.edu">Si.edu</a>*
 
-#HSLIDE?image=images/raster-data/03.png
+#HSLIDE?image=https://timeandnavigation.si.edu/sites/default/files/styles/original/public/multimedia-assets/nasm2013-00223.jpg?itok=X20jTe-H
 
-#HSLIDE
-## Ratio type
-* Numbers represent continuous range of quantities, e.g., elevation
-* 200 feet is twice as high as 100 feet
-
-#HSLIDE?image=images/raster-data/04.png
+#HSLIDE?image=https://timeandnavigation.si.edu/sites/default/files/multimedia-assets/500-si_hiw_atomic_clock_fa_flat_revised_7-17_copy.jpg
 
 #HSLIDE
-# Raster types
+# GPS
+## Three segments
+1. Space segment with ~32 satellites broadcasts time of day and their position.
+2. Ground control updates and maintains integrity of satellites.
+3. User segment is your receiver, aka $$$! phone.
+
+#HSLIDE?image=http://www.techinsights.com/design-teardown/content/apple-iphone-7/gps.jpg
+
+#HSLIDE
+# Ranging
+## Use speed of light to determine distance
+```
+Distance (range) =  Velocity (speed of light (186,282 mi/s) *  Time (offset in time between sat and receiver)
+```
 
 #HSLIDE
 ## Thematic raster
