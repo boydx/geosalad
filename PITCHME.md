@@ -25,7 +25,7 @@ GPSandDataInputs_05_Presentation.pdf
 
 #HSLIDE
 ## Many satellites
-<iframe src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Comparison_satellite_navigation_orbits.svg"></iframe><br>
+<iframe src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Comparison_satellite_navigation_orbits.svg" height="400px" width="90%"></iframe><br>
 <a href="https://upload.wikimedia.org/wikipedia/commons/b/b4/Comparison_satellite_navigation_orbits.svg" target="b">link</a>
 
 
