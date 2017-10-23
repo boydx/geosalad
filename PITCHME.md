@@ -29,22 +29,8 @@
 * First return top (building top), last return bottom (earth)
 * Lidar point cloud of XYZ positions
 
-#HSLIDE
-<iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1507575670973!6m8!1m7!1svVNSZEDbuMlY1nbfxW53Bw!2m2!1d37.48683309261982!2d-83.91049174452553!3f70.16291202522274!4f-14.888733232591136!5f0.4000000000000002" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-
+#HSLIDE?image=images/01/lidar-00.jpg
+#HSLIDE?image=images/01/lidar-01.jpg
 
 #HSLIDE
-## More info in Canvas
-GPSandDataInputs_05_Presentation.pdf
-
-#HSLIDE
-# GPS
-## global positioning system
-One constellation among many
-
-
-#HSLIDE
-## Many satellites
-<iframe src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Comparison_satellite_navigation_orbits.svg" height="400px" width="90%"></iframe><br>
-<a href="https://upload.wikimedia.org/wikipedia/commons/b/b4/Comparison_satellite_navigation_orbits.svg" target="b">link</a>
+## More soon... 
