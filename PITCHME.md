@@ -58,7 +58,78 @@
 * [Kentucky From Above](http://kygeonet.ky.gov/kyfromabove/)
 
 #HSLIDE?image=images/terrain-analysis/010_northcampus.jpg
+## North campus & Kentucky River example data
 
 #HSLIDE
 ## DEM derivatives
 ### Analysis to derive surface properties from DEM
+
+#HSLIDE
+## Enable ArcGIS Extentions
+* 3D Analyst
+* Spatial Analyst
+
+#HSLIDE
+# Hillshade
+* Illuminate surface to create shaded relief
+* Sun source: azimuth and elevation
+* Outputs 8-bit raster
+* Compare cast shadows or not...
+
+#HSLIDE?image=images/terrain-analysis/011.jpg
+
+#HSLIDE?image=images/terrain-analysis/012.jpg
+
+#HSLIDE?image=images/terrain-analysis/013.jpg
+
+#HSLIDE
+# Contour
+* Create elevation contours, isolines of height
+* Should know z units
+* Outputs to vector layer
+* Might need to smooth raster (Focal Statistics)
+
+#HSLIDE?image=images/terrain-analysis/014.jpg
+
+#HSLIDE?image=images/terrain-analysis/015.jpg
+
+#HSLIDE
+# Slope
+* Steepest downhill change in height
+* Outputs 32-bit floating point raster
+
+
+#HSLIDE?image=images/terrain-analysis/016.jpg
+
+#HSLIDE
+# Slope
+* Direction slope faces
+* Outputs 32-bit floating point raster
+
+#HSLIDE?image=images/terrain-analysis/017.jpg
+
+#HSLIDE
+## LAS Dataset to Raster
+* Creates a raster using elevation
+* Filter returns for desired surface, i.e., ground vs. tops
+
+#HSLIDE?image=images/terrain-analysis/019.jpg
+
+#HSLIDE?image=images/terrain-analysis/020.jpg
+
+
+#HSLIDE?image=images/terrain-analysis/021.jpg
+<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Bare earth</h2>
+
+#HSLIDE?image=images/terrain-analysis/022.jpg
+<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Tops</h2>
+
+#HSLIDE
+## LAS Point Statistics as Raster
+* Find range of elevation values between first and last returns
+
+#HSLIDE?image=images/terrain-analysis/023.jpg
+
+
+#HSLIDE?image=images/terrain-analysis/024.jpg
+<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Whoa, trees!</h2>
