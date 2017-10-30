@@ -32,25 +32,6 @@
 * State not completely covered
 
 #HSLIDE
-# Lidar
-### Light detection and ranging
-* Active sensor transmits pulses of light
-* Sensor records time of return
-* First return top (building/tree top), last return bottom (bare earth)
-* Lidar point cloud of XYZ positions
-* [More info](http://desktop.arcgis.com/en/arcmap/10.4/manage-data/las-dataset/what-is-lidar-data-.htm)
-
-#HSLIDE?image=images/01/lidar-00.jpg
-#HSLIDE?image=images/01/lidar-01.jpg
-
-#HSLIDE
-## KY lidar data sources
-[ftp://ftp.kymartian.ky.gov/kyaped/LAZ/](ftp://ftp.kymartian.ky.gov/kyaped/LAZ/)
-* LASer (LAS) is common public GIS format
-* LAZ is a zipped LAS file
-* Create ArcGIS LAS dataset (LASD) by merging LAZ files
-
-#HSLIDE
 ## Who makes the data?
 * KYAPED
 * Kentucky's Aerial Photography & Elevation Data program
@@ -102,11 +83,49 @@
 #HSLIDE?image=images/terrain-analysis/016.jpg
 
 #HSLIDE
-# Slope
+# Aspect
 * Direction slope faces
 * Outputs 32-bit floating point raster
 
 #HSLIDE?image=images/terrain-analysis/017.jpg
+
+#HSLIDE
+## 3D Analyst toolbar
+* Interpolate elevations from surface
+* Draw elevation profiles and 3D views
+* Export 3D features to ArcScene
+
+#HSLIDE?image=images/terrain-analysis/0171.jpg
+
+
+#HSLIDE
+# Lidar
+### Light detection and ranging
+* Active sensor transmits pulses of light
+* Sensor records time of return
+* First return top (building/tree top), last return bottom (bare earth)
+* Lidar point cloud of XYZ positions
+* [More info](http://desktop.arcgis.com/en/arcmap/10.4/manage-data/las-dataset/what-is-lidar-data-.htm)
+
+#HSLIDE?image=images/01/lidar-00.jpg
+#HSLIDE?image=images/01/lidar-01.jpg
+
+
+
+#HSLIDE
+## KY lidar data sources
+[ftp://ftp.kymartian.ky.gov/kyaped/LAZ/](ftp://ftp.kymartian.ky.gov/kyaped/LAZ/)
+* LASer (LAS) is common public GIS format
+* LAZ is a zipped LAS file
+* Create ArcGIS LAS dataset (LASD) by merging LAZ files
+
+#HSLIDE
+## LAS Dataset toolbar
+* Filter points (ground vs. all returns)
+* Draw profiles and 3D views
+
+#HSLIDE?image=images/terrain-analysis/018.jpg
+
 
 #HSLIDE
 ## LAS Dataset to Raster
@@ -132,4 +151,26 @@
 
 
 #HSLIDE?image=images/terrain-analysis/024.jpg
-<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Whoa, trees!</h2>
+
+#HSLIDE
+# Whoa Trees!
+
+#HSLIDE
+## Zone Statistics as Table
+* Find height of building footprints (a.k.a. the zone)
+* Filter returns for desired surface, i.e., ground vs. tops
+* Each zone must have unique fields
+
+#HSLIDE?image=images/terrain-analysis/025.jpg
+
+#HSLIDE
+## Attribute join table
+* Join resulting table to building footprints
+* Export to new feature class layer
+* View in ArcScene
+
+#HSLIDE?image=images/terrain-analysis/026.jpg
+
+#HSLIDE?image=images/terrain-analysis/027.jpg
+
+#HSLIDE?image=images/terrain-analysis/028.jpg
