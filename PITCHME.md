@@ -219,7 +219,7 @@ Float("Campus_north_NAIP_2016_2FT - Band_4" - "Campus_north_NAIP_2016_2FT - Band
 #HSLIDE
 ## *Raster Calculator* query
 ```
-("North_campus_ELEV_range">4)  & ("NDVI_2016" > 0.1)
+("North_campus_ELEV_range">5)  & ("NDVI_2016" > 0.1)
 ```
 
 #HSLIDE?image=images/terrain-analysis/033.jpg
