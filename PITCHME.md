@@ -242,3 +242,9 @@ Pick("Trees_5ft_NDVI_1",["North_campus_ELEV_range"])
 #HSLIDE?image=images/terrain-analysis/036.jpg
 
 #HSLIDE?image=images/terrain-analysis/037.jpg
+
+#HSLIDE
+# Errors?
+* Check if tall buildings are getting captured. Should be small amount.
+* Did we get all trees? Let's geocode UK's tree study and see!
+* Might need to tweak parameters. Let's do it!
