@@ -174,3 +174,66 @@
 #HSLIDE?image=images/terrain-analysis/027.jpg
 
 #HSLIDE?image=images/terrain-analysis/028.jpg
+
+#HSLIDE
+# Lab 4
+### Campus example
+
+
+#HSLIDE
+## Lab 4 steps
+1. Create NDVI raster for Campus using *Raster Calculator*
+2. Create *LAS Point Statistics as Raster*
+3. Create areas where NDVI > 0.? and elevation > ? ft using *Raster Calculator*
+4. Create final raster layer with *Raster Calculator*
+
+
+#HSLIDE
+## Step 1
+# NDVI
+
+#HSLIDE
+```
+Float("Campus_north_NAIP_2016_2FT - Band_4" - "Campus_north_NAIP_2016_2FT - Band_1") / Float("Campus_north_NAIP_2016_2FT - Band_4" + "Campus_north_NAIP_2016_2FT - Band_1")
+```
+
+#HSLIDE?image=images/terrain-analysis/029.jpg
+
+#HSLIDE?image=images/terrain-analysis/030.jpg
+<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Vegetation</h2>
+
+#HSLIDE
+## Step 2
+# Elevation Range
+
+#HSLIDE?image=images/terrain-analysis/031.jpg
+
+#HSLIDE?image=images/terrain-analysis/032.jpg
+<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Z Range</h2>
+
+#HSLIDE
+## Step 3
+# Elevation + Vegetation
+
+```
+("North_campus_ELEV_range">4)  & ("NDVI_2016" > 0.1)
+```
+
+#HSLIDE?image=images/terrain-analysis/033.jpg
+
+#HSLIDE?image=images/terrain-analysis/034.jpg
+<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Trees!</h2>
+
+#HSLIDE?image=images/terrain-analysis/035.jpg
+
+#HSLIDE
+## Step 4
+# Get Z of trees
+
+```
+Pick("Trees_5ft_NDVI_1",["North_campus_ELEV_range"])
+```
+
+#HSLIDE?image=images/terrain-analysis/036.jpg
+
+#HSLIDE?image=images/terrain-analysis/037.jpg
