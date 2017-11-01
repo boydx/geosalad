@@ -193,6 +193,7 @@
 # NDVI
 
 #HSLIDE
+## *Raster Calculator* query
 ```
 Float("Campus_north_NAIP_2016_2FT - Band_4" - "Campus_north_NAIP_2016_2FT - Band_1") / Float("Campus_north_NAIP_2016_2FT - Band_4" + "Campus_north_NAIP_2016_2FT - Band_1")
 ```
@@ -215,6 +216,8 @@ Float("Campus_north_NAIP_2016_2FT - Band_4" - "Campus_north_NAIP_2016_2FT - Band
 ## Step 3
 # Elevation + Vegetation
 
+#HSLIDE
+## *Raster Calculator* query
 ```
 ("North_campus_ELEV_range">4)  & ("NDVI_2016" > 0.1)
 ```
@@ -230,6 +233,8 @@ Float("Campus_north_NAIP_2016_2FT - Band_4" - "Campus_north_NAIP_2016_2FT - Band
 ## Step 4
 # Get Z of trees
 
+#HSLIDE
+## *Raster Calculator* query
 ```
 Pick("Trees_5ft_NDVI_1",["North_campus_ELEV_range"])
 ```
