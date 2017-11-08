@@ -248,3 +248,28 @@ Pick("Trees_5ft_NDVI_1",["North_campus_ELEV_range"])
 * Check if tall buildings are getting captured. Should be small amount.
 * Did we get all trees? Let's geocode UK's tree study and see!
 * Might need to tweak parameters. Let's do it!
+
+#HSLIDE
+# The future
+## Let's talk about it.
+
+#HSLIDE
+# Calendar
+* 6 more classes
+* Nov 15 is GIS Day and a UFI presentation
+* One field day to possibly scan a tree
+
+#HSLIDE
+# Final Projects
+## Who has a specific project?
+
+#HSLIDE
+## how about a
+# Group project?
+
+#HSLIDE
+## Neighborhood Tree Canopy study
+* Neighborhood teams produce content
+* Web team publishes content and I nominate [Renato](http://sweb.uky.edu/~rvi234/nre355/)
+* Spend more time in [CARTO](https://www.carto.com)
+* Submit group website and maps to the bigwigs
