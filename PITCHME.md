@@ -1,5 +1,5 @@
 #HSLIDE
-# Lesson 6
+# Lesson 7
 ### Weeks 15-16
 
 #HSLIDE
@@ -11,263 +11,105 @@
 # Web mapping
 ## with CARTO
 
-
-
 #HSLIDE
 # CARTO
-* Raster data model with elevation as cell value
-* Surface model of bare earth (no structures or trees)
-* [More info](http://desktop.arcgis.com/en/arcmap/latest/analyze/commonly-used-tools/surface-creation-and-analysis.htm)
-
-#HSLIDE?image=https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Srtm_ramp2.world.21600x10800.jpg/1280px-Srtm_ramp2.world.21600x10800.jpg
-
-#HSLIDE
-## Ky DEM data sources
-[ftp://ftp.kymartian.ky.gov/kyaped/DEMs_5FT/](ftp://ftp.kymartian.ky.gov/kyaped/DEMs_5FT/)
-* Also available via ArcGIS Server @kyraster.ky.gov
-* 5-foot spatial resolution
-* 32-bit floating point raster (.IMG format)
-* State not completely covered
+* Open source technology
+* Prebuilt basemaps as raster tile sets
+* User-generated vector layers
+* Access to attributes via user interaction
 
 #HSLIDE
-## Who makes the data?
-* KYAPED
-* Kentucky's Aerial Photography & Elevation Data program
-* Consortium of partners to contract data creation
-* [Kentucky From Above](http://kygeonet.ky.gov/kyfromabove/)
-
-#HSLIDE?image=images/terrain-analysis/010_northcampus.jpg
-## North campus & Kentucky River example data
+# CRS!
+### Uploaded datasets are in EPSG: 4326
+## WGS 84
 
 #HSLIDE
-## DEM derivatives
-### Analysis to derive surface properties from DEM
+## CARTO Builder
+* A'Wizard' to build maps from datasets
+* Menu driven (and pretty slick)
+* Code panels allow finer control
 
 #HSLIDE
-## Enable ArcGIS Extentions
-* 3D Analyst
-* Spatial Analyst
+## Spatial database
+* Query data with SQL - Structured Query Language
+* Data stored in PostgreSQL/PostGIS
+* [SQL Reference](https://www.w3schools.com/sql/default.asp)
 
 #HSLIDE
-# Hillshade
-* Illuminate surface to create shaded relief
-* Sun source: azimuth and elevation
-* Outputs 8-bit raster
-* Compare cast shadows or not...
-
-#HSLIDE?image=images/terrain-analysis/011.jpg
-
-#HSLIDE?image=images/terrain-analysis/012.jpg
-
-#HSLIDE?image=images/terrain-analysis/013.jpg
-
-#HSLIDE
-# Contour
-* Create elevation contours, isolines of height
-* Should know z units
-* Outputs to vector layer
-* Might need to smooth raster (Focal Statistics)
-
-#HSLIDE?image=images/terrain-analysis/014.jpg
-
-#HSLIDE?image=images/terrain-analysis/015.jpg
-
-#HSLIDE
-# Slope
-* Steepest downhill change in height
-* Outputs 32-bit floating point raster
-
-
-#HSLIDE?image=images/terrain-analysis/016.jpg
-
-#HSLIDE
-# Aspect
-* Direction slope faces
-* Outputs 32-bit floating point raster
-
-#HSLIDE?image=images/terrain-analysis/017.jpg
-
-#HSLIDE
-## 3D Analyst toolbar
-* Interpolate elevations from surface
-* Draw elevation profiles and 3D views
-* Export 3D features to ArcScene
-
-#HSLIDE?image=images/terrain-analysis/0171.jpg
-
-
-#HSLIDE
-# Lidar
-### Light detection and ranging
-* Active sensor transmits pulses of light
-* Sensor records time of return
-* First return top (building/tree top), last return bottom (bare earth)
-* Lidar point cloud of XYZ positions
-* [More info](http://desktop.arcgis.com/en/arcmap/10.4/manage-data/las-dataset/what-is-lidar-data-.htm)
-
-#HSLIDE?image=images/01/lidar-00.jpg
-#HSLIDE?image=images/01/lidar-01.jpg
-
-
-
-#HSLIDE
-## KY lidar data sources
-[ftp://ftp.kymartian.ky.gov/kyaped/LAZ/](ftp://ftp.kymartian.ky.gov/kyaped/LAZ/)
-* LASer (LAS) is common public GIS format
-* LAZ is a zipped LAS file
-* Create ArcGIS LAS dataset (LASD) by merging LAZ files
-
-#HSLIDE
-## LAS Dataset toolbar
-* Filter points (ground vs. all returns)
-* Draw profiles and 3D views
-
-#HSLIDE?image=images/terrain-analysis/018.jpg
-
-
-#HSLIDE
-## LAS Dataset to Raster
-* Creates a raster using elevation
-* Filter returns for desired surface, i.e., ground vs. tops
-
-#HSLIDE?image=images/terrain-analysis/019.jpg
-
-#HSLIDE?image=images/terrain-analysis/020.jpg
-
-
-#HSLIDE?image=images/terrain-analysis/021.jpg
-<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Bare earth</h2>
-
-#HSLIDE?image=images/terrain-analysis/022.jpg
-<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Tops</h2>
-
-#HSLIDE
-## LAS Point Statistics as Raster
-* Find range of elevation values between first and last returns
-
-#HSLIDE?image=images/terrain-analysis/023.jpg
-
-
-#HSLIDE?image=images/terrain-analysis/024.jpg
-
-#HSLIDE
-# Whoa Trees!
-
-#HSLIDE
-## Zone Statistics as Table
-* Find height of building footprints (a.k.a. the zone)
-* Filter returns for desired surface, i.e., ground vs. tops
-* Each zone must have unique fields
-
-#HSLIDE?image=images/terrain-analysis/025.jpg
-
-#HSLIDE
-## Attribute join table
-* Join resulting table to building footprints
-* Export to new feature class layer
-* View in ArcScene
-
-#HSLIDE?image=images/terrain-analysis/026.jpg
-
-#HSLIDE?image=images/terrain-analysis/027.jpg
-
-#HSLIDE?image=images/terrain-analysis/028.jpg
-
-#HSLIDE
-# Lab 4
-### Campus example
-
-
-#HSLIDE
-## Lab 4 steps
-1. Create NDVI raster for Campus using *Raster Calculator*
-2. Create *LAS Point Statistics as Raster*
-3. Create areas where NDVI > 0.? and elevation > ? ft using *Raster Calculator*
-4. Create final raster layer with *Raster Calculator*
-
-
-#HSLIDE
-## Step 1
-# NDVI
-
-#HSLIDE
-## *Raster Calculator* query
-```
-Float("Campus_north_NAIP_2016_2FT - Band_4" - "Campus_north_NAIP_2016_2FT - Band_1") / Float("Campus_north_NAIP_2016_2FT - Band_4" + "Campus_north_NAIP_2016_2FT - Band_1")
+## Example query
+```sql
+select * from tree_canopy_heights where height_field > 50
 ```
 
-#HSLIDE?image=images/terrain-analysis/029.jpg
-
-#HSLIDE?image=images/terrain-analysis/030.jpg
-<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Vegetation</h2>
+#HSLIDE
+## CartoCSS
+* Cascading Style Sheets
+* Markup language to customize symbology of spatial features
+* [CartoCSS Reference](https://carto.com/docs/carto-engine/cartocss/)
 
 #HSLIDE
-## Step 2
-# Elevation Range
-
-#HSLIDE?image=images/terrain-analysis/031.jpg
-
-#HSLIDE?image=images/terrain-analysis/032.jpg
-<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Z Range</h2>
-
-#HSLIDE
-## Step 3
-# Elevation + Vegetation
-
-#HSLIDE
-## *Raster Calculator* query
-```
-("North_campus_ELEV_range">5)  & ("NDVI_2016" > 0.1)
+## Example dashed outline
+```css
+#layer {
+  polygon-fill: #ff23f0;
+  polygon-opacity: 0;
+}
+#layer::outline {
+  line-width: 3;
+  line-color: #ff23ff;
+  line-opacity: 0.6;
+  line-dasharray: 12, 6, 2, 6;
+  line-cap: round;
+}
 ```
 
-#HSLIDE?image=images/terrain-analysis/033.jpg
-
-#HSLIDE?image=images/terrain-analysis/034.jpg
-<h2 style="color: white; text-shadow: 2px 2px 4px #000000;">Trees!</h2>
-
-#HSLIDE?image=images/terrain-analysis/035.jpg
+#HSLIDE
+## HTML
+* Hypertext Markup Language
+* The language and structure of web page
+* Browsers render content of page to you
+* Can be used to customize legends, popups, etc.
+* [HTML Reference](https://www.w3schools.com/html/html_intro.asp)
 
 #HSLIDE
-## Step 4
-# Get Z of trees
+## Data Viz
+* CARTO known for unique data visualization
+* Time-series animations
+* Layer blending modes more than ArcMap's single transparency
+* Change layer appearance by zoom-level
+* <a href="https://boydx.github.io/wildfires/" target="blank">Example maps</a>
 
 #HSLIDE
-## *Raster Calculator* query
-```
-Pick("Trees_5ft_NDVI_1",["North_campus_ELEV_range"])
-```
+## Widgets
+* Data analysis with custom filters and histograms
+* Interactive charts embedded in your map
+* <a href="https://carto.com/learn/guides#widgets" target="blank">Widgets Reference</a>
 
-#HSLIDE?image=images/terrain-analysis/036.jpg
-
-#HSLIDE?image=images/terrain-analysis/037.jpg
 
 #HSLIDE
-# Errors?
-* Check if tall buildings are getting captured. Should be small amount.
-* Did we get all trees? Let's geocode UK's tree study and see!
-* Might need to tweak parameters. Let's do it!
+## CARTO Resources
+* Signup: <a href="https://carto.com/signup?" target="blank">Map Academy</a> teaches the basics
+* Learn the basics at the <a href="https://carto.com/academy/" target="blank">Map Academy</a>
+* Dig deeper with < <a href="http://cartodb.github.io/training/" target="blank">training workshops</a>
+* Official <a href="https://carto.com/docs/" target="blank">documentation</a>
 
 #HSLIDE
-# The future
-## Let's talk about it.
+## Lab 6
+* Create an interactive map in CARTO
+* Interactive tree heights and photographs
+* <a href="http://sweb.uky.edu/~blshea1/nre355/tree_canopy/lab-06.html" target="blank">Example map</a>
+
 
 #HSLIDE
-# Calendar
-* 6 more classes
-* Nov 15 is GIS Day and a UFI presentation
-* One field day to possibly scan a tree
+## Input datasets
+* The *tree_canopy_heights* layer (as polygon)
+* The *neighborhood_boundary* layer (as polygon)
+* The *poi_locations* layer (as point)
+* The *big_tree_locations* layer (as point)
 
 #HSLIDE
-# Final Projects
-## Who has a specific project?
-
-#HSLIDE
-## how about a
-# Group project?
-
-#HSLIDE
-## Neighborhood Tree Canopy study
-* Neighborhood teams produce content
-* Web team publishes content and I nominate [Renato](http://sweb.uky.edu/~rvi234/nre355/)
-* Spend more time in [CARTO](https://www.carto.com)
-* Submit group website and maps to the bigwigs
+## Tool workflow
+* **Copy Raster** to convert heights to integer raster
+* **Raster to Polygon** to convert heights to polygon
+* **Feature Class To Shapefile** to convert all layers to Shapefiles
+* Zip each Shapefile layer and upload to CARTO
