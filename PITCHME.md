@@ -1,6 +1,6 @@
 #HSLIDE
 # Lesson 6
-### Weeks 10-12
+### Weeks 15-16
 
 #HSLIDE
 # NRE 355
@@ -8,15 +8,13 @@
 
 
 #HSLIDE
-# Elevation analysis
-* Terrain modeling
-* 3D visualization
-* Tree canopy height (sweet!)
+# Web mapping
+## with CARTO
+
 
 
 #HSLIDE
-# DEM
-### Digital Elevation Model
+# CARTO
 * Raster data model with elevation as cell value
 * Surface model of bare earth (no structures or trees)
 * [More info](http://desktop.arcgis.com/en/arcmap/latest/analyze/commonly-used-tools/surface-creation-and-analysis.htm)
