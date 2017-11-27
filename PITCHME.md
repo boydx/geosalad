@@ -88,7 +88,7 @@ select * from tree_canopy_heights where height_field > 50
 
 #HSLIDE
 ## CARTO Resources
-* Signup: <a href="https://carto.com/signup?" target="blank">Map Academy</a> teaches the basics
+* Signup: <a href="https://carto.com/signup?" target="blank">get an account</a>
 * Learn the basics at the <a href="https://carto.com/academy/" target="blank">Map Academy</a>
 * Dig deeper with < <a href="http://cartodb.github.io/training/" target="blank">training workshops</a>
 * Official <a href="https://carto.com/docs/" target="blank">documentation</a>
