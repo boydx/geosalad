@@ -109,7 +109,8 @@
 #HSLIDE?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
 
 
-#HSLIDE?image=https://farm5.staticflickr.com/4686/24053277287_2a7c9f041a_k.jpg
+#HSLIDE
+![Map](https://farm5.staticflickr.com/4686/24053277287_2a7c9f041a_k.jpg)
 
 #HSLIDE
 <iframe src="https://townbranch.carto.com/builder/dbce1cd2-b019-11e6-bd55-0e05a8b3e3d7/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
@@ -237,7 +238,7 @@ Create a pedshed to measure how many people can access what parts of town on foo
 ### We found Lidar data
 ## Building heights!
 
-#HSLIDE?=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
+#HSLIDE?image=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
 <a href="https://farm3.staticflickr.com/2842/34173538111_a32119a81c_o.jpg" title="Block diagram of downtown Lexington, Kentucky" target="blank">LINK</a>
 
 #HSLIDE
@@ -249,13 +250,14 @@ Create a pedshed to measure how many people can access what parts of town on foo
 <a href="http://boydx.github.io/tbt/oblique/" target="blank">map</a>
 
 #HSLIDE
-# GEO 355
+# NRE 355
 ## Fall 2017
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
 
 #HSLIDE?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
 <a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">LINK</a>
 
+#HSLIDE
 ### Finding the highest trees
 <iframe width="100%" height="600px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
@@ -265,17 +267,13 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 
 
-
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/LexingtonUrbanCanopy.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Extract from 2016 aerial imagery</h2>
-<a href="http://sweb.uky.edu/~blshea1/nre355/lexington-canopy-cover/" target="_blank">website</a>
-
-
 #HSLIDE
 ## Now, go take a hike
 <iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="600px"></frame>
 
 
+#HSLIDE
+##Postscript
 
 #HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
@@ -285,7 +283,6 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
-
 
 #HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h3>
