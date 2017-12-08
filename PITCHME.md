@@ -17,8 +17,10 @@ What experiences help me teach
 ### GIS & Cartography?
 
 #HSLIDE?image=http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/08/08.jpg
+<div style="background-color: rgba(0,0,0,0.4);width:100%;height: 100%;margin: 0 auto;">
+
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Rephotographing Lexington's streetscapes</h2>
-<a href="http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/" target="_blank">LINK</a>
+<a href="http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/" target="blank">LINK</a></div>
 
 
 #HSLIDE?image=i/01.jpg
