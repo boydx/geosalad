@@ -15,7 +15,6 @@
 <a href="https://plus.google.com/118185113381405635119" target="blank">LINK</a></div>
 
 
-
 #HSLIDE?image=images/01/map-cuga.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
 <a href="https://outrageGIS.com" target="blank">outrageGIS.com</a>
@@ -26,7 +25,7 @@
 
 #HSLIDE
 ### 1998
-## The Daily Aesthetic 
+## The Daily Aesthetic
 ### M.A. Thesis on Douglass Park
 
 #HSLIDE?image=http://www.uky.edu/Projects/TDA/photos/lucydun.jpg
@@ -37,11 +36,17 @@
 
 
 
-#HSLIDE?image=i/05.jpg
 
 #HSLIDE?image=i/06.jpg
 
-#HSLIDE?https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg
+#HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg
+
+#HSLIDE?=https://www.firstfrontier.org/images/guidebook-front_09.jpg
+
+#HSLIDE?image=i/05.jpg
+<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">uky.edu/Projects/TDA</h2>
+<a href="https://www.uky.edu/Projects/TDA/" target="blank">LINK</a></div>
 
 
 
