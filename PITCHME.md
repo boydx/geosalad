@@ -23,7 +23,11 @@ What experiences help me teach
 
 
 #HSLIDE?image=i/01.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
+
+#HSLIDE?image=i/03.jpg
+
+#HSLIDE?image=i/02.jpg
+
 
 
 #HSLIDE?image=images/01/map-cuga.jpg
