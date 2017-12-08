@@ -106,11 +106,12 @@
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
 
-#HSLIDE?=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
+#HSLIDE?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
 
 
 #HSLIDE?image=https://farm5.staticflickr.com/4686/24053277287_2a7c9f041a_k.jpg
 
+#HSLIDE
 <iframe src="https://townbranch.carto.com/builder/dbce1cd2-b019-11e6-bd55-0e05a8b3e3d7/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 
@@ -151,14 +152,33 @@
 
 #HSLIDE?image=https://farm5.staticflickr.com/4175/34413343182_c906452c0b_h.jpg
 
-#HSLIDE?image=ttps://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg
+#HSLIDE?image=https://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg
 
 
 
 #HSLIDE
-Other themes from class:
+# GEO 309
+
+#HSLIDE
+## Student observations
+### NCAA tournament basketball celebrations
+<a href="https://geography.as.uky.edu/sites/default/files/CampusCelebrations_Layout_150508-01.jpg" target="blank">map</a>
+
+#HSLIDE?image=i/10.jpg
+
+#HSLIDE
+## Fayette County
+### Scenic Analysis
+<a href="https://geography.as.uky.edu/sites/default/files/SceniicLandscapeIndexFayetteCounty_th.jpg" target="blank">map</a>
+
+#HSLIDE?image=https://farm5.staticflickr.com/4263/35717804616_c71b17d150_h.jpg
+
+#HSLIDE
+# GEO 409
+
+#HSLIDE
 ## Analyzing
-# Walkability
+### Walkability
 
 #HSLIDE?image=images/01/map-create-zones.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Divide city into zones.</h2>
@@ -183,125 +203,57 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 #HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
-<a href="http://boydx.github.io/collisions/" target="_blank">Bring in CARTO!</a>
+<a href="http://boydx.github.io/collisions/" target="blank">Bring in CARTO!</a>
 
 #HSLIDE
-**Publishing maps online needs a web page (and host)**
+## Publishing maps online needs a web page (and host)
 * Student web server @ sweb.uky.edu (slow but free)
+-----(DECOMMISSIONED TODAY)-----
 * GitHub Pages (comes with version control and syncing!)
 
 #HSLIDE
-## We will publish maps using GitHub Pages
+## Publish maps using GitHub Pages
 
 #HSLIDE
-## What tools will we use?
-
-#HSLIDE
-### ESRI ArcGIS
-* Leading, enterprise GIS software
-* Not free, but you'll get a year license
-* Separate programs: ArcMap, ArcCatalog, ArcScene
-
-#HSLIDE
-### Other Apps
-* <a href="http://www.qgis.org/en/site/" target="_blank">QGIS</a>, the leading free and open source software (FOSS) desktop GIS app
-* <a href="http://www.qgis.org/en/site/" target="_blank">PDF Maps</a>, free app to display maps on mobile device without cellular data connection. Also will collect field data.
-
-
-
-#HSLIDE
-### We now propose a course
-## Theme
-
-#HSLIDE
-### Background from
+# GEO 409
 ## Spring 2017
 
+#HSLIDE
+## Discovering
+### Town Branch Trail
+<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank>LINK</a>
 
 #HSLIDE
-Spring 2017 course students make maps and website for
-## Town Branch Trail & Commons
-![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
-<a href="http://www.townbranch.org/" target="_blank">townbranch.org</a>
+<iframe class="kuula7llkn" frameborder="0" scrolling="no" allowfullscreen="true" src="https://kuula.co/share/7lLKn"></iframe>
+
 
 #HSLIDE
-### We found something
-## curious
-### in our data
+## Used mostly open source tools
+### QGIS and OpenStreetMap
+
+#HSLIDE
+### We found Lidar data
+## Building heights!
+
+#HSLIDE
+<a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/28640579@N02/34173538111/in/album-72157668647475382/" title="Block diagram of downtown Lexington, Kentucky"><img src="https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg" width="1600" height="459" alt="Block diagram of downtown Lexington, Kentucky"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 #HSLIDE?image=images/01/trees.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">We can see tree heights!</h2>
-<a href="http://boydx.github.io/tbt/oblique/" target="_blank">map</a>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">And then tree heights!</h2>
+<a href="http://boydx.github.io/tbt/oblique/" target="blank">map</a>
 
 #HSLIDE
-### Let's land on a central
-## Question
+# GEO 355
+## Fall 2017
+<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/">LINK</a>
 
 #HSLIDE
-### Where are the
-## tallest trees
-### in our neighborhoods?
+<a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/28640579@N02/24677325668/in/dateposted-public/" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood"><img src="https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg" width="1024" height="1600" alt="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-#HSLIDE
-### How do we
-## answer
-### this question?
-
-
-#HSLIDE
-### We will explore the third dimension
-LiDAR data now available for Lexington
-
-#HSLIDE?image=images/01/lidar-00.jpg
-#HSLIDE?image=images/01/lidar-01.jpg
-#HSLIDE?image=images/01/lidar-02.jpg
-
-
-#HSLIDE
-![Connected interior spaces](https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg)
-
-#HSLIDE
-LiDAR tools in ArcGIS help create an   
-<a href="https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces" target="_blank">elevation profile of connected interior spaces</a>
-
-
-
-#HSLIDE?image=https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Sunrise in Lexington</h2>
-
-#HSLIDE?image=images/01/map-sunrise.jpg
-
-#HSLIDE
-### LiDAR can help accurately model top surface
-Which areas of town can see a sunrise with respect to buildings, trees, etc.    
-<a href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?">Full map</a>
-
-#HSLIDE
-### We now have tree top
-## elevations
-
-#HSLIDE
-### What about
-## tree canopy?
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/LexingtonUrbanCanopy.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Extract from 2016 aerial imagery</h2>
 <a href="http://sweb.uky.edu/~blshea1/nre355/lexington-canopy-cover/" target="_blank">website</a>
-
-
-
-#HSLIDE
-## Benefits?
-* Promote the <a href="https://ukntrees.ca.uky.edu/urban-forest-initiative" target="_blank">Urban Forest Initiative</a>
-* Especially their Adopt-a-Tree Program and Education/Outreach mission
-* Show a big tree's ecosystem services
-
-#HSLIDE
-## Methodology
-* Divide class into two-person teams
-* Divide Lexington into a series of neighborhoods
-* Let's use the Neighborhood Association polygons from the <a href="https://data.lexingtonky.gov/dataset/neighborhood-association" target="_blank">Lexington's Open Data Portal</a>
-
 
 
 #HSLIDE
