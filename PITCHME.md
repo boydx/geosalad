@@ -6,7 +6,7 @@
 #HSLIDE
 ### Instructor
 * UKy Geography (GEO 130, 160, 309, 409)
-* Natural Resources & Environmental Sciences (NRE 355)
+* Natural Resources & Environmental Sciences (NRE 355, FOR 330)
 * New Maps Plus (MAP 671, 672)
 
 <!-- #HSLIDE?image=http://newmaps.uky.edu/sites/default/files/findinggeocaches.jpg -->
@@ -64,7 +64,7 @@
 
 #HSLIDE
 ### Teaching provides more opportunities for
-## more field work!
+# field work!
 
 #HSLIDE
 # GEO 130
@@ -72,9 +72,9 @@
 #HSLIDE?image=i/09.jpg
 
 #HSLIDE
-### Acid test for carbonate rocks
+#### Acid test for carbonate rocks (and polyester pants)
 <img src="http://pixel.outragegis.com/d/27919-2/IMG_7147.jpg">
-* Note hydrochloric acid does react with polyester pants
+
 
 #HSLIDE
 # GEO 172
@@ -85,7 +85,8 @@
 <a href="http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/" target="blank">LINK</a></div>
 
 
-#HSLIDE?image=i/01.jpg
+#HSLIDE
+<img src="image=i/01.jpg">
 
 #HSLIDE?image=i/04.jpg
 
@@ -94,63 +95,64 @@
 #HSLIDE?image=i/02.jpg
 
 
-
-#HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
-
-
-
-
-#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h3>
-
-
 #HSLIDE
 # NRE 355
 
-#HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
 
 #HSLIDE
-# Pilot Knob SNP
-## Trails
-
-
-#HSLIDE?image=http://sweb.uky.edu/~blshea1/nre355/pksnp/assets/images/ElevationProfile.PNG
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Make measurements</h2>
+## Pilot Knob SNP
+### Trails
 <a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="blank">and a website</a>
 
+#HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
+
+#HSLIDE?=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
+
+
+#HSLIDE?image=https://farm5.staticflickr.com/4686/24053277287_2a7c9f041a_k.jpg
+
+<iframe src="https://townbranch.carto.com/builder/dbce1cd2-b019-11e6-bd55-0e05a8b3e3d7/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+
+
 #HSLIDE
-# Pine Mountain SRP
-## Scenic Analysis
+## Pine Mountain SRP
+### Scenic Analysis
+<a href="http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour/" target="blank">LINK</a>
+
+#HSLIDE?image=https://farm6.staticflickr.com/5678/23200804570_7ba220d2d1_h.jpg
 
 
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/PineMountainCanopyTour.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Make measurements</h2>
-<a href="http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour/" target="_blank">and a website</a>
+<!-- #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/PineMountainCanopyTour.jpg -->
+#HSLIDE?image=https://farm1.staticflickr.com/576/23495298805_ce5ec0030d_h.jpg
+
+
+#HSLIDE?image=https://farm1.staticflickr.com/681/22868246864_2fb8e40e79_h.jpg
+
+#HSLIDE?image=https://farm1.staticflickr.com/691/23469905426_2baff7bd7c_h.jpg
+
 
 #HSLIDE
-Create a theme, 2014:
 ## Arboretum Woods
-## Tree Census
+### Tree Census
+<a href="https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg" target="blank">LINK</a>
 
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Make measurements</h2>
-<a href="https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg" target="_blank">and a website</a>
+
+
 
 #HSLIDE
 ## Robinson Forest Camp
 ### trail map
+<a href="https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg" target="blank">map</a>
 
+#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg
 
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/RobinsonForestTrailMapping_th.jpg
-<a href="https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg" target="_blank">map</a>
+#HSLIDE?image=https://farm5.staticflickr.com/4175/34413343182_c906452c0b_h.jpg
+
+#HSLIDE?image=ttps://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg
+
 
 
 #HSLIDE
@@ -300,9 +302,23 @@ Which areas of town can see a sunrise with respect to buildings, trees, etc.
 * Divide Lexington into a series of neighborhoods
 * Let's use the Neighborhood Association polygons from the <a href="https://data.lexingtonky.gov/dataset/neighborhood-association" target="_blank">Lexington's Open Data Portal</a>
 
+
+
 #HSLIDE
 ## Now, go take a hike
 <iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="600px"></frame>
 
 
-#HSLIDE?image=https://farm8.staticflickr.com/7314/27035801094_2fc8230652_h.jpg
+
+#HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
+
+#HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
+
+#HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
+
+
+#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h3>
