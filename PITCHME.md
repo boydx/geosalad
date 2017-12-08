@@ -86,7 +86,7 @@
 
 
 #HSLIDE
-<img src="image=i/01.jpg">
+<img src="i/01.jpg">
 
 #HSLIDE?image=i/04.jpg
 
