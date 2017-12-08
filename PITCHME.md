@@ -4,21 +4,38 @@
 <h4 style="color:Moccasin;">gitpitch.com/boydx/geosalad/uky</h4>
 
 #HSLIDE
-# NRE 355
-## Geospatial applications
-
-#HSLIDE
 ### Instructor
-## Boyd Shearer
-Contact information in syllabus
+* UKy Geography (GEO 130, 160, 309, 409)
+* Natural Resources & Environmental Sciences (NRE 355)
+* New Maps Plus (MAP 671, 672)
+
+#HSLIDE?image=http://newmaps.uky.edu/sites/default/files/findinggeocaches.jpg
+<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Map Camp!</h2>
+<a href="https://plus.google.com/118185113381405635119" target="blank">LINK</a></div>
+
+
 
 #HSLIDE?image=images/01/map-cuga.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
 <a href="https://outrageGIS.com" target="blank">outrageGIS.com</a>
 
 #HSLIDE
-###Latest project: mapping Cumberland Gap
+### Latest project: mapping Cumberland Gap
 <iframe src="https://www.outragegis.com/gap/3d/" width="100%" height="600px"></iframe>
+
+#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg
+
+#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/d.dog.jpg
+
+#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/c.smoke.jpg
+
+#HSLIDE?image=i/05.jpg
+
+#HSLIDE?image=i/06.jpg
+
+#HSLIDE?https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg
+
 
 
 #HSLIDE?image=http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/08/08.jpg
@@ -35,11 +52,6 @@ Contact information in syllabus
 
 #HSLIDE?image=i/02.jpg
 
-#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg
-
-#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/d.dog.jpg
-
-#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/c.smoke.jpg
 
 
 
