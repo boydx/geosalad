@@ -9,14 +9,15 @@
 * Natural Resources & Environmental Sciences (NRE 355)
 * New Maps Plus (MAP 671, 672)
 
-#HSLIDE?image=http://newmaps.uky.edu/sites/default/files/findinggeocaches.jpg
+<!-- #HSLIDE?image=http://newmaps.uky.edu/sites/default/files/findinggeocaches.jpg -->
+#HSLIDE?image=https://farm8.staticflickr.com/7314/27035801094_2fc8230652_h.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Map Camp!</h2>
 <a href="https://plus.google.com/118185113381405635119" target="blank">LINK</a></div>
 
 #HSLIDE
-### Unifying themes
-## Field work & map as place
+### Unifying theme
+## Field work
 
 
 #HSLIDE?image=images/01/map-cuga.jpg
@@ -28,7 +29,7 @@
 <iframe src="https://www.outragegis.com/gap/3d/" width="100%" height="600px"></iframe>
 
 #HSLIDE
-### 1998
+### 1999
 ## The Daily Aesthetic
 ### M.A. Thesis on Douglass Park
 
@@ -61,9 +62,22 @@
 ## First really nice paycheck
 #### so, it does pay to be a geographer!
 
+#HSLIDE
+### Teaching provides more opportunities for
+## more field work!
 
+#HSLIDE
+# GEO 130
 
+#HSLIDE?image=i/09.jpg
 
+#HSLIDE
+### Acid test for carbonate rocks
+<img src="http://pixel.outragegis.com/d/27919-2/IMG_7147.jpg">
+* Note hydrochloric acid does react with polyester pants
+
+#HSLIDE
+# GEO 172
 
 #HSLIDE?image=http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/08/08.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
@@ -90,9 +104,7 @@
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
 
-#HSLIDE
-## We need places to explore
-<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="400px"></frame>
+
 
 
 #HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
@@ -100,34 +112,21 @@
 
 
 #HSLIDE
-### Walking the urban core   
-<a href="https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/" target="blank">in spherical photos.</a>
+# NRE 355
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
 
 #HSLIDE
-## How about you?
-* What is your name?
-* Major?
-* What mapping courses have you taken?
-
-#HSLIDE
-### How have I taught NRE 355 in the past?
-
-#HSLIDE
-Create a theme, 2016:
-## Pilot Knob SNP
+# Pilot Knob SNP
 ## Trails
 
 
 #HSLIDE?image=http://sweb.uky.edu/~blshea1/nre355/pksnp/assets/images/ElevationProfile.PNG
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Make measurements</h2>
-<a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="_blank">and a website</a>
+<a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="blank">and a website</a>
 
 #HSLIDE
-Create a theme, 2015:
-## Pine Mountain SRP
+# Pine Mountain SRP
 ## Scenic Analysis
 
 
@@ -301,8 +300,9 @@ Which areas of town can see a sunrise with respect to buildings, trees, etc.
 * Divide Lexington into a series of neighborhoods
 * Let's use the Neighborhood Association polygons from the <a href="https://data.lexingtonky.gov/dataset/neighborhood-association" target="_blank">Lexington's Open Data Portal</a>
 
-
-
 #HSLIDE
-## Challenge for you
-What are the areas of Texas and Alaska?
+## Now, go take a hike
+<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="600px"></frame>
+
+
+#HSLIDE?image=https://farm8.staticflickr.com/7314/27035801094_2fc8230652_h.jpg
