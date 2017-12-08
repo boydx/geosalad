@@ -16,6 +16,10 @@ Contact information in syllabus
 What experiences help me teach
 ### GIS & Cartography?
 
+#HSLIDE?image=http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/08/08.jpg
+<a href="http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/" target="_blank">Rephotographing Lexington's streetscapes</a>
+
+
 #HSLIDE?image=i/01.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
 
