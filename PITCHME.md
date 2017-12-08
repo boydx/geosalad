@@ -206,7 +206,7 @@ Create a pedshed to measure how many people can access what parts of town on foo
 <a href="http://boydx.github.io/collisions/" target="blank">Bring in CARTO!</a>
 
 #HSLIDE
-## Publishing maps online needs a web page (and host)
+#### Publishing maps online needs a web page (and host)
 * Student web server @ sweb.uky.edu (slow but free)
 -----(DECOMMISSIONED TODAY)-----
 * GitHub Pages (comes with version control and syncing!)
@@ -221,10 +221,12 @@ Create a pedshed to measure how many people can access what parts of town on foo
 #HSLIDE
 ## Discovering
 ### Town Branch Trail
-<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank>LINK</a>
+<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
 
 #HSLIDE
-<iframe class="kuula7llkn" frameborder="0" scrolling="no" allowfullscreen="true" src="https://kuula.co/share/7lLKn"></iframe>
+
+### The team
+<iframe width="100%" height="600px" src="https://kuula.co/share/7lLKn"></iframe>
 
 
 #HSLIDE
@@ -235,8 +237,12 @@ Create a pedshed to measure how many people can access what parts of town on foo
 ### We found Lidar data
 ## Building heights!
 
+#HSLIDE?=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
+<a href="https://farm3.staticflickr.com/2842/34173538111_a32119a81c_o.jpg" title="Block diagram of downtown Lexington, Kentucky" target="blank">LINK</a>
+
 #HSLIDE
-<a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/28640579@N02/34173538111/in/album-72157668647475382/" title="Block diagram of downtown Lexington, Kentucky"><img src="https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg" width="1600" height="459" alt="Block diagram of downtown Lexington, Kentucky"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+## Project link
+<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
 
 #HSLIDE?image=images/01/trees.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">And then tree heights!</h2>
@@ -245,10 +251,19 @@ Create a pedshed to measure how many people can access what parts of town on foo
 #HSLIDE
 # GEO 355
 ## Fall 2017
-<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/">LINK</a>
+<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
+
+#HSLIDE?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
+<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">LINK</a>
+
+### Finding the highest trees
+<iframe width="100%" height="600px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
 #HSLIDE
-<a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/28640579@N02/24677325668/in/dateposted-public/" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood"><img src="https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg" width="1024" height="1600" alt="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+## Project link
+<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
+
+
 
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/LexingtonUrbanCanopy.jpg
