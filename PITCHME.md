@@ -29,12 +29,19 @@
 ### M.A. Thesis on Douglass Park
 
 #HSLIDE
-### interviews
+### Lucy Rowe Estill
 <img src="http://www.uky.edu/Projects/TDA/photos/lucydun.jpg">
+
+#HSLIDE
+<img src="http://www.uky.edu/Projects/TDA/photos/lucyrec.jpg">
+
+#HSLIDE
+### James O. Jones
+<img src="http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg">
 
 #HSLIDE?image=i/07.jpg
 
-#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg
+
 
 
 
@@ -43,7 +50,7 @@
 
 #HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg
 
-#HSLIDE?image=https://www.firstfrontier.org/images/guidebook-front_09.jpg
+#HSLIDE?image=i/08.jpg
 
 #HSLIDE?image=i/05.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
