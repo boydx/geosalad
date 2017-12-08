@@ -17,7 +17,7 @@ Contact information in syllabus
 <a href="https://outrageGIS.com" target="blank">outrageGIS.com</a>
 
 #HSLIDE
-<iframe src="https://www.outragegis.com/gap/3d/" width=100% height=100%></iframe>
+<iframe src="https://www.outragegis.com/gap/3d/" width="100%" height="800"></iframe>
 
 
 #HSLIDE?image=http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/08/08.jpg
