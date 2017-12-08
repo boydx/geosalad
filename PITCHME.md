@@ -259,7 +259,7 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 #HSLIDE
 ### Finding the highest trees
-<iframe width="100%" height="600px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
+<iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
 #HSLIDE
 ## Project link
