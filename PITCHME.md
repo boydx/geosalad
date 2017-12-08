@@ -14,6 +14,10 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Map Camp!</h2>
 <a href="https://plus.google.com/118185113381405635119" target="blank">LINK</a></div>
 
+#HSLIDE
+### Unifying themes
+## Field work & map as place
+
 
 #HSLIDE?image=images/01/map-cuga.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
@@ -42,20 +46,22 @@
 #HSLIDE?image=i/07.jpg
 
 
-
-
-
-
 #HSLIDE?image=i/06.jpg
 
 #HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg
-
-#HSLIDE?image=i/08.jpg
 
 #HSLIDE?image=i/05.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">uky.edu/Projects/TDA</h2>
 <a href="https://www.uky.edu/Projects/TDA/" target="blank">LINK</a></div>
+
+#HSLIDE?image=i/08.jpg
+
+#HSLIDE
+## First really nice paycheck
+#### so, it does pay to be a geographer!
+
+
 
 
 
@@ -72,9 +78,6 @@
 #HSLIDE?image=i/03.jpg
 
 #HSLIDE?image=i/02.jpg
-
-
-
 
 
 
@@ -98,7 +101,7 @@
 
 #HSLIDE
 ### Walking the urban core   
-<a href="https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/" target="_blank">in spherical photos.</a>
+<a href="https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/" target="blank">in spherical photos.</a>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
