@@ -16,6 +16,9 @@ Contact information in syllabus
 What experiences help me teach
 ### GIS & Cartography?
 
+#HSLIDE?image=i/01.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
+
 
 #HSLIDE?image=images/01/map-cuga.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
