@@ -12,9 +12,13 @@
 ## Boyd Shearer
 Contact information in syllabus
 
+#HSLIDE?image=images/01/map-cuga.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
+<a href="https://outrageGIS.com" target="blank">outrageGIS.com</a>
+
 #HSLIDE
-What experiences help me teach
-### GIS & Cartography?
+<iframe src="https://www.outragegis.com/gap/3d/" width=100% height=100%?</iframe>
+
 
 #HSLIDE?image=http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/08/08.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
@@ -24,15 +28,21 @@ What experiences help me teach
 
 #HSLIDE?image=i/01.jpg
 
+#HSLIDE?image=i/04.jpg
+
 #HSLIDE?image=i/03.jpg
 
 #HSLIDE?image=i/02.jpg
 
+#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg
+
+#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/d.dog.jpg
+
+#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/c.smoke.jpg
 
 
-#HSLIDE?image=images/01/map-cuga.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
-<a href="https://outrageGIS.com" target="_blank">outrageGIS.com</a>
+
+
 
 #HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
