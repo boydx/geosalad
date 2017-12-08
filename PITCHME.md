@@ -1,5 +1,7 @@
 #HSLIDE
-# Welcome!
+## GIS Class Projects
+### Boyd Shearer
+gitpitch.com/boydx/geosalad/uky
 
 #HSLIDE
 # NRE 355
@@ -105,7 +107,7 @@ Other themes from class:
 
 #HSLIDE
 ### Build a network model
-connecting paths to streets with sidewalks. 
+connecting paths to streets with sidewalks.
 
 #HSLIDE
 ![Pedshed](images/01/map-pedshed.jpg)   
@@ -151,7 +153,7 @@ Create a pedshed to measure how many people can access what parts of town on foo
 ## Theme
 
 #HSLIDE
-### Background from 
+### Background from
 ## Spring 2017
 
 
@@ -171,7 +173,7 @@ Spring 2017 course students make maps and website for
 <a href="http://boydx.github.io/tbt/oblique/" target="_blank">map</a>
 
 #HSLIDE
-### Let's land on a central 
+### Let's land on a central
 ## Question
 
 #HSLIDE
@@ -180,7 +182,7 @@ Spring 2017 course students make maps and website for
 ### in our neighborhoods?
 
 #HSLIDE
-### How do we 
+### How do we
 ## answer
 ### this question?
 
