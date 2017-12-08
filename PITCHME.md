@@ -1,7 +1,7 @@
 #HSLIDE
 ## GIS Class Projects
 ### Boyd Shearer
-gitpitch.com/boydx/geosalad/uky
+<h4 style="color:Moccasin;">gitpitch.com/boydx/geosalad/uky</h4>
 
 #HSLIDE
 # NRE 355
