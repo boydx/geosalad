@@ -21,14 +21,21 @@
 <a href="https://outrageGIS.com" target="blank">outrageGIS.com</a>
 
 #HSLIDE
-### Latest project: mapping Cumberland Gap
+#### Latest project: mapping Cumberland Gap
 <iframe src="https://www.outragegis.com/gap/3d/" width="100%" height="600px"></iframe>
+
+#HSLIDE
+### 1998
+## The Daily Aesthetic 
+### M.A. Thesis on Douglass Park
+
+#HSLIDE?image=http://www.uky.edu/Projects/TDA/photos/lucydun.jpg
+
+#HSLIDE?image=i/07.jpg
 
 #HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg
 
-#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/d.dog.jpg
 
-#HSLIDE?image=http://www.uky.edu/Projects/TDA/fayette/c.smoke.jpg
 
 #HSLIDE?image=i/05.jpg
 
