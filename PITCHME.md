@@ -49,6 +49,7 @@
 (second from right)
 
 #HSLIDE?image=i/07.jpg
+<img src="i/07.jpg"><br>
 
 
 #HSLIDE?image=i/06.jpg
@@ -70,7 +71,7 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">uky.edu/Projects/TDA</h2>
 <a href="https://www.uky.edu/Projects/TDA/" target="blank">LINK</a></div>
 
-#HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg 
+#HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg
 
 #HSLIDE?image=i/08.jpg
 
