@@ -106,14 +106,14 @@
 #HSLIDE?image=i/08.jpg
 
 #HSLIDE
-### 2006 redesign department's web site
-<img src="https://www.boydshearer.com/websites/images/UKGeography.jpg" height="600px">
+#### 2006 redesign department's web site
+<img src="https://www.boydshearer.com/websites/images/UKGeography.jpg" height="600px"><br>
 (I'm back!)
 
 #HSLIDE
 ### Teaching provides more opportunities for
 # field work
-#### (2006)
+#### Started teaching in Fall 2006
 
 #HSLIDE
 # GEO 130
@@ -253,11 +253,11 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 #HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
-<a href="http://boydx.github.io/collisions/" target="blank">Bring in CARTO!</a>
+<a href="http://boydx.github.io/collisions/" target="blank">LINK</a>
 
 #HSLIDE
 ### Web pages need a host
-* Student web server @ sweb.uky.edu (free but -----DECOMMISSIONED??-----)
+* Student web server @ sweb.uky.edu (free but DECOMMISSIONED??)
 * GitHub Pages (comes with version control and syncing)
 
 
