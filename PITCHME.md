@@ -82,7 +82,7 @@
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">1999</h3>
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Kentucky VideoGIS</h2>
 <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Maps for TV news production</h4>
-<</div>
+</div>
 
 #HSLIDE
 ### First couple gigs
@@ -245,13 +245,10 @@ Create a pedshed to measure how many people can access what parts of town on foo
 <a href="http://boydx.github.io/collisions/" target="blank">Bring in CARTO!</a>
 
 #HSLIDE
-#### Publishing maps online needs a web page (and host)
-* Student web server @ sweb.uky.edu (slow but free)
------(DECOMMISSIONED TODAY)-----
-* GitHub Pages (comes with version control and syncing!)
+### Web pages need a host
+* Student web server @ sweb.uky.edu (free but -----DECOMMISSIONED??-----)
+* GitHub Pages (comes with version control and syncing)
 
-#HSLIDE
-## Publish maps using GitHub Pages
 
 #HSLIDE
 # GEO 409
@@ -264,7 +261,7 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 #HSLIDE
 
-### The team
+#### The team
 <iframe width="100%" height="600px" src="https://kuula.co/share/7lLKn"></iframe>
 
 
