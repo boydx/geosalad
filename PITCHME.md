@@ -25,7 +25,7 @@
 <a href="https://outrageGIS.com" target="blank">outrageGIS.com</a>
 
 #HSLIDE
-#### Latest project: mapping Cumberland Gap
+#### Latest project: mapping <a href="https://www.outragegis.com/gap" target="blank">Cumberland Gap</a>
 <iframe src="https://www.outragegis.com/gap/3d/" width="100%" height="600px"></iframe>
 
 #HSLIDE
@@ -273,7 +273,7 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 
 #HSLIDE
-##Postscript
+## Postscript
 
 #HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
