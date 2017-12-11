@@ -45,7 +45,7 @@
 
 #HSLIDE
 ### James O. Jones
-<img src="http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg">
+<img src="http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg"><br>
 (second from right)
 
 #HSLIDE?image=i/07.jpg
@@ -53,14 +53,14 @@
 
 #HSLIDE?image=i/06.jpg
 
-#HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg
+
 
 #HSLIDE?image=i/11.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">2001</h3>
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">At Leisure's Edge</h2>
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">One-hour documentary for Kentucky Educational Television</h3>
-<a href="https://www.ket.org/series/KLEIS/" target="blank">LINK</a></div>
+<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">One-hour documentary for Kentucky Educational Television</h4>
+<!-- <a href="https://www.ket.org/series/KLEIS/" target="blank">LINK</a> --></div>
 
 #HSLIDE
 <iframe src="https://www.boydshearer.com/media/AtLeisuresEdge" width="100%" height="600px"></iframe>
@@ -69,6 +69,8 @@
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">uky.edu/Projects/TDA</h2>
 <a href="https://www.uky.edu/Projects/TDA/" target="blank">LINK</a></div>
+
+#HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg 
 
 #HSLIDE?image=i/08.jpg
 
