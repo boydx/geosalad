@@ -31,7 +31,7 @@
 #HSLIDE
 ### History at
 ## UKy Geography
-### frames current pursuits
+
 
 #HSLIDE
 ### 1998
@@ -76,6 +76,11 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">uky.edu/Projects/TDA</h2>
 <a href="https://www.uky.edu/Projects/TDA/" target="blank">LINK</a></div>
 
+#HSLIDE
+### Graduated.
+## Now what?
+#### Keep mapping (and field checking)!
+
 <!-- #HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg -->
 #HSLIDE?image=i/13.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
@@ -85,9 +90,9 @@
 </div>
 
 #HSLIDE
-### First couple gigs
-## had really nice paychecks
-#### so, it does pay to be a geographer!
+### Independent mapping/geo gigs
+## can have nice paychecks
+#### so, it does pay to be a geographer.
 
 
 #HSLIDE?image=i/14.jpg
@@ -95,7 +100,7 @@
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">2003</h3>
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">First Frontier</h2>
 <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">audio driving tour</h4>
-(Into the mountains!)
+<h4 style="color:#ccc;text-shadow: 2px 2px 4px #000;">(Into the mountains!)</h4>
 </div>
 
 #HSLIDE?image=i/08.jpg
@@ -103,6 +108,7 @@
 #HSLIDE
 ### Teaching provides more opportunities for
 # field work!
+#### (2006)
 
 #HSLIDE
 # GEO 130
