@@ -121,8 +121,9 @@
 #HSLIDE?image=i/09.jpg
 
 #HSLIDE
-#### Acid test for carbonate rocks (and polyester pants)
-<img src="http://pixel.outragegis.com/d/27919-2/IMG_7147.jpg">
+#### Acid test for carbonate rocks
+##### (and polyester pants 🔥 )
+<img src="http://pixel.outragegis.com/d/27919-2/IMG_7147.jpg" height="400px">
 
 
 #HSLIDE
