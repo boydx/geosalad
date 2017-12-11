@@ -29,7 +29,12 @@
 <iframe src="https://www.outragegis.com/gap/3d/" width="100%" height="600px"></iframe>
 
 #HSLIDE
-### 1999
+### History at
+## UKy Geography
+### frames current pursuits
+
+#HSLIDE
+### 1998
 ## The Daily Aesthetic
 ### M.A. Thesis on Douglass Park
 (park established in 1916)
@@ -49,7 +54,7 @@
 (second from right)
 
 #HSLIDE?image=i/12.jpg
-<img src="i/07.jpg" height="600px"><br>
+<img src="i/07.jpg" height="600px">
 
 
 #HSLIDE?image=i/06.jpg
@@ -71,13 +76,29 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">uky.edu/Projects/TDA</h2>
 <a href="https://www.uky.edu/Projects/TDA/" target="blank">LINK</a></div>
 
-#HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg
-
-#HSLIDE?image=i/08.jpg
+<!-- #HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg -->
+#HSLIDE?image=i/13.jpg
+<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">1999</h3>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Kentucky VideoGIS</h2>
+<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Maps for TV news production</h4>
+<</div>
 
 #HSLIDE
-## First really nice paycheck
+### First couple gigs
+## had really nice paychecks
 #### so, it does pay to be a geographer!
+
+
+#HSLIDE?image=i/14.jpg
+<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">2003</h3>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">First Frontier</h2>
+<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">audio driving tour</h4>
+(Into the mountains!)
+</div>
+
+#HSLIDE?image=i/08.jpg
 
 #HSLIDE
 ### Teaching provides more opportunities for
