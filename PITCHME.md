@@ -43,6 +43,7 @@
 #HSLIDE
 ### James O. Jones
 <img src="http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg">
+Second from right
 
 #HSLIDE?image=i/07.jpg
 
@@ -50,6 +51,9 @@
 #HSLIDE?image=i/06.jpg
 
 #HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg
+
+#HSLIDE
+<iframe src="https://www.boydshearer.com/media/AtLeisuresEdge" width="100%" height="600px"></iframe>
 
 #HSLIDE?image=i/05.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
