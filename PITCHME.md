@@ -49,7 +49,7 @@
 (second from right)
 
 #HSLIDE?image=i/07.jpg
-<img src="i/07.jpg"><br>
+<img src="i/07.jpg" heigh="600px"><br>
 
 
 #HSLIDE?image=i/06.jpg
