@@ -126,8 +126,8 @@
 #HSLIDE?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
 
 
-#HSLIDE
-![Map](https://farm5.staticflickr.com/4686/24053277287_2a7c9f041a_k.jpg)
+#HSLIDE?image=https://farm6.staticflickr.com/5730/30340396284_a169bdc431_o.jpg
+<img src="https://farm5.staticflickr.com/4686/24053277287_2a7c9f041a_k.jpg" height="600px">
 
 #HSLIDE
 <iframe src="https://townbranch.carto.com/builder/dbce1cd2-b019-11e6-bd55-0e05a8b3e3d7/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
