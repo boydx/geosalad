@@ -48,7 +48,7 @@
 <img src="http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg"><br>
 (second from right)
 
-#HSLIDE?image=i/07.jpg
+#HSLIDE?image=i/12.jpg
 <img src="i/07.jpg" height="600px"><br>
 
 
