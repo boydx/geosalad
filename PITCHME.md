@@ -107,7 +107,7 @@
 
 #HSLIDE
 #### 2006 redesign department's web site
-<img src="https://www.boydshearer.com/websites/images/UKGeography.jpg" ><br>
+<img src="https://www.boydshearer.com/websites/images/UKGeography.jpg" height="400px"><br>
 (I'm back!)
 
 #HSLIDE
