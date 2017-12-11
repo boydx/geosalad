@@ -90,7 +90,7 @@
 </div>
 
 #HSLIDE
-### Independent mapping/geo gigs
+### Mapping/geo gigs
 ## can have nice paychecks
 #### so, it does pay to be a geographer.
 
@@ -106,8 +106,13 @@
 #HSLIDE?image=i/08.jpg
 
 #HSLIDE
+### 2006 redesign department's web site
+<img src="https://www.boydshearer.com/websites/images/UKGeography.jpg" height="600px">
+(I'm back!)
+
+#HSLIDE
 ### Teaching provides more opportunities for
-# field work!
+# field work
 #### (2006)
 
 #HSLIDE
