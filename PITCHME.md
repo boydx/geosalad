@@ -250,26 +250,20 @@ Pick("Trees_5ft_NDVI_1",["North_campus_ELEV_range"])
 * Might need to tweak parameters. Let's do it!
 
 #HSLIDE
+### A little error
+# Parallax
+Sensors difference between aerial photography (passive) and lidar (active), create the possibility that the taller an object is, the less chance of precise overlap of the NDVI and elevation layers.
+
+
+#HSLIDE
 # The future
 ## Let's talk about it.
 
-#HSLIDE
-# Calendar
-* 6 more classes
-* Nov 15 is GIS Day and a UFI presentation
-* One field day to possibly scan a tree
 
-#HSLIDE
-# Final Projects
-## Who has a specific project?
-
-#HSLIDE
-## how about a
-# Group project?
 
 #HSLIDE
 ## Neighborhood Tree Canopy study
 * Neighborhood teams produce content
 * Web team publishes content and I nominate [Renato](http://sweb.uky.edu/~rvi234/nre355/)
 * Spend more time in [CARTO](https://www.carto.com)
-* Submit group website and maps to the bigwigs
+* Submit group website and maps to the bigwigs ~ 🧐  ~
