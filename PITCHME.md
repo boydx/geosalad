@@ -55,12 +55,11 @@ What experiences help me teach
 #HSLIDE
 ## Discovering
 ### Town Branch Trail
-<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
+
 
 #HSLIDE
-
 #### The team
-<iframe width="100%" height="600px" src="https://kuula.co/share/7lLKn"></iframe>
+<iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe>
 
 #HSLIDE
 ## Used mostly open source tools
