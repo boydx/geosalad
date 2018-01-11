@@ -108,11 +108,11 @@ Use GitHub to publish web pages, including
 where all of your GIS projects, assets, files, repos, and everything else will be stored related to class.
 
 #HSLIDE
-### Go to:
-## _T:/users_
+#### Go to:
+### _T:/users_
 and create a folder called,   
-## _BoydsGIS_    
-and make it unique!
+### _MyFunNameGIS_    
+replacing "MyFunName" with your fun name.
 
 #HSLIDE
 ### Let's clone our lesson
