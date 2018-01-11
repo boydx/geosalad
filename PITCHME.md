@@ -61,6 +61,10 @@ What experiences help me teach
 <iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe>
 
 #HSLIDE
+## Project link
+<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">Link</a>
+
+#HSLIDE
 ## Used mostly open source tools
 ### QGIS and OpenStreetMap
 
@@ -69,11 +73,8 @@ What experiences help me teach
 ## Building heights!
 
 #HSLIDE?image=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
-<a href="https://farm3.staticflickr.com/2842/34173538111_a32119a81c_o.jpg" title="Block diagram of downtown Lexington, Kentucky" target="blank">LINK</a>
+<a href="https://farm3.staticflickr.com/2842/34173538111_a32119a81c_o.jpg" title="Block diagram of downtown Lexington, Kentucky" target="blank">Link</a>
 
-#HSLIDE
-## Project link
-<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
 
 #HSLIDE?image=images/01/trees.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">And then tree heights!</h2>
@@ -84,7 +85,7 @@ What experiences help me teach
 ## Fall 2017
 
 #HSLIDE?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
-<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">LINK</a>
+<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">Link</a>
 
 #HSLIDE
 ### Finding the highest trees
