@@ -115,8 +115,6 @@ What experiences help me teach
 #HSLIDE?image=https://farm6.staticflickr.com/5730/30340396284_a169bdc431_o.jpg
 <iframe src="https://townbranch.carto.com/builder/dbce1cd2-b019-11e6-bd55-0e05a8b3e3d7/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-
-
 #HSLIDE
 ## Pine Mountain SRP
 ### Scenic Analysis
@@ -170,7 +168,7 @@ What experiences help me teach
 ### Scenic Analysis
 <a href="https://geography.as.uky.edu/sites/default/files/SceniicLandscapeIndexFayetteCounty_th.jpg" target="blank">map</a>
 
-#HSLIDE?image=https://farm5.staticflickr.com/4263/35717804616_c71b17d150_h.jpg
+#HSLIDE?image=https://farm5.staticflickr.com/4095/35717812836_4542c770d7_k.jpg
 
 #HSLIDE
 ## Analyzing
@@ -204,7 +202,7 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 #HSLIDE
 ### Publishing maps online needs a web page
-GitHub Pages (comes with version control and syncing)
+HTML, CSS, JavaScript, etc.
 
 
 #HSLIDE
@@ -225,8 +223,7 @@ GitHub Pages (comes with version control and syncing)
 
 
 #HSLIDE
-# EXAMPLES?
-
+## EXAMPLES?
 
 #HSLIDE
 ```sql
@@ -243,7 +240,7 @@ WHERE
 
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How acres have burned per county?</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How many acres have burned per county?</h2>
 
 #HSLIDE
 ### Spatial Join
@@ -273,6 +270,30 @@ group by
 /* That's it! */
 ```
 
+#HSLIDE
+### Spring 2018
+## theme?
+
+#HSLIDE
+### Local parks & trails in the
+## Bluegrass
+
+#HSLIDE
+<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="600px"></frame><a href="https://outragegis.com/maps/bluegrass/" target="blank">full screen</a>
+
+#HSLIDE
+### (micro)
+## Field trips!
+
+#HSLIDE
+<iframe class="kuula7lgpf" src="https://kuula.co/share/7lGpf?logo=0" width="100%" height="600px" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+
+#HSLIDE
+### Create small area
+## Site maps
+
+#HSLIDE
+<iframe src="https://www.outragegis.com/maps/gap/" width="100%" height="600px"></frame><a href="https://www.outragegis.com/maps/gap/" target="blank">full screen</a>
 
 
 
