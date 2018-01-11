@@ -93,7 +93,7 @@ What experiences help me teach
 
 #HSLIDE
 ## Project link
-<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
+<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">Link</a>
 
 #HSLIDE
 ### Can we get a
@@ -279,14 +279,20 @@ group by
 ## Bluegrass
 
 #HSLIDE
-<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="600px"></frame><a href="https://outragegis.com/maps/bluegrass/" target="blank">full screen</a>
-
-#HSLIDE
 ### (micro)
 ## Field trips!
 
 #HSLIDE
 <iframe class="kuula7lgpf" src="https://kuula.co/share/7lGpf?logo=0" width="100%" height="600px" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+
+#HSLIDE
+### where is this?!?
+## Lower Howards Creek
+
+
+#HSLIDE
+<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="600px"></frame><a href="https://outragegis.com/maps/bluegrass/" target="blank">full screen</a>
+
 
 #HSLIDE
 ### Create small area
@@ -301,8 +307,3 @@ group by
 ## What could go wrong?
 
 #HSLIDE?image=images/01/texas-v-alaska.jpg
-
-
-#HSLIDE
-## Challenge for you
-What are the areas of Texas and Alaska?
