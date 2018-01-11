@@ -2,7 +2,7 @@
 # Welcome!
 
 #HSLIDE
-# GEO 409:01
+# GEO 409
 ## Advanced topics in GIS
 
 #HSLIDE
@@ -42,7 +42,7 @@ What experiences help me teach
 * What cartography/GIS courses have you taken?
 
 #HSLIDE
-### How have I taught GEO 409 in the past?
+### How have I taught in the past?
 
 #HSLIDE
 Create a theme:
@@ -156,8 +156,8 @@ group by
 ```
 
 #HSLIDE
-### We'll do overaly analysis
-Using SQL on spatial databases (SpatiaLite and PostGIS)
+### We'll do analysis
+Using SQL in spatial databases
 
 
 #HSLIDE
