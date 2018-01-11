@@ -101,11 +101,6 @@ What experiences help me teach
 
 #HSLIDE?image=https://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg
 
-
-
-#HSLIDE
-# GEO 309
-
 #HSLIDE
 ## Student observations
 ### NCAA tournament basketball celebrations
@@ -119,9 +114,6 @@ What experiences help me teach
 <a href="https://geography.as.uky.edu/sites/default/files/SceniicLandscapeIndexFayetteCounty_th.jpg" target="blank">map</a>
 
 #HSLIDE?image=https://farm5.staticflickr.com/4263/35717804616_c71b17d150_h.jpg
-
-#HSLIDE
-# GEO 409
 
 #HSLIDE
 ## Analyzing
@@ -159,16 +151,11 @@ Create a pedshed to measure how many people can access what parts of town on foo
 
 
 #HSLIDE
-# GEO 409
-## Spring 2017
-
-#HSLIDE
 ## Discovering
 ### Town Branch Trail
 <a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
 
 #HSLIDE
-
 #### The team
 <iframe width="100%" height="600px" src="https://kuula.co/share/7lLKn"></iframe>
 
@@ -193,7 +180,6 @@ Create a pedshed to measure how many people can access what parts of town on foo
 <a href="http://boydx.github.io/tbt/oblique/" target="blank">map</a>
 
 #HSLIDE
-# NRE 355
 ## Fall 2017
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
 
@@ -253,14 +239,15 @@ Create a pedshed to measure how many people can access what parts of town on foo
 #HSLIDE
 ### More open source!
 * Students have requested it
-* QGIS is robust, free, and runs on a mac OS
-* We'll still use ArcGIS (You'll get a year license)
+* QGIS is free and runs on MacOS
+* Create content that you can truly own
+
 
 #HSLIDE
 ### More code!
 * Text-based instructions are cool, dude
 * ESC the desktop, free your workflow
-* SQL, shell scripts, Python
+* SQL, HTML
 
 
 #HSLIDE
@@ -283,7 +270,7 @@ WHERE
 
 ### Chunk of code, recipe, gist, etc.
 * Avoid the click click desktop
-* Execute on remote servers (with terrabites of memory :)
+* Execute on remote servers (with terabytes of memory :)
 * Write it once, use it forever
 
 
@@ -320,78 +307,11 @@ group by
 /* That's it! */
 ```
 
-#HSLIDE
-### We'll do analysis
-Using SQL in spatial databases
+
 
 
 #HSLIDE
-### We want more 3D!
-LiDAR data now available for Lexington
-
-#HSLIDE?image=images/01/lidar-00.jpg
-#HSLIDE?image=images/01/lidar-01.jpg
-#HSLIDE?image=images/01/lidar-02.jpg
-
-#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to get high</h3>
-<p style="color:#eee;text-shadow: 2px 2px 4px #000;">and photograph</p>
-
-#HSLIDE
-### Walking the urban core   
-<a href="https://www.flickr.com/photos/28640579@N02/31150476630/in/dateposted-public/" target="blank">in spherical photos.</a>
-
-
-#HSLIDE
-![Connected interior spaces](https://c1.staticflickr.com/9/8062/29138854162_1cd274d646_o.jpg)
-
-#HSLIDE
-LiDAR tools in ArcGIS help create an   
-<a href="https://www.outragegis.com/trails/2016/08/27/elevation-profile-of-connected-interior-spaces" target="blank">elevation profile of connected interior spaces</a>
-
-
-
-#HSLIDE?image=https://c1.staticflickr.com/9/8560/29239711024_0a23da2985_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Sunrise in Lexington</h2>
-
-#HSLIDE?image=images/01/map-sunrise.jpg
-
-#HSLIDE
-### LiDAR can help accurately model scenic areas
-Which areas of town can see a sunrise with respect to buildings, trees, etc.    
-<a href="https://www.flickr.com/photos/28640579@N02/29239711024/in/album-72157668647475382/" title="Can you see the fall sunrise in Lexington, Kentucky?">Full map</a>
-
-#HSLIDE
-### We now arrive at a
-## Theme
-
-
-#HSLIDE
-Spring 2017 course theme:
-## Town Branch Trail & Commons
-![Video](https://www.youtube.com/embed/OR4JaAmA9rk)
-<a href="http://www.townbranch.org/" target="blank">townbranch.org</a>
-
-#HSLIDE?image=http://www.townbranch.org/info/wp-content/uploads/2013/05/TBT_news2.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">One mile already exists</h2>
-
-#HSLIDE?image=http://www.townbranch.org/info/wp-content/uploads/2016/11/TownBranchTiger.png
-
-#HSLIDE?image=http://www.townbranch.org/info/wp-content/uploads/2016/11/WaterFeature-1024x771.jpg
-
-#HSLIDE?image=http://www.kentucky.com/latest-news/38c860/picture43889769/ALTERNATES/FREE_960/ADAd5.So.79.jpeg
-
-#HSLIDE?image=http://www.townbranch.org/doc/TBT_at_NCR_2014.jpg
-
-#HSLIDE
-## Mapping Town Branch
-* What is the current condition of the corridor?
-* Canopy, water, built environment, walking paths, etc.
-* How might the corridor look after trail is built?
-
-
-#HSLIDE
-## What couyld go wrong?
+## What could go wrong?
 
 #HSLIDE?image=images/01/texas-v-alaska.jpg
 
