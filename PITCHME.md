@@ -56,7 +56,6 @@ What experiences help me teach
 ## Discovering
 ### Town Branch Trail
 
-
 #HSLIDE
 #### The team
 <iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe>
@@ -83,7 +82,6 @@ What experiences help me teach
 #HSLIDE
 # NRE 355
 ## Fall 2017
-<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
 
 #HSLIDE?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
 <a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">LINK</a>
@@ -96,11 +94,14 @@ What experiences help me teach
 ## Project link
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
 
+#HSLIDE
+### Can we get a
+## field trip?
 
 #HSLIDE
 ## Pilot Knob SNP
 ### Trails
-<a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="blank">and a website</a>
+<a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="blank">Link</a>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
 
@@ -118,7 +119,7 @@ What experiences help me teach
 #HSLIDE
 ## Pine Mountain SRP
 ### Scenic Analysis
-<a href="http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour/" target="blank">LINK</a>
+<a href="http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour/" target="blank">Link</a>
 
 #HSLIDE?image=https://farm6.staticflickr.com/5678/23200804570_7ba220d2d1_h.jpg
 
@@ -135,7 +136,7 @@ What experiences help me teach
 #HSLIDE
 ## Arboretum Woods
 ### Tree Census
-<a href="https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg" target="blank">LINK</a>
+<a href="https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg" target="blank">Link</a>
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg
 
@@ -152,11 +153,16 @@ What experiences help me teach
 #HSLIDE?image=https://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg
 
 #HSLIDE
+### What about
+## spring classes?
+
+#HSLIDE
 ## Student observations
 ### NCAA tournament basketball celebrations
 <a href="https://geography.as.uky.edu/sites/default/files/GEO309_PatternsOfCampusCelebrations_UK_NCAA_Basketball.jpg" target="blank">map</a>
 
-#HSLIDE?image=i/10.jpg
+#HSLIDE?image=https://farm5.staticflickr.com/4263/35717804616_2a43fe322c_k.jpg
+
 
 #HSLIDE
 ## Fayette County
@@ -186,13 +192,6 @@ Create a pedshed to measure how many people can access what parts of town on foo
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
 <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
-
-#HSLIDE
-## Let's make web maps!
-
-#HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
-<a href="http://boydx.github.io/collisions/" target="blank">LINK</a>
 
 
 #HSLIDE
