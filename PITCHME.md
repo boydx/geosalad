@@ -26,7 +26,7 @@ What experiences help me teach
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I have a toddler</h2>
 
 #HSLIDE?image=https://c1.staticflickr.com/1/585/31458905453_5db120e84d_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h2>
@@ -43,6 +43,59 @@ What experiences help me teach
 
 #HSLIDE
 ### How have I taught in the past?
+
+#HSLIDE
+### Recognize that maps represent
+## unique places
+
+#HSLIDE
+# GEO 409
+## Spring 2017
+
+#HSLIDE
+## Discovering
+### Town Branch Trail
+<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
+
+#HSLIDE
+
+#### The team
+<iframe width="100%" height="600px" src="https://kuula.co/share/7lLKn"></iframe>
+
+#HSLIDE
+## Used mostly open source tools
+### QGIS and OpenStreetMap
+
+#HSLIDE
+### We found Lidar data
+## Building heights!
+
+#HSLIDE?image=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
+<a href="https://farm3.staticflickr.com/2842/34173538111_a32119a81c_o.jpg" title="Block diagram of downtown Lexington, Kentucky" target="blank">LINK</a>
+
+#HSLIDE
+## Project link
+<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
+
+#HSLIDE?image=images/01/trees.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">And then tree heights!</h2>
+<a href="http://boydx.github.io/tbt/oblique/" target="blank">map</a>
+
+#HSLIDE
+# NRE 355
+## Fall 2017
+<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
+
+#HSLIDE?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
+<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">LINK</a>
+
+#HSLIDE
+### Finding the highest trees
+<iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
+
+#HSLIDE
+## Project link
+<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
 
 
 #HSLIDE
@@ -85,9 +138,7 @@ What experiences help me teach
 ### Tree Census
 <a href="https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg" target="blank">LINK</a>
 
-
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg
-
 
 
 #HSLIDE
@@ -104,7 +155,7 @@ What experiences help me teach
 #HSLIDE
 ## Student observations
 ### NCAA tournament basketball celebrations
-<a href="https://geography.as.uky.edu/sites/default/files/CampusCelebrations_Layout_150508-01.jpg" target="blank">map</a>
+<a href="https://geography.as.uky.edu/sites/default/files/GEO309_PatternsOfCampusCelebrations_UK_NCAA_Basketball.jpg" target="blank">map</a>
 
 #HSLIDE?image=i/10.jpg
 
@@ -144,94 +195,18 @@ Create a pedshed to measure how many people can access what parts of town on foo
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 <a href="http://boydx.github.io/collisions/" target="blank">LINK</a>
 
-#HSLIDE
-### Web pages need a host
-* Student web server @ sweb.uky.edu (free but DECOMMISSIONED??)
-* GitHub Pages (comes with version control and syncing)
-
-
-#HSLIDE
-## Discovering
-### Town Branch Trail
-<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
-
-#HSLIDE
-#### The team
-<iframe width="100%" height="600px" src="https://kuula.co/share/7lLKn"></iframe>
-
-
-#HSLIDE
-## Used mostly open source tools
-### QGIS and OpenStreetMap
-
-#HSLIDE
-### We found Lidar data
-## Building heights!
-
-#HSLIDE?image=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
-<a href="https://farm3.staticflickr.com/2842/34173538111_a32119a81c_o.jpg" title="Block diagram of downtown Lexington, Kentucky" target="blank">LINK</a>
-
-#HSLIDE
-## Project link
-<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
-
-#HSLIDE?image=images/01/trees.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">And then tree heights!</h2>
-<a href="http://boydx.github.io/tbt/oblique/" target="blank">map</a>
-
-#HSLIDE
-## Fall 2017
-<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
-
-#HSLIDE?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
-<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">LINK</a>
-
-#HSLIDE
-### Finding the highest trees
-<iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
-
-#HSLIDE
-## Project link
-<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
-
-
-#HSLIDE
-Create a theme:
-## Analyzing
-# Walkability
-
-#HSLIDE?image=images/01/map-create-zones.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Divide city into zones.</h2>
-
-#HSLIDE?image=images/01/map-digitize-paths.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Digitize walking paths.</h2>
-
-#HSLIDE
-### Build a network model
-connecting paths to streets with sidewalks.
-
-#HSLIDE
-![Pedshed](images/01/map-pedshed.jpg)   
-Create a pedshed to measure how many people can access what parts of town on foot.
-
-#HSLIDE?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
-<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
 
 #HSLIDE
 ## Let's make web maps!
 
 #HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
-<a href="http://boydx.github.io/collisions/" target="blank">Bring in CARTO!</a>
+<a href="http://boydx.github.io/collisions/" target="blank">Interactive map</a>
 
 #HSLIDE
-**Publishing maps online needs a web page (and host)**
-* Student web server @ sweb.uky.edu (slow but free)
-* GitHub Pages (comes with version control and syncing!)
+### Publishing maps online needs a web page
+GitHub Pages (comes with version control and syncing)
 
-#HSLIDE
-## We will publish maps using GitHub Pages
 
 #HSLIDE
 ## What tools will we use?
@@ -247,7 +222,7 @@ Create a pedshed to measure how many people can access what parts of town on foo
 ### More code!
 * Text-based instructions are cool, dude
 * ESC the desktop, free your workflow
-* SQL, HTML
+* Write it once, use it forever
 
 
 #HSLIDE
@@ -266,12 +241,6 @@ WHERE
 /* That's it! */
 
 ```
-#HSLIDE
-
-### Chunk of code, recipe, gist, etc.
-* Avoid the click click desktop
-* Execute on remote servers (with terabytes of memory :)
-* Write it once, use it forever
 
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
@@ -290,7 +259,6 @@ intersect and summarize
 SELECT
     sum(pts.fire_size) as fire_acres,
     round((sum(pts.fire_size) / (poly.aland * 0.000247105)*100)::numeric,2) as percent_burned,
-    poly.name,
     poly.geoid,
     poly.aland,
     poly.geom
@@ -299,7 +267,6 @@ from
 join
     pts on ST_Intersects(pts.geom, poly.geom)
 group by
-    poly.name,
     poly.geoid,
     poly.aland,
     poly.geom
