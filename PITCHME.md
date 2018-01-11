@@ -254,7 +254,7 @@ Then open **QGIS menu > Database > DB Manager** -->
 
 #HSLIDE
 Open **QGIS menu > Database > DB Manager**
-## Connect PostGIS database
+#### Connect PostGIS database
 then **Import Layer**   
 ![Connect database in DB Manager](images/02/qgis-import-layer.jpg)    
 
