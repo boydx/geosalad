@@ -87,7 +87,14 @@ and support collaboration
 
 
 #HSLIDE
-We'll use the git hosting service [GitHub.com](https://github.com/) and their GitHub desktop app to manage our projects.
+We'll use the git hosting service
+### GitHub
+and their desktop app to manage our projects.
+
+#HSLIDE
+Get account at [GitHub.com](https://github.com/) using your
+### uky.edu
+email address
 
 #HSLIDE
 ### Our GitHub flow each week
