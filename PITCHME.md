@@ -163,8 +163,8 @@ inside your root GIS folder (_T:/users/MyFunNameGIS_)
 
 
 #HSLIDE
-## Place data inside your ```C01``` folder
-* Extract the zip
+## Create folder in _geo409_
+### "c01"
 * Open ArcMap
 * and QGIS
 
@@ -244,7 +244,7 @@ Datum: D_North_American_1983
 
 
 #HSLIDE
-## Open aatribute table
+## Open attribute table
 # Add Field
 as **Type: Float**
 
@@ -282,18 +282,15 @@ Then open **QGIS menu > Database > DB Manager** -->
 
 
 #HSLIDE
-Open **QGIS menu > Database > DB Manager**
-#### Connect PostGIS database
+#### QGIS menu > Database > DB Manager
+### Connect PostGIS database
 then **Import Layer**   
-![Connect database in DB Manager](images/02/qgis-import-layer.jpg)    
-
 
 #HSLIDE
-## Import Layer
+### Import Layer
 and select **Update options** and **Create spatial index**   
-![Import Layer](images/02/qgis-import-settings.jpg)    
 
-
+#HSLIDE?image=images/02/qgis-import-layer.png
 
 #HSLIDE
 ## Finally!
