@@ -274,6 +274,11 @@ Kentucky,   104525
 ## Measure state areas in
 # QGIS
 
+#HSLIDE
+## Housekeeping
+![Open SQL window](images/02/postgres.png)    
+open pgAdmin and check if PostGIS is installed
+
 
 <!-- #HSLIDE
 ## Create new SpatiaLite database
@@ -282,19 +287,22 @@ Then open **QGIS menu > Database > DB Manager** -->
 
 
 #HSLIDE
-#### QGIS menu > Database > DB Manager
+#### QGIS Browser Panel
 ### Connect PostGIS database
-then **Import Layer**   
+
+
+#HSLIDE?image=images/02/connect_postgres.png
 
 #HSLIDE
+#### QGIS DB Manager
 ### Import Layer
-and select **Update options** and **Create spatial index**   
+  
 
 #HSLIDE?image=images/02/qgis-import-layer.png
 
 #HSLIDE
 ## Finally!
-![Open SQL window](images/02/qgis-connect-db.jpg)    
+![Open SQL window](images/02/qgis-connect-db.png)    
 open SQL Window
 
 #HSLIDE?image=images/02/qgis-execute-sql.jpg
