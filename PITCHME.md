@@ -275,9 +275,10 @@ Kentucky,   104525
 # QGIS
 
 #HSLIDE
-## Housekeeping
-![Open SQL window](images/02/postgres.png)    
+### Housekeeping
 open pgAdmin and check if PostGIS is installed
+
+#HSLIDE?image=images/02/postgres.png
 
 
 <!-- #HSLIDE
@@ -287,23 +288,24 @@ Then open **QGIS menu > Database > DB Manager** -->
 
 
 #HSLIDE
-#### QGIS Browser Panel
-### Connect PostGIS database
+### QGIS Browser Panel
+## Connect PostGIS database
 
 
 #HSLIDE?image=images/02/connect_postgres.png
 
 #HSLIDE
-#### QGIS DB Manager
-### Import Layer
-  
+### QGIS DB Manager
+## Import Layer
+
 
 #HSLIDE?image=images/02/qgis-import-layer.png
 
 #HSLIDE
-## Finally!
-![Open SQL window](images/02/qgis-connect-db.png)    
-open SQL Window
+### Finally!
+## Open SQL Window
+
+#HSLIDE?image=images/02/qgis-connect-db.png
 
 #HSLIDE?image=images/02/qgis-execute-sql.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;">Execute SQL...</h2>
