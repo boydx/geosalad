@@ -130,9 +130,26 @@ replacing "MyFunName" with your fun name.
 ## Challenge!
 
 #HSLIDE
-## Create a folder called
-## _C01_
-inside your GEO409 repo for our first challenge
+## Create a local repo called
+## _geo409_
+inside your root GIS folder (_T:/users/MyFunNameGIS_) repo for our first challenge
+
+#HSLIDE?image=images/02/create_local_repo.png
+
+#HSLIDE
+# Publish
+## in GitHub
+
+#HSLIDE
+## Create a remote repo called
+## _hometown-map_
+(if you haven't already)
+
+#HSLIDE?image=images/02/create_remote_repo.png
+
+#HSLIDE
+# Clone
+## to local
 
 #HSLIDE?image=images/02/natural-earth-download.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Download data</h2>
