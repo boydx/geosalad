@@ -420,6 +420,11 @@ Kentucky,   104576.98
 ```
 
 #HSLIDE
+### Save your
+## SQL & project files
+#### then commit and push!
+
+#HSLIDE
 ## That's the
 # Challenge
 this semester and we'll keep at it!
