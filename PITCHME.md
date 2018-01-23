@@ -130,9 +130,9 @@ replacing "MyFunName" with your fun name.
 ## Challenge!
 
 #HSLIDE
-## Create a local repo called
+## Create a local repo:
 ## _geo409_
-inside your root GIS folder (_T:/users/MyFunNameGIS_) repo for our first challenge
+inside your root GIS folder (_T:/users/MyFunNameGIS_)
 
 #HSLIDE?image=images/02/create_local_repo.png
 
@@ -153,7 +153,7 @@ inside your root GIS folder (_T:/users/MyFunNameGIS_) repo for our first challen
 
 #HSLIDE?image=images/02/natural-earth-download.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Download data</h2>
-<a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/" target="blank">Natural Earth</a>
+<a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/" target="blank" style="opacity: 0.5;">Natural Earth</a>
 
 
 
