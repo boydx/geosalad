@@ -152,8 +152,10 @@ inside your root GIS folder (_T:/users/MyFunNameGIS_)
 ## to local
 
 #HSLIDE?image=images/02/natural-earth-download.jpg
+<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Download data</h2>
 <a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/" target="blank">Natural Earth</a>
+</div>
 
 
 
