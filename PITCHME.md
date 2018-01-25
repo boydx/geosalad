@@ -19,7 +19,6 @@
 
 #HSLIDE
 <iframe src="https://www.google.com/maps/d/embed?mid=1hIdTpY8nuJDiRws1PI5iLbLWJDM&hl=en_US" width="640" height="480"></iframe>
-[view map](https://www.google.com/maps/d/viewer?mid=1hIdTpY8nuJDiRws1PI5iLbLWJDM&hl=en_US&ll=38.054181119879956%2C-84.46031583116445&z=11)
 
 
 
