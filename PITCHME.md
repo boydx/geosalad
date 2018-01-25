@@ -18,7 +18,8 @@
 #HSLIDE?image=https://farm5.staticflickr.com/4430/36088276623_7ecd72b920_o.jpg
 
 #HSLIDE
-<iframe src="https://www.google.com/maps/d/viewer?mid=1hIdTpY8nuJDiRws1PI5iLbLWJDM&hl=en_US&ll=38.01520770656191%2C-84.59047807023916&z=11" width="100%" height="400px"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1hIdTpY8nuJDiRws1PI5iLbLWJDM&hl=en_US" width="640" height="480"></iframe>
+[view map](https://www.google.com/maps/d/viewer?mid=1hIdTpY8nuJDiRws1PI5iLbLWJDM&hl=en_US&ll=38.054181119879956%2C-84.46031583116445&z=11)
 
 
 
