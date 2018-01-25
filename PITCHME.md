@@ -103,10 +103,6 @@ Due Feb 4
 
 
 
-#HSLIDE?image=https://c1.staticflickr.com/1/779/32407852142_a94ecb9fad_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lab challenge (+20%)</h2>
-<a href="https://www.flickr.com/photos/28640579@N02/32407852142/in/dateposted-public/" target="blank">example map</a>
-
 #HSLIDE?image=images/03/nhd-hydro.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lab data</h2>
 * <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">stream flow line</h4>
