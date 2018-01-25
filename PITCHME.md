@@ -13,9 +13,14 @@
 
 #HSLIDE?image=https://farm1.staticflickr.com/283/31923848984_7ee788c819_k.jpg
 
+#HSLIDE?image=images/03/bgt-3d-map.jpg
+
 #HSLIDE?image=https://farm5.staticflickr.com/4430/36088276623_7ecd72b920_o.jpg
 
-#HSLIDE?image=images/03/bgt-3d-map.jpg
+#HSLIDE
+<iframe src="https://www.google.com/maps/d/viewer?mid=1hIdTpY8nuJDiRws1PI5iLbLWJDM&hl=en_US&ll=38.01520770656191%2C-84.59047807023916&z=11" with="100%" height="400px"></iframe>
+
+
 
 #HSLIDE
 ## Your task
