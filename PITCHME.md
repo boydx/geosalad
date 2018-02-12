@@ -28,13 +28,15 @@ How to measure the amount of x in y?
 #HSLIDE
 ![Wheat production](images/04/wheat.jpg)
 
+#HSLIDE
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Look right?</h2>
+
 
 #HSLIDE
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">More area = more production</h2>
 <a href="https://www.nass.usda.gov/Charts_and_Maps/Crops_County/#oh" target="blank">USDA maps</a>
 
-#HSLIDE
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Look right?</h2>
+
 
 #HSLIDE
 ### Discuss!
