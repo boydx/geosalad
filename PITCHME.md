@@ -24,24 +24,26 @@ How to measure the amount of x in y?
 #HSLIDE
 ![Hay production](images/04/hay.jpg)
 
+
+#HSLIDE
+![Wheat production](images/04/wheat.jpg)
+
+
+#HSLIDE
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">More area = more production</h2>
+<a href="https://www.nass.usda.gov/Charts_and_Maps/Crops_County/#oh" target="blank">USDA maps</a>
+
 #HSLIDE
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Look right?</h2>
 
 #HSLIDE
 ### Discuss!
-Two buddies want to watch the game in a bar. One bar is 99% full. Another bar is 0% full. Between these two bars, what is the percentage full? Or restated, what is the chance that they can watch the game together? 
+Two buddies want to watch the game in a bar. One bar is 99% full. Another bar is 0% full. Between these two bars, what is the percentage full? Or restated, what is the chance that they can watch the game together?
 
 #HSLIDE
 ### Hmm...
 One of the bars has 100 seats and 99 are full and the other bar has 1 seat and 0 are full, so 98% full. ☹️
 
-
-#HSLIDE
-![Wheat production](images/04/wheat.jpg)
-
-#HSLIDE
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">More area = more production</h2>
-<a href="https://www.nass.usda.gov/Charts_and_Maps/Crops_County/#oh" target="blank">USDA maps</a>
 
 #HSLIDE
 ## Choropleth mapping
