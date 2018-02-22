@@ -1,6 +1,6 @@
 #HSLIDE
-#GEO 409:05
-##Week 10
+# GEO 409:05
+## Week 10
 
 #HSLIDE?image=http://townbranchtiger.com/wp-content/uploads/2016/04/160429_-TBCTiger_Map.jpg
 <h2 style="color:#f00;text-shadow: 2px 2px 4px #fff;">New Town Branch Trail plans</h2>
@@ -28,32 +28,32 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32680157893/in/dateposted-public/" target="_blank">metal map</a></h2>
 
 #HSLIDE
-##Replace individual projects?
+## Replace individual projects?
 
 #HSLIDE
-##Would work in teams
+## Would work in teams
 * Help build 3D model
 * Design project website
 * Collect photos and content for website
 
 #HSLIDE
-##Class pivots now
-###Move towards publishing online maps and content
+## Class pivots now
+### Move towards publishing online maps and content
 
 #HSLIDE
 #Raster
 
 
 #HSLIDE
-##Example of what you'll produce:
-###Terrain relief map of the Town Branch Corridor
+## Example of what you'll produce:
+### Terrain relief map of the Town Branch Corridor
 
 #HSLIDE?image=images/07/m01.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="_blank">map</a></h2>
 
 
 #HSLIDE
-##Raster data model
+## Raster data model
 * Array of regularly spaced cells, aka grid
 * Cell values are numbers; quantities or categories?
 * Level of data measurement
@@ -63,24 +63,24 @@
 	* Continuous
 
 #HSLIDE
-##Important properties
+## Important properties
 * Resolution; who detailed is my data?
 	* Bit depth is number of values a cell can hold
-	* 2<sup>n</sup> values where n = number bits 
+	* 2<sup>n</sup> values where n = number bits
 * Single-band vs. multi-band
 * File formats can create data loss
-	
+
 #HSLIDE
-##Common rtypes
+## Common rtypes
 * Integer, e.g., landuse
-	* 1-band, 1-bit or 8-bit format 
+	* 1-band, 1-bit or 8-bit format
 * Continuous, e.g., elevation
 	* 1-band, 32-bit floating point
 * Imaging, e.g., satellite photography
 	* multi-band, 8-bit or 16-bit
 
 #HSLIDE
-##Terrain Analysis
+## Terrain Analysis
 * Relief map showing elevation change
 * Hillshade tool to illuminate surface
 * Overlay aerial photography with transparency
@@ -89,7 +89,7 @@
 
 
 #HSLIDE
-##Terrain Analysis
+## Terrain Analysis
 * Relief map showing elevation change
 * Digital Elevation Model provides input
 * Hillshade tool calculates illumination surface
@@ -100,8 +100,8 @@
 
 
 #HSLIDE
-##NDVI Analysis
-* Normalized Difference Vegetation Index (NDVI) 
+## NDVI Analysis
+* Normalized Difference Vegetation Index (NDVI)
 * Color infrared photography (CIR) with 4-BandNAIP imagery
 * Use Raster Calculator to calculate (B4 - B1)/(B1 + B4)
 * High density of vegetation is good in the city!
@@ -110,7 +110,7 @@
 
 
 #HSLIDE
-##Raster tile sets
+## Raster tile sets
 * Create slippy maps of raster layers
 * ```gdal2tiles``` tool
 * Output is folder with collection of raster tiles
@@ -118,18 +118,3 @@
 
 #HSLIDE?image=images/07/m05.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/canopy/leaflet.html" target="_blank">Canopy near TBT</a></h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
