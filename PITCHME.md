@@ -1,16 +1,16 @@
 #HSLIDE
-#GEO 409:03
-##Week 05
+# GEO 409:03
+## Week 05
 
 #HSLIDE
-##Spatial join & density analysis
+## Spatial join & density analysis
 
 #HSLIDE
-##Please work on lesson
+## Please work on lesson
 
 #HSLIDE
-##Big news!
-###Just got data from city showing where people bike!
+## Big news!
+### Just got data from city showing where people bike!
 
 #HSLIDE?image=https://c1.staticflickr.com/3/2427/32895996896_b64e682795_k.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32895996896/in/dateposted-public/" target="_blank">Bike trips</a></h3>
@@ -27,8 +27,8 @@
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32692041102/in/photostream/" target="_blank">how much is here?</a></h3>
 
 #HSLIDE
-#Spatial join
-###how much of x is in y?
+# Spatial join
+### how much of x is in y?
 
 #HSLIDE?image=https://c1.staticflickr.com/1/496/31340122270_488c594cad_k.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">How many trees are in the watershed?</h3>
@@ -37,14 +37,14 @@
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">What is the average diameter?</h3>
 
 #HSLIDE
-##Point in polygon analysis 
+##Point in polygon analysis
 
 * Aggregate by polygon and count number
 * Perform summary statistics on numeric attributes
 * "many to one" join
 
 #HSLIDE
-##Hexagonal grids
+## Hexagonal grids
 
 * Tessellation; create a grid of same polygon
 * Area is same, so already normalized
@@ -52,18 +52,18 @@
 
 
 #HSLIDE
-##Intersect test
+## Intersect test
 
 * st_intersects() function
 * Tests two geometries for overlap
 * Exact fit but slow
 
 #HSLIDE
-##Spatial Index Query
+## Spatial Index Query
 
-```
-select * from layer_a 
-join layer_b    
+```sql
+select * from layer_a
+join layer_b
 on st_intersects(layer_a.geom, layer_b.geom)
 group by layer_a.id --or geoid, county_name, etc.
 ```
@@ -71,7 +71,7 @@ group by layer_a.id --or geoid, county_name, etc.
 
 
 #HSLIDE
-##Spatial index
+## Spatial index
 
 * Create hidden tables spatially index layers storing:
 	* Minimum bounding rectangle for feature and its ID
@@ -79,18 +79,19 @@ group by layer_a.id --or geoid, county_name, etc.
 * Loose fit but fast
 
 #HSLIDE
-##Spatial index query
+## Spatial index query
+### old way
 
-```
-select * from layer_a, layer_b    
+```sql
+select * from layer_a, layer_b
 where layer_b.rowid in
-	(select rowid from SpatialIndex         
+	(select rowid from SpatialIndex
 	where f_table_name = 'layer_b'
 	and search_frame = layer_a.geom)
 ```
 
 #HSLIDE
-##Heat Map
+## Heat Map
 
 * Hot spot map
 * Density surface raster
@@ -98,9 +99,9 @@ where layer_b.rowid in
 
 #HSLIDE?image=images/05/Curves.png
 
-	
+
 #HSLIDE
-##Raster Data model
+## Raster Data model
 * Array of cell values (always a number!)
 * Types of rasters
 	* Continuous, e.g., elevation
@@ -114,8 +115,8 @@ where layer_b.rowid in
 
 
 #HSLIDE
-#Lab 03
-###Springs of Kentucky & Fayette County
+# Lab 03
+### Springs of Kentucky & Fayette County
 
 
 #HSLIDE?image=images/05/L03-1.png
@@ -147,10 +148,10 @@ where layer_b.rowid in
 <h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Practice spatial join</h3>
 
 #HSLIDE
-```
+```sql
 /* Spatial join prings to 5-mile long diagonal hexagon grid */
 
-/* uncomment when ready to insert 
+/* uncomment when ready to insert
 
 insert into  ky_springs_by_5mi_hexgrid
 
@@ -176,14 +177,14 @@ from
 	ky_hexgrid_5mi_diagonal
 join
 	dow_groundwater_springs
-on 
+on
 	st_intersects(dow_groundwater_springs.geom, ky_hexgrid_5mi_diagonal.geom)
 and
 	dow_groundwater_springs.rowid in
 	(select dow_groundwater_springs.rowid from SpatialIndex
 	where f_table_name = 'dow_groundwater_springs'
 	and search_frame = ky_hexgrid_5mi_diagonal.geom)
-group by	
+group by
 	ky_hexgrid_5mi_diagonal.id
 	```
 
