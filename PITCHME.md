@@ -34,14 +34,14 @@
 
 
 #HSLIDE
-##SQL and PostGIS in CARTO
+## SQL and PostGIS in CARTO
 * Very similar to SpatiaLite, just a little different syntax
 * 'the_geom' and 'carto_id'
 * all_lower_case_no_spaces in column and table names
 
 
 #HSLIDE
-```
+```sql
 update
     tbt_2017
 set
@@ -50,7 +50,7 @@ set
 
 #HSLIDE
 
-```
+```sql
 update
 	one_mile_buffer
 set
@@ -59,8 +59,8 @@ set
 ```
 
 #HSLIDE
-##Adding custom tile sets to CARTO
-```
+## Adding custom tile sets to CARTO
+```sql
 https://<username>.github.io/<location of tile set>/z}/{x}/{y}.png
 /* Example */
 http://boydx.github.io/tbt/xyz/hillshade/{z}/{x}/{y}.png
