@@ -1,0 +1,145 @@
+<!-- #HSLIDE
+## Heat Map
+
+* Hot spot map
+* Density surface raster
+* Distance from each point weighted by curve
+
+#HSLIDE?image=images/05/Curves.png
+
+
+#HSLIDE
+## Raster Data model
+* Array of cell values (always a number!)
+* Types of rasters
+	* Continuous, e.g., elevation
+	* Integer, landuse
+	* Imaging, photograph
+
+
+
+#HSLIDE?image=https://c1.staticflickr.com/3/2832/32813689775_27afa15b82_h.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Town Branch</h2>
+
+
+#HSLIDE
+# Lab 03
+### Springs of Kentucky & Fayette County
+
+
+#HSLIDE?image=images/05/L03-1.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new database</h3>
+
+#HSLIDE?image=images/05/L03-2.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new project with EPSG: 3089</h3>
+
+#HSLIDE?image=images/05/L03-3.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Import layers in correct SRID</h3>
+
+#HSLIDE?image=images/05/L03-4.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Symbolize springs</h3>
+
+#HSLIDE?image=images/05/L03-5.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Make hex grid</h3>
+
+#HSLIDE?image=images/05/L03-6.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Add to Map Canvas</h3>
+
+
+#HSLIDE?image=images/05/L03-7.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Multipart to singlepart tool</h3>
+
+#HSLIDE?image=images/05/L03-8.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Import into database and Create spatial index</h3>
+
+#HSLIDE?image=images/05/L03-9.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Practice spatial join</h3>
+
+#HSLIDE
+```sql
+/* Spatial join prings to 5-mile long diagonal hexagon grid */
+
+/* uncomment when ready to insert
+
+insert into  ky_springs_by_5mi_hexgrid
+
+(average_elev,
+average_flow_cfs,
+count,
+hex_id,
+hex_name,
+geom)
+
+*/
+
+
+select
+	 avg(dow_groundwater_springs.elevation) as average_elev,
+	 avg(dow_groundwater_springs.flowqty) as average_flow_cfs,
+	 count(dow_groundwater_springs.id) as count,
+	 ky_hexgrid_5mi_diagonal.id,
+	 ky_hexgrid_5mi_diagonal.Kentucky_springs_5mi_hexgrid,
+	 ky_hexgrid_5mi_diagonal.geom
+
+from
+	ky_hexgrid_5mi_diagonal
+join
+	dow_groundwater_springs
+on
+	st_intersects(dow_groundwater_springs.geom, ky_hexgrid_5mi_diagonal.geom)
+and
+	dow_groundwater_springs.rowid in
+	(select dow_groundwater_springs.rowid from SpatialIndex
+	where f_table_name = 'dow_groundwater_springs'
+	and search_frame = ky_hexgrid_5mi_diagonal.geom)
+group by
+	ky_hexgrid_5mi_diagonal.id
+	```
+
+#HSLIDE?image=images/05/L03-10.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new table</h3>
+
+
+#HSLIDE?image=images/05/L03-11.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Insert spatial join output</h3>
+
+#HSLIDE?image=images/05/L03-12.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Your output</h3>
+
+#HSLIDE?image=images/05/L03-13.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Symbolized layer</h3>
+
+#HSLIDE?image=images/05/L03-14.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Use numeric attributes</h3>
+
+#HSLIDE?image=images/05/L03-15.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Challenge: make hex grid for Fayette county</h3>
+
+
+
+
+#HSLIDE?image=images/05/L03-18.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Challenge: spatial join springs to hex grid</h3>
+
+
+
+#HSLIDE?image=images/05/L03-19.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Challenge: spatial join springs to census polygons</h3>
+
+
+#HSLIDE?image=images/05/L03-20.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create heatmap raster</h3>
+
+#HSLIDE?image=images/05/L03-21.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Style properties for grayscale raster</h3>
+
+#HSLIDE?image=images/05/L03-22.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Pseudocolor singleband raster with transparency</h3>
+
+#HSLIDE?image=images/05/L03-23.png
+<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Final style properties for heatmap</h3>
+
+
+
+#HSLIDE?image=https://c1.staticflickr.com/3/2261/32077384194_cd27ccf612_k.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32077384194/in/dateposted-public/" target="_blank">Example map</a></h3> -->
