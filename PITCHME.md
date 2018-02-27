@@ -1,6 +1,6 @@
 #HSLIDE
-# GEO 409:03
-## Week 05
+# GEO 409:05
+## Week 07
 
 #HSLIDE
 ## Spatial join & density analysis
@@ -9,11 +9,24 @@
 ## Please work on lesson
 
 #HSLIDE
-## Big news!
-### Just got data from city showing where people bike!
+## Table join?
+
+#HSLIDE
+### Relate two tables
+* Where records share a common attribute, i.e., an ID
+* Units of geography have unique IDs
+
+#HSLIDE
+### Tables without common IDs
+* Spatial layers that don't have shared common attributes
+* How do we find out how much x is in y?
+
+#HSLIDE
+## Where do people bike?
+### City is using CycleTrack
 
 #HSLIDE?image=https://c1.staticflickr.com/3/2427/32895996896_b64e682795_k.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32895996896/in/dateposted-public/" target="_blank">Bike trips</a></h3>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32895996896/in/dateposted-public/" target="blank">Bike trips</a></h3>
 
 
 #HSLIDE?image=http://media.graytvinc.com/images/810*455/estill+forest+fire.jpg
@@ -21,10 +34,10 @@
 
 
 #HSLIDE?image=https://c1.staticflickr.com/1/752/32464606700_d84d79ce9b_h.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32464606700/in/photostream/" target="_blank">how much is here?</a></h3>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32464606700/in/photostream/" target="blank">how much is here?</a></h3>
 
-#HSLIDE?image=https://c1.staticflickr.com/4/3855/32692041102_1f92661f70_h.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32692041102/in/photostream/" target="_blank">how much is here?</a></h3>
+<!-- #HSLIDE?image=https://c1.staticflickr.com/4/3855/32692041102_1f92661f70_h.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32692041102/in/photostream/" target="blank">how much is here?</a></h3> -->
 
 #HSLIDE
 # Spatial join
@@ -37,7 +50,7 @@
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">What is the average diameter?</h3>
 
 #HSLIDE
-##Point in polygon analysis
+## Point in polygon analysis
 
 * Aggregate by polygon and count number
 * Perform summary statistics on numeric attributes
@@ -53,22 +66,9 @@
 
 #HSLIDE
 ## Intersect test
-
-* st_intersects() function
+* `st_intersects()` function
 * Tests two geometries for overlap
 * Exact fit but slow
-
-#HSLIDE
-## Spatial Index Query
-
-```sql
-select * from layer_a
-join layer_b
-on st_intersects(layer_a.geom, layer_b.geom)
-group by layer_a.id --or geoid, county_name, etc.
-```
-
-
 
 #HSLIDE
 ## Spatial index
@@ -78,19 +78,55 @@ group by layer_a.id --or geoid, county_name, etc.
 * Each feature ID is related all other intersecting IDs in database
 * Loose fit but fast
 
-#HSLIDE
-## Spatial index query
-### old way
 
+#HSLIDE
+## Spatial Index Query
+### PostGIS is the reason for the season
+Manages spatial indexes in the background
+
+#HSLIDE
+## Create spatial index setting
+### When importing with DB Manager
+
+#HSLIDE
 ```sql
-select * from layer_a, layer_b
-where layer_b.rowid in
-	(select rowid from SpatialIndex
-	where f_table_name = 'layer_b'
-	and search_frame = layer_a.geom)
+/* Spatial index function syntax:
+CREATE INDEX [indexname] ON [tablename] USING GIST ( [geometrycolumn] );
+The GIST stands for Generalized Search Tree */
+
+create index sidx_table_name on table using gist (geom);
 ```
 
 #HSLIDE
+<!-- ```sql
+select
+  *
+from
+  layer_a
+join
+  layer_b
+on
+  st_intersects(layer_a.geom, layer_b.geom)
+group by
+  layer_a.id --or geoid, county_name, etc.
+``` -->
+
+```sql
+select
+  *
+from
+  layer_a, layer_b
+where
+  st_intersects(layer_a.geom, layer_b.geom)
+group by
+  layer_a.id --or geoid, county_name, etc.
+```
+
+
+#HSLIDE
+# TBC
+
+<!-- #HSLIDE
 ## Heat Map
 
 * Hot spot map
@@ -234,4 +270,4 @@ group by
 
 
 #HSLIDE?image=https://c1.staticflickr.com/3/2261/32077384194_cd27ccf612_k.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32077384194/in/dateposted-public/" target="_blank">Example map</a></h3>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32077384194/in/dateposted-public/" target="_blank">Example map</a></h3> -->
