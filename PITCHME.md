@@ -16,7 +16,7 @@
 
 #HSLIDE
 ## Download this update:
-### <a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf" target="_blank">GeoPDF</a>
+### <a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf" target="blank">GeoPDF</a>
 
 #HSLIDE
 ## Install QGIS
