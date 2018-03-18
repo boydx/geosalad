@@ -53,6 +53,7 @@
 #HSLIDE?image=images/ndvi/q08.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Cart layer</h3>
 
+#HSLIDE
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/canopy/leaflet.html" target="blank">Web map layer</a></h2>
 
 #HSLIDE
