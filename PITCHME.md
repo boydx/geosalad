@@ -48,17 +48,25 @@
 
 #HSLIDE
 ## Benefits of greenness?
-* What? Besides O<sup>2</sup>, keeping our cities cool, and general support of earth's ecosystem?
+* What? Besides keeping our cities cool and providing the foundation of earth's ecosystem?
 
 #HSLIDE?image=images/ndvi/q08.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Cart layer</h3>
 
 #HSLIDE
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/canopy/leaflet.html" target="blank">Web map layer</a></h2>
-
-#HSLIDE
 <iframe src="https://boydx.github.io/tbt/xyz/canopy/leaflet.html" height="600px" width="100%"></iframe>
 
+#HSLIDE?image=https://farm5.staticflickr.com/4283/35706563651_ed72b792ce_k.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Hang a tree swing!</h3>
+
+#HSLIDE
+# Lab
+## Measure tree canopy
+### UW-Madison's campus
+
+#HSLIDE?image=images/ndvi/q09.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">GeoData@Wisconsin</h3>
+`OWNERNAME like 'UNV OF WIS%'`
 
 #HSLIDE
 ## Measure canopy
@@ -107,8 +115,7 @@ done
 #HSLIDE
 ## Measure canopy
 
-```Python
-
+```python
 #!/usr/bin/env python2.7
 
 # GDAL library 2.2 installed with QGIS 3.0 on Ubuntu 16.04.
