@@ -15,12 +15,18 @@
 * National Agriculture Imagery Program ([National Agriculture Imagery Program](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/))
 * Color infrared photography (CIR) with 4-Band imagery
 
-#HSLIDE?image=https://raw.githubusercontent.com/UKy-GIS/geo409-module-06/master/graphics/q14.jpg?token=AFDTV2ME8AUMtgsuxmO_ivOlKI9ZXxtsks5at_gGwA%3D%3D
+#HSLIDE?image=images/ndvi/q01.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">NAIP 2013</h3>
+
+#HSLIDE?image=images/ndvi/q02.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">CIR</h3>
 
 #HSLIDE
 ## Map Algebra
-* Use Raster Calculator to calculate (B4 - B1)/(B1 + B4)
-* High density of vegetation is good in the city!
+### Raster Calculator to calculate
+```
+(Band_4 - Band_1)/(Band_1 + Band_4)
+```
 
 #HSLIDE
 ## Benefits of greenness?
