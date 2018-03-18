@@ -1,61 +1,34 @@
 #HSLIDE
 ## Raster Analysis
+# NDVI
+
+#HSLIDE
+# Let's find trees!
+
+#HSLIDE
 ## NDVI
-
-
-#HSLIDE
-## Raster data model
-* Array of regularly spaced cells, aka grid
-* Cell values are numbers; quantities or categories?
-* Level of data measurement
-	* Nominal
-	* Ordinal
-	* Interval
-	* Continuous
+* Normalized Difference Vegetation Index
+* Index of plant “greenness” or photosynthetic activity
 
 #HSLIDE
-## Important properties
-* Resolution; who detailed is my data?
-	* Bit depth is number of values a cell can hold
-	* 2<sup>n</sup> values where n = number bits
-* Single-band vs. multi-band
-* File formats can create data loss
+## Imagery source
+* National Agriculture Imagery Program ([National Agriculture Imagery Program](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/))
+* Color infrared photography (CIR) with 4-Band imagery
+
+#HSLIDE?image=https://raw.githubusercontent.com/UKy-GIS/geo409-module-06/master/graphics/q14.jpg?token=AFDTV2ME8AUMtgsuxmO_ivOlKI9ZXxtsks5at_gGwA%3D%3D
 
 #HSLIDE
-## Common rtypes
-* Integer, e.g., landuse
-	* 1-band, 1-bit or 8-bit format
-* Continuous, e.g., elevation
-	* 1-band, 32-bit floating point
-* Imaging, e.g., satellite photography
-	* multi-band, 8-bit or 16-bit
-
-#HSLIDE
-## Terrain Analysis
-* Relief map showing elevation change
-* Hillshade tool to illuminate surface
-* Overlay aerial photography with transparency
-
-
-
-
-#HSLIDE
-## Terrain Analysis
-* Relief map showing elevation change
-* Digital Elevation Model provides input
-* Hillshade tool calculates illumination surface
-* Overlay aerial photography with transparency
-
-#HSLIDE?image=images/07/q09.jpg
-
-
-
-#HSLIDE
-## NDVI Analysis
-* Normalized Difference Vegetation Index (NDVI)
-* Color infrared photography (CIR) with 4-BandNAIP imagery
+## Map Algebra
 * Use Raster Calculator to calculate (B4 - B1)/(B1 + B4)
 * High density of vegetation is good in the city!
+
+#HSLIDE
+## Benefits of greenness?
+* Normalized Difference Vegetation Index (NDVI)
+
+* Use Raster Calculator to calculate (B4 - B1)/(B1 + B4)
+* High density of vegetation is good in the city!
+
 
 #HSLIDE?image=images/07/q23.jpg
 
