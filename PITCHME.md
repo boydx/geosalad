@@ -2,8 +2,11 @@
 ## Raster Analysis
 # NDVI
 
-#HSLIDE
-# Let's find trees!
+#HSLIDE?image=https://farm8.staticflickr.com/7355/13891770272_6cd7624525_o.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Let's leave the icy chill</h3>
+
+#HSLIDE?image="https://farm5.staticflickr.com/4240/35679659782_93a8f94195_o.jpg
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">and welcome spring.</h3>
 
 #HSLIDE
 ## NDVI
@@ -39,7 +42,7 @@
 
 #HSLIDE
 ## Selective transparency
-### to create canopy layer
+### to create tree canopy layer
 
 #HSLIDE?image=images/ndvi/q06.jpg
 
@@ -69,7 +72,7 @@
 `OWNERNAME like 'UNIV OF WIS%'`
 
 #HSLIDE
-## Measure canopy
+## Script it!
 ```sh
 #!/bin/bash
 
