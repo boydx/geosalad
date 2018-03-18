@@ -57,6 +57,10 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/canopy/leaflet.html" target="blank">Web map layer</a></h2>
 
 #HSLIDE
+<iframe src="https://boydx.github.io/tbt/xyz/canopy/leaflet.html" height="600px"></iframe>
+
+
+#HSLIDE
 ## Measurement of canopy cover
 ```sh
 #!/bin/bash
