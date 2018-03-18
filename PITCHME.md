@@ -156,7 +156,7 @@ print str(round(acres,1)) + " ac " + str(round(acresA,1)) + " ac " + str(round(p
 
 #HSLIDE
 ## Results
-| Campus       | Ac total          | % Canopy  |
-| ------------- |:-------------:| -----:|
-| UW-M       | 1,186.5 ac | 27.5% |
-| UKY      | 931.0 ac    |   10.3% |
+| Campus   | Total area     | Canopy  | NDVI Value |
+| -------------: |-------------:| -----:| -----:|
+| UW-M       | 1,186.5 ac | 27.5% | 0.40 |
+| UKY      | 931.0 ac    |   14.3% | 0.24 |
