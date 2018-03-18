@@ -25,7 +25,7 @@
 #HSLIDE
 ## Map Algebra
 ### Raster Calculator
-```txt
+```sh
 ("Band_4" - "Band_1")/("Band_1" + "Band_4")
 ```
 
