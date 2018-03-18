@@ -61,7 +61,7 @@
 
 
 #HSLIDE
-## Measurement of canopy cover
+## Measure canopy
 ```sh
 #!/bin/bash
 
@@ -105,7 +105,7 @@ done
 ```
 
 #HSLIDE
-## Measurement of canopy cover
+## Measure canopy
 
 ```Python
 
