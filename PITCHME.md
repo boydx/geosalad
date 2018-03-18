@@ -70,10 +70,10 @@
 
 # echo "Clipping NDVI raster to campus boundary"
 gdalwarp -cutline campus_wis.shp -crop_to_cutline -overwrite -ot Float32 naip_2013_uw-m.tif uw-m_campus.tif
-gdalwarp -cutline campus_ky.shp -crop_to_cutline -overwrite -ot Float32 naip_2014_uky.tif uky_campus.tif
+#gdalwarp -cutline campus_ky.shp -crop_to_cutline -overwrite -ot Float32 naip_2014_uky.tif uky_campus.tif
 
 # Process georeferenced TIFF rasters in current folder
-list=`ls -t *.tif`
+list=`ls -t *uw*.tif`
 
 
 # Loop through array to perform analysis
@@ -104,6 +104,9 @@ for i in $list
 done
 ```
 
+#HSLIDE
+## Measurement of canopy cover
+
 ```Python
 
 #!/usr/bin/env python2.7
@@ -119,7 +122,7 @@ import gdalnumeric
 r_file = gdalnumeric.LoadFile("ndvi.tif")
 
 # NDVI value for assumed tree canopy. This is a gross approximation that's just for fun.
-canopy = 0.3
+canopy = 0.4
 
 ### Count pixels ###
 
