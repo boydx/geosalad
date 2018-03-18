@@ -66,7 +66,7 @@
 
 #HSLIDE?image=images/ndvi/q09.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">GeoData@Wisconsin</h3>
-`OWNERNAME like 'UNV OF WIS%'`
+`OWNERNAME like 'UNIV OF WIS%'`
 
 #HSLIDE
 ## Measure canopy
@@ -153,3 +153,10 @@ percent = (count/float((countA)))*100
 # Give me the acreage and ratio
 print str(round(acres,1)) + " ac " + str(round(acresA,1)) + " ac " + str(round(percent,1)) + "%  "
 ```
+
+#HSLIDE
+## Results
+| Campus       | Ac total          | % Canopy  |
+| ------------- |:-------------:| -----:|
+| UW-M       | 1,186.5 ac | 27.5% |
+| UKY      | 931.0 ac    |   10.3% |
