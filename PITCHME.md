@@ -121,7 +121,7 @@ import gdalnumeric
 # input NDVI from GDAL output
 r_file = gdalnumeric.LoadFile("ndvi.tif")
 
-# NDVI value for assumed tree canopy. This is a gross approximation that's just for fun.
+# NDVI value for assumed tree canopy. This is an approximation.
 canopy = 0.4
 
 ### Count pixels ###
