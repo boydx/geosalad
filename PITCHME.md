@@ -22,12 +22,16 @@
 #HSLIDE?image=images/ndvi/q01.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">NAIP 2013</h3>
 
+#HSLIDE
+#### The process of photosynthesis has a distinct
+## spectral signature
+
 #HSLIDE?image=images/ndvi/q02.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">CIR</h3>
 
 #HSLIDE
 ## Map Algebra
-### Raster Calculator
+### with the Raster Calculator
 ```sh
 ("Band_4" - "Band_1")/("Band_1" + "Band_4")
 ```
@@ -51,7 +55,7 @@
 
 #HSLIDE
 ## Benefits of greenness?
-* What? Besides keeping our cities cool and providing the foundation of earth's ecosystem?
+* What? Besides keeping our cities cool and providing the foundation of the ecosystem we call Earth?
 
 #HSLIDE?image=images/ndvi/q08.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Cart layer</h3>
@@ -60,7 +64,7 @@
 <iframe src="https://boydx.github.io/tbt/xyz/canopy/leaflet.html" height="600px" width="100%"></iframe>
 
 #HSLIDE?image=https://farm5.staticflickr.com/4283/35706563651_ed72b792ce_k.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Hang a tree swing!</h3>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">How to hang a tree swing!</h3>
 
 #HSLIDE
 # Lab
