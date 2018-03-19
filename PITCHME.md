@@ -84,8 +84,8 @@
 ```sh
 #!/bin/bash
 
-# Script uses GDAL library (2.2) and Python (2.7) to create an NDVI raster and calculate area of treee canopy.
-# Assumes an NDVI value od 0.4 for canopy cover.
+# Script uses GDAL library (2.2) and Python (2.7) to create an NDVI raster and calculate area of tree canopy.
+# Assumes an NDVI value of 0.4 for canopy cover.
 
 # echo "Clipping NDVI raster to campus boundary"
 gdalwarp -cutline campus_wis.shp -crop_to_cutline -overwrite -ot Float32 naip_2013_uw-m.tif uw-m_campus.tif
