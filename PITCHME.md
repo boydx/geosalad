@@ -170,7 +170,7 @@ print str(round(acres,1)) + " ac " + str(round(acresA,1)) + " ac " + str(round(p
 ## Estimates ☘️
 | Campus   | Acres   | Canopy  | NDVI Value | NAIP Year |
 | -------------: |-------------:| -----:| -----:| -----:|
-| UW-M       | 1,187 ac | 27.5% | 0.40 | 2013 |
+| UW-M       | 1,187 | 27.5% | 0.40 | 2013 |
 | UKY      | 931 ac    |   14.3% | 0.24 | 2014 |
 
 #HSLIDE
