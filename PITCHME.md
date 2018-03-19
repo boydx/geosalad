@@ -1,6 +1,7 @@
 #HSLIDE
 ## Raster Analysis
 # NDVI
+### QGIS 3
 
 #HSLIDE?image=https://farm8.staticflickr.com/7355/13891770272_6cd7624525_o.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Let's leave the icy chill</h3>
@@ -59,10 +60,10 @@
 
 #HSLIDE
 ## Benefits of greenness?
-* What? Besides keeping our cities cool and providing the foundation of the ecosystem we call Earth?
+* What? Besides keeping our cities cool and providing the foundation for the ecosystem we call Earth?
 
 #HSLIDE?image=images/ndvi/q08.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Cart layer</h3>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Canopy layer</h3>
 
 #HSLIDE
 <iframe src="https://boydx.github.io/tbt/xyz/canopy/leaflet.html" height="600px" width="100%"></iframe>
