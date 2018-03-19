@@ -41,6 +41,10 @@
 #HSLIDE?image=images/ndvi/q04.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">NDVI</h3>
 
+#HSLIDE
+## Let's find
+# Trees!
+
 #HSLIDE?image=images/ndvi/q05.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Trees @ >0.3?</h3>
 
@@ -64,7 +68,7 @@
 <iframe src="https://boydx.github.io/tbt/xyz/canopy/leaflet.html" height="600px" width="100%"></iframe>
 
 #HSLIDE?image=https://farm5.staticflickr.com/4283/35706563651_ed72b792ce_k.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">How to hang a tree swing!</h3>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where to hang a tree swing!</h3>
 
 #HSLIDE
 # Lab
