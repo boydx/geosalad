@@ -158,8 +158,11 @@ print str(round(acres,1)) + " ac " + str(round(acresA,1)) + " ac " + str(round(p
 ```
 
 #HSLIDE
-## Results
-| Campus   | Total area     | Canopy  | NDVI Value |
-| -------------: |-------------:| -----:| -----:|
-| UW-M       | 1,186.5 ac | 27.5% | 0.40 |
-| UKY      | 931.0 ac    |   14.3% | 0.24 |
+## Estimates ☘️
+| Campus   | Total area     | Canopy  | NDVI Value | NAIP Year |
+| -------------: |-------------:| -----:| -----:| -----:|
+| UW-M       | 1,186.5 ac | 27.5% | 0.40 | 2013 |
+| UKY      | 931.0 ac    |   14.3% | 0.24 | 2014 |
+
+#HSLIDE
+<iframe src="https://player.vimeo.com/video/260685194" width="100%" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
