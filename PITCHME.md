@@ -105,6 +105,7 @@
 # Lab
 ## Measure tree canopy
 ### UW-Madison's campus
+Note: this is not our lab but an example of where you can take this open source mapping and scripting
 
 #HSLIDE?image=images/ndvi/q09.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">GeoData@Wisconsin</h3>
