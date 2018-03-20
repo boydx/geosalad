@@ -6,6 +6,10 @@
 ## March Madness
 # I know!
 
+#HSLIDE
+# Parks!
+## We'll select our areas of interest this week
+
 #HSLIDE?image=https://farm8.staticflickr.com/7355/13891770272_6cd7624525_o.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Let's leave the icy chill</h3>
 
@@ -17,7 +21,7 @@
 * Regular grid of cell values
 * Types of rasters
 	* **Surface** (DEM: digital elevation model)
-	* **Thematic** (Landuse/Landcover)
+	* **Thematic** (Land use/Land cover)
 	* **Imaging** (Photographs of your cat (from space)!)
 
 #HSLIDE
@@ -34,21 +38,28 @@
 	* Radiometric (number of different colors)
 	* Temporal (time of year)
 
-#HLSIDE
+#HSLIDE
 ## Hillshade
 * Shaded relief showing relative topography
 * DEM input, cool image output (hopefully)
+
+#HSLIDE
+## Land cover
+* Cells are coded based on landcover type
+* Integer values
+* [History of classification system](https://pubs.usgs.gov/pp/0964/report.pdf)
+
+
+#HSLIDE
+## Imagery
+* National Agriculture Imagery Program ([National Agriculture Imagery Program](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/))
+* Color infrared photography (CIR) with 4-Band imagery
 
 #HSLIDE
 ## NDVI
 * Normalized Difference Vegetation Index
 * Index of plant “greenness” or photosynthetic activity
 
-
-#HSLIDE
-## Imagery source
-* National Agriculture Imagery Program ([National Agriculture Imagery Program](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/))
-* Color infrared photography (CIR) with 4-Band imagery
 
 #HSLIDE?image=images/ndvi/q01.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">NAIP 2013</h3>
@@ -95,17 +106,22 @@
 #HSLIDE?image=images/ndvi/q08.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Canopy layer</h3>
 
-#HSLIDE
-<iframe src="https://boydx.github.io/tbt/xyz/canopy/leaflet.html" height="600px" width="100%"></iframe>
 
 #HSLIDE?image=https://farm5.staticflickr.com/4283/35706563651_ed72b792ce_k.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where to hang a tree swing!</h3>
 
 #HSLIDE
-# Lab
+# Publish
+## Raster layers to the web
+QGIS `gdal2tiles` creates a raster tile set that can be used for slippy maps
+
+#HSLIDE
+<iframe src="https://boydx.github.io/tbt/xyz/canopy/leaflet.html" height="600px" width="100%"></iframe>
+
+#HSLIDE
 ## Measure tree canopy
 ### UW-Madison's campus
-Note: this is not our lab but an example of where you can take this open source mapping and scripting
+
 
 #HSLIDE?image=images/ndvi/q09.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">GeoData@Wisconsin</h3>
@@ -201,7 +217,7 @@ print str(round(acres,1)) + " ac " + str(round(acresA,1)) + " ac " + str(round(p
 ## Estimates ☘️
 | Campus   | Total Acres   | Canopy  | NDVI Value | NAIP Year |
 | -------------: |-------------:| -----:| -----:| -----:|
-| UW-M       | 1,187 | 27.5% | 0.40 | 2013 |
+| UW-Madison       | 1,187 | 27.5% | 0.40 | 2013 |
 | UKY      | 931   |   14.3% | 0.24 | 2014 |
 
 #HSLIDE
