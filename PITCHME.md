@@ -1,13 +1,43 @@
 #HSLIDE
 ## Raster Analysis
-# NDVI
-### QGIS 3
+# NDVI and Hillshade
+
+#HSLIDE
+## March Madness
+# I know!
 
 #HSLIDE?image=https://farm8.staticflickr.com/7355/13891770272_6cd7624525_o.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Let's leave the icy chill</h3>
 
 #HSLIDE?image="https://farm5.staticflickr.com/4240/35679659782_93a8f94195_o.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">and welcome spring.</h3>
+
+#HSLIDE
+## Raster data model
+* Regular grid of cell values
+* Types of rasters
+	* **Surface** (DEM: digital elevation model)
+	* **Thematic** (Landuse/Landcover)
+	* **Imaging** (Photographs of your cat (from space)!)
+
+#HSLIDE
+## Levels of measurement
+* Cell values are always numbers
+* 859753215 + 502334567?
+
+#HSLIDE
+## Remote Sensing
+* Images from overhead sensors
+* Resolution
+	* Spatial (size of cell)
+	* Spectral (sensitivity to light)
+	* Radiometric (number of different colors)
+	* Temporal (time of year)
+
+#HLSIDE
+## Hillshade
+* Shaded relief showing relative topography
+* DEM input, cool image output (hopefully)
 
 #HSLIDE
 ## NDVI
