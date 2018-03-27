@@ -1,55 +1,40 @@
 #HSLIDE
-# GEO 409:04
-## Week 06 - 08
+# GEO 409
+## Base Maps with OSM
 
-#HSLIDE?image=https://c1.staticflickr.com/4/3908/32359209443_9a016da7d6_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Birthday!</h2>
-
-#HSLIDE
-## Help for lab 03
-### If you weren't here last week...
-
-#HSLIDE?image=images/06/join.jpg
-
-#HSLIDE
-## OpenStreetMap and Geoprocessing
-
-#HSLIDE
-## Challenge
-* How we can we do simple spatial analysis and make it look good?
-* For example, how many people live within 20 miles of a national park?
-* Then, how can we do it anywhere?
-* First, we must find a logically ordered global spatial dataset...
 
 #HSLIDE
 ## OpenStreetMap
+# OSM
 #### Crowd-sourced map of local knowledge that users can freely harvest.
 
 #HSLIDE?image=images/06/OSM.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://www.openstreetmap.org/note/704210#map=11/38.0492/-84.5000&layers=N" target="_blank">OSM</a></h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://www.openstreetmap.org/note/704210#map=11/38.0492/-84.5000&layers=N" target="blank">OSM</a></h2>
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Greatest mapping project of all time</h3>
 
-
-
-#HSLIDE
-## OSM
 
 #HSLIDE
 ## OSM data
 * .osm file is human-readable XML
 * Builds topology with nodes, ways, relations
-* Tags are built with key:value pairs
+* Tags are built with _key:value_ pairs
 
 #HSLIDE
 ## Harvesting data
 * [OpenStreetMap.org](http://www.openstreetmap.org)
-* MapZen's [extracts](https://mapzen.com/data/metro-extracts/)
+* MapZen's [extracts are no more](https://mapzen.com/)
 * QuickOSM plugin in QGIS
 * DO NOT USE QGIS's Vector tools
 
+#HSLIDE
+## Data used extensively
+* [MapBox](https://www.mapbox.com/maps/)
+* Look for their open source license requirement:
+	* &copy; OpenStreetMap Contributors
+
 
 #HSLIDE
-##Styling data
+## Styling data
 * Use Rule-based symbology with SQL
 * Simple statements like ```"highway" = 'motorway'```
 * Change symbols based on scale
