@@ -9,7 +9,7 @@
 #### Crowd-sourced map of local knowledge that users can freely harvest.
 
 #HSLIDE
-## User constributes, too!
+## User contributes, too!
 ### [Realtime Contributions](http://osmlab.github.io/show-me-the-way/)
 
 #HSLIDE?image=images/06/OSM.jpg
@@ -42,7 +42,7 @@
 * Use Rule-based symbology with SQL
 * Simple statements like `"highway" = 'motorway'`
 * Change symbols based on scale
-* Your first "slippy map!" in QGIS
+* Your first [slippy map!](https://tastyfreeze.github.io/hometown-map/lex-parks/tiles.html) in QGIS
 
 #HSLIDE
 ## Lab: Create base map for your recreation area
