@@ -103,5 +103,5 @@
 #HSLIDE?image=images/tbt/webpage.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/" target="blank">Visit maps</a></h2>
 
-#HSLIDE?image=https://i0.wp.com/www.outragegis.com/trails/wp-content/uploads/2017/06/Tbt-website.jpg?w=700&ssl=1
+#HSLIDE?image=https://i0.wp.com/www.outragegis.com/trails/wp-content/uploads/2017/06/Tbt-website.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://reece2ke.github.io/geo409_site/" target="blank">Visit student website</a></h2>
