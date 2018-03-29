@@ -1,7 +1,7 @@
 #HSLIDE
 # GEO 409
 ## Example class project
-##
+
 
 #HSLIDE
 ## Town Branch Trail
@@ -24,8 +24,17 @@
 #HSLIDE?image=images/07/m03.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Watershed</h2>
 
+#HSLIDE
+# Publish
+## online maps and content
+
+#HSLIDE
+### Raster and vector data
+## QGIS and ArcMap
+
+
 #HSLIDE?image=images/07/m02.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lidar data</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Now we have Lidar data!</h2>
 
 #HSLIDE?image=https://c1.staticflickr.com/4/3830/32680157893_dcf220c00d_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32680157893/in/dateposted-public/" target="blank">metal map of trail?</a></h2>
@@ -37,18 +46,7 @@
 * Design project website
 * Collect photos and content for website
 
-#HSLIDE
-# Publish
-## online maps and content
 
-#HSLIDE
-### Raster and vector data
-## QGIS and ArcMap
-
-
-#HSLIDE
-## Example of what you'll produce:
-### Terrain relief map of the Town Branch Corridor
 
 #HSLIDE?image=images/07/m01.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="blank">map</a></h2>
@@ -57,7 +55,9 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://outrageGIS.com/3d/tbt/buildings_trail" target="blank">3d interactive map</a></h2>
 
 
-
+#HSLIDE
+# GIS
+## Analysis
 
 
 
