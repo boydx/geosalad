@@ -49,7 +49,7 @@
 
 
 #HSLIDE?image=images/07/m01.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="blank">map</a></h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/xyz/hillshade/leaflet.html" target="blank">2d map</a></h2>
 
 #HSLIDE?image=https://boydx.github.io/tbt/images/3D_map_preview.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://outrageGIS.com/3d/tbt/buildings_trail" target="blank">3d interactive map</a></h2>
@@ -98,10 +98,13 @@
 
 #HSLIDE
 ## Use GitHub, CARTO, and Mapbox
-### Services to build and share maps
+### Services we use to build and share maps
 
 #HSLIDE?image=images/tbt/webpage.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="http://boydx.github.io/tbt/" target="blank">Visit maps</a></h2>
 
 #HSLIDE?image=https://i0.wp.com/www.outragegis.com/trails/wp-content/uploads/2017/06/Tbt-website.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://reece2ke.github.io/geo409_site/" target="blank">Visit student website</a></h2>
+
+#HSLIDE
+# Take Geo409!
