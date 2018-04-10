@@ -30,8 +30,10 @@ Consider their license requirement:
 
 #HSLIDE
 ## Terminology
-* As an editable **Dataset**
-* As a **Tileset** that can be symbolized
+* **Dataset** is editable
+* **Tileset** is symbolized
+* Tilesets can contain many layers
+
 
 #HSLIDE
 ## Formats we can add
