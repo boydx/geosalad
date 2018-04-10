@@ -9,12 +9,14 @@
 #### geometries and metadata
 
 #HSLIDE
-### OSM
-<iframe src="https://www.openstreetmap.org/#map=2/37.3/-79.4" width="100%" height="640"></iframe>
+## Raster v. Vector
+# Compare
+* [OSM](https://www.openstreetmap.org/#map=2/37.3/-79.4)
+* [Mapbox](https://api.mapbox.com/styles/v1/mapbox/streets-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#1.07/0/0)
 
 #HSLIDE
-### Mapbox
-<iframe src="https://api.mapbox.com/styles/v1/mapbox/streets-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#1.07/0/0" width="100%" height="640"></iframe>
+### The winner
+<iframe src="https://api.mapbox.com/styles/v1/mapbox/streets-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#1.07/0/0" width="100%" height="500"></iframe>
 
 #HSLIDE?image=images/06/OSM.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.openstreetmap.org/history#map=11/38.0492/-84.5000&layers=N" target="blank">OSM</a></h2>
