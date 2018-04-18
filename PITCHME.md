@@ -15,7 +15,7 @@
 
 #HSLIDE?image=https://www.outragegis.com/pixel/galleries/120402_IndianFortMtn/DSCN2340.jpg
 
-#HSLIDE?image=https://www.outragegis.com/pixel/galleries/120714_IFM/Berea_%20Indian%20Fort%20Mountain%207.jpg
+#HSLIDE?image=images/mtn-1.jpg
 
 
 #HSLIDE
@@ -25,7 +25,7 @@
 * Take six photographs
 * Map three features and create a GeoJSON (EPSG: 3426)
 
-#HSLIDE?image=https://www.outragegis.com/pixel/galleries/120714_IFM/Berea_%20Indian%20Fort%20Mountain%2010.jpg
+#HSLIDE?image=images/mtn-2.jpg
 # Take a buddy!
 
 
