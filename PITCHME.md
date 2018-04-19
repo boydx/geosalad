@@ -23,7 +23,7 @@
 * Use the three base maps
 * See which works best and is most accurate
 * Take six photographs
-* Map three features and create a GeoJSON (EPSG: 3426)
+* Map three features and create a GeoJSON (EPSG: 4326)
 
 #HSLIDE?image=images/mtn-2.jpg
 # Take a buddy!
@@ -46,4 +46,13 @@
 Meet online Friday, May 4 at 5:00 pm (exact time may vary)
 
 #HSLIDE
-https://tastyfreeze.github.io/bluegrass/
+https://tastyfreeze.github.io/bluegrass/ (Though not entirely complete now!)
+
+#HSLIDE
+# Tasks today
+* Load Avenza Maps and practice
+* Show me the three maps on your repo page
+* That's it!
+
+#HSLIDE
+# Go get in a park!
