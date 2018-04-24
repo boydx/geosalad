@@ -43,10 +43,10 @@
 ## Due
 ### Rough draft: April 27
 ### Final: May 6
-Meet online Friday, May 4 at 5:00 pm (exact time may vary)
+Meet online Friday, May 4 at 5:00 pm
 
 #HSLIDE
-https://tastyfreeze.github.io/bluegrass/ (Though not entirely complete now!)
+https://tastyfreeze.github.io/bluegrass/
 
 #HSLIDE
 # Tasks today
@@ -56,3 +56,8 @@ https://tastyfreeze.github.io/bluegrass/ (Though not entirely complete now!)
 
 #HSLIDE
 # Go get in a park!
+
+#HSLIDE
+### Final week
+## Lab hours
+I will be in the lab to help you finish! Exact times TBA (getting final exam schedules from other classes)
