@@ -8,6 +8,8 @@
 # Spring
 #### Final project and last lab
 
+#HSLIDE?image=https://tastyfreeze.github.io/bluegrass/graphics/hillshade_bluegrass.png
+
 #HSLIDE
 ## Last Lab
 # Explore
