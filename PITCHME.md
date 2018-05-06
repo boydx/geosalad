@@ -39,9 +39,9 @@
 
 #HSLIDE
 ## Then add this map in Avenza Maps:
-<a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf" target="blank">GeoPDF</a>    
+Sync this <a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonForest.pdf" target="blank">GeoPDF</a> in Dropbox and download to app     
 ![Get QR Code](images/robinson_forest/get-map.png)    
-QR code can be used in the app!
+or use QR code to download map to app!
 
 
 
@@ -56,3 +56,5 @@ QR code can be used in the app!
 
 #HSLIDE
 ## See you soon!
+
+#HSLIDE?image=https://farm5.staticflickr.com/4190/34444679751_44f3866f33_o.jpg
