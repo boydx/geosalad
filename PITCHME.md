@@ -57,3 +57,11 @@ Sync this <a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonF
 ## See you soon!
 
 #HSLIDE?image=https://farm5.staticflickr.com/4190/34444679751_44f3866f33_o.jpg
+
+#HSLIDE
+## Wildlife Cameras
+
+* No. 18, Log yard on box elder [link](https://www.dropbox.com/sh/8uycb32pvkllo5v/AAD4RX7WY1gCOHTarzKax01Qa?dl=0)
+* No. 21, Pine Bottom on popular [link](https://www.dropbox.com/sh/j1qev1svyfdxq8o/AABXEakgUUlMMze1Ung0mpxea?dl=0)
+* No. 4, Pine Bottom on white stump in brush line [link](https://www.dropbox.com/sh/eybbywditxizv1i/AADmOWLoJt4U4JXEEkOzyBJ4a?dl=0)
+* No. 10, Little Millseat at the mouth of Field Br on the demo post [link](https://www.dropbox.com/sh/6ideazojuasbapu/AADcCsdb1l7dbwROGUrHuz4da?dl=0)
