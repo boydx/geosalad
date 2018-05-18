@@ -74,3 +74,6 @@ Sync this <a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonF
 
 #HSLIDE?image=https://farm1.staticflickr.com/969/41474471374_989779aa8f_k.jpg
 ## Crew
+
+#HSLIDE?image=https://farm1.staticflickr.com/908/41474934744_306ac5e813_k.jpg
+<h2 style="color:#f00;text-shadow: 2px 2px 4px #fff;"><a href="https://www.flickr.com/photos/28640579@N02/41474934744/in/dateposted-public/" target="blank">Map</a></h2>
