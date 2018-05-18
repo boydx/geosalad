@@ -15,11 +15,11 @@
 
 #HSLIDE
 ## This year
-### Let's make a dendrology tour!
+### Let's map wildlife trail cameras!
 
 #HSLIDE
 ## Our day
-* Morning: GPS features in the field using Avenza Maps app and the GeoPDF in this presentation.
+* Morning: GPS cameras in the field using Avenza Maps app and the GeoPDF in this presentation.
 * Bring a mobile device with the app and map installed!
 * Afternoon: use QGIS to edit GPS data and make a new map.
 * If you have a laptop at camp, please install QGIS.
@@ -54,7 +54,7 @@ Sync this <a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonF
 
 
 #HSLIDE
-## See you soon!
+## Let's hike!
 
 #HSLIDE?image=https://farm5.staticflickr.com/4190/34444679751_44f3866f33_o.jpg
 
@@ -65,3 +65,12 @@ Sync this <a href="https://outragegis.com/download/r/Detailed_TrailMap_RobinsonF
 * No. 21, Pine Bottom on popular [link](https://www.dropbox.com/sh/j1qev1svyfdxq8o/AABXEakgUUlMMze1Ung0mpxea?dl=0)
 * No. 4, Pine Bottom on white stump in brush line [link](https://www.dropbox.com/sh/eybbywditxizv1i/AADmOWLoJt4U4JXEEkOzyBJ4a?dl=0)
 * No. 10, Little Millseat at the mouth of Field Br on the demo post [link](https://www.dropbox.com/sh/6ideazojuasbapu/AADcCsdb1l7dbwROGUrHuz4da?dl=0)
+
+#HSLIDE?image=https://farm1.staticflickr.com/972/41474466904_540e3f105f_k.jpg
+## Camera
+
+#HSLIDE?image=https://farm1.staticflickr.com/823/41474976544_971c35df16_k.jpg
+## Coyote
+
+#HSLIDE?image=https://farm1.staticflickr.com/969/41474471374_989779aa8f_k.jpg
+## Crew
