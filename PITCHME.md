@@ -29,16 +29,16 @@
 <a href="https://www.outragegis.com/trails/2018/05/21/red-river-gorge-map-update/" target="blank"><h2>2018 class</h2></a>
 
 #HSLIDE?image=images/hillshade.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Elevation data</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New data</h2>
 
 #HSLIDE?image=https://i2.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/RRF_cliff_1.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Cliffs over 100 ft</h2>
 
 #HSLIDE?image=https://i1.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/RRF_cliff_2.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Highest cliff in RRGGA?</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">>200 ft</h2>
 
 #HSLIDE?image=https://i0.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/nat_bridge.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Which arch?</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Arch?</h2>
 
 #HSLIDE?image=https://farm5.staticflickr.com/4262/34898069814_941d7f5b3e_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge!</h2>
