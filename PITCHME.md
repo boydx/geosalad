@@ -9,7 +9,7 @@
 
 
 #HSLIDE?image=https://farm2.staticflickr.com/1721/41873960104_e38a5f0b33_k.jpg
-<h2>Tunnel Ridge now open</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Tunnel Ridge now open</h2>
 
 #HSLIDE?image=https://farm2.staticflickr.com/1740/41873914794_fa4e8419f3_k.jpg
 <a href="https://outragegis.com/gorge" target="blank"><h2>Back to the Red!</h2></a>
@@ -17,13 +17,33 @@
 #HSLIDE?image=https://farm1.staticflickr.com/793/40439128834_5ae1f2985d_k.jpg
 
 #HSLIDE?image=https://farm1.staticflickr.com/802/39341699900_d6eabb2945_k.jpg
-<h2>Measuring cliffs</h2>
-<h3>with Lidar</h3>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Measuring cliffs</h2>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">with Lidar</h3>
 
 #HSLIDE?image=https://farm5.staticflickr.com/4538/24677325668_911354f5d5_k.jpg
-<h2>2017 class</h2>
-<h3>measuring tree heights</h3>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">2017 UKy class</h2>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">measuring tree heights</h3>
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/north_limestone/index.html">link</a>
+
+#HSLIDE?image=https://farm2.staticflickr.com/1732/27563085457_6edd9c8d4b_k.jpg
+<a href="https://www.outragegis.com/trails/2018/05/21/red-river-gorge-map-update/" target="blank"><h2>2018 class</h2></a>
+
+#HSLIDE?image=images/hillshade.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Elevation data</h2>
+
+#HSLIDE?image=https://i2.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/RRF_cliff_1.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Cliffs over 100 ft</h2>
+
+#HSLIDE?iimage=https://i1.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/RRF_cliff_2.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Highest cliff in RRGGA?</h2>
+
+#HSLIDE?iimage=https://i0.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/nat_bridge.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Which arch?</h2>
+
+#HSLIDE?iimage=https://farm5.staticflickr.com/4262/34898069814_941d7f5b3e_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge!</h2>
+
+
 
 #HSLIDE
 # About us
