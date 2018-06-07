@@ -6,22 +6,33 @@
 #HSLIDE
 ### https://gitpitch.com/boydx/geosalad/outragegis
 
+
+
+#HSLIDE?image=https://farm2.staticflickr.com/1721/41873960104_e38a5f0b33_k.jpg
+<h2>Tunnel Ridge now open</h2>
+
+#HSLIDE?image=https://farm2.staticflickr.com/1740/41873914794_fa4e8419f3_k.jpg
+<a href="https://outragegis.com/gorge" target="blank"><h2>Back to the Red!</h2></a>
+
+#HSLIDE?image=https://farm1.staticflickr.com/793/40439128834_5ae1f2985d_k.jpg
+
+#HSLIDE?image=https://farm1.staticflickr.com/802/39341699900_d6eabb2945_k.jpg
+<h2>Measuring cliffs</h2>
+<h3>with Lidar</h3>
+
+#HSLIDE?image=https://farm5.staticflickr.com/4538/24677325668_911354f5d5_k.jpg
+<h2>2017 class</h2>
+<h3>measuring tree heights</h3>
+<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/north_limestone/index.html">link</a>
+
+#HSLIDE
+# About us
+
 #HSLIDE
 # Team
 ## Boyd Shearer & John Thompson
 
 #HSLIDE?image=images/bikes.jpg
-
-#HSLIDE?image=http://pixel.outragegis.com/d/20389-2/DSCN4977.jpg
-
-#HSLIDE?image=http://pixel.outragegis.com/d/12383-2/aap.jpg
-
-#HSLIDE?image=http://pixel.outragegis.com/d/4051-2/aae.jpg
-
-#HSLIDE?image=http://pixel.outragegis.com/d/3904-2/aap.jpg
-
-#HSLIDE
-# About us
 
 #HSLIDE?image=images/01/map-cuga.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">We make maps</h2>
