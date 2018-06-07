@@ -12,7 +12,7 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Tunnel Ridge now open</h2>
 
 #HSLIDE?image=https://farm2.staticflickr.com/1740/41873914794_fa4e8419f3_k.jpg
-<a href="https://outragegis.com/gorge" target="blank"><h2>Back to the Red!</h2></a>
+<a href="https://outragegis.com/gorge" target="blank" style="color:#eee;text-shadow: 2px 2px 4px #000;"><h2>Back to the Red!</h2></a>
 
 #HSLIDE?image=https://farm1.staticflickr.com/793/40439128834_5ae1f2985d_k.jpg
 
@@ -26,7 +26,7 @@
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/north_limestone/index.html">link</a>
 
 #HSLIDE?image=https://farm2.staticflickr.com/1732/27563085457_6edd9c8d4b_k.jpg
-<a href="https://www.outragegis.com/trails/2018/05/21/red-river-gorge-map-update/" target="blank"><h2>2018 class</h2></a>
+<a href="https://www.outragegis.com/trails/2018/05/21/red-river-gorge-map-update/" target="blank" style="color:#eee;text-shadow: 2px 2px 4px #000;"><h2>2018 class</h2></a>
 
 #HSLIDE?image=images/hillshade.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New data</h2>
