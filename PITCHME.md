@@ -34,13 +34,13 @@
 #HSLIDE?image=https://i2.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/RRF_cliff_1.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Cliffs over 100 ft</h2>
 
-#HSLIDE?iimage=https://i1.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/RRF_cliff_2.jpg
+#HSLIDE?image=https://i1.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/RRF_cliff_2.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Highest cliff in RRGGA?</h2>
 
-#HSLIDE?iimage=https://i0.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/nat_bridge.jpg
+#HSLIDE?image=https://i0.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/nat_bridge.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Which arch?</h2>
 
-#HSLIDE?iimage=https://farm5.staticflickr.com/4262/34898069814_941d7f5b3e_k.jpg
+#HSLIDE?image=https://farm5.staticflickr.com/4262/34898069814_941d7f5b3e_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge!</h2>
 
 
