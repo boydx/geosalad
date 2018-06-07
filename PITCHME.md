@@ -68,7 +68,7 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Both dads...</h2>
 
 #HSLIDE
-## always looking for new places to explore.
+Always looking for new [places to explore](https://outragegis.com/maps/bluegrass/).
 <iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="400px"></frame>
 
 
@@ -81,12 +81,12 @@
 #HSLIDE?image=https://farm8.staticflickr.com/7767/27221655082_08a04acbb5_h.jpg
 # Gorge
 
-#HSLIDE?image=http://pixel.outragegis.com/d/3840-2/acg.jpg
-<a href="https://outragegis.com/gorge/index.html" target="blank"><h2>Gorge 2001</h2></a>
+<!-- #HSLIDE?image=http://pixel.outragegis.com/d/3840-2/acg.jpg
+<a href="https://outragegis.com/gorge/index.html" target="blank"><h2>Gorge 2001</h2></a> -->
 
 #HSLIDE?image=images/rrg-elevation.jpg
 
-#HSLIDE?image=http://pixel.outragegis.com/d/3892-4/aac.jpg
+<!-- #HSLIDE?image=http://pixel.outragegis.com/d/3892-4/aac.jpg -->
 
 #HSLIDE?image=images/Sample-5th_Ed-RRG-CliftyWil.jpg
 
