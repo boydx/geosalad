@@ -286,10 +286,14 @@ elif x >= 70:
 elif x >= 60:
     print("D")
 else:
-    print(':(')
-print("all done")
+    print(":''(")
+    print(':\'(')
+print("All done, friends! Should it be rounded up?")
 ```
+[Run](https://trinket.io/python3/055c60f8a0)
 
+#HSLIDE
+<iframe src="https://trinket.io/embed/python3/b7b9a57518" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How many acres have burned per county?</h2>
