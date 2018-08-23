@@ -338,11 +338,25 @@ group by
 
 [link](https://kuula.co/share/7PcPp?fs)
 
+#HSLIDE
+# Lidar point cloud visualization
+![Street sky walk](https://farm9.staticflickr.com/8062/29138854162_85f7e68158_h.jpg)   
+[link](https://farm9.staticflickr.com/8062/29138854162_1cd274d646_o.jpg)
+
 #HSLIDE?image=https://i0.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/nat_bridge.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
 
 #HSLIDE?image=https://i2.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/RRF_cliff_1.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Cliffs >100ft</h2>
+
+#HSLIDE
+### The plan
+* Adopt a landform, e.g., arch, pillar, chimney, cliff, waterfall, etc.
+* Measurement analysis, e.g., how high, wide, etc.
+* Create profile web page with summary stats, story, photos, etc.
+
+#HSLIDE?image=https://farm2.staticflickr.com/1814/43268734844_e27e85be68_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Field trips!</h2>
 
 
 
