@@ -334,7 +334,7 @@ group by
 
 
 #HSLIDE
-<script src="https://static.kuula.io/embed.js" data-kuula="https://kuula.co/share/7PcPp?fs=1&vr=0&zoom=1&thumbs=1&chromeless=0&logo=0" data-width="100%" data-height="640px"></script>
+<iframe width="100%" height="500px" src="https://kuula.co/share/7PcPp?fs"></iframe>
 
 #HSLIDE
 ### where is this?!?
