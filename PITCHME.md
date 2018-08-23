@@ -311,7 +311,8 @@ intersect and summarize
 SELECT
     sum(pts.fire_size) as fire_acres,
     round((sum(pts.fire_size) / 
-        (poly.aland * 0.000247105)*100)::numeric,2) as percent_burned,
+        (poly.aland * 0.000247105)*100)::numeric,2) 
+        as percent_burned,
     poly.geoid
 from
     poly
@@ -324,39 +325,20 @@ group by
 ```
 
 #HSLIDE
-### Spring 2018
+### Fall 2018
 ## theme?
 
 #HSLIDE
-### Local parks & trails in the
-## Bluegrass
+### Lidar measures in the Red River
+## Gorge
+
 
 #HSLIDE
-### (micro)
-## Field trips!
-
-#HSLIDE
-<iframe class="kuula7lgpf" src="https://kuula.co/share/7lGpf?logo=0" width="100%" height="600px" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+<script src="https://static.kuula.io/embed.js" data-kuula="https://kuula.co/share/7PcPp?fs=1&vr=0&zoom=1&thumbs=1&chromeless=0&logo=0" data-width="100%" data-height="640px"></script>
 
 #HSLIDE
 ### where is this?!?
 ## Lower Howards Creek
 
 
-#HSLIDE
-<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="600px"></frame><a href="https://outragegis.com/maps/bluegrass/" target="blank">full screen</a>
 
-
-#HSLIDE
-### Create small area
-## Site maps
-
-#HSLIDE
-<iframe src="https://www.outragegis.com/maps/gap/" width="100%" height="600px"></frame><a href="https://www.outragegis.com/maps/gap/" target="blank">full screen</a>
-
-
-
-#HSLIDE
-## What could go wrong?
-
-#HSLIDE?image=images/01/texas-v-alaska.jpg
