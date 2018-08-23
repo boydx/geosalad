@@ -28,9 +28,9 @@ What experiences help me teach
 #HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I have a toddler</h2>
 
-#HSLIDE?image=https://c1.staticflickr.com/1/585/31458905453_5db120e84d_k.jpg
+#HSLIDE?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h2>
-<a href="https://kuula.co/post/7ft7S" target="blank">(with 3D maps)</a>
+<a href="https://kuula.co/post/7PcPp" target="blank">(with 3D maps)</a>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
