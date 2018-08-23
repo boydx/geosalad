@@ -263,6 +263,33 @@ This page hosts my mapping project assets:
 
 ![Cats of Instagram](images/01/cats_of_instagram.jpg)
 
+#HSLIDE
+
+```python
+# What's your letter grade this semester?
+number_grade = input("Enter value between 0 and 100: ")
+try:
+    x = float(number_grade)
+except:
+    print("Please enter a NUMBER value between 0 and 100")
+    quit()
+if x > 100:
+    print("Please use a value between 0 and 100")
+elif x < 0:
+    print("Please use a value between 0 and 100")
+elif x >= 90:
+    print("A")
+elif x >= 80:
+    print("B")
+elif x >= 70:
+    print("C")
+elif x >= 60:
+    print("D")
+else:
+    print(':(')
+print("all done")
+```
+
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How many acres have burned per county?</h2>
