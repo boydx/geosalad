@@ -50,7 +50,6 @@ What experiences help me teach
 
 #HSLIDE
 # GEO 409
-## Spring 2017
 
 #HSLIDE
 ## Discovering
@@ -82,7 +81,7 @@ What experiences help me teach
 
 #HSLIDE
 # NRE 355
-## Fall 2017
+## Fall 
 
 #HSLIDE?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
 <a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">Link</a>
@@ -152,8 +151,11 @@ What experiences help me teach
 #HSLIDE?image=https://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg
 
 #HSLIDE
-### What about
-## spring classes?
+## Bluegrass Trails
+### web site
+<a href="https://tastyfreeze.github.io/bluegrass/region/" target="blank">map</a>
+
+#HSLIDE?image=https://farm1.staticflickr.com/977/40242417740_0c91692078_o.jpg
 
 #HSLIDE
 ## Student observations
@@ -192,38 +194,38 @@ Create a pedshed to measure how many people can access what parts of town on foo
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
 <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
 
-
-#HSLIDE
-## Let's make web maps!
-
 #HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 <a href="http://boydx.github.io/collisions/" target="blank">Interactive map</a>
 
 #HSLIDE
-### Publishing maps online needs a web page
-HTML, CSS, JavaScript, etc.
-
-
-#HSLIDE
 ## What tools will we use?
 
 #HSLIDE
-### More open source!
-* Students have requested it
+## Maps: ArcGIS Pro & QGIS
+* Students have requested both
 * QGIS is free and runs on MacOS
-* Create content that you can truly own
+* ArcGIS Pro is brave new frontier
+* Employers mostly in ESRI ecosystem
 
 
 #HSLIDE
-### More code!
+## Code: Python 3
 * Text-based instructions are cool, dude
 * ESC the desktop, free your workflow
 * Write it once, use it forever
+* Start with no programming knowledge
+
+#HSLIDE
+### Online: Web pages!
+* Use GitHub Pages to publish maps online
+* Add content to prebuilt templates
+* Markdown, HTML, CSS, JavaScript
+* From here it is wide open...
 
 
 #HSLIDE
-## EXAMPLES?
+## Code examples?
 
 #HSLIDE
 ```sql
@@ -238,6 +240,17 @@ WHERE
 
 ```
 
+#HSLIDE
+```markdown
+# Welcome to my project page!
+
+This page hosts my mapping project assets. Find links to my project here:
+* [link name](path/to/link)
+* Vist my instagram page [@cats_of_instagram](https://www.instagram.com/cats_of_instagram) 
+
+![Cats of Instagram](images/01/cats_of_instagram.jpg)
+```
+
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How many acres have burned per county?</h2>
@@ -250,22 +263,19 @@ intersect and summarize
 #HSLIDE
 
 ```sql
-/* Sum wildfire acres by county polygon */
+/* Sum wildfire acres by county polygon in PostGIS database */
 
 SELECT
     sum(pts.fire_size) as fire_acres,
-    round((sum(pts.fire_size) / (poly.aland * 0.000247105)*100)::numeric,2) as percent_burned,
-    poly.geoid,
-    poly.aland,
-    poly.geom
+    round((sum(pts.fire_size) / 
+        (poly.aland * 0.000247105)*100)::numeric,2) as percent_burned,
+    poly.geoid
 from
     poly
 join
     pts on ST_Intersects(pts.geom, poly.geom)
 group by
-    poly.geoid,
-    poly.aland,
-    poly.geom
+    poly.geoid
 
 /* That's it! */
 ```
