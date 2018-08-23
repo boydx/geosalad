@@ -95,6 +95,13 @@ What experiences help me teach
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">Link</a>
 
 #HSLIDE
+## Bluegrass Trails
+### web site
+<a href="https://tastyfreeze.github.io/bluegrass/region/" target="blank">map</a>
+
+#HSLIDE?image=https://farm1.staticflickr.com/977/40242417740_0c91692078_o.jpg
+
+#HSLIDE
 ### Can we get a
 ## field trip?
 
@@ -150,12 +157,7 @@ What experiences help me teach
 
 #HSLIDE?image=https://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg
 
-#HSLIDE
-## Bluegrass Trails
-### web site
-<a href="https://tastyfreeze.github.io/bluegrass/region/" target="blank">map</a>
 
-#HSLIDE?image=https://farm1.staticflickr.com/977/40242417740_0c91692078_o.jpg
 
 #HSLIDE
 ## Student observations
