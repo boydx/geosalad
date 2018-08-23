@@ -251,6 +251,16 @@ This page hosts my mapping project assets. Find links to my project here:
 ![Cats of Instagram](images/01/cats_of_instagram.jpg)
 ```
 
+#HSLIDE
+renders to:
+# Welcome to my project page!
+
+This page hosts my mapping project assets. Find links to my project here:
+* [link name](path/to/link)
+* Vist my instagram page [@cats_of_instagram](https://www.instagram.com/cats_of_instagram) 
+
+![Cats of Instagram](images/01/cats_of_instagram.jpg)
+
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How many acres have burned per county?</h2>
