@@ -329,16 +329,22 @@ group by
 ## theme?
 
 #HSLIDE
-### Lidar measures in the Red River
-## Gorge
+### Lidar terrain measures in the
+## Red River Gorge
 
 
 #HSLIDE
 <iframe width="100%" height="500px" src="https://kuula.co/share/7PcPp?fs"></iframe>
 
-#HSLIDE
-### where is this?!?
-## Lower Howards Creek
+[link](https://kuula.co/share/7PcPp?fs)
+
+#HSLIDE?image=https://i0.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/nat_bridge.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
+
+#HSLIDE?image=https://i2.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/RRF_cliff_1.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Cliffs >100ft</h2>
+
+
 
 
 
