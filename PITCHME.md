@@ -242,7 +242,7 @@ WHERE
 
 #HSLIDE
 ```markdown
-# My Project page
+# My Project
 
 This page hosts my mapping project assets:
 * [link name](path/to/link)
@@ -255,7 +255,7 @@ This page hosts my mapping project assets:
 # Renders to...
 
 #HSLIDE
-# My Project page
+# My Project
 
 This page hosts my mapping project assets:
 * [link name](path/to/link)
