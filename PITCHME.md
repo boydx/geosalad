@@ -95,8 +95,7 @@ What experiences help me teach
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">Link</a>
 
 #HSLIDE?image=https://farm1.staticflickr.com/977/40242417740_0c91692078_o.jpg
-## Bluegrass Trails
-### web site
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bluegrass Trails</h2>
 <a href="https://tastyfreeze.github.io/bluegrass/region/" target="blank">map</a>
 
 #HSLIDE
