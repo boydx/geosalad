@@ -242,9 +242,9 @@ WHERE
 
 #HSLIDE
 ```markdown
-# Welcome to my project page!
+# My Project page
 
-This page hosts my mapping project assets. Find links to my project here:
+This page hosts my mapping project assets:
 * [link name](path/to/link)
 * Vist my instagram page [@cats_of_instagram](https://www.instagram.com/cats_of_instagram) 
 
@@ -252,10 +252,12 @@ This page hosts my mapping project assets. Find links to my project here:
 ```
 
 #HSLIDE
-renders to:
-# Welcome to my project page!
+# Renders to...
 
-This page hosts my mapping project assets. Find links to my project here:
+#HSLIDE
+# My Project page
+
+This page hosts my mapping project assets:
 * [link name](path/to/link)
 * Vist my instagram page [@cats_of_instagram](https://www.instagram.com/cats_of_instagram) 
 
