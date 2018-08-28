@@ -51,7 +51,7 @@ We'll use
 Open *File > Preferences > Settings*
 
 #HSLIDE?image=images/02/q-001.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Access USER SETTINGS</h2>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Access USER SETTINGS</h3>
 
 #HSLIDE
 ## Copy and paste:
@@ -64,8 +64,8 @@ Open *File > Preferences > Settings*
 ```
 
 #HSLIDE
-### Let's setup your local root
-## GIS project directory
+#### Let's setup your local root
+### GIS project directory
 where all of your GIS projects, assets, files, repos, and everything else will be stored related to class.
 
 #HSLIDE
@@ -73,10 +73,10 @@ where all of your GIS projects, assets, files, repos, and everything else will b
 Open *View > Terminal*
 
 #HSLIDE?image=images/02/q-002.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Access console, terminal, command line, shell, etc.</h2>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Access console, terminal, command line, shell, etc.</h3>
 
 #HSLIDE
-## Type in the terminal I
+### Type in the terminal I
 ```bat
 :: This is a comment in windows terminal
 :: Change directory to top of C: drive
@@ -85,7 +85,7 @@ cd C:\
 C:
 ```
 #HSLIDE
-## Type in the terminal II
+### Type in the terminal II
 ```bat
 :: make a directory on C:
 mkdir GIS
@@ -93,17 +93,17 @@ mkdir GIS
 cd GIS
 ```
 #HSLIDE
-## Type in the terminal II
+### Type in the terminal II
 ```bat
 :: make a directory on C:/GIS
-:: Change to your COOL COOL name
+:: Create your COOL COOL name
 mkdir BoydsGIS 
 :: go into the new directory
 cd BoydsGIS 
 ```
 #HSLIDE
 # How will I
-## possible know all these commands?!?
+### possible know all these commands?!?
 
 #HSLIDE?image=images/02/q-003.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Commands</h2>
@@ -111,14 +111,14 @@ cd BoydsGIS
 
 #HSLIDE
 #### OR, go to:
-### _C:/users_
+### _C:/_
 and create a folder called,   
-### _MyFunNameGIS_    
+### _GIS/MyFunNameGIS_    
 replacing "MyFunName" with your fun name.
 
 #HSLIDE
-# Add readme.md
-## in new directory
+## Add readme.md
+### in new directory
 A Readme.md is a Markdown formatted file that tells visitors about your project (and helps you remember, too!)
 
 #HSLIDE?image=images/02/q-004.png
@@ -144,7 +144,7 @@ and support collaboration
 "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people."
 
 #HSLIDE
-![Git](images/02/git.png)      
+![Git](images/02/git.png)      <br>
 [xctd](http://xkcd.com/)
 
 
