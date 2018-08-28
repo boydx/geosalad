@@ -216,11 +216,18 @@ inside your root GIS folder
 * Always Fetch and pull remote changes before you start
 * Commit and push often!
 
+#HSLIDE
+# !!
+* Create a folder outside of any repo to download data.
+* Create: c:/GIS/BoydsGIS/data folder
+* 100 MB limit in GitHub
+* Data is redundant, code is unique
+
 
 #HSLIDE?image=images/02/natural-earth-download.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Download data</h2>
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">to "downloaded-data" folder</h3>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">to "data" folder</h3>
 <a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/" target="blank">Natural Earth</a>
 </div>
 
@@ -431,86 +438,84 @@ where
 
 ```
 /* select states and calculate area in new projection, EPSG: 5070 */
-
-select
-    name,
-    ST_Area(ST_Transform(geom, 5070)/1000000) As "sq km"
-from
-    ne_10m_admin_1_states_provinces_lakes
-where
-    name in ('Texas','Alaska','Kentucky')
-```
-
-#HSLIDE
-
-```
-/* select states and calculate area in new projection, EPSG: 5070 */
 /* and sort, too! */
 
 select
     name,
-    ST_Area(ST_Transform(geom, 5070))/1000000 As "sq km"
+    (ST_Area(ST_Transform(geom, 5070))/1000000) As "sq km",
+    (ST_Area(geom, true))/1000000 As "sq km on spheroid"
 from
     ne_10m_admin_1_states_provinces_lakes
 where
     name in ('Texas','Alaska','Kentucky')
 order
 	by "sq km" DESC
-
 ```
-
 
 #HSLIDE
 
 ## Measurement
 
 ```
-name,       sq km
-Alaska,     1505637.34
-Texas,      684969.01
-Kentucky,   104576.98
-
-```
-
-
-#HSLIDE
-
-## FYI area on Spheroid via PostGIS
-
-```
-name,       sq km
-Alaska,     1505638.85
-Texas,      684969.02
-Kentucky,   104576.98
+name,       sq km       sq km on spheroid
+Alaska,     1505637.34, 1505638.85
+Texas,      684969.01,  684969.02
+Kentucky,   104576.98,  104576.98
 
 ```
 
 #HSLIDE
-```bash
-ogr2ogr -f CSV output.csv -dialect PG -sql "select * from ne_10m_admin_1_states_provinces_lakes" ne_10m_admin_1_states_provinces_lakes.shp
+# Challenge
+Do all of this without opening a desktop program?
+## Script it!
 
-ogr2ogr -f CSV output.csv -sql \
-"select name, (OGR_GEOM_AREA/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes" projected.geojson
+#HSLIDE
+### Create a file called
+## measure.bat
+in VS Code
 
-ogr2ogr -f CSV output.csv -sql "select name, (st_area(geom,true)/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" PG:"dbname=boyd host=localhost port=54327"
+#HSLIDE
+### Access
+* QGIS 3.2 > OS4GeoW Shell
+* change directory to c:\GIS\BoydsGIS\geo409\c01
 
-ogr2ogr -f CSV output.csv -sql "select name, (st_area(geom,true)/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" PG:"dbname=boyd host=10.0.1.152 port=54327"
+#HSLIDE
+### Experiment with
+## ogr2ogr
+Library that supports data manipulation in QGIS
+
+
+#HSLIDE
+```bat
+:: working....
+ogr2ogr -f CSV output.csv -dialect PG -sql "select * from ne_10m_admin_1_states_provinces_lakes" c:\GIS\BoydsGIS\data\ne_10m_admin_1_states_provinces_lakes.shp
+
+ogr2ogr -f CSV output.csv -sql "select name, (OGR_GEOM_AREA/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes" projected.geojson
+
+ogr2ogr -f CSV output.csv -sql "select name, (st_area(geom,true)/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" PG:"dbname=boyd host=localhost port=5432"
+
+ogr2ogr -f CSV output.csv -sql "select name, (st_area(geom,true)/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" PG:"dbname=boyd host=localhost port=5432"
 
 ogr2ogr -f geojson projected.geojson -sql "select name from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" -s_srs EPSG:4326 -t_srs EPSG:5070 ne_10m_admin_1_states_provinces_lakes.shp
-
 ```
 
 #HSLIDE
 ### Save your
-## SQL & project files
+## project files
 #### then commit and push!
+
+#HSLIDE
+### Advantages of coding
+* Can work more efficiently without application overhead
+* Can work remotely
+* Can share exact instructions
 
 #HSLIDE
 ## That's the
 # Challenge
 this semester and we'll keep at it!
 
-#HSLIDE
+<!-- #HSLIDE
 Structured Query Language
 ## SQL
 pronounced "sequel", also just "SQL", & perhaps most used language to manage data.
@@ -531,4 +536,4 @@ Used with HTML to render pretty web pages.
 
 #HSLIDE
 Start tinkering with examples
-## <a href="http://www.w3schools.com" target="blank">w3schools.com</a>
+## <a href="http://www.w3schools.com" target="blank">w3schools.com</a> -->
