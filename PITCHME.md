@@ -477,7 +477,7 @@ in VS Code
 #HSLIDE
 ### Access
 * QGIS 3.2 > OS4GeoW Shell
-* change directory to c:\GIS\BoydsGIS\geo409\c01
+* change directory to BoydsGIS\geo409\c01
 
 #HSLIDE
 ### Experiment with
@@ -487,16 +487,17 @@ Library that supports data manipulation in QGIS
 
 #HSLIDE
 ```bat
-:: working....
-ogr2ogr -f CSV output.csv -dialect PG -sql "select * from ne_10m_admin_1_states_provinces_lakes" c:\GIS\BoydsGIS\data\ne_10m_admin_1_states_provinces_lakes.shp
+:: run program
+ogr2ogr --version
 
+:: Create projected GeoJSON and select three states
+ogr2ogr -f geojson projected.geojson -sql "select name from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" -s_srs EPSG:4326 -t_srs EPSG:5070 d:\BoydsGIS\data\ne_10m_admin_1_states_provinces_lakes.shp
+
+:: Use ogr2ogr internal measurement feature
 ogr2ogr -f CSV output.csv -sql "select name, (OGR_GEOM_AREA/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes" projected.geojson
 
-ogr2ogr -f CSV output.csv -sql "select name, (st_area(geom,true)/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" PG:"dbname=boyd host=localhost port=5432"
-
-ogr2ogr -f CSV output.csv -sql "select name, (st_area(geom,true)/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" PG:"dbname=boyd host=localhost port=5432"
-
-ogr2ogr -f geojson projected.geojson -sql "select name from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" -s_srs EPSG:4326 -t_srs EPSG:5070 ne_10m_admin_1_states_provinces_lakes.shp
+:: Use PostGIS database to access data
+:: ogr2ogr -f CSV output.csv -sql "select name, (st_area(geom,true)/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" PG:"dbname=postgres host=localhost port=5432 user=postgres password=postgres"
 ```
 
 #HSLIDE
