@@ -5,6 +5,8 @@
 #HSLIDE
 ## Topics
 * Tools for the knowledge worker
+* Set up our work environment
+* Measure area the desktop way
 * Challenge: create a script to measure area
 
 #HSLIDE
@@ -22,9 +24,11 @@ on Canvas
 # manage text
 
 #HSLIDE
-### Particularly code, a/k/a
-## plain text instructions.
+# as code
+## a/k/a plain-text instructions.
 
+#HSLIDE
+# Text editor
 
 #HSLIDE
 A good code editor offers
@@ -34,7 +38,7 @@ auto-complete, find and replace, and code folding.
 #HSLIDE
 We'll use
 ## <a href="https://www.anaconda.com/download" target="blank">VS Code</a>
-(as part of Python 3.6) and <a href="https://www.sublimetext.com" target="blank">Sublime</a>.
+(as part of Python 3 package) and <a href="https://www.sublimetext.com" target="blank">Sublime</a>.
 
 #HSLIDE
 ## Customize VS Code
@@ -46,7 +50,7 @@ We'll use
 ## Increase font sizes
 Open *File > Preferences > Settings*
 
-#HSLIDE?image=images/02/q001.png
+#HSLIDE?image=images/02/q-001.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Access USER SETTINGS</h2>
 
 #HSLIDE
@@ -68,7 +72,7 @@ where all of your GIS projects, assets, files, repos, and everything else will b
 ## Create working directory
 Open *View > Terminal*
 
-#HSLIDE?image=images/02/q002.png
+#HSLIDE?image=images/02/q-002.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Access console, terminal, command line, shell, etc.</h2>
 
 #HSLIDE
@@ -101,7 +105,7 @@ cd BoydsGIS
 # How will I
 ## possible know all these commands?!?
 
-#HSLIDE?image=images/02/q003.png
+#HSLIDE?image=images/02/q-003.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Commands</h2>
 <a href="http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt/" target="blank">cheat sheet</a>
 
@@ -117,13 +121,13 @@ replacing "MyFunName" with your fun name.
 ## in new directory
 A Readme.md is a Markdown formatted file that tells visitors about your project (and helps you remember, too!)
 
-#HSLIDE?image=images/02/q004.png
+#HSLIDE?image=images/02/q-004.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Open Folder...</h2>
 
-#HSLIDE?image=images/02/q005.png
+#HSLIDE?image=images/02/q-005.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Right-click...</h2>
 
-#HSLIDE?image=images/02/q006.png
+#HSLIDE?image=images/02/q-006.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Make and preview</h2>
 
 #HSLIDE?image=images/02/markdown.md.jpg
