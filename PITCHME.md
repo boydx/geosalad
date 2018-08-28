@@ -28,16 +28,17 @@ on Canvas
 ## a/k/a plain-text instructions.
 
 #HSLIDE
+This is not your parents'
 # Text editor
 
 #HSLIDE
 A good code editor offers
-## Language syntax highlighting
+### Language syntax highlighting
 auto-complete, find and replace, and code folding.
 
 #HSLIDE
 We'll use
-## <a href="https://www.anaconda.com/download" target="blank">VS Code</a>
+### <a href="https://www.anaconda.com/download" target="blank">VS Code</a>
 (as part of Python 3 package) and <a href="https://www.sublimetext.com" target="blank">Sublime</a>.
 
 #HSLIDE
@@ -102,7 +103,7 @@ mkdir BoydsGIS
 cd BoydsGIS 
 ```
 #HSLIDE
-# How will I
+## How will I
 ### possible know all these commands?!?
 
 #HSLIDE?image=images/02/q-003.png
@@ -128,23 +129,22 @@ A Readme.md is a Markdown formatted file that tells visitors about your project 
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Right-click...</h2>
 
 #HSLIDE?image=images/02/q-006.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Make and preview</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Preview</h2>
 
 #HSLIDE?image=images/02/markdown.md.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Many ways to create</h2>
 <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="blank">Markdown.md</a>
 
 #HSLIDE
-Manage projects to
-## Prevent loss of text
-and support collaboration
+# Whew!
+What if we lost our text?
 
 #HSLIDE
 # GIT
 "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people."
 
 #HSLIDE
-![Git](images/02/git.png)      <br>
+![Git](images/02/git.png)<br>
 [xctd](http://xkcd.com/)
 
 
@@ -181,14 +181,19 @@ Use GitHub to publish web pages, including
 (use link in Canvas)
 
 #HSLIDE
-## Challenge!
+### First, let's install and
+## sign in
+
+#HSLIDE?image=images/02/q-007.png
+
+#HSLIDE?image=images/02/q-010.png
 
 #HSLIDE
 ## Create a local repo:
 ## _geo409_
 inside your root GIS folder
 
-#HSLIDE?image=images/02/create_local_repo.png
+#HSLIDE?image=images/02/q-009.png
 
 #HSLIDE
 # Publish
@@ -199,11 +204,18 @@ inside your root GIS folder
 ## _rrg_
 (if you haven't already)
 
-#HSLIDE?image=images/02/create_remote_repo.png
+#HSLIDE?image=images/02/q-011.png
 
 #HSLIDE
 # Clone
 ## to local root GIS folder
+
+#HSLIDE
+# Tips
+* Add @UKy-GIs to your profile information
+* Always Fetch and pull remote changes before you start
+* Commit and push often!
+
 
 #HSLIDE?image=images/02/natural-earth-download.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
