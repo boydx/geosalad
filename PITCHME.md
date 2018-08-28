@@ -104,7 +104,7 @@ cd BoydsGIS
 ```
 #HSLIDE
 ## How will I
-### possible know all these commands?!?
+### know all of these commands?!?
 
 #HSLIDE?image=images/02/q-003.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Commands</h2>
@@ -515,25 +515,4 @@ ogr2ogr -f geojson projected.geojson -sql "select name from ne_10m_admin_1_state
 # Challenge
 this semester and we'll keep at it!
 
-<!-- #HSLIDE
-Structured Query Language
-## SQL
-pronounced "sequel", also just "SQL", & perhaps most used language to manage data.
 
-#HSLIDE
-## GIS is
-# Big Data
-
-#HSLIDE
-Hypertext Markup Language
-## HTML
-The code that tells your browser how to display a web page.
-
-#HSLIDE
-(Carto) Cascading Style Sheets
-## CSS and CartoCSS
-Used with HTML to render pretty web pages.
-
-#HSLIDE
-Start tinkering with examples
-## <a href="http://www.w3schools.com" target="blank">w3schools.com</a> -->
