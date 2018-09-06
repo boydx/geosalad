@@ -223,6 +223,13 @@ inside your root GIS folder
 * 100 MB limit in GitHub
 * Data is redundant, code is unique
 
+#HSLIDE
+# How to undo in Git
+* Can undo almost anything
+* "Revert This Commit" is just for single undo
+* More complex undo need to use command line
+* [Cheat sheet](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/)
+
 
 #HSLIDE?image=images/02/natural-earth-download.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
@@ -232,7 +239,6 @@ inside your root GIS folder
 </div>
 
 #HSLIDE?image=images/02/natural-earth-download.jpg
-
 
 
 #HSLIDE
@@ -352,12 +358,6 @@ Kentucky,   104525
 open pgAdmin and check if PostGIS is installed
 
 #HSLIDE?image=images/02/postgres.png
-
-
-<!-- #HSLIDE
-## Create new SpatiaLite database
-![Create SpatiaLite database](images/02/qgis-new-database.jpg)    
-Then open **QGIS menu > Database > DB Manager** -->
 
 
 #HSLIDE
@@ -496,7 +496,7 @@ ogr2ogr -f geojson projected.geojson -sql "select name from ne_10m_admin_1_state
 :: Use ogr2ogr internal measurement feature
 ogr2ogr -f CSV output.csv -sql "select name, (OGR_GEOM_AREA/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes" projected.geojson
 
-:: Use PostGIS database to access data
+:: Use PostGIS database to access data if working in QGIS
 :: ogr2ogr -f CSV output.csv -sql "select name, (st_area(geom,true)/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" PG:"dbname=postgres host=localhost port=5432 user=postgres password=postgres"
 ```
 
