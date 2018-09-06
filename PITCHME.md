@@ -45,3 +45,10 @@
 
 #HSLIDE?image=images/03/a003.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Our Portal</h2>
+
+#HSLIDE
+## Let's get started!
+* Launch ArcGIS Pro
+
+#HSLIDE?image=images/03/a004.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Global settings</h2>
