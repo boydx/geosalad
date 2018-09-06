@@ -44,4 +44,4 @@
 * Login with credentials created after invite
 
 #HSLIDE?image=images/03/a003.png
-## Our Portal
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Our Portal</h2>
