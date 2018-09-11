@@ -54,7 +54,8 @@
 #HSLIDE
 ## Let's get started!
 * Launch ArcGIS Pro
-[Tutorials](http://pro.arcgis.com/en/pro-app/get-started/pro-quickstart-tutorials.htm)
+* [Tutorials](http://pro.arcgis.com/en/pro-app/get-started/pro-quickstart-tutorials.htm)
+* Tour drive around GUI
 
 
 
