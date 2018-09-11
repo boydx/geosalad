@@ -7,7 +7,7 @@
 * Keep GIS folder organized
 * Be consistent
 * Don't put a file >50 MB in repo
-* Don't put a .mdb folder in repo
+* Don't put a .gdb folder in repo
 * Don't put repo in repo
 
 #HSLIDE
@@ -47,8 +47,33 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Our Portal</h2>
 
 #HSLIDE
+## Setup project in root GIS folder
+* [Download and unzip lesson/lab data](https://luky-my.sharepoint.com/:u:/g/personal/blshea1_uky_edu/EZ_A1MZ5tqJKm7E_RFvE3hEByn0LEJN7aIc1VJ0ByrDQ0g?e=I4a3uF)
+* Put geodatabase in *data* folder
+
+#HSLIDE
 ## Let's get started!
 * Launch ArcGIS Pro
+[Tutorials](http://pro.arcgis.com/en/pro-app/get-started/pro-quickstart-tutorials.htm)
+
+
 
 #HSLIDE?image=images/03/a004.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Global settings</h2>
+
+#HSLIDE?image=images/02/01.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Insert > New Local Scene</h2>
+
+#HSLIDE?image=images/02/02.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add Elevation Source</h2>
+
+#HSLIDE
+## Add all layers
+* Explore how to symbolize layers
+* Reorder them in the **Contents** pane
+* Flex your GIS muscle memory!
+
+#HSLIDE
+## Start coding
+* Getting scrappy with Python!
+* Watch [second lesson videos](https://www.py4e.com/lessons/intro) in *Python for Everybody*
