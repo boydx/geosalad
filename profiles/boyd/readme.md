@@ -28,7 +28,6 @@ GIS specialist?)
 > Yep! You can reach a couple of ways [@boyd.shearer](https://geography.as.uky.edu/users/blshea1)
 
 9. What are some of the areas/activities your students have mapped in the past? Photos from trips?
-
 >I'll list some recent projects with links to websites and photo galleries.
 
 ![Bluegrass Trails](images/a001.jpg)  
