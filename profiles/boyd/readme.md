@@ -16,28 +16,28 @@ GIS specialist?)
 
 5. What are some of the areas/activities your students have mapped in the past?
 
-I'll list some recent projects with links to websites.
+>I'll list some recent projects with links to websites.
 
-![Bluegrass Trails](images/a001.jpg)  
+>![Bluegrass Trails](images/a001.jpg)  
 Bluegrass Trails, a student mapping project [Link to site](https://tastyfreeze.github.io/bluegrass/region/)
 
-![Lexington Neighborhood Tree Canopy Study](images/a002.jpg)    
+>![Lexington Neighborhood Tree Canopy Study](images/a002.jpg)    
 Lexington Neighborhood Tree Canopy Study [Link to site](https://rvirto01.github.io/NRE355_Tree_canopy_study/)
 
-![Lexington's Town Branch Trail](images/a0022.jpg)   
+>![Lexington's Town Branch Trail](images/a0022.jpg)   
 Lexington's Town Branch Trail [Link to site](https://reece2ke.github.io/geo409_site/)
 
-![Pilot Knob State Nature Preserve](images/a003.jpg)   
+>![Pilot Knob State Nature Preserve](images/a003.jpg)   
 Pilot Knob State Nature Preserve [Link to site](http://sweb.uky.edu/~blshea1/nre355/pksnp/)
 
-![Robinson Forest (when you could go up the fire tower!)](images/a004.jpg)    
+>![Robinson Forest (when you could go up the fire tower!)](images/a004.jpg)    
 Robinson Forest (when you could go up the fire tower!) [Link to image](https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg)
 
 6. What do you hope students got out of this course?
 > Students should feel like they can create new data, maps, visualizations, etc. that have worth and positively impact places. I like to remind students that maps show real places and real people and they should respect the areas they map.
 
 7. Is there any specific aspect of this course that you would like me to include in this article?
-> How about the GoPro video of the tree canopy tour? [Website](http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour/)
+> How about the GoPro videos of the tree canopy tour? [Website](http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour/)
 
 
 8. What courses will you be teaching in the Spring? Which of those would be a good course for NRES students to take?
@@ -48,17 +48,17 @@ Robinson Forest (when you could go up the fire tower!) [Link to image](https://g
 
 10. Photos from trips?
 
-Robinson Forest camp    
+>Robinson Forest camp    
 https://www.flickr.com/photos/28640579@N02/albums/72157680473658504
 
-Pine Mountain    
+>Pine Mountain    
 https://www.flickr.com/photos/28640579@N02/albums/72157661912235006
 
-Pilot Knob    
+>Pilot Knob    
 https://www.flickr.com/search/?user_id=28640579%40N02&sort=date-taken-desc&text=pilot%20knob&view_all=1
 
-Town Branch    
+>Town Branch    
 https://www.flickr.com/photos/28640579@N02/albums/72157683094775005
 
-Lexington Tree Canopy    
+>Lexington Tree Canopy    
 https://www.flickr.com/search/?user_id=28640579%40N02&sort=date-taken-desc&text=lexington%20canopy&view_all=1
