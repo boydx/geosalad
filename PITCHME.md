@@ -87,6 +87,8 @@
     * for: simplicity, maintainability, reusability, scoping/namespacing
 * An open-source quilt of contributions
 
+#HSLIDE?image=https://www.metmuseum.org/toah/images/hb/hb_1996.4.jpg
+
 #HSLIDE
 ## Python in VS Code
 * [Conda Package Management](https://conda.io/docs/user-guide/getting-started.html)
