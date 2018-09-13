@@ -1,5 +1,5 @@
 #HSLIDE
-# GEO 409:03
+# GEO 409:02
 ## Intro to ArcGIS Pro and Python 3
 
 #HSLIDE
