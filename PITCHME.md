@@ -111,5 +111,5 @@ activate geo409
 #HSLIDE
 ## Development in ArcGIS Pro
 * Jupyter Notebook
-* Run cells of code rather than the entire scripte
+* Run cells of code rather than the entire script
 * Download as Python (.py) file
