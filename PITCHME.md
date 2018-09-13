@@ -78,3 +78,36 @@
 ## Start coding
 * Getting scrappy with Python!
 * Watch [second lesson videos](https://www.py4e.com/lessons/intro) in *Python for Everybody*
+
+
+#HSLIDE
+## Python 
+* Modular programming
+* functions >> modules >> packages
+    * for: simplicity, maintainability, reusability, scoping/namespacing
+* An open-source quilt of contributions
+
+#HSLIDE
+## Python in VS Code
+* [Conda Package Management](https://conda.io/docs/user-guide/getting-started.html)
+* Manage Virtual Environments
+* Develop on most operating systems
+
+
+#HSLIDE 
+```bash
+conda create --name geo409
+activate geo409
+```
+
+#HSLIDE
+## Python in ArcGIS Pro
+* Built-in Package Management
+* Make clone of default read-only environment
+* Development in Windows OS only
+
+#HSLIDE
+## Development in ArcGIS Pro
+* Jupyter Notebook
+* Run cells of code rather than the entire scripte
+* Download as Python (.py) file
