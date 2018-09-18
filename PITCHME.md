@@ -113,3 +113,46 @@ activate geo409
 * Jupyter Notebook
 * Run cells of code rather than the entire script
 * Download as Python (.py) file
+
+#HSLIDE
+## Setting up ArcPy
+* ArcPy is Python package
+* Import to gain access to modules
+* Very well documented
+* Typically other properties are set to customize your workflow
+
+#HSLIDE
+# ArcPy
+
+#HSLIDE
+```python
+# get the ArcGIS tools!
+import arcpy # case-sensitive!
+```
+
+#HSLIDE
+```python
+# set environment properties
+arcpy.env.workspace = r"Z:\BoydsGIS\data\rrg_build.gdb"
+arcpy.env.overwriteOutput = True
+# use dot notation to find correct tools, functions, properties, etc.
+```
+
+#HSLIDE
+```python
+# get list of feature classes in our database
+# and print them to the screen
+featureList = arcpy.ListFeatureClasses()
+print(featureList)
+```
+
+#HSLIDE
+# Wanna see into the future?
+
+#HSLIDE
+```python
+# build field data type showing properties of us_arches fields.
+fields = arcpy.ListFields('us_arches')
+for field in fields:
+    print(field.name + " is a type of " + field.type)
+```
