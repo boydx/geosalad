@@ -115,9 +115,8 @@ activate geo409
 * Download as Python (.py) file
 
 #HSLIDE
-## Setting up ArcPy
-* ArcPy is Python package
-* Import to gain access to modules
+## Setting up geoprocessing 
+* ArcPy is the Python package that ships with ArcGIS Pro
 * Very well documented
 * Typically other properties are set to customize your workflow
 
@@ -147,12 +146,32 @@ print(featureList)
 ```
 
 #HSLIDE
+```python
+# get list of feature classes in our database
+# and print them to the screen
+rasterList = arcpy.ListRasters()
+print(rasterList)
+```
+
+#HSLIDE
+```python
+# vector clip to area of interest
+arcpy.analysis.Clip("cookie dough", "cookie cutter", "output cookie")
+```
+
+#HSLIDE
+```python
+# raster clip to area of interest
+arcpy.analysis.Clip("cookie dough", "#", "output cookie", "cookie cutter")
+```
+
+#HSLIDE
 # Wanna see into the future?
 
 #HSLIDE
 ```python
 # build field data type showing properties of us_arches fields.
-fields = arcpy.ListFields('us_arches')
+fields = arcpy.ListFields(layer_name)
 for field in fields:
     print(field.name + " is a type of " + field.type)
 ```
