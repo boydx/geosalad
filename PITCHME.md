@@ -38,7 +38,7 @@ The syntax of type tells what it is.
 #HSLIDE
 ## Variables
 ### Assign value
-to a set of characters.
+to an arbitrary and limited set of characters.
 
 #HSLIDE
 ## Variables
