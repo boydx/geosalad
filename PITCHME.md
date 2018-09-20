@@ -32,7 +32,7 @@ When you see an integer don't assume it's quantity
 ### Literals
 The syntax of type tells what it is.
 ```
-I am a literally a string of characters
+"I am a literally a string of characters"
 ```
 
 #HSLIDE
