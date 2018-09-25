@@ -160,7 +160,7 @@ place = "Grays Arch"
 ```
 
 #HSLIDE?image=http://annessky.net/blog/wp-content/uploads/2017/11/Interval_20.png
-## Challenge 
+<h1 style="text-shadow: 2px 2px;">Challenge</h1>
 
 #HSLIDE
 ### Contouring program
@@ -179,7 +179,7 @@ print(x%20) # returns 0
 
 #HSLIDE
 ## Input function
-# input("string") 
+# input("str") 
 Creates string from user input
 
 #HSLIDE
@@ -199,8 +199,8 @@ contour_remainder = int(contour)%40
 ```
 
 #HSLIDE
-## if statement
-# if condition true:
+### if statement
+## if condition true:
 Execute code body when true
 
 #HSLIDE
@@ -210,8 +210,8 @@ if contour_remainder == 0:
 ```
 
 #HSLIDE
-## if/else statement
-# else:
+### if/else statement
+## else:
 Execute code body when false
 
 #HSLIDE
@@ -223,8 +223,8 @@ else:
 ```
 
 #HSLIDE
-## if/elif/else statement
-# elif condition true:
+### if/elif/else statement
+## elif condition true:
 Else if this condition is true execute code body
 
 #HSLIDE
@@ -253,14 +253,13 @@ Anticipate and prevent
 ![Errors](http://phdcomics.com/comics/archive/phd120804s.gif)
 
 #HSLIDE
-## Types
 # Syntax
 # Exception
 # Logic
 
 #HSLIDE
-## try/except statement
-# Prevent exceptions
+### try/except statement
+## Prevent exceptions
 If it works conitnue, if it blows up let's do something else
 
 #HSLIDE
@@ -272,14 +271,14 @@ except:
 ```
 
 #HSLIDE
-## Exceptions can be
-# good
+### Exceptions can be
+## good
 because they can teach you.
 
 
 #HSLIDE
-## Prevent errors of
-# logic
+### Prevent errors of
+## logic
 The program executes properly, but the result isn't valid.
 
 #HSLIDE
