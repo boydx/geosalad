@@ -9,6 +9,9 @@
 * [Typical workflow](https://uky-gis.github.io/support/python-arcgis/)
 
 #HSLIDE
+![Complexity](https://imgs.xkcd.com/comics/python_environment.png)
+
+#HSLIDE
 ## Value
 * A value is data that we use in our program. 
 * All values have a distinct type.
@@ -192,7 +195,7 @@ Create integer from string
 
 #HSLIDE
 ```python
-contour_remainder = contour%40
+contour_remainder = int(contour)%40
 ```
 
 #HSLIDE
@@ -242,8 +245,55 @@ else:
 ## if/if/if statement
 ### All branches could be true
 
+#HSLIDE
+## Errors
+Anticipate and prevent
 
 #HSLIDE
-## Challenge 
+![Errors](http://phdcomics.com/comics/archive/phd120804s.gif)
+
+#HSLIDE
+## Types
+# Syntax
+# Exception
+# Logic
+
+#HSLIDE
+## try/except statement
+# Prevent exceptions
+If it works conitnue, if it blows up let's do something else
+
+#HSLIDE
+```python
+try:
+    countInt = int(contour)
+except:
+    print("not a number, yo!")
+```
+
+#HSLIDE
+## Exceptions can be
+# good
+because they can teach you.
+
+
+#HSLIDE
+## Prevent errors of
+# logic
+The program executes properly, but the result isn't valid.
+
+#HSLIDE
+```python
+if contourInt > 4139 or contourInt < 257:
+    print("You're not in Kentucky!")
+```
+
+#HSLIDE?image=http://annessky.net/blog/wp-content/uploads/2017/11/KyTopo_24K_N17E22_Bradfordsville.png
+[Jupyter Notebook](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples)
+
+#HSLIDE?image=https://www.outragegis.com/pixel/_data/i/galleries/1403013_RRG/_IMG1071-me.jpg
+## Lab challenge 
+
+#HSLIDE
 ### ArcGIS
 Setup US Arches project. Find the highest arch above sea level
