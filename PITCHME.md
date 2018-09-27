@@ -316,15 +316,33 @@ Source:
 
 #HSLIDE?image=images/03/add-database.gif
 
+#HSLIDE
+# Set coordinate system
+
 #HSLIDE?image=images/03/a006.png
+
+#HSLIDE
+# Format point symbol
 
 #HSLIDE?image=images/03/a007.png
 
+#HSLIDE
+# Insert new layout
+
 #HSLIDE?image=images/03/a008.png
+
+#HSLIDE
+# Insert map frame
 
 #HSLIDE?image=images/03/a009.png
 
+#HSLIDE
+# Adjust layout properties
+
 #HSLIDE?image=images/03/a010.png
+
+#HSLIDE
+# Activate map frame
 
 #HSLIDE?image=images/03/a011.png
 
