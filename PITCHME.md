@@ -306,6 +306,40 @@ Create locator maps for our project
 Source:
 [Natural Earth administrative boundaries](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
 
+#HSLIDE
+# Add New Map
+
 #HSLIDE?image=images/03/a005.png
 
+#HSLIDE
+# Organize databases
+
 #HSLIDE?image=images/03/add-database.gif
+
+#HSLIDE?image=images/03/a006.png
+
+#HSLIDE?image=images/03/a007.png
+
+#HSLIDE?image=images/03/a008.png
+
+#HSLIDE?image=images/03/a009.png
+
+#HSLIDE?image=images/03/a010.png
+
+#HSLIDE?image=images/03/a011.png
+
+#HSLIDE?image=images/03/a012.png
+
+#HSLIDE?image=images/03/a013.png
+
+#HSLIDE?image=images/03/a014.png
+
+#HSLIDE?image=images/03/a015.png
+
+#HSLIDE?image=images/03/a016.png
+
+#HSLIDE?image=images/03/a017.png
+
+#HSLIDE?image=images/03/a018.png
+
+#HSLIDE?image=images/03/a019.png
