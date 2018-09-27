@@ -295,4 +295,15 @@ if contourInt > 4139 or contourInt < 257:
 
 #HSLIDE
 ### ArcGIS
-Setup US Arches project. Find the highest arch above sea level
+Setup US Arches project. Can you find the highest arch above sea level?
+
+#HSLIDE
+# Base map layout
+Create locator maps for our project
+
+#HSLIDE
+## Get data from Canavas module
+Source:
+[Natural Earth administrative boundaries](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+
+#HSLIDE?image=images/a005.png
