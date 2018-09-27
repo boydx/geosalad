@@ -7,6 +7,7 @@
 * Clone this lesson's repo 
 * Open Jupyter Notebook and follow along!
 * [Typical workflow](https://uky-gis.github.io/support/python-arcgis/)
+* Read the readme.md
 
 #HSLIDE
 ![Complexity](https://imgs.xkcd.com/comics/python_environment.png)
