@@ -343,21 +343,50 @@ Source:
 
 #HSLIDE
 # Activate map frame
+To fine tune it's placement in frame
 
 #HSLIDE?image=images/03/a011.png
 
+#HSLIDE
+# Add elements
+
 #HSLIDE?image=images/03/a012.png
+
+#HSLIDE
+# Fine tune
 
 #HSLIDE?image=images/03/a013.png
 
+#HSLIDE
+# New map
+ArcGIS Pro can have multiple maps and layouts in one document! 🤯 Make one for area of interest.
+
+#HSLIDE
+# Definition query
+
 #HSLIDE?image=images/03/a014.png
+
+#HSLIDE
+# Add halo
 
 #HSLIDE?image=images/03/a015.png
 
+#HSLIDE
+# Add labels
+
 #HSLIDE?image=images/03/a016.png
+
+#HSLIDE
+# Adjust position
 
 #HSLIDE?image=images/03/a017.png
 
+#HSLIDE
+# Tweak endlessly
+
 #HSLIDE?image=images/03/a018.png
+
+#HSLIDE
+# Export GeoPDf
 
 #HSLIDE?image=images/03/a019.png
