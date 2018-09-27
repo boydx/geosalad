@@ -307,3 +307,5 @@ Source:
 [Natural Earth administrative boundaries](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
 
 #HSLIDE?image=images/03/a005.png
+
+#HSLIDE?image=images/03/add-database.gif
