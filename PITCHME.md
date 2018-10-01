@@ -1,19 +1,19 @@
 #HSLIDE
-# GEO 409:02
-## Intro to ArcGIS Pro and Python 3
+# GEO 409:04
+## Functions, methods, and loops
 
 #HSLIDE
-## Organization
-* Keep GIS folder organized
-* Be consistent
-* Don't put a file >50 MB in repo
-* Don't put a .gdb folder in repo
-* Don't put repo in repo
+## Learning curve
+* Moving steeply up curve
+* Watch videos!
+	* [functions](https://www.py4e.com/lessons/functions)
+	* [string methods](https://www.py4e.com/lessons/strings)
+	* [loops and iterations](https://www.py4e.com/lessons/loops)
 
 #HSLIDE
 ## Example folder structure
 
-#HSLIDE?image=images/03/a001.png
+#HSLIDE?image=https://outragegis.com/gorge/animations/sun.gif
 
 #HSLIDE
 ## Undo?
