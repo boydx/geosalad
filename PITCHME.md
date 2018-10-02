@@ -11,17 +11,42 @@
 	* [loops and iterations](https://www.py4e.com/lessons/loops)
 
 #HSLIDE
-## Example folder structure
+## Payoff coming!
 
 #HSLIDE?image=https://outragegis.com/gorge/animations/sun.gif
 
 #HSLIDE
-## Undo?
-* Can undo almost anything
-* "Revert This Commit" is for single undo in GitHub
-* More complex undo need to use Git command line
-* [Cheat sheet](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/)
+## Functions
+* Block of statements that execute when called
+* Might take arguments
+* Might return data
 
+#HSLIDE
+```python
+# function with two parameters
+function(x, y)
+# parameters are placeholders for passing arguments
+```
+
+#HSLIDE
+```python
+# define function
+def function(x, y):
+	z = int(x)**int(y)
+	print(int(x) + int(y)) # prints to screen
+	return z # when executed, function becomes this
+
+function(2,4) # Need documentation!
+```
+#HSLIDE
+```python
+def function(x, y):
+    """x to y power""" # Docstring provides info
+    z = int(x)**int(y)
+    return z
+
+help(function)
+```
 
 #HSLIDE
 ## Use your OneDrive
