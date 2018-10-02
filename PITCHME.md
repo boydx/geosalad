@@ -29,6 +29,14 @@ function(x, y)
 ```
 
 #HSLIDE
+## Define function
+* Store and reuse statements
+* Need unique name followed by `():`
+* Inputs?
+* Indent function body four spaces
+
+
+#HSLIDE
 ```python
 # define function
 def function(x, y):
@@ -49,7 +57,7 @@ help(function)
 ```
 
 #HSLIDE
-## Builtin functions
+## Built-in functions
 * Python comes with about [60 functions](https://docs.python.org/3.6/library/functions.html)
 
 ```python
@@ -67,9 +75,7 @@ print(round(7.555, 2))
 ```
 
 #HSLIDE
-## Jupyter Notebook
-* Open workbook for lesson
-* Work through challenges
+# What!?!
 
 #HSLIDE
 ## Adding functions
@@ -94,7 +100,7 @@ x = Decimal('7.555')
 
 #HSLIDE
 ## Lat/lon coords
-* 38.038015,-84.5046852!
+* 38.038015, 0-84.5046852!
 * 1&deg; of lattitude = 69 miles
 * 1.0&deg;  6.9 mi of precision
 * 1.00&deg;  3600 ft
@@ -102,138 +108,126 @@ x = Decimal('7.555')
 * 1.0000&deg;  36 ft
 * 1.000000&deg;  4 in
 
+#HSLIDE
+## Jupyter Notebook
+* Open workbook for lesson
+* Work through challenges
 
 
 #HSLIDE
-## UKy ArcGIS Online
-* UKy has Organization account
-* URL: [UKY-EDU.maps.arcgis.com](https://UKY-EDU.maps.arcgis.com)
-* Login with credentials created after invite
-
-#HSLIDE?image=images/03/a003.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Our Portal</h2>
-
-#HSLIDE
-## Setup project in root GIS folder
-* [Download and unzip lesson/lab data](https://luky-my.sharepoint.com/:u:/g/personal/blshea1_uky_edu/EZ_A1MZ5tqJKm7E_RFvE3hEByn0LEJN7aIc1VJ0ByrDQ0g?e=I4a3uF)
-* Put geodatabase in *data* folder
-
-#HSLIDE
-## Let's get started!
-* Launch ArcGIS Pro
-* [Tutorials](http://pro.arcgis.com/en/pro-app/get-started/pro-quickstart-tutorials.htm)
-* Tour drive around GUI
+## Objects and methods
+* Every object has a value, identity, and type
+* Methods are functions that operate on certain objects
+	* object.function()
 
 
+#HSLIDE?
+```python
+# same value, different type and identity
+1 == 1.0 # true
+1 is 1.0 # false
 
-#HSLIDE?image=images/03/a004.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Global settings</h2>
-
-#HSLIDE?image=images/02/01.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Insert > New Local Scene</h2>
-
-#HSLIDE?image=images/02/02.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add Elevation Source</h2>
+# methods on float type
+x = 1.0
+x.is_integer() # true
+```
 
 #HSLIDE
-## Add all layers
-* Explore how to symbolize layers
-* Reorder them in the **Contents** pane
-* Flex your GIS muscle memory!
+## String methods more common
+* Perform common tasks on strings
+* Find substrings, change case, etc.
+* [Built-in methods](https://www.w3schools.com/python/python_ref_string.asp)
+* Always returns new values
 
 #HSLIDE
-## Start coding
-* Getting scrappy with Python!
-* Watch [second lesson videos](https://www.py4e.com/lessons/intro) in *Python for Everybody*
+## String indexes
+* Sequence of characters have positions in string starting at zero.
+* Bracket notation to show position.
+```python
+"Hello World!"[0] # returns H
+```
+
+#HSLIDE
+## String slice
+* Access substring using start:end indexes
+* End index is up-to-but-including
+* Address in string v. length of string
+
+#HSLIDE
+```python
+len("Hello World!") # returns 12
+"Hello World!"[0] # returns H
+"Hello World!"[11] # !
+"Hello World!"[0:12] # returns all
+"Hello World!"[12] # returns error
+```
+
+#HSLIDE
+## String index challenge
+Print the arch variable backwards using only string indexes
+
+#HSLIDE
+## while loop
+* Runs while true
+* Avoid infinite loop with breaks
+* loop body indented with four spaces
 
 
 #HSLIDE
-## Python 
-* Modular programming
-* functions >> modules >> packages
-    * for: simplicity, maintainability, reusability, scoping/namespacing
-* An open-source quilt of contributions
-
-#HSLIDE?image=https://www.metmuseum.org/toah/images/hb/hb_1996.4.jpg
+```python
+arch = "Grays Arch"
+while "Natural Bridge" not in arch:
+    print("Crash this program")
+# No!
+```
 
 #HSLIDE
-## Python in VS Code
-* [Conda Package Management](https://conda.io/docs/user-guide/getting-started.html)
-* Manage Virtual Environments
-* Develop on most operating systems
+```python
+length_of_word = len(arch)
+i = 0
+while i < length_of_word:
+    print(arch[i])
+    # What's missing?
+```
+
+#HSLIDE
+## while loop challenge
+Create a while loop that runs until a correct state name is input
+
+#HSLIDE
+## for loop
+* Iterates through a list, value by value.
+* Indented four spaces
+* Runs a definite number of times
+
+
+#HSLIDE
+```python
+# We need to create a list first.
+# Assume we have a much, much large string than this
+place = "Welcome to the lost treasures of Silvermine Arch and Hidden Arch in Wolfe county!"
+
+# Split a string into list on each space in string
+listOfWords = place.split(" ") # returns 14 words
+
+# print the contents of listOfWords
+print(listOfWords) # use the print function to see how it works
+```
+
+#HSLIDE
+## for loop challenge
+Scan text and print the names of the arches in the text.
+
+#HSLIDE
+## Lesson addendum
+* `import csv` module
+* iterate through `arches.csv`
 
 
 #HSLIDE 
-```bash
-conda create --name geo409
-activate geo409
-```
-
-#HSLIDE
-## Python in ArcGIS Pro
-* Built-in Package Management
-* Make clone of default read-only environment
-* Development in Windows OS only
-
-#HSLIDE
-## Development in ArcGIS Pro
-* Jupyter Notebook
-* Run cells of code rather than the entire script
-* Download as Python (.py) file
-
-#HSLIDE
-## Setting up geoprocessing 
-* ArcPy is the Python package that ships with ArcGIS Pro
-* Very well documented
-* Typically other properties are set to customize your workflow
-
-#HSLIDE
-# ArcPy
-
-#HSLIDE
-```python
-# get the ArcGIS tools!
-import arcpy # case-sensitive!
-```
-
-#HSLIDE
-```python
-# set environment properties
-arcpy.env.workspace = r"Z:\BoydsGIS\data\rrg_build.gdb"
-arcpy.env.overwriteOutput = True
-# use dot notation to find correct tools, functions, properties, etc.
-```
-
-#HSLIDE
-```python
-# get list of feature classes in our database
-# and print them to the screen
-featureList = arcpy.ListFeatureClasses()
-print(featureList)
-```
-
-#HSLIDE
-```python
-# get list of feature classes in our database
-# and print them to the screen
-rasterList = arcpy.ListRasters()
-print(rasterList)
-```
-
-#HSLIDE
-```python
-# vector clip to area of interest
-arcpy.analysis.Clip("cookie dough", "cookie cutter", "output cookie")
-```
-
-#HSLIDE
-```python
-# raster clip to area of interest
-arcpy.analysis.Clip("cookie dough", "#", "output cookie", "cookie cutter")
-```
-
-#HSLIDE
-# Wanna see into the future?
+## Lab practice
+* Refactor script from lab 2
+* Create hillshade script
 
 #HSLIDE
 ```python
