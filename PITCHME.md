@@ -16,6 +16,14 @@
 #HSLIDE?image=https://outragegis.com/gorge/animations/sun.gif
 
 #HSLIDE
+## Objectives
+* Create script to quickly process data for mapping
+* Learn more Python!
+* Finish draft of base map
+
+#HSLIDE?image=https://farm2.staticflickr.com/1978/44221432854_c4570602c1_h.jpg
+
+#HSLIDE
 ## Functions
 * Block of statements that execute when called
 * Might take arguments
@@ -217,6 +225,8 @@ print(listOfWords) # use the print function to see how it works
 #HSLIDE
 ## for loop challenge
 Scan text and print the names of the arches in the text.
+
+#HSLIDE?image=https://farm2.staticflickr.com/1901/44221426354_d8a711a753_h.jpg
 
 #HSLIDE
 ## Lesson addendum
