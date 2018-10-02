@@ -49,18 +49,60 @@ help(function)
 ```
 
 #HSLIDE
-## Use your OneDrive
-* Microsoft OneDrive to sync files remotely
-* Put big data files here
-* Access via your LinkBlue account
+## Builtin functions
+* Python comes with about [60 functions](https://docs.python.org/3.6/library/functions.html)
 
-#HSLIDE?image=images/03/a002.png
+```python
+print("Hello World!")
+```
+
 
 #HSLIDE
-## Download ArcGIS Pro
-* For installation on personal computer
-* Use this [OneDrive shared link](https://luky-my.sharepoint.com/:u:/g/personal/blshea1_uky_edu/EXZc5GPN41ZIrqjiSlO3AjEBJo3Z7ybHSc1qWDqkrySpVw?e=yHASu6)
-* On MacOS? [Get Parallels](https://www.parallels.com/products/desktop/trial/)
+## Round function
+
+```python
+round(x, y)
+# x is float type, y is integer type
+print(round(7.555, 2))
+```
+
+#HSLIDE
+## Jupyter Notebook
+* Open workbook for lesson
+* Work through challenges
+
+#HSLIDE
+## Adding functions
+* Python's sprawling [standard library](https://docs.python.org/3/library/)
+* Adds new functions and data types
+* The `decimal` module to correctly round numbers
+
+#HSLIDE
+```python
+import decimal # use the module's namespace to access its functions
+x = decimal.Decimal('7.555')
+
+from decimal import * # access the module functions directly
+x = Decimal('7.555')
+```
+
+#HSLIDE
+## decimal properties
+* Control precision and number of significant digits
+* Rounding rules
+* Useful in mapping and money applications
+
+#HSLIDE
+## Lat/lon coords
+* 38.038015,-84.5046852!
+* 1&deg; of lattitude = 69 miles
+* 1.0&deg;  6.9 mi of precision
+* 1.00&deg;  3600 ft
+* 1.000&deg;  360 ft
+* 1.0000&deg;  36 ft
+* 1.000000&deg;  4 in
+
+
 
 #HSLIDE
 ## UKy ArcGIS Online
