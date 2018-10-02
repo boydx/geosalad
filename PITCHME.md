@@ -28,7 +28,7 @@
 * Your commit log shows how much work you're doing
 * 19 commits v 1 commit
 * commit often, perfect later
-* [More practice](assets/lab-03-practice.ipynb)
+* <a download src="assets/lab-03-practice.ipynb">More practice</a>
 
 #HSLIDE
 ## Functions
