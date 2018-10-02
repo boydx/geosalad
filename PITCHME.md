@@ -33,7 +33,7 @@
 ```python
 # function with two parameters
 function(x, y)
-# parameters are placeholders for passing arguments
+# parameters are 'placeholders' for passing arguments
 ```
 
 #HSLIDE
