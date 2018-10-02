@@ -24,6 +24,13 @@
 #HSLIDE?image=https://farm2.staticflickr.com/1978/44221432854_c4570602c1_h.jpg
 
 #HSLIDE
+## Lab 3
+* Your commit log shows how much work you're doing
+* 19 commits v 1 commit
+* commit often, perfect later
+* [More practice](assets/lab-03-practice.ipynb)
+
+#HSLIDE
 ## Functions
 * Block of statements that execute when called
 * Might take arguments
