@@ -51,4 +51,11 @@
 * Upload PDF and find URL
 * https://username.github.io/rrg/basemap/rrg.pdf
 
+#HSLIDE
+## Example map
+![images/rrg.jpg](images/rrg.jpg)
+
+
+#HSLIDE?image=images/rrg.jpg
+
 #HSLIDE?image=https://farm2.staticflickr.com/1959/43128931410_daceab6096_h.jpg
