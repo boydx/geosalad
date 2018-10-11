@@ -1,65 +1,54 @@
 #HSLIDE
 # GEO 409
-## The end is near!
+## Module 05: Field mapping
 
 
 #HSLIDE
 ## 2018
-# Spring
-#### Final project and last lab
-
-#HSLIDE?image=https://tastyfreeze.github.io/bluegrass/graphics/hillshade_bluegrass.png
-
-#HSLIDE
-## Last Lab
-# Explore
-#### Your recreation area
-
-#HSLIDE?image=https://www.outragegis.com/pixel/galleries/120402_IndianFortMtn/DSCN2340.jpg
-
-#HSLIDE?image=images/mtn-1.jpg
+# Fall
+#### Field trips!
 
 
 #HSLIDE
-## Lab requirements
-* Use the three base maps
-* See which works best and is most accurate
-* Take six photographs
-* Map three features and create a GeoJSON (EPSG: 4326)
-
-#HSLIDE?image=images/mtn-2.jpg
-# Take a buddy!
-
+## October 13, 27
+## December 1
+### Details on Canvas Discussion board
 
 #HSLIDE
 ## Due
-### April 27
+### December 6
+
+#HSLIDE?image=https://farm2.staticflickr.com/1901/44221426354_d8a711a753_h.jpg
+
+#HSLIDE?image=https://farm2.staticflickr.com/1922/43128933340_d6d61a6bb2_h.jpg
 
 #HSLIDE
-## Final project requirements
-* Update Mapbox map (What did you find on your exploration?)
-* Create portfolio page of the Bluegrass repo
-  * Use Markdown or HTML
+## Load app
+# Avenza Maps 
+#### on your mobile device.
+[avenzamaps.com](https://avenzamaps.com)
 
 #HSLIDE
-## Due
-### Rough draft: April 27
-### Final: May 6
-Meet online Friday, May 4 at 5:00 pm
+## Load campus map with QR code
+![images/get-map.png](images/get-map.png)
+
+#HSLIDE?image=images/get-map.png
+
 
 #HSLIDE
-https://tastyfreeze.github.io/bluegrass/
+## Finish base map for RRG
+* Layers should include arches
+* streams, waterbodies, rivers
+* labeled streams and arches
+* a hillshade background
+* Export as GeoPDF
+
+#HSLIDE?image=https://farm1.staticflickr.com/930/42790171395_a745af0f06_h.jpg
 
 #HSLIDE
-# Tasks today
-* Load Avenza Maps and practice
-* Show me the three maps on your repo page
-* That's it!
+## Load RRG base map
+* Use your RRG repository
+* Upload PDF and find URL
+* https://username.github.io/rrg/basemap/rrg.pdf
 
-#HSLIDE
-# Go get in a park!
-
-#HSLIDE
-### Final week
-## Lab hours
-I will be in the lab to help you finish! Exact times TBA (getting final exam schedules from other classes)
+#HSLIDE?image=https://farm2.staticflickr.com/1959/43128931410_daceab6096_h.jpg
