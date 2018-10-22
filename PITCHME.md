@@ -59,3 +59,6 @@
 #HSLIDE?image=images/rrg.jpg
 
 #HSLIDE?image=https://farm2.staticflickr.com/1959/43128931410_daceab6096_h.jpg
+
+#HSLIDE
+@quote[It's what I do that defines me.](Bruce Wayne)
