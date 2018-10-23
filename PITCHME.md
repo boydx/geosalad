@@ -6,11 +6,11 @@
 #HSLIDE?image=https://farm2.staticflickr.com/1918/44749579164_54f9039f9d_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">NACIS</h2>
 
-#HSLIDE?https://farm2.staticflickr.com/1941/44560608585_5273398801_h.jpg
+#HSLIDE?image=https://farm2.staticflickr.com/1941/44560608585_5273398801_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Wis + Ky</h2>
 
 
-#HSLIDE?https://farm2.staticflickr.com/1976/43657250080_c8bb35badf_h.jpg
+#HSLIDE?image=https://farm2.staticflickr.com/1976/43657250080_c8bb35badf_h.jpg
 
 #HSLIDE
 ### Map winners from UW and UKy
@@ -48,9 +48,9 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 2. Add "KY_5k_PointCloud_grid"
 3. Click on "Natural Bridge"
 
-#HSLIDE?image/a01.png
+#HSLIDE?image=image/a01.png
 
-#HSLIDE?image/a015.png
+#HSLIDE?images/a015.png
 
 #HSLIDE
 ## Extract from .laz file
