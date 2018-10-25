@@ -82,4 +82,17 @@ enter output file: N110E348.las
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Convert to local scene</h2>
 
 #HSLIDE?image=images/a09.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">aAdd elevation source</h2>
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add elevation source</h2>
+
+#HSLIDE
+## Python III
+### Advanced data structures
+
+#HSLIDE
+## [Help with lab 4 and lab 6](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/examples)
+
+#HSLIDE
+## Lists
+## Tuples
+## Dictionaries
+## DataFrames
