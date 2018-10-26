@@ -21,7 +21,7 @@ Many other Geography course can be elected to fulfill minor requirements.
 ### Cartography
 ## is multiple skills
 
-#HSLIDE?images/01/lidar-00.jpg
+#HSLIDE?image=images/01/lidar-00.jpg
 # Data
 
 #HSLIDE?image=images/01/map-cuga.jpg
