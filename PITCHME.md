@@ -1,10 +1,7 @@
----
-## GIS & mapping classes
-### [uky-gis.github.io](https://uky-gis.github.io)
 
 ---?image=https://farm8.staticflickr.com/7669/26770757943_3e76b3921d_h.jpg"
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;"> <h2>GIS & mapping classes</h2>
-Boyd Shearer
+Boyd Shearer -
 [uky-gis.github.io](https://uky-gis.github.io)
 </div>
 
@@ -201,14 +198,4 @@ All use cartography.
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 <a href="http://boydx.github.io/collisions/" target="blank">LINK</a>
 
-
-
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I'm a recent new dad</h2>
-
-#HSLIDE?image=https://c1.staticflickr.com/1/710/31150476630_13ead32b58_k.jpg  
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h3>
+[uky-gis.github.io](https://uky-gis.github.io)
