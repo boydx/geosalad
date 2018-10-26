@@ -5,6 +5,9 @@
 #HSLIDE---?video=https://gcs-vimeo.akamaized.net/exp=1540534790~acl=%2A%2F1110465987.mp4%2A~hmac=1d289a86600d97921a2eabe04109c04d1f0d297c54c3a96fe1da150dfd0a7b69/vimeo-prod-skyfire-std-us/01/3514/11/292571411/1110465987.mp4
 
 #HSLIDE
+![Video](https://www.youtube.com/embed/mkiDkkdGGAQ)
+
+#HSLIDE
 ### Minor
 ### GEO 109, 309, 409
 Many other Geography course can be elected to fulfill minor requirements.
