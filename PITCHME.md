@@ -17,7 +17,7 @@ Many other Geography course can be elected to fulfill minor requirements.
 ### requires many skills
 
 ---?image=images/01/lidar-00.jpg
-# @size[3.5em](Data)
+# @size[2em](Data)
 
 ---?image=i/002.jpg
 # Challenge
@@ -36,7 +36,7 @@ October, 2018. [New York Times](https://www.nytimes.com/interactive/2018/10/12/u
 ---?image=i/004.jpg
 
 ---?image=i/0055.jpg
-# @size[3.5em](Art)
+# @size[2em](Art)
 
 ---?image=i/006.jpg
 # Seeing
