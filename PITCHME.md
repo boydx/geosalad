@@ -72,9 +72,11 @@ All use cartography.
 @ulend
 
 ---?image=i/terrabytes27.gif
-##Lidar
-### 46,1005 tiles
+<div style="background-color: rgba(0,0,0,0.4);width:80%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
+## Lidar point clouds
+### 46,105 tiles
 # > 20TB
+</div>
 
 ---?image=images/01/lidar-02.jpg
 
