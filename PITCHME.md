@@ -18,13 +18,13 @@ Many other Geography course can be elected to fulfill minor requirements.
 @quote[demand for cartographers is projected to grow nearly 30 percent by 2024.]([Wired Magazine]((https://www.wired.com/tag/cartography))
 
 #HSLIDE
-### Cartography
-## is multiple skills
+## Cartography
+### requires many skills
 
 #HSLIDE?image=images/01/lidar-00.jpg
 # Data
 
----
+---?image=i/002.jpg
 # Challenge
 ## to manage.
 
@@ -35,8 +35,26 @@ Many other Geography course can be elected to fulfill minor requirements.
 Download [125,192,184](https://github.com/Microsoft/USBuildingFootprints) polygons
 
 ---?image=i/003.jpg
+### A map of every building in America
+October, 2018. [New York Times](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html)
 
 ---?image=i/004.jpg
+
+---?image=i/0055.jpg
+# Art
+
+---?image=i/006.jpg
+# Seeing
+## differently.
+
+
+---?image=i/005.jpg
+[Tom Patterson](http://shadedrelief.com/3D_Terrain_Maps/)
+
+---
+## Maps are both
+# art & data
+Cartographers must manage data to make art.
 
 
 #HSLIDE?image=images/01/map-cuga.jpg
