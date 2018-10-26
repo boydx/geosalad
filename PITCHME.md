@@ -1,7 +1,6 @@
 #HSLIDE
 ## GIS & mapping classes
-### Boyd Shearer
-https://uky-gis.github.io
+### [uky-gis.github.io](https://uky-gis.github.io)
 
 #HSLIDE
 ### Minor
