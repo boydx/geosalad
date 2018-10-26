@@ -122,12 +122,9 @@ All use cartography.
 #### The team
 <iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe>
 
----?image=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
+---?image=i/007.jpg
 <a href="https://farm3.staticflickr.com/2842/34173538111_a32119a81c_o.jpg" title="Block diagram of downtown Lexington, Kentucky" target="blank">LINK</a>
 
----
-## Project link
-<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
 
 ---?image=images/01/trees.jpg
 <a href="http://boydx.github.io/tbt/oblique/" target="blank">LINK</a>
@@ -188,4 +185,5 @@ All use cartography.
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 <a href="http://boydx.github.io/collisions/" target="blank">LINK</a>
 
-[uky-gis.github.io](https://uky-gis.github.io)
+### Car vs. bike
+<iframe width="100%" height="500px" src="https://boydx.carto.com/viz/891d44d4-84ba-11e6-9e41-0e05a8b3e3d7/embed_map"></iframe>
