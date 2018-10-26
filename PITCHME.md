@@ -3,11 +3,6 @@
 ### [uky-gis.github.io](https://uky-gis.github.io)
 
 ---
-![Video](https://player.vimeo.com/video/292571411)
-
-
-
----
 ## Mapping Minor
 ### GEO 109, 309, 409
 Many other Geography course can be elected to fulfill minor requirements.
@@ -87,6 +82,10 @@ mapping projects
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lidar mapping</h3>
 
 ---?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg
+
+---
+![Video](https://player.vimeo.com/video/292571411)
+
 
 ---?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Pilot Knob SNP</h2>
