@@ -2,6 +2,10 @@
 ## GIS & mapping classes
 ### [uky-gis.github.io](https://uky-gis.github.io)
 
+---?image=https://farm8.staticflickr.com/7669/26770757943_3e76b3921d_h.jpg"
+<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;"> Boyd Shearer
+</div>
+
 ---
 ## Mapping Minor
 ### GEO 109, 309, 409
@@ -61,7 +65,7 @@ All use cartography.
 # GEO 409
 ## T/Tr 2:00–3:15
 
----?image=https://farm8.staticflickr.com/7669/26770757943_3e76b3921d_h.jpg"
+
 
 ---
 ## Tools & Data
@@ -75,7 +79,7 @@ All use cartography.
 ---
 ## Themes
 # Kentucky
-mapping projects
+(It's what we map!)
 
 #HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Red River Gorge</h2>
