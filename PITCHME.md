@@ -10,7 +10,7 @@ Boyd Shearer - [uky-gis.github.io](https://uky-gis.github.io)
 Many other Geography courses can be elected to fulfill minor requirements.
 
 ---?image=i/001.jpg
-@quote[**demand for cartographers** is projected to **grow nearly 30%** by 2024.]([Wired Magazine]((https://www.wired.com/tag/cartography))
+@quote[demand for cartographers is projected to grow nearly 30% by 2024.]([Wired Magazine]((https://www.wired.com/tag/cartography))
 
 ---
 ## Cartography
@@ -72,6 +72,12 @@ All use cartography.
     - Lidar
     - Satellite imagery
 @ulend
+
+---?image=i/terrabytes27.gif
+## 46,1005 tiles
+# > 20TB
+
+---?image=images/01/lidar-02.jpg
 
 ---
 ## Themes
