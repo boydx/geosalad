@@ -2,8 +2,6 @@
 ## GIS & mapping classes
 ### [uky-gis.github.io](https://uky-gis.github.io)
 
-#HSLIDE---?video=https://gcs-vimeo.akamaized.net/exp=1540534790~acl=%2A%2F1110465987.mp4%2A~hmac=1d289a86600d97921a2eabe04109c04d1f0d297c54c3a96fe1da150dfd0a7b69/vimeo-prod-skyfire-std-us/01/3514/11/292571411/1110465987.mp4
-
 #HSLIDE
 ![Video](https://player.vimeo.com/video/292571411)
 
@@ -11,15 +9,13 @@
 ![Video](https://www.youtube.com/embed/TkWMGD8ZDDM)
 
 #HSLIDE
-### Minor
+## Mapping Minor
 ### GEO 109, 309, 409
 Many other Geography course can be elected to fulfill minor requirements.
 
-<!-- #HSLIDE?image=http://newmaps.uky.edu/sites/default/files/findinggeocaches.jpg -->
-#HSLIDE?image=https://farm8.staticflickr.com/7314/27035801094_2fc8230652_h.jpg
-<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Map Camp!</h2>
-<a href="https://plus.google.com/118185113381405635119" target="blank">LINK</a></div>
+
+#HSLIDE?image=i/001.jpg
+@quote[...demand for cartographers is projected to grow nearly [30 percent by 2024](https://www.wired.com/tag/cartography/).]
 
 #HSLIDE
 ### Unifying theme
@@ -33,104 +29,6 @@ Many other Geography course can be elected to fulfill minor requirements.
 #HSLIDE
 #### Latest project: mapping <a href="https://www.outragegis.com/gap" target="blank">Cumberland Gap</a>
 <iframe src="https://www.outragegis.com/gap/3d/" width="100%" height="600px"></iframe>
-
-#HSLIDE
-### History at
-## UKy Geography
-
-
-#HSLIDE
-### 1998
-## The Daily Aesthetic
-### M.A. Thesis on Douglass Park
-(park established in 1916)
-
-#HSLIDE
-<img src="http://www.uky.edu/Projects/TDA/photos/lucyrec.jpg">
-
-#HSLIDE
-### Lucy Rowe Estill
-<img src="http://www.uky.edu/Projects/TDA/photos/lucydun.jpg">
-
-
-
-#HSLIDE
-### James O. Jones
-<img src="http://www.uky.edu/Projects/TDA/fayette/d.g.1.jpg"><br>
-(second from right)
-
-#HSLIDE?image=i/12.jpg
-<img src="i/07.jpg" height="600px">
-
-
-#HSLIDE?image=i/06.jpg
-
-
-
-#HSLIDE?image=i/11.jpg
-<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">2001</h3>
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">At Leisure's Edge</h2>
-<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">One-hour documentary for Kentucky Educational Television</h4>
-<!-- <a href="https://www.ket.org/series/KLEIS/" target="blank">LINK</a> --></div>
-
-#HSLIDE
-<iframe src="https://www.boydshearer.com/media/AtLeisuresEdge" width="100%" height="600px"></iframe>
-
-#HSLIDE?image=i/05.jpg
-<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">uky.edu/Projects/TDA</h2>
-<a href="https://www.uky.edu/Projects/TDA/" target="blank">LINK</a></div>
-
-#HSLIDE
-### Graduated.
-## Now what?
-#### Keep mapping (and field checking)!
-
-<!-- #HSLIDE?image=https://www.uky.edu/Projects/TDA/video/maps/chero-parks-s.jpg -->
-#HSLIDE?image=i/13.jpg
-<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">1999</h3>
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Kentucky VideoGIS</h2>
-<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Maps for TV news production</h4>
-</div>
-
-#HSLIDE
-### Mapping/geo gigs
-## can have nice paychecks
-#### so, it does pay to be a geographer.
-
-
-#HSLIDE?image=i/14.jpg
-<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">2003</h3>
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">First Frontier</h2>
-<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">audio driving tour</h4>
-<h4 style="color:#ccc;text-shadow: 2px 2px 4px #000;">(Into the mountains!)</h4>
-</div>
-
-#HSLIDE?image=i/08.jpg
-
-#HSLIDE
-#### 2006 redesign department's web site
-<img src="https://www.boydshearer.com/websites/images/UKGeography.jpg" height="400px"><br>
-(I'm back!)
-
-#HSLIDE
-### Teaching provides more opportunities for
-# field work
-#### Started teaching in Fall 2006
-
-#HSLIDE
-# GEO 130
-
-#HSLIDE?image=i/09.jpg
-
-#HSLIDE
-#### Acid test for carbonate rocks
-##### (and polyester pants 🔥 )
-<img src="http://pixel.outragegis.com/d/27919-2/IMG_7147.jpg" height="400px">
-
 
 #HSLIDE
 # GEO 172
