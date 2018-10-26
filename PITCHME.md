@@ -50,44 +50,23 @@ October, 2018. [New York Times](https://www.nytimes.com/interactive/2018/10/12/u
 
 ---?image=i/005.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
-[Tom Patterson](http://shadedrelief.com/3D_Terrain_Maps/)
+[Shaded Relief](http://shadedrelief.com/3D_Terrain_Maps/) by Tom Patterson
 </div>
 
 ---
 ## Maps are both
 # art & data
-Cartographers must manage data to make art.
+Cartographers manage data to make art.
 
-
-#HSLIDE?image=images/01/map-cuga.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
-<a href="https://outrageGIS.com" target="blank">outrageGIS.com</a>
-
-#HSLIDE
-#### Latest project: mapping <a href="https://www.outragegis.com/gap" target="blank">Cumberland Gap</a>
-<iframe src="https://www.outragegis.com/gap/3d/" width="100%" height="600px"></iframe>
-
-#HSLIDE
-# GEO 172
-
-#HSLIDE?image=http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/08/08.jpg
-<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Rephotographing Lexington's streetscapes</h2>
-<a href="http://district.bluegrass.kctcs.edu/bshearer0002/geo172/RephotoLex/" target="blank">LINK</a></div>
+---
+## Spring, 2019 courses
+### GEO 109, 309, 305, 409, 509
+All use cartography.
 
 
 #HSLIDE
-<img src="i/01.jpg">
-
-#HSLIDE?image=i/04.jpg
-
-#HSLIDE?image=i/03.jpg
-
-#HSLIDE?image=i/02.jpg
-
-
-#HSLIDE
-# NRE 355
+# GEO 409
+## Recent projects
 
 
 #HSLIDE
@@ -253,6 +232,11 @@ Create a pedshed to measure how many people can access what parts of town on foo
 ## Project link
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
 
+
+
+#HSLIDE
+#### Latest project: mapping <a href="https://www.outragegis.com/gap" target="blank">Cumberland Gap</a>
+<iframe src="https://www.outragegis.com/gap/3d/" width="100%" height="600px"></iframe>
 
 
 #HSLIDE
