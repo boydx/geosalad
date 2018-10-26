@@ -1,5 +1,6 @@
 ---?image=https://farm8.staticflickr.com/7669/26770757943_3e76b3921d_h.jpg"
-<div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0;box-shadow: 0 0 80px; rgba(0,0,0,0.4)"> <h2 >GIS & mapping classes</h2>
+<div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px 20px  rgba(0,0,0,0.4);border-radius: 8px;"> 
+<h2>GIS & mapping classes</h2>
 Boyd Shearer -
 [uky-gis.github.io](https://uky-gis.github.io)
 </div>
