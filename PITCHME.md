@@ -68,13 +68,12 @@ All use cartography.
 - ArcGIS Pro
 - Python
 - GitHub
-- with big data
-    - Lidar
-    - Satellite imagery
+- with big data...
 @ulend
 
 ---?image=i/terrabytes27.gif
-## 46,1005 tiles
+##Lidar
+### 46,1005 tiles
 # > 20TB
 
 ---?image=images/01/lidar-02.jpg
