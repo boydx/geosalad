@@ -1,3 +1,5 @@
 background-size : cover
 theme : night
 footnote : "Class projects at University of Kentucky"
+transition : fade
+loop : true
