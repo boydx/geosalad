@@ -24,6 +24,21 @@ Many other Geography course can be elected to fulfill minor requirements.
 #HSLIDE?image=images/01/lidar-00.jpg
 # Data
 
+---
+# Challenge
+## to manage.
+
+---
+### 2018 Microsoft released
+## building footprints
+### for the entire US.
+Download [125,192,184](https://github.com/Microsoft/USBuildingFootprints) polygons
+
+---?image=i/003.jpg
+
+---?image=i/004.jpg
+
+
 #HSLIDE?image=images/01/map-cuga.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
 <a href="https://outrageGIS.com" target="blank">outrageGIS.com</a>
