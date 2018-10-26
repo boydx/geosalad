@@ -1,6 +1,8 @@
-#HSLIDE---?video=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
+#HSLIDE
 ## GIS & mapping classes
 ### [uky-gis.github.io](https://uky-gis.github.io)
+
+#HSLIDE---?video=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
 
 #HSLIDE
 ### Minor
