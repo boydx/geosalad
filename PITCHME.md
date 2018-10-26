@@ -3,7 +3,9 @@
 ### [uky-gis.github.io](https://uky-gis.github.io)
 
 ---?image=https://farm8.staticflickr.com/7669/26770757943_3e76b3921d_h.jpg"
-<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;"> Boyd Shearer
+<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;"> <h2>GIS & mapping classes</h2>
+Boyd Shearer
+[uky-gis.github.io](https://uky-gis.github.io)
 </div>
 
 ---
