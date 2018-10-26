@@ -66,6 +66,8 @@ All use cartography.
 # GEO 409
 ## T/Tr 2:00–3:15
 
+---?image=https://farm8.staticflickr.com/7669/26770757943_3e76b3921d_h.jpg"
+
 ---
 ## Tools & Data
 * ArcGIS Pro
@@ -78,6 +80,13 @@ All use cartography.
 ---
 ## Themes
 # Kentucky
+mapping projects
+
+#HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Red River Gorge</h2>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lidar mapping</h3>
+
+---?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg
 
 ---?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Pilot Knob SNP</h2>
@@ -114,7 +123,7 @@ All use cartography.
 
 #HSLIDE
 #### The team
-<iframe width="100%" height="600px" src="https://kuula.co/share/7lLKn"></iframe>
+<iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe>
 
 
 #HSLIDE?image=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
@@ -128,8 +137,8 @@ All use cartography.
 <a href="http://boydx.github.io/tbt/oblique/" target="blank">LINK</a>
 
 #HSLIDE
-## Wildfire in Kentucky
-<iframe width="100%" height="600px" src="https://nmp.carto.com/u/boyd/builder/3ea43d07-6d91-43fd-b869-9216b2908a3e/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B28.455561860623863%2C-114.30810928344728%5D%2C%22sw%22%3A%5B45.61127561558146%2C-61.09033584594727%5D%2C%22center%22%3A%5B37.52402236402927%2C-87.69922256469727%5D%2C%22zoom%22%3A5%7D%2C%22widgets%22%3A%7B%22613cc10d-cbae-4aa7-b5c1-51e4debbb488%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"></iframe>
+### Wildfire in Kentucky
+<iframe width="100%" height="500px" src="https://nmp.carto.com/u/boyd/builder/3ea43d07-6d91-43fd-b869-9216b2908a3e/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B28.455561860623863%2C-114.30810928344728%5D%2C%22sw%22%3A%5B45.61127561558146%2C-61.09033584594727%5D%2C%22center%22%3A%5B37.52402236402927%2C-87.69922256469727%5D%2C%22zoom%22%3A5%7D%2C%22widgets%22%3A%7B%22613cc10d-cbae-4aa7-b5c1-51e4debbb488%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"></iframe>
 
 #HSLIDE
 ## Student observations
@@ -147,7 +156,13 @@ All use cartography.
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg
 
+#HSLIDE
+### Finding the highest trees
+<iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
+#HSLIDE
+## Project link
+<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
 
 #HSLIDE
 ## Robinson Forest Camp
@@ -172,13 +187,7 @@ All use cartography.
 ## Analyzing
 ### Walkability
 
-
-#HSLIDE
-### Build a network model
-connecting paths to streets with sidewalks.
-
-#HSLIDE?image=images/01/map-pedshed.jpg)   
-
+#HSLIDE?image=images/01/map-pedshed.jpg
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
 <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
@@ -188,31 +197,7 @@ connecting paths to streets with sidewalks.
 <a href="http://boydx.github.io/collisions/" target="blank">LINK</a>
 
 
-#HSLIDE
-### Finding the highest trees
-<iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
-#HSLIDE
-## Project link
-<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
-
-
-
-#HSLIDE
-#### Latest project: mapping <a href="https://www.outragegis.com/gap" target="blank">Cumberland Gap</a>
-<iframe src="https://www.outragegis.com/gap/3d/" width="100%" height="600px"></iframe>
-
-
-#HSLIDE
-## Now, go take a hike
-<iframe src="https://outragegis.com/maps/bluegrass/" width="100%" height="600px"></frame>
-
-
-#HSLIDE
-## Postscript
-
-#HSLIDE?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
 
 #HSLIDE?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
