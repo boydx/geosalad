@@ -49,7 +49,9 @@ October, 2018. [New York Times](https://www.nytimes.com/interactive/2018/10/12/u
 
 
 ---?image=i/005.jpg
+<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
 [Tom Patterson](http://shadedrelief.com/3D_Terrain_Maps/)
+</div>
 
 ---
 ## Maps are both
