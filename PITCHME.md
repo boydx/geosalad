@@ -15,12 +15,14 @@ Many other Geography course can be elected to fulfill minor requirements.
 
 
 #HSLIDE?image=i/001.jpg
-@quote[...demand for cartographers is projected to grow nearly 30 percent by 2024.]([wired.com/tag/cartography]((https://wwwwired.com/tag/cartography))
+@quote[demand for cartographers is projected to grow nearly 30 percent by 2024.]([Wired Magazine]((https://www.wired.com/tag/cartography))
 
 #HSLIDE
-### Unifying theme
-## Field work
+### Cartography
+## is multiple skills
 
+#HSLIDE?images/01/lidar-00.jpg
+# Data
 
 #HSLIDE?image=images/01/map-cuga.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
