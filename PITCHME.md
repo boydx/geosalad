@@ -185,6 +185,6 @@ All use cartography.
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 <a href="http://boydx.github.io/collisions/" target="blank">LINK</a>
 
-```
+---
 ### Car vs. bike
 <iframe width="100%" height="500px" src="https://boydx.carto.com/viz/891d44d4-84ba-11e6-9e41-0e05a8b3e3d7/embed_map"></iframe>
