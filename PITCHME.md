@@ -1,13 +1,12 @@
 #HSLIDE
-## GIS Class Projects
+## GIS & mapping classes
 ### Boyd Shearer
-<h4 style="color:Moccasin;">gitpitch.com/boydx/geosalad/uky</h4>
+https://uky-gis.github.io
 
 #HSLIDE
-### Instructor
-* UKy Geography (GEO 130, 160, 309, 409)
-* Natural Resources & Environmental Sciences (NRE 355, FOR 330)
-* New Maps Plus (MAP 671, 672)
+### Minor
+### GEO 109, 309, 409
+Many other Geography course can be elected to fulfill minor requirements.
 
 <!-- #HSLIDE?image=http://newmaps.uky.edu/sites/default/files/findinggeocaches.jpg -->
 #HSLIDE?image=https://farm8.staticflickr.com/7314/27035801094_2fc8230652_h.jpg
