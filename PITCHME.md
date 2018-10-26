@@ -2,7 +2,7 @@
 ## GIS & mapping classes
 ### [uky-gis.github.io](https://uky-gis.github.io)
 
-#HSLIDE---?video=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
+#HSLIDE---?video=https://player.vimeo.com/external/292571411.hd.mp4?s=d7b9a9f14d28c8fa7fe3230a3b2516b04c5be6f9&profile_id=175
 
 #HSLIDE
 ### Minor
