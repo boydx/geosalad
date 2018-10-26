@@ -72,7 +72,7 @@ All use cartography.
 @ulend
 
 ---?image=i/terrabytes27.gif
-<div style="background-color: rgba(0,0,0,0.4);width:80%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
+<div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
 <h2>Lidar point clouds</h2>
 <h3>46,105 tiles</h3>
 <h1>> 20TB</h1>
