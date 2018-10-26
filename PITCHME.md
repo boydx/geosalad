@@ -64,7 +64,7 @@ All use cartography.
 
 ---
 # GEO 409
-## T/R 2:00–3:15
+## T/Tr 2:00–3:15
 
 ---
 ## Tools & Data
@@ -80,8 +80,8 @@ All use cartography.
 # Kentucky
 
 ---?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
-## Pilot Knob SNP
-### Trail mapping
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Pilot Knob SNP</h2>
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Trail mapping</h3>
 
 
 #HSLIDE?image=https://farm6.staticflickr.com/5730/30340396284_a169bdc431_o.jpg
@@ -125,8 +125,18 @@ All use cartography.
 <a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
 
 #HSLIDE?image=images/01/trees.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">And then tree heights!</h2>
-<a href="http://boydx.github.io/tbt/oblique/" target="blank">map</a>
+<a href="http://boydx.github.io/tbt/oblique/" target="blank">LINK</a>
+
+#HSLIDE
+## Wildfire in Kentucky
+<iframe width="100%" height="600px" src="https://nmp.carto.com/u/boyd/builder/3ea43d07-6d91-43fd-b869-9216b2908a3e/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B28.455561860623863%2C-114.30810928344728%5D%2C%22sw%22%3A%5B45.61127561558146%2C-61.09033584594727%5D%2C%22center%22%3A%5B37.52402236402927%2C-87.69922256469727%5D%2C%22zoom%22%3A5%7D%2C%22widgets%22%3A%7B%22613cc10d-cbae-4aa7-b5c1-51e4debbb488%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"></iframe>
+
+#HSLIDE
+## Student observations
+### NCAA tournament basketball celebrations
+<a href="https://geography.as.uky.edu/sites/default/files/CampusCelebrations_Layout_150508-01.jpg" target="blank">map</a>
+
+#HSLIDE?image=i/10.jpg
 
 
 #HSLIDE
@@ -148,15 +158,7 @@ All use cartography.
 
 #HSLIDE?image=https://farm5.staticflickr.com/4175/34413343182_c906452c0b_h.jpg
 
-#HSLIDE?image=https://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg
 
-
-#HSLIDE
-## Student observations
-### NCAA tournament basketball celebrations
-<a href="https://geography.as.uky.edu/sites/default/files/CampusCelebrations_Layout_150508-01.jpg" target="blank">map</a>
-
-#HSLIDE?image=i/10.jpg
 
 #HSLIDE
 ## Fayette County
@@ -170,19 +172,12 @@ All use cartography.
 ## Analyzing
 ### Walkability
 
-#HSLIDE?image=images/01/map-create-zones.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Divide city into zones.</h2>
-
-#HSLIDE?image=images/01/map-digitize-paths.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Digitize walking paths.</h2>
 
 #HSLIDE
 ### Build a network model
 connecting paths to streets with sidewalks.
 
-#HSLIDE
-![Pedshed](images/01/map-pedshed.jpg)   
-Create a pedshed to measure how many people can access what parts of town on foot.
+#HSLIDE?image=images/01/map-pedshed.jpg)   
 
 #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
@@ -192,14 +187,6 @@ Create a pedshed to measure how many people can access what parts of town on foo
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 <a href="http://boydx.github.io/collisions/" target="blank">LINK</a>
 
-
-#HSLIDE
-# NRE 355
-## Fall 2017
-<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">LINK</a>
-
-#HSLIDE?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
-<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">LINK</a>
 
 #HSLIDE
 ### Finding the highest trees
