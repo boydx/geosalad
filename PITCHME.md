@@ -1,27 +1,26 @@
-#HSLIDE
+---
 ## GIS & mapping classes
 ### [uky-gis.github.io](https://uky-gis.github.io)
 
-#HSLIDE
+---
 ![Video](https://player.vimeo.com/video/292571411)
 
-#HSLIDE
-![Video](https://www.youtube.com/embed/TkWMGD8ZDDM)
 
-#HSLIDE
+
+---
 ## Mapping Minor
 ### GEO 109, 309, 409
 Many other Geography course can be elected to fulfill minor requirements.
 
 
-#HSLIDE?image=i/001.jpg
+---?image=i/001.jpg
 @quote[demand for cartographers is projected to grow nearly 30 percent by 2024.]([Wired Magazine]((https://www.wired.com/tag/cartography))
 
-#HSLIDE
+---
 ## Cartography
 ### requires many skills
 
-#HSLIDE?image=images/01/lidar-00.jpg
+---?image=images/01/lidar-00.jpg
 # Data
 
 ---?image=i/002.jpg
@@ -63,20 +62,26 @@ Cartographers manage data to make art.
 ### GEO 109, 309, 305, 409, 509
 All use cartography.
 
-
-#HSLIDE
+---
 # GEO 409
-## Recent projects
+## T/R 2:00–3:15
 
+---
+## Tools & Data
+* ArcGIS Pro
+* Python
+* GitHub
+* Big data
+    * Lidar
+    * Satellite imagery
 
-#HSLIDE
+---
+## Themes
+# Kentucky
+
+---?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
 ## Pilot Knob SNP
-### Trails
-<a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="blank">and a website</a>
-
-#HSLIDE?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
-
-#HSLIDE?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
+### Trail mapping
 
 
 #HSLIDE?image=https://farm6.staticflickr.com/5730/30340396284_a169bdc431_o.jpg
@@ -94,14 +99,34 @@ All use cartography.
 
 #HSLIDE?image=https://farm6.staticflickr.com/5678/23200804570_7ba220d2d1_h.jpg
 
-
-<!-- #HSLIDE?image=https://geography.as.uky.edu/sites/default/files/PineMountainCanopyTour.jpg -->
 #HSLIDE?image=https://farm1.staticflickr.com/576/23495298805_ce5ec0030d_h.jpg
-
 
 #HSLIDE?image=https://farm1.staticflickr.com/681/22868246864_2fb8e40e79_h.jpg
 
-#HSLIDE?image=https://farm1.staticflickr.com/691/23469905426_2baff7bd7c_h.jpg
+---
+![Video](https://www.youtube.com/embed/TkWMGD8ZDDM)
+
+
+#HSLIDE
+## Discovering
+### Town Branch Trail
+<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
+
+#HSLIDE
+#### The team
+<iframe width="100%" height="600px" src="https://kuula.co/share/7lLKn"></iframe>
+
+
+#HSLIDE?image=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
+<a href="https://farm3.staticflickr.com/2842/34173538111_a32119a81c_o.jpg" title="Block diagram of downtown Lexington, Kentucky" target="blank">LINK</a>
+
+#HSLIDE
+## Project link
+<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
+
+#HSLIDE?image=images/01/trees.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">And then tree heights!</h2>
+<a href="http://boydx.github.io/tbt/oblique/" target="blank">map</a>
 
 
 #HSLIDE
@@ -126,10 +151,6 @@ All use cartography.
 #HSLIDE?image=https://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg
 
 
-
-#HSLIDE
-# GEO 309
-
 #HSLIDE
 ## Student observations
 ### NCAA tournament basketball celebrations
@@ -144,8 +165,6 @@ All use cartography.
 
 #HSLIDE?image=https://farm5.staticflickr.com/4263/35717804616_c71b17d150_h.jpg
 
-#HSLIDE
-# GEO 409
 
 #HSLIDE
 ## Analyzing
@@ -169,52 +188,10 @@ Create a pedshed to measure how many people can access what parts of town on foo
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
 <h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
 
-#HSLIDE
-## Let's make web maps!
-
 #HSLIDE?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 <a href="http://boydx.github.io/collisions/" target="blank">LINK</a>
 
-#HSLIDE
-### Web pages need a host
-* Student web server @ sweb.uky.edu (free but DECOMMISSIONED??)
-* GitHub Pages (comes with version control and syncing)
-
-
-#HSLIDE
-# GEO 409
-## Spring 2017
-
-#HSLIDE
-## Discovering
-### Town Branch Trail
-<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
-
-#HSLIDE
-
-#### The team
-<iframe width="100%" height="600px" src="https://kuula.co/share/7lLKn"></iframe>
-
-
-#HSLIDE
-## Used mostly open source tools
-### QGIS and OpenStreetMap
-
-#HSLIDE
-### We found Lidar data
-## Building heights!
-
-#HSLIDE?image=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
-<a href="https://farm3.staticflickr.com/2842/34173538111_a32119a81c_o.jpg" title="Block diagram of downtown Lexington, Kentucky" target="blank">LINK</a>
-
-#HSLIDE
-## Project link
-<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">LINK</a>
-
-#HSLIDE?image=images/01/trees.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">And then tree heights!</h2>
-<a href="http://boydx.github.io/tbt/oblique/" target="blank">map</a>
 
 #HSLIDE
 # NRE 355
