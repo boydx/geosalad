@@ -93,7 +93,7 @@ enter output file: N110E348.las
 
 ---
 ## Access aerial photography
-* Add ArcGIS Server *https://kyraster.ky.gov/arcgis/services
+* Add ArcGIS Server *https://kyraster.ky.gov/arcgis/services*
 * Load 2016 NAIP imagery
 
 ---?image=images/a016.png
@@ -103,7 +103,7 @@ enter output file: N110E348.las
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">KY NAIP 2016 2ft</h2>
 
 ---
-## Clip areal photography
+## Clip aerial photography
 1. Create polygon from extent of LAS dataset
 * Use the LAS DEM as input raster
 * Tool: **Raster Domain**
@@ -190,7 +190,10 @@ enter output file: N110E348.las
 
 ---?image=images/a033.png
 
----
+---?image=images/a034.png
+
+---?image=https://farm8.staticflickr.com/7006/13159570895_96e15d3d15_h.jpg
+
 
 ---
 ## Python III
