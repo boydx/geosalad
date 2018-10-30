@@ -128,6 +128,8 @@ enter output file: N110E348.las
 * Perform preliminary measurements
 
 ---?image=images/a021.png
+[animation](https://uky-gis.github.io/support/lidar-arcgis/locate_arch.gif)
+
 
 ---
 ## Create new empty layer for landform
@@ -189,6 +191,7 @@ enter output file: N110E348.las
 ---?image=images/a032.png
 
 ---?image=images/a033.png
+[animation](http://uky-gis.github.io/support/lidar-arcgis/view_control.gif)
 
 ---?image=images/a034.png
 
