@@ -75,6 +75,13 @@ enter output file: N110E348.las
 
 ---?image=images/a06.png
 
+---
+## LAS Dataset to Raster tool
+* Input is LAS dataset filtered for ground points
+* *Sampling size* parameter (pixel resolution) is 5 (5-ft pixel)
+* Other parameters are default
+
+
 ---?image=images/a07.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">LAS Dataset to Raster</h2>
 
@@ -83,6 +90,107 @@ enter output file: N110E348.las
 
 ---?image=images/a09.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add elevation source</h2>
+
+---
+## Access aerial photography
+* Add ArcGIS Server *https://kyraster.ky.gov/arcgis/services
+* Load 2016 NAIP imagery
+
+---?image=images/a016.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add aerial photography</h2>
+
+---?image=images/a017.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">KY NAIP 2016 2ft</h2>
+
+---
+## Clip areal photography
+1. Create polygon from extent of LAS dataset
+* Use the LAS DEM as input raster
+* Tool: **Raster Domain**
+
+---?image=images/a018.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Raster Domain</h2>
+
+---?image=images/a019.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New area of interest</h2>
+
+---
+## Clip areal photography
+2. Use raster clip tool to clip to area of interest
+
+---?image=images/a020.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Raster Clip</h2>
+
+---
+## Add new image to Scene
+* Locate your landform
+* Spin around and explore
+* Perform preliminary measurements
+
+---?image=images/a021.png
+
+---
+## Create new empty layer for landform
+* Right-click geodatabase
+* Select **New > Feature Class**
+* Feature Class Type is **Point**
+* Spatial Reference is NAD 1983 StatePlane Kentucky FIPS 1600 Feet
+
+---?image=images/a022.png
+
+---?image=images/a023.png
+
+---?image=images/a024.png
+
+---
+## Add new point for landform
+* Add layer to **Contents**
+* Access **Edit > Create Features**
+* Drop on center of landform
+* **Save** edits
+
+---?image=images/a025.png
+
+---?image=images/a026.png
+
+---
+## Buffer point
+* Buffer point at 1,000 ft radius
+* New, high resolution area of interest
+
+---?image=images/a027.png
+
+---
+## View buffer in 3D
+* Edit buffer **Layer Properties**
+* Set **Elevation** property to **Absolute Height**
+* Use **Expression** and set feet above sea level
+
+---?image=images/a028.png
+
+---
+## Extract LAS Dataset
+* Use new buffer polygon to extract LAS points
+* Outputs new LAS point cloud
+* Put in separate folder **outside** of any repository
+
+---?image=images/a029.png
+
+---?image=images/a030.png
+
+---
+## Colorize LAS Dataset
+* Use NAIP aerial imagery to add RGB values
+* Outputs yet another LAS point cloud
+* Put in separate folder **outside** of any repository
+
+---?image=images/a031.png
+
+---?image=images/a032.png
+
+---?image=images/a033.png
+
+---
 
 ---
 ## Python III
