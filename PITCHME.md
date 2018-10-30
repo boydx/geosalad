@@ -2,6 +2,9 @@
 # GEO 409:06
 ### Intro in lidar data and advanced data structures in Python
 
+---?image=images/a029.png
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
+[animation](http://uky-gis.github.io/support/lidar-arcgis/view_control.gif)
 
 ---?image=https://farm2.staticflickr.com/1918/44749579164_54f9039f9d_h.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">NACIS</h2>
