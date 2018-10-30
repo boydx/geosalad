@@ -213,3 +213,45 @@ enter output file: N110E348.las
 ## Tuples
 ## Dictionaries
 ## DataFrames
+
+---
+# Lists
+A mutable sequence of values separated by a comma and enclosed in square brackets
+
+---
+## List methods
+* `.sort()`
+* `.append()`
+* `.remove()`
+
+---
+## Useful list functions
+* `len()`
+* `range()`
+
+## Access (and change) elements
+```python
+for i in range(len(archesList)):
+    print(f"The index of {archesList[i]} is {i}")
+```
+
+---
+# Tuples
+An immutable sequence of values separated by a comma and enclosed in round brackets
+
+---
+## Exercise using lists and tuples
+### Sort arches by name and elevation
+Download [Kentucky GNIS](https://geonames.usgs.gov/domestic/download_data.htm)
+
+---
+```python
+import csv #module to handle csv files
+with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
+    reader = csv.reader(csvfile, delimiter="|")
+    for row in reader:
+        print(row)
+```
+
+---
+## [Help with ab 6](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/examples)
