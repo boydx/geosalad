@@ -75,7 +75,7 @@ enter output file: N110E348.las
 
 ---?image=images/a06.png
 
----??image=images/a07.png
+---?image=images/a07.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">LAS Dataset to Raster</h2>
 
 ---?image=images/a08.png
