@@ -215,7 +215,7 @@ enter output file: N110E348.las
 ## DataFrames
 
 ---
-# Lists
+# List
 A mutable sequence of values separated by a comma and enclosed in square brackets
 
 ---
@@ -236,7 +236,7 @@ for i in range(len(archesList)):
 ```
 
 ---
-# Tuples
+# Tuple
 An immutable sequence of values separated by a comma and enclosed in round brackets
 
 ---
@@ -251,6 +251,24 @@ with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
     reader = csv.reader(csvfile, delimiter="|")
     for row in reader:
         print(row)
+```
+
+---
+# Dictionary
+An unordered collection of items that stored as key:value pairs separated by a comma and enclosed in curly brackets
+
+# DataFrame
+A two-dimensional tabular data structure and the primary data structure for pandas
+
+```python
+import pandas as pd
+import numpy as np
+
+with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
+    reader = pd.read_csv(csvfile, delimiter='|')
+    pdData = pd.DataFrame(reader)
+
+print(pdData)
 ```
 
 ---
