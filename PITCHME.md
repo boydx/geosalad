@@ -1,29 +1,10 @@
 ---
-# GEO 409:06
-### Intro in lidar data and advanced data structures in Python
+# GEO 409:07
+### 3D and terrain analysis using lidar data
 
 ---?image=images/a033.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
 [animation](http://uky-gis.github.io/support/lidar-arcgis/view_control.gif)
-
----?image=https://farm2.staticflickr.com/1918/44749579164_54f9039f9d_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">NACIS</h2>
-
----?image=https://farm2.staticflickr.com/1941/44560608585_5273398801_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Wis + Ky</h2>
-
-
----?image=https://farm2.staticflickr.com/1976/43657250080_c8bb35badf_h.jpg
-
----
-### Map winners from UW and UKy
-## [Oil & Bone](https://www.kgmaps.com/oil-and-bone/)
-### Kerry Gathers, UKy
-
----
-### Student won
-# $500 
-(you could too)
 
 ---
 ### (light detection and ranging)
@@ -200,76 +181,3 @@ enter output file: N110E348.las
 
 ---?image=https://farm8.staticflickr.com/7006/13159570895_96e15d3d15_h.jpg
 
-
----
-## Python III
-### Advanced data structures
-
----
-## [Help with lab 4 and lab 6](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/examples)
-
----
-## Lists
-## Tuples
-## Dictionaries
-## DataFrames
-
----
-# List
-A mutable sequence of values separated by a comma and enclosed in square brackets
-
----
-## List methods
-* `.sort()`
-* `.append()`
-* `.remove()`
-
----
-## Useful list functions
-* `len()`
-* `range()`
-
-## Access (and change) elements
-```python
-for i in range(len(archesList)):
-    print(f"The index of {archesList[i]} is {i}")
-```
-
----
-# Tuple
-An immutable sequence of values separated by a comma and enclosed in round brackets
-
----
-## Exercise using lists and tuples
-### Sort arches by name and elevation
-Download [Kentucky GNIS](https://geonames.usgs.gov/domestic/download_data.htm)
-
----
-```python
-import csv #module to handle csv files
-with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
-    reader = csv.reader(csvfile, delimiter="|")
-    for row in reader:
-        print(row)
-```
-
----
-# Dictionary
-An unordered collection of items that stored as key:value pairs separated by a comma and enclosed in curly brackets
-
-# DataFrame
-A two-dimensional tabular data structure and the primary data structure for pandas
-
-```python
-import pandas as pd
-import numpy as np
-
-with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
-    reader = pd.read_csv(csvfile, delimiter='|')
-    pdData = pd.DataFrame(reader)
-
-print(pdData)
-```
-
----
-## [Help with ab 6](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/examples)
