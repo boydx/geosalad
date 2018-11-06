@@ -3,6 +3,10 @@
 ### 3D and terrain analysis using lidar data
 
 ---
+# News!
+Python workflow will be a challenge in this lab
+
+---
 # Trip to Grays Arch
 
 ---?image=https://farm5.staticflickr.com/4813/45662776342_89eba8446e_h.jpg
@@ -10,7 +14,7 @@
 ---?image=https://farm5.staticflickr.com/4827/31841578988_78e47778f4_h.jpg
 
 ---
-# [360](https://kuula.co/embed/7Y4wL)
+# [360](https://kuula.co/post/7Y4wL)
 
 ---
 @css[title-top-right](Flying to Grays Arch)
