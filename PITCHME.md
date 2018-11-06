@@ -10,7 +10,7 @@
 ---?image=https://farm5.staticflickr.com/4827/31841578988_78e47778f4_h.jpg
 
 ---
-![Embed kuula](https://kuula.co/share/7Y4wL?fs=1&vr=0&thumbs=1&chromeless=0&logo=0)
+![Embed kuula](https://kuula.co/embed/7Y4wL)
 
 ---
 @css[title-top-right](Flying to Grays Arch)
