@@ -3,6 +3,13 @@
 ### 3D and terrain analysis using lidar data
 
 ---
+# Trip to Grays Arch
+
+---?image=https://farm5.staticflickr.com/4813/45662776342_89eba8446e_h.jpg
+
+---?image=https://farm5.staticflickr.com/4827/31841578988_78e47778f4_h.jpg
+
+---
 @css[title-top-right](Flying to Grays Arch)
 ![Gravity](https://www.youtube.com/embed/E8EJapOwvAc)
 
