@@ -2,7 +2,9 @@
 # GEO 409:07
 ### 3D and terrain analysis using lidar data
 
----?video=https://www.youtube.com/embed/E8EJapOwvAc
+---
+@css[title-top-right](Flying to Grays Arch)
+![Gravity](https://www.youtube.com/embed/E8EJapOwvAc)
 
 ---?image=images/a033.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
