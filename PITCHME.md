@@ -13,6 +13,9 @@
 @css[title-top-right](Flying to Grays Arch)
 ![Gravity](https://www.youtube.com/embed/E8EJapOwvAc)
 
+---
+![Fly to Grays Arch](https://www.youtube.com/embed/RB7x9B6OBkI)
+
 ---?image=images/a033.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
 [animation](http://uky-gis.github.io/support/lidar-arcgis/view_control.gif)
