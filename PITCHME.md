@@ -6,15 +6,18 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Grab a phone!</h2>
 
 ---
-## You will find a map
-# from 1907. 
+## Wait for the link...
+
+---
+### You will find a map
+## from 1907
 Can you tell the source of these maps?
 
 ---?image=images/g02.jpg
 
 ---
 This is an interactive map
-## Pan, zoom, and geolocate!
+### Pan, zoom, and find your location
 Notice the scale?
 
 ---?image=images/g03.jpg
