@@ -1,12 +1,10 @@
 ---
 ## Geocache Challenge
-### UKy Geography Awareness Week
+UKy Geography Awareness Week
 
----?image=images/g01.jpg
+---?image=images/g01.jpg&opacity=20
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Grab a phone!</h2>
-
----
-## Wait for the link...
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Wait for the link...</h3>
 
 ---
 ### You will find a map
@@ -17,10 +15,13 @@ Can you tell the source of these maps?
 
 ---
 This is an interactive map
-### Pan, zoom, and find your location
+### Pan and zoom
+## Find your location
 Notice the scale?
 
 ---?image=images/g03.jpg
+
+---?image=images/g06.jpg
 
 ---
 Have questions?
@@ -36,6 +37,10 @@ Have questions?
 
 ---?image=images/g05.jpg
 
+
+---
+You might win
+## prizes!
 
 ---
 # Ready?
