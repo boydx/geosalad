@@ -9,8 +9,8 @@
 ## You will find a map
 from 1907 Sanborn maps
 
----
-![Map you'll see](images/g02.jpg)
+---?image=images/g02.jpg
+
 
 ---
 ![Map you'll see](images/g03.jpg)
