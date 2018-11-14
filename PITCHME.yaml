@@ -1,5 +1,5 @@
-background-size : cover
+background-size : contain
 theme : night
-footnote : "Class projects at University of Kentucky"
+footnote : "Geography Awareness Week"
 transition : fade
 loop : true
