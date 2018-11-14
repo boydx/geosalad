@@ -7,23 +7,35 @@
 
 ---
 ## You will find a map
-from 1907 Sanborn maps
+# from 1907. 
+Can you tell the source of these maps?
 
 ---?image=images/g02.jpg
 
+---
+This is an interactive map
+## Pan, zoom, and geolocate!
+Notice the scale?
+
+---?image=images/g03.jpg
 
 ---
-![Map you'll see](images/g03.jpg)
+Have questions?
+## Click instructions
+
+---?image=images/g04.jpg
 
 ---
-![Map you'll see](images/g04.jpg)
+## What's the purpose?
+* Find the rainbow
+* Take a picture of it
+* Bring it to the pizza party
 
----
-![Map you'll see](images/g05.jpg)
+---?image=images/g05.jpg
+
 
 ---
 # Ready?
 [Open this website](https://outragegis.com/a/)
 
----
 
