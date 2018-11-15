@@ -202,3 +202,7 @@ enter output file: N110E348.las
 
 ---?image=https://farm8.staticflickr.com/7006/13159570895_96e15d3d15_h.jpg
 
+---
+## Python challenge
+[Run this script on your machine](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/pointcloud_extract)
+
