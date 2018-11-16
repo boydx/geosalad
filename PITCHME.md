@@ -57,6 +57,21 @@ October, 2018. [New York Times](https://www.nytimes.com/interactive/2018/10/12/u
 Cartographers manage data to make art.
 
 ---
+# Past projects
+
+---
+### Wildfire in Kentucky
+<iframe width="100%" height="500px" src="https://nmp.carto.com/u/boyd/builder/3ea43d07-6d91-43fd-b869-9216b2908a3e/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B28.455561860623863%2C-114.30810928344728%5D%2C%22sw%22%3A%5B45.61127561558146%2C-61.09033584594727%5D%2C%22center%22%3A%5B37.52402236402927%2C-87.69922256469727%5D%2C%22zoom%22%3A5%7D%2C%22widgets%22%3A%7B%22613cc10d-cbae-4aa7-b5c1-51e4debbb488%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"></iframe>
+
+---
+### Car vs. bike
+<iframe width="100%" height="500px" src="https://boydx.carto.com/viz/891d44d4-84ba-11e6-9e41-0e05a8b3e3d7/embed_map"></iframe>
+
+---
+### Finding the highest trees
+<iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
+
+---
 ## Spring, 2019 courses
 ### GEO 109, 309, 305, 409, 509
 All use cartography.
@@ -139,9 +154,7 @@ All use cartography.
 ---?image=images/01/trees.jpg
 <a href="http://boydx.github.io/tbt/oblique/" target="blank">LINK</a>
 
----
-### Wildfire in Kentucky
-<iframe width="100%" height="500px" src="https://nmp.carto.com/u/boyd/builder/3ea43d07-6d91-43fd-b869-9216b2908a3e/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B28.455561860623863%2C-114.30810928344728%5D%2C%22sw%22%3A%5B45.61127561558146%2C-61.09033584594727%5D%2C%22center%22%3A%5B37.52402236402927%2C-87.69922256469727%5D%2C%22zoom%22%3A5%7D%2C%22widgets%22%3A%7B%22613cc10d-cbae-4aa7-b5c1-51e4debbb488%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"></iframe>
+
 
 ---
 ## Student observations
@@ -157,9 +170,6 @@ All use cartography.
 
 ---?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg
 
----
-### Finding the highest trees
-<iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
 ---
 ## Project link
@@ -194,7 +204,3 @@ All use cartography.
 ---?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 <a href="http://boydx.github.io/collisions/" target="blank">LINK</a>
-
----
-### Car vs. bike
-<iframe width="100%" height="500px" src="https://boydx.carto.com/viz/891d44d4-84ba-11e6-9e41-0e05a8b3e3d7/embed_map"></iframe>
