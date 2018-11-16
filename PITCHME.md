@@ -7,11 +7,6 @@
 Boyd Shearer - [uky-gis.github.io](https://uky-gis.github.io)
 </div>
 
----
-## Mapping Minor
-### GEO 109, 309, 409
-Many other Geography courses can be elected to fulfill minor requirements.
-
 ---?image=i/001.jpg
 @quote[demand for cartographers is projected to grow nearly 30% by 2024.]([Wired Magazine]((https://www.wired.com/tag/cartography))
 
@@ -57,7 +52,7 @@ October, 2018. [New York Times](https://www.nytimes.com/interactive/2018/10/12/u
 Cartographers manage data to make art.
 
 ---
-# Past projects
+# Projects in 📡 📊 👓
 
 ---
 ### Wildfire in Kentucky
@@ -75,6 +70,11 @@ Cartographers manage data to make art.
 ## Spring, 2019 courses
 ### GEO 109, 309, 305, 409, 509
 All use cartography.
+
+---
+## Mapping Minor
+### GEO 109, 309, 409
+Many other Geography courses can be elected to fulfill minor requirements.
 
 ---
 # GEO 409
@@ -99,8 +99,8 @@ All use cartography.
 ---?image=images/01/lidar-02.jpg
 
 ---
-## Themes
-# Kentucky
+## Theme
+# Kentucky 
 (It's what we map!)
 
 ---?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
@@ -110,7 +110,48 @@ All use cartography.
 ---?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg
 
 ---
+![Video](https://www.youtube.com/embed/1uE9A8t7AZI)
+
+---
+# Quiz
+
+---?image=https://uky-gis.github.io/support/python-arcgis/pointcloud_extract/cufa.jpg
+
+---
+Cumberland Falls!
+## Course more than pretty pictures
+[Measure this!](https://uky-gis.github.io/support/lidar-arcgis/locate_arch.gif)
+
+---
+```python
+# Make Python script to simulate landscape illumination
+import arcpy 
+azimuth = 90 
+i = 0 
+while azimuth < 271:
+    output = f'c:/output/directory/hillshade_{azimuth}.tif'
+    azimuth = azimuth + i
+    arcpy.Hillshade_3d (in_DEM, output, azimuth, 45)
+    i += 5
+```
+
+---
 ![Video](https://player.vimeo.com/video/292571411)
+
+---
+## Resume additions
+@ul[squares]
+- ArcGIS Pro
+- Python
+- GitHub
+- Big data
+@ulend
+
+
+
+
+---
+## Other class projects
 
 
 ---?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
