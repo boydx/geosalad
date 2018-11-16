@@ -52,6 +52,7 @@ October, 2018. [New York Times](https://www.nytimes.com/interactive/2018/10/12/u
 Cartographers manage data to make art.
 
 ---
+## Projects in
 ## 📡 📊 👓
 
 ---
