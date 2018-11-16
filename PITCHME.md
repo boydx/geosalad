@@ -128,12 +128,10 @@ Cumberland Falls!
 # Make Python script to simulate landscape illumination
 import arcpy 
 azimuth = 90 
-i = 0 
 while azimuth < 271:
     output = f'c:/output/directory/hillshade_{azimuth}.tif'
-    azimuth = azimuth + i
     arcpy.Hillshade_3d (in_DEM, output, azimuth, 45)
-    i += 5
+    azimuth += 5
 ```
 
 ---
@@ -144,7 +142,6 @@ while azimuth < 271:
 @ul[squares]
 - ArcGIS Pro
 - Python
-- GitHub
 - Big data
 @ulend
 
