@@ -1,6 +1,25 @@
+---
+# GEO 409
+## Unwinding the semester
+Final project will be portfolio of past work
+[Example lab work this lesson](https://uky-gis.github.io/maps/us-arches/)
+
+---
+## Lesson & Lab 
+### are combined
+We'll create a contour layer and make a web map
+
+---
+## Slippy map
+### You can pan and map changes symbology on zoom.
+
 #HSLIDE
 # GEO 409
 ## Mapbox
+
+---
+# Video!
+## for Mapbox portion this module
 
 
 #HSLIDE
@@ -37,14 +56,15 @@ Consider their license requirement:
 
 #HSLIDE
 ## Formats we can add
-* **Vector**: GeoJSON (edited), EPSG: 4326
+### Focused on open source formats
+* **Vector**: Shapefile, GeoJSON (edited) at EPSG: 4326
 * **Raster**: GeoTIFF, EPSG: 3857
 
 #HSLIDE
 ## Studio
 * The Photoshop of online mapping
 * Rule-based classification and symbology
-* We've done it QGIS, but easier here
+* Change appearance as we zoom
 
 #HSLIDE
 ## Styles
@@ -73,7 +93,3 @@ Consider their license requirement:
 ## just a base map?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1lrJug1kgM0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-
-
-#HSLIDE
-## Lab: Create Mapbox map for your recreation area
