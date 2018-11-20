@@ -2,12 +2,13 @@
 # GEO 409
 ## Unwinding the semester
 Final project will be portfolio of past work
-[Example lab work this lesson](https://uky-gis.github.io/maps/us-arches/)
+
 
 ---
 ## Lesson & Lab 
 ### are combined
-We'll create a contour layer and make a web map
+We'll create a contour layer and make a web map<br>
+[Example lab work this lesson](https://uky-gis.github.io/maps/us-arches/)
 
 ---
 ## Slippy map
