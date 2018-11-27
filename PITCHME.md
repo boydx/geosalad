@@ -12,7 +12,7 @@ We'll create a contour layer and make a web map<br>
 
 ---
 ## Slippy map
-### Pan map and change symbology on zoom.
+### Pan map and change symbology on zoom
 Add interactive layers and you have a map application
 
 #HSLIDE
@@ -30,7 +30,7 @@ Add interactive layers and you have a map application
 It's a good time to be a cartographer!
 
 ---
-# Video!
+# Video
 ## for Mapbox portion of this module
 Check Canvas for link
 
@@ -68,8 +68,7 @@ Consider their license requirement:
 
 
 #HSLIDE
-## Formats we can add
-### Focused on open source formats
+### Formats we can use (open source)
 * **Vector**: Shapefile, GeoJSON (edited) at EPSG: 4326
 * **Raster**: GeoTIFF, EPSG: 3857
 
