@@ -16,7 +16,12 @@ We'll create a contour layer and make a web map<br>
 
 #HSLIDE
 # Mapbox
-[mapbox.com](https://www.mapbox.com/)
+@ul[squares]
+- 🍭 slippy map builder/host
+- real-time location data provider
+- [mapbox.com](https://www.mapbox.com/)
+@ulend
+
 
 ---
 # Video!
