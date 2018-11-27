@@ -12,15 +12,16 @@ We'll create a contour layer and make a web map<br>
 
 ---
 ## Slippy map
-### You can pan and map changes symbology on zoom.
+### Pan map and change symbology on zoom.
 
 #HSLIDE
-# GEO 409
-## Mapbox
+# Mapbox
+[mapbox.com](https://www.mapbox.com/)
 
 ---
 # Video!
-## for Mapbox portion this module
+## for Mapbox portion of this module
+Check Canvas for link
 
 
 #HSLIDE
