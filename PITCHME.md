@@ -13,19 +13,21 @@ We'll create a contour layer and make a web map<br>
 ---
 ## Slippy map
 ### Pan map and change symbology on zoom.
+Add interactive layers and you have a map application
 
 #HSLIDE
-# Mapbox
+## Mapbox
 @ul[squares]
 - primo 🍭 slippy map builder/host
+- recognize our connected devices make us sensors
 - real-time data-driven location services
 - [mapbox.com](https://www.mapbox.com/)
 @ulend
 
 ---
-### Data-driven loop
+### Rise of mapping services
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1lrJug1kgM0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
-As users consume Mapbox services, they feed anonymous location and time data back to Mapbox
+It's a good time to be a cartographer!
 
 ---
 # Video!
@@ -95,10 +97,13 @@ Consider their license requirement:
 ### Mapbox
 <iframe src="https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#17.23/38.044077/-84.507715" width="100%" height="500"></iframe>
 
+
+
 #HSLIDE
-### Differences?
-* Mapbox is a base map
-* Google maps is an environment
+### Other eervices
+* [ArcGIS Online](https://developers.arcgis.com/)
+* [Here XYZ Beta](https://explore.xyz.here.com/)
+* Require payment (at volume) and familiarity with coding
 
 
 
