@@ -18,10 +18,14 @@ We'll create a contour layer and make a web map<br>
 # Mapbox
 @ul[squares]
 - 🍭 slippy map builder/host
-- real-time location data provider
+- real-time data-driven location services
 - [mapbox.com](https://www.mapbox.com/)
 @ulend
 
+---
+### Data-driven loop
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1lrJug1kgM0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+As users consume Mapbox data, they feed anonymous location and time data
 
 ---
 # Video!
@@ -93,10 +97,8 @@ Consider their license requirement:
 
 #HSLIDE
 ### Differences?
-* Mapbox is base map
+* Mapbox is a base map
 * Google maps is an environment
 
-#HSLIDE
-## just a base map?
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1lrJug1kgM0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
