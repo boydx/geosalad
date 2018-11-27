@@ -17,15 +17,15 @@ We'll create a contour layer and make a web map<br>
 #HSLIDE
 # Mapbox
 @ul[squares]
-- 🍭 slippy map builder/host
+- primo 🍭 slippy map builder/host
 - real-time data-driven location services
 - [mapbox.com](https://www.mapbox.com/)
 @ulend
 
 ---
 ### Data-driven loop
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1lrJug1kgM0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-As users consume Mapbox data, they feed anonymous location and time data
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1lrJug1kgM0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+As users consume Mapbox services, they feed anonymous location and time data back to Mapbox
 
 ---
 # Video!
