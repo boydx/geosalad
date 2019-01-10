@@ -51,7 +51,9 @@ What experiences help me teach
 ---
 ## Discovering
 ### Town Branch Trail
+group project
 
+---
 ### Get on the trail!
 <iframe width="100%" height="500px" src="https://townbranchtrail.carto.com/builder/712809d2-6ce1-4040-959a-3db96699f725/embed"></iframe>
 
@@ -65,22 +67,23 @@ What experiences help me teach
 
 
 ---
-### Mapping 3D features with 
+### Mapping trees with 
 ## Lidar
+group project
 
 ---
 ### Finding the highest trees
 <iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
 ---?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
-<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">Link</a>
+<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">Poster</a>
 
 ---
 ## Student website
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">Link</a>
 
 ---?image=https://farm1.staticflickr.com/977/40242417740_0c91692078_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bluegrass Trails</h2>
+<!-- <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bluegrass Trails</h2> -->
 <a href="https://tastyfreeze.github.io/bluegrass/region/" target="blank">site</a>
 
 ---
@@ -89,7 +92,7 @@ What experiences help me teach
 
 
 ---?image=https://i1.wp.com/www.outragegis.com/trails/wp-content/uploads/2019/01/rrg-project.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Red River Gorge landforms</h2>
+<!-- <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Red River Gorge landforms</h2> -->
 <a href="https://uky-gis.github.io/maps/rrg-arches/" target="blank">site</a>
 
 ---
@@ -105,8 +108,10 @@ What experiences help me teach
 <iframe width="100%" height="500px" src="https://boydx.carto.com/viz/891d44d4-84ba-11e6-9e41-0e05a8b3e3d7/embed_map"></iframe>
 
 ---
-### Can we get a
-## field trip?
+## Field trips!
+
+---
+<iframe width="100%" height="500px" style="width: 100%; height: 500px; border: none; max-width: 100%;" frameborder="0" allow="vr,gyroscope,accelerometer,fullscreen" scrolling="no" allowfullscreen="true" src="https://kuula.co/share/7Y4wL?fs=1&vr=0&thumbs=1&chromeless=0&logo=0"></iframe>
 
 ---
 ## Pilot Knob SNP
@@ -204,30 +209,40 @@ Create a pedshed to measure how many people can access what parts of town on foo
 <a href="http://boydx.github.io/collisions/" target="blank">Interactive map</a>
 
 ---
-## What tools will we use?
+# Tools
+@ul[squares]
+- ArcGIS Pro
+- Python
+- GitHub
+- with big data...
+@ulend
 
 ---
-## Maps: ArcGIS Pro & QGIS
-* Students have requested both
-* QGIS is free and runs on MacOS
-* ArcGIS Pro is brave new frontier
-* Employers mostly in ESRI ecosystem
-
+## ArcGIS Pro (& QGIS)
+@ul[squares]
+- Students have requested both
+- QGIS is free and runs on MacOS
+- ArcGIS Pro is brave new frontier
+- Employers mostly in ArcGIS ecosystem
+@ulend
 
 ---
 ## Code: Python 3
-* Text-based instructions are cool, dude
-* ESC the desktop, free your workflow
-* Write it once, use it forever
-* Start with no programming knowledge
+@ul[squares]
+- Text-based instructions are cool, dude
+- ESC the desktop, free your workflow
+- Write it once, use it forever
+- Start with no programming knowledge
+@ulend
 
 ---
-### Online: Web pages!
-* Use GitHub Pages to publish maps online
-* Add content to prebuilt templates
-* Markdown, HTML, CSS, JavaScript
-* From here it is wide open...
-
+## Online: Web pages
+@ul[squares]
+- Use GitHub Pages to publish maps online
+- Add content to prebuilt templates
+- Markdown, HTML, CSS, JavaScript
+- From here it is wide open...
+@ul[squares]
 
 ---
 ## Code examples?
