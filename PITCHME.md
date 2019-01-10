@@ -260,7 +260,7 @@ Recognize that there is no one tool to accomplish a [complex task](https://www.o
 - From here it is wide open...
 @ulend
 
----?image=i/terrabytes27.gif
+---?image=images/terrabytes27.gif
 <div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
 <h2>Lidar point clouds</h2>
 <h3>46,105 tiles in Kentucky</h3>
