@@ -172,13 +172,15 @@ group project
 ### NCAA tournament basketball celebrations
 <a href="https://geography.as.uky.edu/sites/default/files/GEO309_PatternsOfCampusCelebrations_UK_NCAA_Basketball.jpg" target="blank">map</a>
 
----?image=https://farm5.staticflickr.com/4263/35717804616_2a43fe322c_k.jpg
 
 
 ---
 ## Fayette County
 ### Scenic Analysis
 <a href="https://geography.as.uky.edu/sites/default/files/SceniicLandscapeIndexFayetteCounty_th.jpg" target="blank">map</a>
+
+---?image=https://farm5.staticflickr.com/4263/35717804616_2a43fe322c_k.jpg
+
 
 ---?image=https://farm5.staticflickr.com/4095/35717812836_4542c770d7_k.jpg
 
@@ -208,8 +210,14 @@ Create a pedshed to measure how many people can access what parts of town on foo
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
 <a href="http://boydx.github.io/collisions/" target="blank">Interactive map</a>
 
+
 ---
-# Tools
+# Tools?
+Recognize that there is no one tool to accomplish a [complex task]().
+
+
+---
+## Workspace
 @ul[squares]
 - ArcGIS Pro
 - Python
@@ -218,31 +226,50 @@ Create a pedshed to measure how many people can access what parts of town on foo
 @ulend
 
 ---
-## ArcGIS Pro (& QGIS)
+## Maps: ArcGIS Pro (& QGIS)
 @ul[squares]
 - Students have requested both
 - QGIS is free and runs on MacOS
-- ArcGIS Pro is brave new frontier
+- [ArcGIS Pro](https://uky-gis.github.io/support/lidar-arcgis/locate_arch.gif) is brave new frontier
 - Employers mostly in ArcGIS ecosystem
 @ulend
+
+
 
 ---
 ## Code: Python 3
 @ul[squares]
 - Text-based instructions are cool, dude
 - ESC the desktop, free your workflow
-- Write it once, use it forever
+- [Write it once, use it forever](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples/hillshade-challenge.ipynb)
 - Start with no programming knowledge
 @ulend
 
 ---
-## Online: Web pages
+## Publish: Web pages
 @ul[squares]
-- Use GitHub Pages to publish maps online
-- Add content to prebuilt templates
-- Markdown, HTML, CSS, JavaScript
+- Use GitHub to publish maps online
+- Also for grading 😀 and code development
+- Use prebuilt templates
+- Learn basic Markdown, HTML, CSS (and JavaScript)
 - From here it is wide open...
+@ulend
+
+---?image=i/terrabytes27.gif
+<div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
+<h2>Lidar point clouds</h2>
+<h3>46,105 tiles in Kentucky</h3>
+<h1>> 20TB</h1>
+</div>
+
+## Data: Lidar
 @ul[squares]
+- Available for entire state
+- Map ground and [above-ground features](https://uky-gis.github.io/support/python-arcgis/pointcloud_extract/cufa.gif)
+- Data is redundant, instructions to process are unique
+@ulend
+
+
 
 ---
 ## Code examples?
@@ -345,7 +372,7 @@ group by
 ```
 
 ---
-### Fall 2018
+### Spring 2019
 ## theme?
 
 ---
