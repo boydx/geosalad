@@ -49,56 +49,60 @@ What experiences help me teach
 ## unique places
 
 ---
-# GEO 409
-
----
 ## Discovering
 ### Town Branch Trail
+
+### Get on the trail!
+<iframe width="100%" height="500px" src="https://townbranchtrail.carto.com/builder/712809d2-6ce1-4040-959a-3db96699f725/embed"></iframe>
 
 ---
 #### The team
 <iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe>
 
 ---
-## Project link
+## Student website
 <a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">Link</a>
 
----
-## Used mostly open source tools
-### QGIS and OpenStreetMap
 
 ---
-### We found Lidar data
-## Building heights!
-
----?image=https://farm3.staticflickr.com/2842/34173538111_fed5f045cf_h.jpg
-<a href="https://farm3.staticflickr.com/2842/34173538111_a32119a81c_o.jpg" title="Block diagram of downtown Lexington, Kentucky" target="blank">Link</a>
-
-
----?image=images/01/trees.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">And then tree heights!</h2>
-<a href="http://boydx.github.io/tbt/oblique/" target="blank">map</a>
-
----
-# NRE 355
-## Fall 
-
----?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
-<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">Link</a>
+### Mapping 3D features with 
+## Lidar
 
 ---
 ### Finding the highest trees
 <iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
+---?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
+<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">Link</a>
+
 ---
-## Project link
+## Student website
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">Link</a>
 
 ---?image=https://farm1.staticflickr.com/977/40242417740_0c91692078_o.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bluegrass Trails</h2>
-<a href="https://tastyfreeze.github.io/bluegrass/region/" target="blank">map</a>
+<a href="https://tastyfreeze.github.io/bluegrass/region/" target="blank">site</a>
 
 ---
+### Bluegrass Trails
+<iframe width="100%" height="500px" src="https://tastyfreeze.github.io/bluegrass/region/map.html"></iframe>
+
+
+---?image=https://i1.wp.com/www.outragegis.com/trails/wp-content/uploads/2019/01/rrg-project.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Red River Gorge landforms</h2>
+<a href="https://uky-gis.github.io/maps/rrg-arches/" target="blank">site</a>
+
+---
+### Red River Gorge landforms
+<iframe width="100%" height="500px" src="https://uky-gis.github.io/maps/rrg-arches/map.html"></iframe>
+
+---
+### Wildfire in Kentucky
+<iframe width="100%" height="500px" src="https://nmp.carto.com/u/boyd/builder/3ea43d07-6d91-43fd-b869-9216b2908a3e/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B28.455561860623863%2C-114.30810928344728%5D%2C%22sw%22%3A%5B45.61127561558146%2C-61.09033584594727%5D%2C%22center%22%3A%5B37.52402236402927%2C-87.69922256469727%5D%2C%22zoom%22%3A5%7D%2C%22widgets%22%3A%7B%22613cc10d-cbae-4aa7-b5c1-51e4debbb488%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"></iframe>
+
+---
+### Car vs. bike
+<iframe width="100%" height="500px" src="https://boydx.carto.com/viz/891d44d4-84ba-11e6-9e41-0e05a8b3e3d7/embed_map"></iframe>
 
 ---
 ### Can we get a
