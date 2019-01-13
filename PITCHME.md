@@ -138,9 +138,7 @@ Open *File > Preferences > Settings > Edit in settings.json*
     // "terminal.integrated.shell.windows": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat",
     // OSGeo tools from QGIS - Add after installing QGIS
     "terminal.integrated.shell.windows": "C:\\Program Files\\QGIS 3.2\\OSGeo4W.bat", 
-    "workbench.colorTheme": "NimboBimbo",
     "editor.fontSize": 17,
-    "editor.fontFamily": "'Space Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.lineHeight":25,
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.lineHeight": 1.05,
@@ -232,6 +230,7 @@ inside your root GIS folder
 
 ---
 ## Open in VS Code
+from GitHub Desktop
 
 ---?image=images/a03.png
 
@@ -266,19 +265,12 @@ Let's practice measuring state areas.
 * Data is redundant, code is unique
 
 ---
-# How to undo in Git
+## How to undo in Git
 * Can undo almost anything
 * "Revert This Commit" is just for single undo
 * More complex undo need to use command line
 * [Cheat sheet](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/)
 
-
----?image=images/02/natural-earth-download.jpg
-<div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Download data</h2>
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">to "data" folder</h3>
-<a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/" target="blank">Natural Earth</a>
-</div>
 
 
 ---
@@ -382,7 +374,9 @@ Texas,      685531
 Kentucky,   104525
 ```
 
-
+---
+## Measure area in
+# QGIS
 
 ---
 # Challenge
@@ -397,13 +391,13 @@ in VS Code
 ---
 ### Access terminal
 * Open terminal in VS Code
-* QGIS 3.2 > OS4GeoW Shell
+* QGIS 3 > OS4GeoW Shell
 * change directory to BoydsGIS\measure-states
 
 ---
 ### Experiment with
 ## ogr2ogr
-Library that supports data manipulation in QGIS
+Library that supports vector data manipulation in QGIS
 
 
 ---
