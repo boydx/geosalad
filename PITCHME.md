@@ -129,12 +129,15 @@ Open *File > Preferences > Settings > Edit in settings.json*
 
 
 ---
-## After installing ArcGIS Pro
+### After installing ArcGIS Pro
 ### Copy and paste:
 ```json
 {
+    // After you install ArcGIS Pro, add the next two lines
     "python.pythonPath":"C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat",
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat",
+    // OSGeo tools from QGIS - Add after installing QGIS
+    "terminal.integrated.shell.windows": "C:\\Program Files\\QGIS 3.2\\OSGeo4W.bat", 
     "workbench.colorTheme": "NimboBimbo",
     "editor.fontSize": 17,
     "editor.fontFamily": "'Space Mono', Menlo, Monaco, 'Courier New', monospace",
@@ -145,9 +148,13 @@ Open *File > Preferences > Settings > Edit in settings.json*
 ```
 
 ---
+# Markdown
+"write using an easy-to-read and easy-to-write plain text format" and convert it to pretty web pages
+
+---
 ## Add readme.md
 ### in new directory
-A Readme.md is a Markdown formatted file that tells visitors about your project (and helps you remember, too!)
+A Readme.md is a Markdown formatted file that tells visitors about your project 
 
 ---?image=images/02/q-004.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Open Folder...</h2>
@@ -171,7 +178,8 @@ What if we lost our text?
 "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people."
 
 ---
-![Git](images/02/git.png)<br>
+![Git](images/02/git.png)    
+
 [xctd](http://xkcd.com/)
 
 
@@ -217,25 +225,32 @@ Use GitHub to publish web pages, including
 
 ---
 ## Create a local repo:
-## _geo409_
+## _measure-states_
 inside your root GIS folder
 
----?image=images/02/q-009.png
+---?image=images/a02.png
+
+---
+## Open in VS Code
+
+---?image=images/a03.png
+
+---
+## Edit readme.md:
+```md
+# measure-states
+
+Let's practice measuring state areas.
+
+[Downloads this data](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces_lakes.zip)
+```
+
+---?image=images/02/natural-earth-download.jpg
 
 ---
 # Publish
 ## in GitHub
 
----
-## Create a remote repo called
-## _rrg_
-(if you haven't already)
-
----?image=images/02/q-011.png
-
----
-# Clone
-## to local root GIS folder
 
 ---
 # Tips
@@ -246,7 +261,7 @@ inside your root GIS folder
 ---
 # !!
 * Create a folder outside of any repo to download data.
-* Create: c:/GIS/BoydsGIS/data folder
+* Create: c:/BoydsGIS/**data** folder
 * 100 MB limit in GitHub
 * Data is redundant, code is unique
 
@@ -264,15 +279,6 @@ inside your root GIS folder
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">to "data" folder</h3>
 <a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/" target="blank">Natural Earth</a>
 </div>
-
----?image=images/02/natural-earth-download.jpg
-
-
----
-## Create folder in _geo409_
-### "c01"
-* Open ArcMap
-* and QGIS
 
 
 ---
@@ -376,120 +382,7 @@ Texas,      685531
 Kentucky,   104525
 ```
 
----
-## Measure state areas in
-# QGIS
 
----
-### Housekeeping
-open pgAdmin and check if PostGIS is installed
-
----?image=images/02/postgres.png
-
-
----
-### QGIS Browser Panel
-## Connect PostGIS database
-
-
----?image=images/02/connect_postgres.png
-
----
-### QGIS DB Manager
-## Import Layer
-
-
----?image=images/02/qgis-import-layer.png
-
----
-### Finally!
-## Open SQL Window
-
----?image=images/02/qgis-connect-db.png
-
----?image=images/02/qgis-execute-sql.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #eee;">Execute SQL...</h2>
-
-
----
-
-```
-/* select everything */
-
-select * from ne_10m_admin_1_states_provinces_lakes
-```
-
----
-
-```
-/* select just texas, kentucky, and alaska */
-
-select
-    name
-from
-    ne_10m_admin_1_states_provinces_lakes
-where
-    name in ('Texas','Alaska','Kentucky')
-```
-
----
-
-```
-/* select states and calculate area */
-
-select
-    name,
-    ST_Area(geom) As "area in what units?"
-from
-    ne_10m_admin_1_states_provinces_lakes
-where
-    name in ('Texas','Alaska','Kentucky')
-```
-
----
-
-```
-/* select states and calculate area in new projection, EPSG: 5070 */
-
-select
-    name,
-    ST_Area(ST_Transform(geom, 5070)) As "sq. meters"
-from
-    ne_10m_admin_1_states_provinces_lakes
-where
-    name in ('Texas','Alaska','Kentucky')
-```
-
-
----
-
-```
-/* select states and calculate area in new projection, EPSG: 5070 */
-/* and sort, too! */
-
-select
-    name,
-    (ST_Area(ST_Transform(geom, 5070))/1000000) As "sq km",
-    (ST_Area(geom, true))/1000000 As "sq km on spheroid"
-from
-    ne_10m_admin_1_states_provinces_lakes
-where
-    name in ('Texas','Alaska','Kentucky')
-order
-	by "sq km" DESC
-```
-
----
-
-## Measurement
-
-```
-name,       sq km       sq km on spheroid
-Alaska,     1505637.34, 1505638.85
-Texas,      684969.01,  684969.02
-Kentucky,   104576.98,  104576.98
-
-```
 
 ---
 # Challenge
@@ -502,9 +395,10 @@ Do all of this without opening a desktop program?
 in VS Code
 
 ---
-### Access
+### Access terminal
+* Open terminal in VS Code
 * QGIS 3.2 > OS4GeoW Shell
-* change directory to BoydsGIS\geo409\c01
+* change directory to BoydsGIS\measure-states
 
 ---
 ### Experiment with
@@ -518,13 +412,11 @@ Library that supports data manipulation in QGIS
 ogr2ogr --version
 
 :: Create projected GeoJSON and select three states
-ogr2ogr -f geojson projected.geojson -sql "select name from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" -s_srs EPSG:4326 -t_srs EPSG:5070 d:\BoydsGIS\data\ne_10m_admin_1_states_provinces_lakes.shp
+ogr2ogr -f geojson projected.geojson -sql "select name from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" -s_srs EPSG:4326 -t_srs EPSG:5070 ne_10m_admin_1_states_provinces_lakes.shp
 
 :: Use ogr2ogr internal measurement feature
 ogr2ogr -f CSV output.csv -sql "select name, (OGR_GEOM_AREA/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes" projected.geojson
 
-:: Use PostGIS database to access data if working in QGIS
-:: ogr2ogr -f CSV output.csv -sql "select name, (st_area(geom,true)/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" PG:"dbname=postgres host=localhost port=5432 user=postgres password=postgres"
 ```
 
 ---
@@ -536,5 +428,17 @@ ogr2ogr -f CSV output.csv -sql "select name, (OGR_GEOM_AREA/1000000) as sq_km fr
 ## That's the
 # Challenge
 this semester and we'll keep at it!
+
+
+---
+## Create a remote repo called
+## _rrg_
+(if you haven't already)
+
+---?image=images/02/q-011.png
+
+---
+# Clone
+## to local root GIS folder
 
 
