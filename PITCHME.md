@@ -1,82 +1,93 @@
-#HSLIDE
+---
 # GEO 409:01
 ## Advanced topics in GIS
 
-#HSLIDE
+---
 ## Topics
 * Tools for the knowledge worker
 * Set up our work environment
 * Measure area the desktop way
-* Challenge: create a script to measure area
+* Challenge: measure area by code
 
-#HSLIDE
+---
 ## Your task:
 # Lesson 01
 on Canvas
 
 
-#HSLIDE
+---
 ### Tools for the
-## Knowledge Worker
+## Knowledge worker
 
-#HSLIDE
+---
 ## We need to
 # manage text
 
-#HSLIDE
+---
 # as code
-## a/k/a plain-text instructions.
+### a/k/a plain-text instructions
+that use *keywords* and *syntax*
 
-#HSLIDE
-This is not your parents'
+---
+## For example
+```html
+<p style="color:blue;">Hello, world!</p>
+```
+renders to:
+<p style="color:blue;">Hello, world!</p>
+
+---
+### Advantages of coding
+* Work simply
+* Work remotely
+* Work when you sleep 🌝
+* Share exact instructions
+
+---
+[Get a job](https://geekprank.com/hacker/)
+
+---
+First tool
 # Text editor
+Not Notepad, Microsoft Word, etc. but a platform to view/edit/create multiple code formats
 
-#HSLIDE
-A good code editor offers
+---
+A good text editor offers
 ### Language syntax highlighting
-auto-complete, find and replace, and code folding.
+auto-complete as you type, find and replace, and code folding to hide blocks of text.
 
-#HSLIDE
+---
 We'll use
 ### <a href="https://www.anaconda.com/download" target="blank">VS Code</a>
-(as part of Python 3 package) and <a href="https://www.sublimetext.com" target="blank">Sublime</a>.
+(as part of Python 3.7 package)
 
-#HSLIDE
+---
+and 
+### [Jupyter Notebook](https://developers.arcgis.com/python/guide/using-the-jupyter-notebook-environment/)
+a browser based editor installed by ArcGIS
+
+---
 ## Customize VS Code
-1. Increase font sizes
+1. Bling it up with themes!
 2. Create working directory, our root
-3. Bling it up with themes!
+3. Pro tips: modify settings
 
-#HSLIDE
-## Increase font sizes
-Open *File > Preferences > Settings*
+---?image=images/a01.png
+<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Themes</h3>
 
-#HSLIDE?image=images/02/q-001.png
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Access USER SETTINGS</h3>
-
-#HSLIDE
-## Copy and paste:
-```json
-"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-"editor.fontSize": 17
-"editor.lineHeight":25,
-"terminal.integrated.fontSize": 18,
-"terminal.integrated.lineHeight": 1.05
-```
-
-#HSLIDE
+---
 #### Let's setup your local root
 ### GIS project directory
 where all of your GIS projects, assets, files, repos, and everything else will be stored related to class.
 
-#HSLIDE
+---
 ## Create working directory
 Open *View > Terminal*
 
-#HSLIDE?image=images/02/q-002.png
+---?image=images/02/q-002.png
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Access console, terminal, command line, shell, etc.</h3>
 
-#HSLIDE
+---
 ### Type in the terminal I
 ```bat
 :: This is a comment in windows terminal
@@ -85,145 +96,161 @@ cd C:\
 :: If you're not on C: drive execute
 C:
 ```
-#HSLIDE
+---
 ### Type in the terminal II
 ```bat
 :: make a directory on C:
-mkdir GIS
+mkdir MyFunNameGIS
 :: go into the new directory
-cd GIS
+cd MyFunNameGIS
 ```
-#HSLIDE
-### Type in the terminal II
+---
+### Type in the terminal III
 ```bat
-:: make a directory on C:/GIS
+:: make a directory on C:\
 :: Create your COOL COOL name
 mkdir BoydsGIS 
 :: go into the new directory
 cd BoydsGIS 
 ```
-#HSLIDE
+---
 ## How will I
 ### know all of these commands?!?
 
-#HSLIDE?image=images/02/q-003.png
+---?image=images/02/q-003.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Commands</h2>
 <a href="http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt/" target="blank">cheat sheet</a>
 
-#HSLIDE
-#### OR, go to:
-### _C:/_
-and create a folder called,   
-### _GIS/MyFunNameGIS_    
-replacing "MyFunName" with your fun name.
+---
+## Modify settings
+### For super-customized control
+Open *File > Preferences > Settings > Edit in settings.json*
 
-#HSLIDE
+
+
+---
+## After installing ArcGIS Pro
+### Copy and paste:
+```json
+{
+    "python.pythonPath":"C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat",
+    "workbench.colorTheme": "NimboBimbo",
+    "editor.fontSize": 17,
+    "editor.fontFamily": "'Space Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.lineHeight":25,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.lineHeight": 1.05,
+}
+```
+
+---
 ## Add readme.md
 ### in new directory
 A Readme.md is a Markdown formatted file that tells visitors about your project (and helps you remember, too!)
 
-#HSLIDE?image=images/02/q-004.png
+---?image=images/02/q-004.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Open Folder...</h2>
 
-#HSLIDE?image=images/02/q-005.png
+---?image=images/02/q-005.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Right-click...</h2>
 
-#HSLIDE?image=images/02/q-006.png
+---?image=images/02/q-006.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Preview</h2>
 
-#HSLIDE?image=images/02/markdown.md.jpg
+---?image=images/02/markdown.md.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Many ways to create</h2>
 <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="blank">Markdown.md</a>
 
-#HSLIDE
+---
 # Whew!
 What if we lost our text?
 
-#HSLIDE
+---
 # GIT
 "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people."
 
-#HSLIDE
+---
 ![Git](images/02/git.png)<br>
 [xctd](http://xkcd.com/)
 
 
-#HSLIDE  
+---  
 [Git](https://git-scm.com/) was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
 
 
-#HSLIDE
+---
 We'll use the git hosting service
 ### GitHub
 and their desktop app to manage our projects.
 
-#HSLIDE
+---
 Get account at [GitHub.com](https://github.com/) using your
 ### uky.edu
 email address
 
-#HSLIDE
+---
 ### Our GitHub flow each week
 * Find invitation to lesson in Canvas
 * Accept invitation and _clone remote repository_
 * Work through lesson/lab and save work
 * _Commit_ changes as you go and _push_ when finished.
 
-#HSLIDE
+---
 ### GitHub Pages
 Use GitHub to publish web pages, including
 ### Map Portfolio!
 
 
-#HSLIDE
+---
 ### Let's clone our lesson
 ## Repo
 (use link in Canvas)
 
-#HSLIDE
+---
 ### First, let's install and
 ## sign in
 
-#HSLIDE?image=images/02/q-007.png
+---?image=images/02/q-007.png
 
-#HSLIDE?image=images/02/q-010.png
+---?image=images/02/q-010.png
 
-#HSLIDE
+---
 ## Create a local repo:
 ## _geo409_
 inside your root GIS folder
 
-#HSLIDE?image=images/02/q-009.png
+---?image=images/02/q-009.png
 
-#HSLIDE
+---
 # Publish
 ## in GitHub
 
-#HSLIDE
+---
 ## Create a remote repo called
 ## _rrg_
 (if you haven't already)
 
-#HSLIDE?image=images/02/q-011.png
+---?image=images/02/q-011.png
 
-#HSLIDE
+---
 # Clone
 ## to local root GIS folder
 
-#HSLIDE
+---
 # Tips
 * Add @UKy-GIs to your profile information
 * Always Fetch and pull remote changes before you start
 * Commit and push often!
 
-#HSLIDE
+---
 # !!
 * Create a folder outside of any repo to download data.
 * Create: c:/GIS/BoydsGIS/data folder
 * 100 MB limit in GitHub
 * Data is redundant, code is unique
 
-#HSLIDE
+---
 # How to undo in Git
 * Can undo almost anything
 * "Revert This Commit" is just for single undo
@@ -231,35 +258,35 @@ inside your root GIS folder
 * [Cheat sheet](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/)
 
 
-#HSLIDE?image=images/02/natural-earth-download.jpg
+---?image=images/02/natural-earth-download.jpg
 <div style="background-color: rgba(0,0,0,0.4);width:100%;height:100%;margin: 0 auto;padding:20px 0;">
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Download data</h2>
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">to "data" folder</h3>
 <a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/" target="blank">Natural Earth</a>
 </div>
 
-#HSLIDE?image=images/02/natural-earth-download.jpg
+---?image=images/02/natural-earth-download.jpg
 
 
-#HSLIDE
+---
 ## Create folder in _geo409_
 ### "c01"
 * Open ArcMap
 * and QGIS
 
 
-#HSLIDE
+---
 ## Measure state areas in
 # ArcMap
 
-#HSLIDE
+---
 ## Change your Data Frame's
 # Projection
 
-#HSLIDE?image=images/02/arcmap-projection.jpg
+---?image=images/02/arcmap-projection.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;">EPSG: 5070</h2>
 
-#HSLIDE
+---
 ```
 NAD_1983_Contiguous_USA_Albers
 WKID: 5070 Authority: EPSG
@@ -285,7 +312,7 @@ Datum: D_North_American_1983
 ```
 
 
-#HSLIDE
+---
 ```
 North_America_Albers_Equal_Area_Conic
 WKID: 102008 Authority: Esri
@@ -311,35 +338,35 @@ Datum: D_North_American_1983
 ```
 
 
-#HSLIDE
+---
 ### Select only those states we need
 ## Definition Query
 ```
 "name" in ('Texas','Alaska','Kentucky')
 ```
 
-#HSLIDE?image=images/02/arcmap-definition-query.jpg
+---?image=images/02/arcmap-definition-query.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
 
 
-#HSLIDE
+---
 ## Open attribute table
 # Add Field
 as **Type: Float**
 
-#HSLIDE?image=images/02/arcmap-add-field.jpg
+---?image=images/02/arcmap-add-field.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
 
-#HSLIDE
+---
 ## Right+click
 # Field
 and **Calculate Geometry**
 
-#HSLIDE?image=images/02/arcmap-area.jpg
+---?image=images/02/arcmap-area.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
 
 
-#HSLIDE
+---
 ## ArcMap mesaurement
 
 ```
@@ -349,42 +376,42 @@ Texas,      685531
 Kentucky,   104525
 ```
 
-#HSLIDE
+---
 ## Measure state areas in
 # QGIS
 
-#HSLIDE
+---
 ### Housekeeping
 open pgAdmin and check if PostGIS is installed
 
-#HSLIDE?image=images/02/postgres.png
+---?image=images/02/postgres.png
 
 
-#HSLIDE
+---
 ### QGIS Browser Panel
 ## Connect PostGIS database
 
 
-#HSLIDE?image=images/02/connect_postgres.png
+---?image=images/02/connect_postgres.png
 
-#HSLIDE
+---
 ### QGIS DB Manager
 ## Import Layer
 
 
-#HSLIDE?image=images/02/qgis-import-layer.png
+---?image=images/02/qgis-import-layer.png
 
-#HSLIDE
+---
 ### Finally!
 ## Open SQL Window
 
-#HSLIDE?image=images/02/qgis-connect-db.png
+---?image=images/02/qgis-connect-db.png
 
-#HSLIDE?image=images/02/qgis-execute-sql.jpg
+---?image=images/02/qgis-execute-sql.jpg
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;">Execute SQL...</h2>
 
 
-#HSLIDE
+---
 
 ```
 /* select everything */
@@ -392,7 +419,7 @@ open pgAdmin and check if PostGIS is installed
 select * from ne_10m_admin_1_states_provinces_lakes
 ```
 
-#HSLIDE
+---
 
 ```
 /* select just texas, kentucky, and alaska */
@@ -405,7 +432,7 @@ where
     name in ('Texas','Alaska','Kentucky')
 ```
 
-#HSLIDE
+---
 
 ```
 /* select states and calculate area */
@@ -419,7 +446,7 @@ where
     name in ('Texas','Alaska','Kentucky')
 ```
 
-#HSLIDE
+---
 
 ```
 /* select states and calculate area in new projection, EPSG: 5070 */
@@ -434,7 +461,7 @@ where
 ```
 
 
-#HSLIDE
+---
 
 ```
 /* select states and calculate area in new projection, EPSG: 5070 */
@@ -452,7 +479,7 @@ order
 	by "sq km" DESC
 ```
 
-#HSLIDE
+---
 
 ## Measurement
 
@@ -464,28 +491,28 @@ Kentucky,   104576.98,  104576.98
 
 ```
 
-#HSLIDE
+---
 # Challenge
 Do all of this without opening a desktop program?
 ## Script it!
 
-#HSLIDE
+---
 ### Create a file called
 ## measure.bat
 in VS Code
 
-#HSLIDE
+---
 ### Access
 * QGIS 3.2 > OS4GeoW Shell
 * change directory to BoydsGIS\geo409\c01
 
-#HSLIDE
+---
 ### Experiment with
 ## ogr2ogr
 Library that supports data manipulation in QGIS
 
 
-#HSLIDE
+---
 ```bat
 :: run program
 ogr2ogr --version
@@ -500,18 +527,12 @@ ogr2ogr -f CSV output.csv -sql "select name, (OGR_GEOM_AREA/1000000) as sq_km fr
 :: ogr2ogr -f CSV output.csv -sql "select name, (st_area(geom,true)/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" PG:"dbname=postgres host=localhost port=5432 user=postgres password=postgres"
 ```
 
-#HSLIDE
+---
 ### Save your
 ## project files
 #### then commit and push!
 
-#HSLIDE
-### Advantages of coding
-* Can work more efficiently without application overhead
-* Can work remotely
-* Can share exact instructions
-
-#HSLIDE
+---
 ## That's the
 # Challenge
 this semester and we'll keep at it!
