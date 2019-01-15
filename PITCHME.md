@@ -4,10 +4,12 @@
 
 ---
 ## Topics
+@ul[squares]
 * Tools for the knowledge worker
 * Set up our work environment
 * Measure area the desktop way
 * Challenge: measure area by code
+@ulend
 
 ---
 ## Your task:
@@ -38,10 +40,12 @@ renders to:
 
 ---
 ### Advantages of coding
+@ul[squares]
 * Work simply
 * Work remotely
 * Work when you sleep 🌝
 * Share exact instructions
+@ulend
 
 ---
 ### History
@@ -202,11 +206,13 @@ email address
 
 ---
 ### Our GitHub flow each week
+@ul[squares]
 * Find invitation to lesson in Canvas
 * Accept invitation and _clone remote repository_
 * _Commit_ changes as you work 
 * _Push to remote_ when finished
 * _Pull_ in changes that I request
+@ulend
 
 ---
 ### GitHub Pages
@@ -259,16 +265,20 @@ Let's practice measuring state areas.
 
 ---
 # Tips
+@ul[squares]
 * Add @UKy-GIs to your profile information
 * Always Fetch and pull remote changes before you start
 * Commit and push often!
+@ulend
 
 ---
 # !!
+@ul[squares]
 * Create a folder outside of any repo to download data.
 * Create: c:/BoydsGIS/**data** folder
 * 100 MB limit in GitHub
 * Data is redundant, code is unique
+@ulend
 
 ---
 ## How to undo in Git
