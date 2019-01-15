@@ -44,7 +44,12 @@ renders to:
 * Share exact instructions
 
 ---
-[Get a job](https://geekprank.com/hacker/)
+### History
+* Command Line Interface (CLI)
+* Many open source platforms started as command line library
+
+---
+[Do anything with the CLI](https://geekprank.com/hacker/)
 
 ---
 First tool
@@ -54,17 +59,17 @@ Not Notepad, Microsoft Word, etc. but a platform to view/edit/create multiple co
 ---
 A good text editor offers
 ### Language syntax highlighting
-auto-complete as you type, find and replace, and code folding to hide blocks of text.
+auto-complete as you type, find and replace, and very customizable
 
 ---
 We'll use
 ### <a href="https://www.anaconda.com/download" target="blank">VS Code</a>
-(as part of Python 3.7 package)
+a popular open source and free editor
 
 ---
 and 
 ### [Jupyter Notebook](https://developers.arcgis.com/python/guide/using-the-jupyter-notebook-environment/)
-a browser based editor installed by ArcGIS
+a browser-based editor installed by ArcGIS
 
 ---
 ## Customize VS Code
@@ -78,7 +83,7 @@ a browser based editor installed by ArcGIS
 ---
 #### Let's setup your local root
 ### GIS project directory
-where all of your GIS projects, assets, files, repos, and everything else will be stored related to class.
+where all of your GIS projects, assets, files, repos, etc. will be stored.
 
 ---
 ## Create working directory
@@ -199,8 +204,9 @@ email address
 ### Our GitHub flow each week
 * Find invitation to lesson in Canvas
 * Accept invitation and _clone remote repository_
-* Work through lesson/lab and save work
-* _Commit_ changes as you go and _push_ when finished.
+* _Commit_ changes as you work 
+* _Push to remote_ when finished
+* _Pull_ in changes that I request
 
 ---
 ### GitHub Pages
