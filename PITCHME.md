@@ -24,6 +24,8 @@ on Canvas
 ---
 ## We need to
 # manage text
+✏️📓🎓
+
 
 ---
 # as code
@@ -51,6 +53,7 @@ renders to:
 ### History
 * Command Line Interface (CLI)
 * Many open source platforms started as command line library
+* CLI is hot again
 
 ---
 [Do anything with the CLI](https://geekprank.com/hacker/)
