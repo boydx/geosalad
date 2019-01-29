@@ -118,12 +118,12 @@
 @ulend
 
 ---
-# Dependency Hell
+## Dependency Hell
 [Yep, there's a term for it](https://en.wikipedia.org/wiki/Dependency_hell)    
 
 
 ---
-### Here's what it looks like
+Here's what it looks like
 ![Dependencies for Gentoo Linux](https://cgatoxford.files.wordpress.com/2017/05/gentoo-deps.jpg)
 [link](https://cgatoxford.wordpress.com/2017/05/12/the-dependency-hell-in-software-development/)
 
@@ -155,9 +155,11 @@
 
 ---
 ## Setting up geoprocessing 
+@ul[squares]
 * ArcPy is the Python package that ships with ArcGIS Pro
 * Very well documented
 * Typically other properties are set to customize your workflow
+@ulend
 
 ---
 # ArcPy
@@ -173,7 +175,7 @@ import arcpy # case-sensitive!
 # set environment properties
 arcpy.env.workspace = r"Z:\BoydsGIS\data\rrg_build.gdb"
 arcpy.env.overwriteOutput = True
-# use dot notation to find correct tools, functions, properties, etc.
+# use dot notation to address functions, properties, etc.
 ```
 
 ---
