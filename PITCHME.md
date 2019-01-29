@@ -3,13 +3,27 @@
 ## Intro to ArcGIS Pro and Python 3
 
 ---
-## Organization
+## Goals
+@ul[squares]
+* Maintain data hygiene
+* Test-drive ArcGIS Pro
+* Begin Red River Gorge base map
+* Start hacking Python (proper intro next module)
+* Stay warm
+@ulend
 
+
+---?image=https://farm2.staticflickr.com/1483/24448087730_5b3b991737_h.jpg
+
+---
+## Organization
+@ul[squares]
 * Keep GIS folder organized
 * Be consistent
 * Don't put a file >50 MB in repo
 * Don't put a .gdb folder in repo
-* Don't put repo in repo
+* Don't put a repo in repo
+@ulend
 
 ---
 ## Example folder structure
@@ -25,10 +39,12 @@
 
 
 ---
-## Use your OneDrive
-* Microsoft OneDrive to sync files remotely
-* Put big data files here
+## Use your student resources
+@ul[squares]
+* Microsoft or Google cloud storage
+* Sync large files remotely
 * Access via your LinkBlue account
+@ulend
 
 ---?image=images/03/a002.png
 
@@ -83,37 +99,59 @@
 
 ---
 ## Python 
+@ul[squares]
 * Modular programming
 * functions >> modules >> packages
-    * for: simplicity, maintainability, reusability, scoping/namespacing
+    * for: simplicity, maintainability, reusability, addressing
 * An open-source quilt of contributions
+@ulend
 
 ---?image=https://www.metmuseum.org/toah/images/hb/hb_1996.4.jpg
 
 ---
-## Python in VS Code
-* [Conda Package Management](https://conda.io/docs/user-guide/getting-started.html)
-* Manage Virtual Environments
-* Develop on most operating systems
+## Managing your environment
+@ul[squares]
+* A development environment is a constellation of packages
+* Most depend on a distinct version of other packages
+* Chain of dependencies must not be broken!
+* Create virtual environments
+@ulend
+
+---
+# Dependency Hell
+[Yep, there's a term for it](https://en.wikipedia.org/wiki/Dependency_hell)    
 
 
---- 
-```bash
-conda create --name geo409
-activate geo409
-```
+---
+### Here's what it looks like
+![Dependencies for Gentoo Linux](https://cgatoxford.files.wordpress.com/2017/05/gentoo-deps.jpg)
+[link](https://cgatoxford.wordpress.com/2017/05/12/the-dependency-hell-in-software-development/)
 
 ---
 ## Python in ArcGIS Pro
+@ul[squares]
 * Built-in Package Management
-* Make clone of default read-only environment
 * Development in Windows OS only
+* Make clone of default read-only environment
+@ulend
+
+
+---
+## Python in VS Code
+@ul[squares]
+* Use Anaconda or ArcGIS Pro
+* Create *.py* files to execute in terminal
+* Develop on most operating systems
+* Create first program: "Geography, Y'all!"
+@ulend
 
 ---
 ## Development in ArcGIS Pro
-* Jupyter Notebook
+@ul[squares]
+* Jupyter Notebook creates *.ipynb* files
 * Run cells of code rather than the entire script
-* Download as Python (.py) file
+* Cells can be Python or Markdown
+@ulend
 
 ---
 ## Setting up geoprocessing 
@@ -160,11 +198,6 @@ print(rasterList)
 arcpy.analysis.Clip("cookie dough", "cookie cutter", "output cookie")
 ```
 
----
-```python
-# raster clip to area of interest
-arcpy.analysis.Clip("cookie dough", "#", "output cookie", "cookie cutter")
-```
 
 ---
 # Wanna see into the future?
@@ -174,5 +207,6 @@ arcpy.analysis.Clip("cookie dough", "#", "output cookie", "cookie cutter")
 # build field data type showing properties of us_arches fields.
 fields = arcpy.ListFields(layer_name)
 for field in fields:
-    print(field.name + " is a type of " + field.type)
+    fieldInLayer = f"{field.name} is a type of {field.type}."
+    print(fieldInLayer)
 ```
