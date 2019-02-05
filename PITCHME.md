@@ -102,9 +102,12 @@
 @ul[squares]
 * Modular programming
 * functions >> modules >> packages
-    * for: simplicity, maintainability, reusability, addressing
-* An open-source quilt of contributions
+    * for: simplicity, maintainability, reusability
+* package.module.function
 @ulend
+
+---
+## An open-source quilt of contributions
 
 ---?image=https://www.metmuseum.org/toah/images/hb/hb_1996.4.jpg
 
@@ -114,18 +117,14 @@
 * A development environment is a constellation of packages
 * Most depend on a distinct version of other packages
 * Chain of dependencies must not be broken!
-* Create virtual environments
 @ulend
 
 ---
 ## Dependency Hell
-[Yep, there's a term for it](https://en.wikipedia.org/wiki/Dependency_hell)    
+* [Yep, there's a term for it](https://en.wikipedia.org/wiki/Dependency_hell)
+* [Image Dependencies for Gentoo Linux](https://cgatoxford.files.wordpress.com/2017/05/gentoo-deps.jpg)
+* [link](https://cgatoxford.wordpress.com/2017/05/12/the-dependency-hell-in-software-development/) 
 
-
----
-Here's what it looks like
-![Dependencies for Gentoo Linux](https://cgatoxford.files.wordpress.com/2017/05/gentoo-deps.jpg)
-[link](https://cgatoxford.wordpress.com/2017/05/12/the-dependency-hell-in-software-development/)
 
 ---
 ## Python in ArcGIS Pro
