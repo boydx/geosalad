@@ -3,6 +3,23 @@
 ## Intro to ArcGIS Pro and Python 3
 
 ---
+# NEWS
+* Cartography Contest => $$$
+* Geography Career Night
+
+---
+## Gyula Pauer Cartography Project Award 
+Contact me if you're interested
+
+---
+## Career Night
+ALL STUDENTS WELCOME
+Wed., February 6th, 5:30-7:30pm
+Stuckert Career Center (free parking)
+
+---?image=images/00_careernight.png
+
+---
 ## Goals
 @ul[squares]
 * Maintain data hygiene
