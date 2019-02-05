@@ -17,7 +17,7 @@ ALL STUDENTS WELCOME
 Wed., February 6th, 5:30-7:30pm
 Stuckert Career Center (free parking)
 
----?image=images/00_careernight.png
+---?image=images/02/00_careernight.png
 
 ---
 ## Goals
