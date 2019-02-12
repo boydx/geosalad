@@ -7,7 +7,7 @@
 @ul[squares]
 * Learn basic types
 * Be able to test for value
-* if/else statements
+* `if/else` statements
 * Lab: modify a program to export CSV of US Arches
 @ulend
 
