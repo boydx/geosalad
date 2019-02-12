@@ -3,6 +3,23 @@
 ## Basic Python data structures and conditional execution
 
 ---
+## Python Objectives
+@ul[squares]
+* Learn basic types
+* Be able to test for value
+* if/else statements
+* Lab: modify a program to export CSV of US Arches
+@ulend
+
+---
+## AcrGIS Pro Objectives
+@ul[squares]
+* Make map of US Arches
+* Practice SQL queries
+* Begin your base map of RRG
+@ulend
+
+---
 ## How to learn?
 * Clone this lesson's repo 
 * Open Jupyter Notebook and follow along!
@@ -289,7 +306,7 @@ if contourInt > 4139 or contourInt < 257:
 ```
 
 ---?image=http://annessky.net/blog/wp-content/uploads/2017/11/KyTopo_24K_N17E22_Bradfordsville.png
-[Jupyter Notebook](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples)
+[## Jupyter Notebook](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples)
 
 ---?image=https://www.outragegis.com/pixel/_data/i/galleries/1403013_RRG/_IMG1071-me.jpg
 ## Lab challenge 
@@ -303,9 +320,9 @@ Setup US Arches project. Can you find the highest arch above sea level?
 Create locator maps for our project
 
 ---
-## Get data from Canavas module
+## Get data from Canvas module
 Source:
-[Natural Earth administrative boundaries](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+[Natural Earth administrative boundaries](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) and [Geographic Names Information System](https://geonames.usgs.gov/domestic/download_data.htm)
 
 ---
 # Add New Map
