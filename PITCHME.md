@@ -327,53 +327,53 @@ Source:
 ---
 # Add New Map
 
----?image=images/03/a005.png&size=contain
+---?image=images/03/a005.png&size=contain&opacity=100
 
 ---
 # Organize databases
 
----?image=images/03/add-database.gif&size=contain
+---?image=images/03/add-database.gif&size=contain&opacity=100
 
 ---
 # Set coordinate system
 
----?image=images/03/a006.png&size=contain
+---?image=images/03/a006.png&size=contain&opacity=100
 
 ---
 # Format point symbol
 
----?image=images/03/a007.png&size=contain
+---?image=images/03/a007.png&size=contain&opacity=100
 
 ---
 # Insert new layout
 
----?image=images/03/a008.png&size=contain
+---?image=images/03/a008.png&size=contain&opacity=100
 
 ---
 # Insert map frame
 
----?image=images/03/a009.png&size=contain
+---?image=images/03/a009.png&size=contain&opacity=100
 
 ---
 # Adjust layout properties
 
----?image=images/03/a010.png&size=contain
+---?image=images/03/a010.png&size=contain&opacity=100
 
 ---
 # Activate map frame
 To fine tune it's placement in frame
 
----?image=images/03/a011.png&size=contain
+---?image=images/03/a011.png&size=contain&opacity=100
 
 ---
 # Add elements
 
----?image=images/03/a012.png&size=contain
+---?image=images/03/a012.png&size=contain&opacity=100
 
 ---
 # Fine tune
 
----?image=images/03/a013.png&size=contain
+---?image=images/03/a013.png&size=contain&opacity=100
 
 ---
 # New map
@@ -382,29 +382,29 @@ ArcGIS Pro can have multiple maps and layouts in one document! 🤯 Make one for
 ---
 # Definition query
 
----?image=images/03/a014.png&size=contain
+---?image=images/03/a014.png&size=contain&opacity=100
 
 ---
 # Add halo
 
----?image=images/03/a015.png&size=contain
+---?image=images/03/a015.png&size=contain&opacity=100
 
 ---
 # Add labels
 
----?image=images/03/a016.png&size=contain
+---?image=images/03/a016.png&size=contain&opacity=100
 
 ---
 # Adjust position
 
----?image=images/03/a017.png&size=contain
+---?image=images/03/a017.png&size=contain&opacity=100
 
 ---
 # Tweak endlessly
 
----?image=images/03/a018.png&size=contain
+---?image=images/03/a018.png&size=contain&opacity=100
 
 ---
-# Export GeoPDf
+# Export GeoPDF
 
----?image=images/03/a019.png&size=contain
+---?image=images/03/a019.png&size=contain&opacity=100
