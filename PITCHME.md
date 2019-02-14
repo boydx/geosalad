@@ -173,7 +173,7 @@ Combine other comparisons
 ```python
 place = "Grays Arch"
 "Gray" in place or "gray" in place # True
-"Gray" in place and "gray" in place # False
+"Gray" in place and "arch" in place # False
 "Gray" in place and "Arch" in place # True
 ```
 
@@ -191,8 +191,9 @@ Divides left by right and returns remainder
 
 ---
 ```python
-x = 40
-print(x%20) # returns 0
+contourInterval = 40
+countour = 120
+print(countour % contourInterval) # returns 0. It's a contour!
 ```
 
 ---
