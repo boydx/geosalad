@@ -328,6 +328,7 @@ if contourInt > 4139 or contourInt < 257:
 arcpy.analysis.Clip("streams_water_areas", "area_of_interest", r"C:\BoydsGIS\L2\L2.gdb\streams_water_areas", None) 
 ```
 
+---
 ## Variables
 ### Abstract string to a variable
 @1
