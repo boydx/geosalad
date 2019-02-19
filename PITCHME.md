@@ -331,8 +331,8 @@ arcpy.analysis.Clip("streams_water_areas", "area_of_interest", r"C:\BoydsGIS\L2\
 ---
 ## Variables
 ### Abstract string to a variable
-@1
-@2
+@[1]
+@[2]
 ```python
 myOutputGDB = f"C:\\BoydsGIS\\L2\\L2.gdb\\"
 arcpy.analysis.Clip("streams_water_areas", "area_of_interest", f"{myOutputGDB}streams_water_areas", None) 
