@@ -379,8 +379,8 @@ Easy access to change data sources, options, etc.
 ## ArcPy Functions
 @ul
 * Search function help
-* arcpy pro [clip](http://pro.arcgis.com/en/pro-app/tool-reference/analysis/clip.htm
-* arcpy pro [exists](http://pro.arcgis.com/en/pro-app/arcpy/functions/exists.htm
+* "arcpy pro [clip](http://pro.arcgis.com/en/pro-app/tool-reference/analysis/clip.htm)"
+* "arcpy pro [exists](http://pro.arcgis.com/en/pro-app/arcpy/functions/exists.htm)"
 
 ---
 ## Does it exist?
