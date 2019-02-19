@@ -323,9 +323,10 @@ if contourInt > 4139 or contourInt < 257:
 
 ---
 ## Repetition
-### Where is it?
+
 ```python
-arcpy.analysis.Clip("streams_water_areas", "area_of_interest", r"C:\BoydsGIS\L2\L2.gdb\streams_water_areas", None) 
+arcpy.analysis.Clip("streams_water_areas", "area_of_interest",
+r"C:\BoydsGIS\L2\L2.gdb\streams_water_areas", None) 
 ```
 
 ---
@@ -333,9 +334,11 @@ arcpy.analysis.Clip("streams_water_areas", "area_of_interest", r"C:\BoydsGIS\L2\
 ### Abstract string to a variable
 @[1]
 @[2]
+@[3]
 ```python
 myOutputGDB = f"C:\\BoydsGIS\\L2\\L2.gdb\\"
-arcpy.analysis.Clip("streams_water_areas", "area_of_interest", f"{myOutputGDB}streams_water_areas", None) 
+arcpy.analysis.Clip("streams_water_areas", "area_of_interest", 
+f"{myOutputGDB}streams_water_areas", None) 
 ```
 
 ---
