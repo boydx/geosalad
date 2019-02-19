@@ -316,21 +316,35 @@ if contourInt > 4139 or contourInt < 257:
 ---
 ## Review
 @ul
-* Copy Python command
-* Combine commands together
+* Copy Python function
+* Combine functions together
 * Execute
 @ulend
 
 ---
-## Repetition
+## Goals
+@ul
+* Be able to scale up
+* Do complex analysis
+* Focus on finish cartography
+@ulend
 
+---
+## Function pattern
 ```python
-arcpy.analysis.Clip("streams_water_areas", "area_of_interest",
-r"C:\BoydsGIS\L2\L2.gdb\streams_water_areas", None) 
+arcpy.analysis.Clip("input_layer", "clip_layer", "output_layer") 
 ```
 
 ---
-## Variables
+## Find repetition
+@[2]
+```python
+arcpy.analysis.Clip("streams_water_areas", "area_of_interest",
+r"C:\BoydsGIS\L2\L2.gdb\streams_water_areas") 
+```
+
+---
+## Variablize
 ### Abstract string to a variable
 @[1]
 @[2]
@@ -338,8 +352,28 @@ r"C:\BoydsGIS\L2\L2.gdb\streams_water_areas", None)
 ```python
 myOutputGDB = f"C:\\BoydsGIS\\L2\\L2.gdb\\"
 arcpy.analysis.Clip("streams_water_areas", "area_of_interest", 
-f"{myOutputGDB}streams_water_areas", None) 
+f"{myOutputGDB}streams_water_areas") 
 ```
+
+---
+## Print
+### Verify correct input/output
+@[1]
+@[2]
+```python
+print(myOutputGDB)
+# outputs: C:\BoydsGIS\L2\L2.gdb\
+```
+
+---
+## Organize
+### Move variables to top
+Easy access to change data sources, options, etc.
+
+---
+# Variablize
+# Print
+# Organize
 
 ---
 ### ArcGIS
