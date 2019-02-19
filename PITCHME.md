@@ -326,7 +326,7 @@ if contourInt > 4139 or contourInt < 257:
 @ul
 * Be able to scale up
 * Do complex analysis
-* Focus on finish cartography
+* Focus on finished cartography
 @ulend
 
 ---
@@ -376,7 +376,92 @@ Easy access to change data sources, options, etc.
 # Organize
 
 ---
-### ArcGIS
+## ArcPy Functions
+@ul
+* Search function help
+* "arcpy pro [clip](http://pro.arcgis.com/en/pro-app/tool-reference/analysis/clip.htm"
+* "arcpy pro [exists](http://pro.arcgis.com/en/pro-app/arcpy/functions/exists.htm"
+
+---
+## Does it exist?
+@[1]
+@[2]
+@[3]
+```python
+arcpy.Exists() 
+# Returns True if resource exits
+# use in if/else statement
+```
+
+---
+## if/else
+@[1]
+@[2]
+@[3]
+@[4]
+```python
+if arcpy.Exists(f"C:\\{myRoot}\\L2\\output.gdb"):
+    print("GDB exists!")
+else:
+    print("The GDB doesn't exist. Let's create it!")
+```
+
+---
+## Create GDB
+@[1]
+@[2]
+@[3]
+```python
+arcpy.CreateFileGDB_management (p1, p2)
+# p1 = file path to directory
+# p2 = GDB name, e.g., output.gdb
+```
+
+---
+## Create GDB
+@[1]
+@[2]
+@[3]
+@[4]
+```python
+if arcpy.Exists(f"C:\\{myRoot}\\L2\\output.gdb"):
+    print("GDB exists!")
+else:
+    arcpy.CreateFileGDB_management (f"C:\\{myRoot}\\L2", "output.gdb")
+```
+
+---
+# Jupyter Notebook
+
+---
+## Table conversion
+@[1]
+@[2]
+@[3]
+@[4]
+@[5]
+```python
+arcpy.TableToTable_conversion (p1, p2, p3, p4)
+# p1 = input table
+# p2 = output file path
+# p3 = table name
+# p4 = SQL where clause 
+```
+
+---
+## Example where clause
+@[1]
+@[2]
+@[3]
+```python
+# Build the where clause, aka the SQL statement to select features
+whereClause = f"base_elevation_ft >= {elevationNumber}"
+whereClause = "base_elevation_ft >= 1000 and state_alpha = 'KY'"
+```
+
+
+---
+## ArcGIS Pro map
 Setup US Arches project. Can you find the highest arch above sea level?
 
 ---
