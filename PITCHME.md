@@ -313,6 +313,7 @@ if contourInt > 4139 or contourInt < 257:
 ---?image=https://www.outragegis.com/pixel/_data/i/galleries/1403013_RRG/_IMG1071-me.jpg
 ## Lab
 
+---
 ## Review
 @ul
 * Copy Python command
@@ -320,6 +321,7 @@ if contourInt > 4139 or contourInt < 257:
 * Execute
 @ulend
 
+---
 ## Repetition
 ### Where is it?
 ```python
