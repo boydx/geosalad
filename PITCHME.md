@@ -95,7 +95,7 @@ print(type(yourHeight))
 ### [Jupyter Notebook](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples/height_challenge.ipynb)
 
 ---
-## Assignement operators
+## Assignment operators
 ### Assign value to variables
 
 ---
@@ -279,7 +279,7 @@ Anticipate and prevent
 ---
 ### try/except statement
 ## Prevent exceptions
-If it works conitnue, if it blows up let's do something else
+If it works continue, if it blows up let's do something else
 
 ---
 ```python
@@ -307,10 +307,33 @@ if contourInt > 4139 or contourInt < 257:
 ```
 
 ---?image=http://annessky.net/blog/wp-content/uploads/2017/11/KyTopo_24K_N17E22_Bradfordsville.png
-[## Jupyter Notebook](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples)
+## Jupyter Notebooks
+[Link](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples)
 
 ---?image=https://www.outragegis.com/pixel/_data/i/galleries/1403013_RRG/_IMG1071-me.jpg
-## Lab challenge 
+## Lab
+
+## Review
+@ul
+* Copy Python command
+* Combine commands together
+* Execute
+@ulend
+
+## Repetition
+### Where is it?
+```python
+arcpy.analysis.Clip("streams_water_areas", "area_of_interest", r"C:\BoydsGIS\L2\L2.gdb\streams_water_areas", None) 
+```
+
+## Variables
+### Abstract string to a variable
+@1
+@2
+```python
+myOutputGDB = f"C:\\BoydsGIS\\L2\\L2.gdb\\"
+arcpy.analysis.Clip("streams_water_areas", "area_of_interest", f"{myOutputGDB}streams_water_areas", None) 
+```
 
 ---
 ### ArcGIS
