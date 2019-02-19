@@ -311,7 +311,7 @@ if contourInt > 4139 or contourInt < 257:
 [Link](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples)
 
 ---?image=https://www.outragegis.com/pixel/_data/i/galleries/1403013_RRG/_IMG1071-me.jpg
-## Lab
+## Lab 2
 
 ---
 ## Review
@@ -432,6 +432,9 @@ else:
 
 ---
 # Jupyter Notebook
+
+---?image=https://www.outragegis.com/pixel/_data/i/galleries/1403013_RRG/_IMG1071-me.jpg
+# Lab 3
 
 ---
 ## Table conversion
