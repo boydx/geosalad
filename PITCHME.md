@@ -4,16 +4,18 @@
 
 #HSLIDE
 ## Learning curve
+@ul[squares]
 * Moving steeply up curve
 * Watch videos!
 	* [functions](https://www.py4e.com/lessons/functions)
 	* [string methods](https://www.py4e.com/lessons/strings)
 	* [loops and iterations](https://www.py4e.com/lessons/loops)
+@ulend
 
 #HSLIDE
 ## Payoff coming!
 
-#HSLIDE?image=https://outragegis.com/gorge/animations/sun.gif
+#HSLIDE?image=https://outragegis.com/gorge/animations/sun.gif&opacity=100
 
 #HSLIDE
 ## Objectives
@@ -28,7 +30,7 @@
 * Your commit log shows how much work you're doing
 * 19 commits v 1 commit
 * commit often, perfect later
-* <a download href="assets/lab-03-practice.ipynb">More practice</a>
+
 
 #HSLIDE
 ## Functions
@@ -52,23 +54,27 @@ function(x, y)
 
 
 #HSLIDE
+@[2]
+@[3]
+@[4]
+@[5]
 ```python
 # define function
-def function(x, y):
+def powersXtoY(x, y): # function has arbitrary name
 	z = int(x)**int(y)
 	print(int(x) + int(y)) # prints to screen
 	return z # when executed, function becomes this
 
-function(2,4) # Need documentation!
+powersXtoY(2,4) # Need documentation!
 ```
 #HSLIDE
 ```python
-def function(x, y):
+def powersXtoY(x, y):
     """x to y power""" # Docstring provides info
     z = int(x)**int(y)
     return z
 
-help(function)
+help(powersXtoY)
 ```
 
 #HSLIDE
