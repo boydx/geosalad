@@ -59,11 +59,12 @@ function(x, y)
 
 ---
 ## Define function
+@ul[squares]
 * Store and reuse statements
 * Need unique name followed by `():`
 * Inputs?
 * Indent function body four spaces
-
+@ulend
 
 ---
 @[2]
@@ -91,12 +92,10 @@ help(powersXtoY)
 
 ---
 ## Built-in functions
+@ul[squares]
 * Python comes with about [60 functions](https://docs.python.org/3.6/library/functions.html)
-
-```python
-print("Hello World!")
-```
-
+* Don't need to `import` anything
+@ulend
 
 ---
 ## Round function
@@ -127,12 +126,15 @@ x = Decimal('7.555')
 
 ---
 ## decimal properties
+@ul[squares]
 * Control precision and number of significant digits
 * Rounding rules
 * Useful in mapping and money applications
+@ulend
 
 ---
 ## Lat/lon coords
+@ul[squares]
 * 38.038015, -84.5046852!
 * 1&deg; of lattitude = 69 miles
 * 1.0&deg;  6.9 mi of precision
@@ -140,6 +142,7 @@ x = Decimal('7.555')
 * 1.000&deg;  360 ft
 * 1.0000&deg;  36 ft
 * 1.000000&deg;  4 in
+@ulend
 
 ---
 ## Jupyter Notebook
@@ -167,24 +170,34 @@ x.is_integer() # true
 
 ---
 ## String methods more common
+@ul[squares]
 * Perform common tasks on strings
 * Find substrings, change case, etc.
 * [Built-in methods](https://www.w3schools.com/python/python_ref_string.asp)
 * Always returns new values
+@ulend
 
 ---
 ## String indexes
+@ul[squares]
 * Sequence of characters have positions in string starting at zero.
 * Bracket notation to show position.
+@ulend
+
+---?image=https:/uky-gis.github.io/support/python-arcgis/graphics/string_indexes.png&opacity=100&size=contain
+
+---
 ```python
 "Hello World!"[0] # returns H
 ```
 
 ---
 ## String slice
+@ul[squares]
 * Access substring using start:end indexes
-* End index is up-to-but-including
+* End index is up-to-but-not-including
 * Address in string v. length of string
+@ulend
 
 ---
 ```python
