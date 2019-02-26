@@ -48,6 +48,8 @@
 
 ```python
 print("Hello World!")
+w = "Hello Universe!"
+print(w)
 ```
 
 ---
@@ -61,8 +63,9 @@ function(x, y)
 ## Define function
 @ul[squares]
 * Store and reuse statements
-* Need unique name followed by `():`
-* Inputs?
+* `def` keyword defines a function
+* followed by unique name and `():`
+* Function inputs?
 * Indent function body four spaces
 @ulend
 
