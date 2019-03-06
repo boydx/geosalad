@@ -280,10 +280,12 @@ Scan text and print the names of the arches in the text.
 * Refactor script from lab 2
 * Create hillshade script
 
+
+
 ---
 ```python
 # build field data type showing properties of us_arches fields.
 fields = arcpy.ListFields(layer_name)
 for field in fields:
-    print(field.name + " is a type of " + field.type)
+    print(f"{field.name} is a type of {field.type}")
 ```
