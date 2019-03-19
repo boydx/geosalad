@@ -21,7 +21,7 @@
 ---
 ## Logistics
 @ul[squares]
-* Rendezvous at [38.0441828,-84.5075976](https://www.google.com/maps/@38.0441828,-84.5075976,19.55z)
+* Rendezvous @ [38.0441828,-84.5075976](https://www.google.com/maps/@38.0441828,-84.5075976,19.55z), parking lot by Mad Mushroom
 * Leave at 9 AM
 * Return at 1 PM
 * Carpool!

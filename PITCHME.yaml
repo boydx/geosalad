@@ -1,3 +1,5 @@
 background-size : cover
 theme : night
-footnote : "GEO 409, Fall 2018"
+footnote : "GEO 409, Spring 2019"
+background : images/st-pat-weekend-2.jpg
+background-opacity : 30
