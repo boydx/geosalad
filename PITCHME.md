@@ -4,10 +4,10 @@
 ---
 ## What did you do?
 
----?image=images/st-pat-weekend-1.jpg?opacity=100
+---?image=images/st-pat-weekend-1.jpg&opacity=100
 <h2 style="text-shadow:0 0 2px #333;color:white">Parade!</h2>
 
----?image=images/st-pat-weekend-3.jpg?opacity=100
+---?image=images/st-pat-weekend-3.jpg&opacity=100
 <h2 style="text-shadow:0 0 2px #333;color:white">Walk in the woods</h2>
 
 ---
@@ -42,9 +42,9 @@
 # Due
 ## April 28
 
----?image=https://farm2.staticflickr.com/1901/44221426354_d8a711a753_h.jpg?opacity=100
+---?image=https://farm2.staticflickr.com/1901/44221426354_d8a711a753_h.jpg&opacity=100
 
----?image=https://farm2.staticflickr.com/1922/43128933340_d6d61a6bb2_h.jpg?opacity=100
+---?image=https://farm2.staticflickr.com/1922/43128933340_d6d61a6bb2_h.jpg&opacity=100
 
 ---
 ## Load app
@@ -67,7 +67,7 @@
 * a hillshade background
 * Export as GeoPDF
 
----?image=https://farm1.staticflickr.com/930/42790171395_a745af0f06_h.jpg?opacity=100
+---?image=https://farm1.staticflickr.com/930/42790171395_a745af0f06_h.jpg&opacity=100
 
 ---
 ## Load RRG base map
@@ -80,9 +80,9 @@
 ![images/rrg.jpg](images/rrg.jpg)
 
 
----?image=images/rrg.jpg?opacity=100
+---?image=images/rrg.jpg&opacity=100
 
----?image=https://farm2.staticflickr.com/1959/43128931410_daceab6096_h.jpg?opacity=100
+---?image=https://farm2.staticflickr.com/1959/43128931410_daceab6096_h.jpg&opacity=100
 
 ---
 @quote[I took a walk in the woods and came out taller than the trees](Henry David Thoreau)
