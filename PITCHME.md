@@ -4,11 +4,11 @@
 ---
 ## What did you do?
 
----?image=images/st-pat-weekend-1.jpg
-<h2 style="text-shadow:0 0 2px #333;color:white>Parade!</h2>
+---?image=images/st-pat-weekend-1.jpg?opacity=100
+<h2 style="text-shadow:0 0 2px #333;color:white">Parade!</h2>
 
----?image=images/st-pat-weekend-3.jpg
-<h2 style="text-shadow:0 0 2px #333;color:white>Walk in the woods</h2>
+---?image=images/st-pat-weekend-3.jpg?opacity=100
+<h2 style="text-shadow:0 0 2px #333;color:white">Walk in the woods</h2>
 
 ---
 # GEO 409
