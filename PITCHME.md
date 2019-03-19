@@ -14,6 +14,9 @@
 # GEO 409
 ## Module 05: Field mapping
 
+---
+## Short break from Python
+
 
 ---
 ## 2019
@@ -56,29 +59,31 @@
 ## Load campus map with QR code
 ![images/get-map.png](images/get-map.png)
 
----?image=images/get-map.png
+---?image=images/get-map.png&opacity=100
 
 
 ---
 ## Finish base map for RRG
+@ul[squares]
 * Layers should include arches
 * streams, waterbodies, rivers
 * labeled streams and arches
-* a hillshade background
+* a hillshade background with semi-transparent landuse layer
 * Export as GeoPDF
+@ulend
 
 ---?image=https://farm1.staticflickr.com/930/42790171395_a745af0f06_h.jpg&opacity=100
 
 ---
 ## Load RRG base map
+@ul[squares]
 * Use your RRG repository
 * Upload PDF and find URL
 * https://username.github.io/rrg/basemap/rrg.pdf
+@ulend
 
 ---
-## Example map
-![images/rrg.jpg](images/rrg.jpg)
-
+#Example map
 
 ---?image=images/rrg.jpg&opacity=100
 
