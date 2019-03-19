@@ -17,11 +17,13 @@
 ---
 ## Short break from Python
 
+---
+## Adopt your landform
+
 
 ---
-## 2019
 # Spring
-#### Field trips!
+## Field trips!
 
 
 ---
@@ -49,18 +51,6 @@
 
 ---?image=https://farm2.staticflickr.com/1922/43128933340_d6d61a6bb2_h.jpg&opacity=100
 
----
-## Load app
-# Avenza Maps 
-#### on your mobile device.
-[avenzamaps.com](https://avenzamaps.com)
-
----
-## Load campus map with QR code
-![images/get-map.png](images/get-map.png)
-
----?image=images/get-map.png&opacity=100
-
 
 ---
 ## Finish base map for RRG
@@ -75,6 +65,29 @@
 ---?image=https://farm1.staticflickr.com/930/42790171395_a745af0f06_h.jpg&opacity=100
 
 ---
+## Use map in the field
+# on a phone!?!
+
+---?image=images/avenza-1.jpg&opacity=100
+
+---?image=images/avenza-2.jpg&opacity=100
+
+
+---
+## Load app
+# Avenza Maps 
+#### on your mobile device.
+[avenzamaps.com](https://avenzamaps.com)
+
+---
+## Load campus map with QR code
+![images/get-map.png](images/get-map.png)
+
+---?image=images/get-map.png&opacity=100
+
+
+
+---
 ## Load RRG base map
 @ul[squares]
 * Use your RRG repository
@@ -83,7 +96,7 @@
 @ulend
 
 ---
-#Example map
+# Example map
 
 ---?image=images/rrg.jpg&opacity=100
 
