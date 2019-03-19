@@ -51,6 +51,8 @@
 
 ---?image=https://farm2.staticflickr.com/1922/43128933340_d6d61a6bb2_h.jpg&opacity=100
 
+---
+# Step 1
 
 ---
 ## Finish base map for RRG
@@ -66,12 +68,15 @@
 
 ---
 ## Use map in the field
-# on a phone!?!
+### on a 
+# phone!?!
 
 ---?image=images/avenza-1.jpg&opacity=100
 
 ---?image=images/avenza-2.jpg&opacity=100
 
+---
+# Step 2
 
 ---
 ## Load app
@@ -98,9 +103,12 @@
 ---
 # Example map
 
----?image=images/rrg.jpg&opacity=100
+---?image=images/rrg.jpg&opacity=100&background-size:contain
 
 ---?image=https://farm2.staticflickr.com/1959/43128931410_daceab6096_h.jpg&opacity=100
+
+---
+# Step 3
 
 ---
 @quote[I took a walk in the woods and came out taller than the trees](Henry David Thoreau)
