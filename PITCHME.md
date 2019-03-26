@@ -6,24 +6,19 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
 [animation](http://uky-gis.github.io/support/lidar-arcgis/view_control.gif)
 
----?image=https://farm2.staticflickr.com/1918/44749579164_54f9039f9d_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">NACIS</h2>
+---?image=images/skybridge-1.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Red River</h2>
 
----?image=https://farm2.staticflickr.com/1941/44560608585_5273398801_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Wis + Ky</h2>
+---?image=images/skybridge-2.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">A little scary on the bridge</h2>
 
+---?image=images/skybridge-3.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Sky Bridge</h2>
 
----?image=https://farm2.staticflickr.com/1976/43657250080_c8bb35badf_h.jpg
+---?image=images/skybridge-4.jpg
+<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Hen's Nest</h2>
+[animation](https://giphy.com/gifs/lidar-hens-nest-sky-bridge-1ULAUtK63aM2cLBYMm/fullscreen)
 
----
-### Map winners from UW and UKy
-## [Oil & Bone](https://www.kgmaps.com/oil-and-bone/)
-### Kerry Gathers, UKy
-
----
-### Student won
-# $500 
-(you could too)
 
 ---
 ### (light detection and ranging)
