@@ -51,11 +51,11 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 
 ---
 ## Access interactively
-@ul[start]
+@ol[start]
 1. Load data from Canvas
 2. Add "KY_5k_PointCloud_grid"
 3. Click on "Natural Bridge"
-@ulend
+@olend
 
 ---?image=images/a01.png&size=contain&color=#919191
 
