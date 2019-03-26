@@ -3,20 +3,20 @@
 ### Intro in lidar data and advanced data structures in Python
 
 ---?image=images/a033.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
 [animation](http://uky-gis.github.io/support/lidar-arcgis/view_control.gif)
 
 ---?image=images/skybridge-2.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Red River</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Red River</h2>
 
 ---?image=images/skybridge-1.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">A little scary on the bridge</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">A little scary on the bridge</h2>
 
 ---?image=images/skybridge-4.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Sky Bridge</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Sky Bridge</h2>
 
 ---?image=images/skybridge-1-2.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Hen's Nest</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Hen's Nest</h2>
 [animation](https://giphy.com/gifs/lidar-hens-nest-sky-bridge-1ULAUtK63aM2cLBYMm/fullscreen)
 
 ---?image=images/skybridge-3.jpg&size=contain&color=#919191
@@ -71,16 +71,16 @@ enter output file: N110E348.las
 ```
 
 ---?image=images/a02.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Create LAS dataset</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Create LAS dataset</h2>
 
 ---?image=images/a03.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Explore LAS dataset</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Explore LAS dataset</h2>
 
 ---?image=images/a04.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Filter for ground points</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Filter for ground points</h2>
 
 ---?image=images/a05.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add symbology</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Add symbology</h2>
 
 ---?image=images/a06.png&size=contain&color=#919191
 
@@ -92,13 +92,13 @@ enter output file: N110E348.las
 
 
 ---?image=images/a07.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">LAS Dataset to Raster</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">LAS Dataset to Raster</h2>
 
 ---?image=images/a08.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Convert to local scene</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Convert to local scene</h2>
 
 ---?image=images/a09.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add elevation source</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Add elevation source</h2>
 
 ---
 ## Access aerial photography
@@ -106,10 +106,10 @@ enter output file: N110E348.las
 * Load 2016 NAIP imagery
 
 ---?image=images/a016.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add aerial photography</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Add aerial photography</h2>
 
 ---?image=images/a017.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">KY NAIP 2016 2ft</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">KY NAIP 2016 2ft</h2>
 
 ---
 ## Clip aerial photography
@@ -118,17 +118,17 @@ enter output file: N110E348.las
 * Tool: **Raster Domain**
 
 ---?image=images/a018.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Raster Domain</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Raster Domain</h2>
 
 ---?image=images/a019.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New area of interest</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">New area of interest</h2>
 
 ---
 ## Clip areal photography
 2. Use raster clip tool to clip to area of interest
 
 ---?image=images/a020.png&size=contain&color=#919191
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Raster Clip</h2>
+<h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Raster Clip</h2>
 
 ---
 ## Add new image to Scene
