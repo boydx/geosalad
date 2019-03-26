@@ -63,12 +63,15 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 
 ---
 ## Extract from .laz file
-```bat
-cd /BoydsGIS/data
-laszip64.exe
-enter input file: N110E348.laz
-enter output file: N110E348.las
-```
+@code[bat zoom-20](src/convertlas.bat)
+
+@snap[south span-100]
+@[1, zoom-25](Change directory to your data space)
+@[2, zoom-25](call utiltity)
+@[3, zoom-25](input .laz file)
+@[4, zoom-25](output .las file)
+@snapend
+
 
 ---?image=images/a02.png&size=contain&color=#919191
 <h2 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Create LAS dataset</h2>
