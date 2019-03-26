@@ -19,7 +19,7 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Hen's Nest</h2>
 [animation](https://giphy.com/gifs/lidar-hens-nest-sky-bridge-1ULAUtK63aM2cLBYMm/fullscreen)
 
----?image=images/skybridge-3.jpg&size=contain&color=black
+---?image=images/skybridge-3.jpg&size=contain&color=#919191
 @snap[north-west]
 ## Cliffs along Red River
 @snapend
@@ -57,9 +57,9 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 3. Click on "Natural Bridge"
 @ulend
 
----?image=images/a01.png&size=contain&color=black
+---?image=images/a01.png&size=contain&color=#919191
 
----?image=images/a015.png&size=contain&color=black
+---?image=images/a015.png&size=contain&color=#919191
 
 ---
 ## Extract from .laz file
@@ -70,19 +70,19 @@ enter input file: N110E348.laz
 enter output file: N110E348.las
 ```
 
----?image=images/a02.png&size=contain&color=black
+---?image=images/a02.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Create LAS dataset</h2>
 
----?image=images/a03.png&size=contain&color=black
+---?image=images/a03.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Explore LAS dataset</h2>
 
----?image=images/a04.png&size=contain&color=black
+---?image=images/a04.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Filter for ground points</h2>
 
----?image=images/a05.png&size=contain&color=black
+---?image=images/a05.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add symbology</h2>
 
----?image=images/a06.png&size=contain&color=black
+---?image=images/a06.png&size=contain&color=#919191
 
 ---
 ## LAS Dataset to Raster tool
@@ -91,13 +91,13 @@ enter output file: N110E348.las
 * Other parameters are default
 
 
----?image=images/a07.png&size=contain&color=black
+---?image=images/a07.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">LAS Dataset to Raster</h2>
 
----?image=images/a08.png&size=contain&color=black
+---?image=images/a08.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Convert to local scene</h2>
 
----?image=images/a09.png&size=contain&color=black
+---?image=images/a09.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add elevation source</h2>
 
 ---
@@ -105,10 +105,10 @@ enter output file: N110E348.las
 * Add ArcGIS Server *https://kyraster.ky.gov/arcgis/services*
 * Load 2016 NAIP imagery
 
----?image=images/a016.png&size=contain&color=black
+---?image=images/a016.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add aerial photography</h2>
 
----?image=images/a017.png&size=contain&color=black
+---?image=images/a017.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">KY NAIP 2016 2ft</h2>
 
 ---
@@ -117,17 +117,17 @@ enter output file: N110E348.las
 * Use the LAS DEM as input raster
 * Tool: **Raster Domain**
 
----?image=images/a018.png&size=contain&color=black
+---?image=images/a018.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Raster Domain</h2>
 
----?image=images/a019.png&size=contain&color=black
+---?image=images/a019.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New area of interest</h2>
 
 ---
 ## Clip areal photography
 2. Use raster clip tool to clip to area of interest
 
----?image=images/a020.png&size=contain&color=black
+---?image=images/a020.png&size=contain&color=#919191
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Raster Clip</h2>
 
 ---
@@ -136,7 +136,7 @@ enter output file: N110E348.las
 * Spin around and explore
 * Perform preliminary measurements
 
----?image=images/a021.png&size=contain&color=black
+---?image=images/a021.png&size=contain&color=#919191
 [animation](https://uky-gis.github.io/support/lidar-arcgis/locate_arch.gif)
 
 
@@ -147,11 +147,11 @@ enter output file: N110E348.las
 * Feature Class Type is **Point**
 * Spatial Reference is NAD 1983 StatePlane Kentucky FIPS 1600 Feet
 
----?image=images/a022.png&size=contain&color=black
+---?image=images/a022.png&size=contain&color=#919191
 
----?image=images/a023.png&size=contain&color=black
+---?image=images/a023.png&size=contain&color=#919191
 
----?image=images/a024.png&size=contain&color=black
+---?image=images/a024.png&size=contain&color=#919191
 
 ---
 ## Add new point for landform
@@ -160,16 +160,16 @@ enter output file: N110E348.las
 * Drop on center of landform
 * **Save** edits
 
----?image=images/a025.png&size=contain&color=black
+---?image=images/a025.png&size=contain&color=#919191
 
----?image=images/a026.png&size=contain&color=black
+---?image=images/a026.png&size=contain&color=#919191
 
 ---
 ## Buffer point
 * Buffer point at 1,000 ft radius
 * New, high resolution area of interest
 
----?image=images/a027.png&size=contain&color=black
+---?image=images/a027.png&size=contain&color=#919191
 
 ---
 ## View buffer in 3D
@@ -177,7 +177,7 @@ enter output file: N110E348.las
 * Set **Elevation** property to **Absolute Height**
 * Use **Expression** and set feet above sea level
 
----?image=images/a028.png&size=contain&color=black
+---?image=images/a028.png&size=contain&color=#919191
 
 ---
 ## Extract LAS Dataset
@@ -185,9 +185,9 @@ enter output file: N110E348.las
 * Outputs new LAS point cloud
 * Put in separate folder **outside** of any repository
 
----?image=images/a029.png&size=contain&color=black
+---?image=images/a029.png&size=contain&color=#919191
 
----?image=images/a030.png&size=contain&color=black
+---?image=images/a030.png&size=contain&color=#919191
 
 ---
 ## Colorize LAS Dataset
@@ -195,14 +195,14 @@ enter output file: N110E348.las
 * Outputs yet another LAS point cloud
 * Put in separate folder **outside** of any repository
 
----?image=images/a031.png&size=contain&color=black
+---?image=images/a031.png&size=contain&color=#919191
 
----?image=images/a032.png&size=contain&color=black
+---?image=images/a032.png&size=contain&color=#919191
 
----?image=images/a033.png&size=contain&color=black
+---?image=images/a033.png&size=contain&color=#919191
 [animation](http://uky-gis.github.io/support/lidar-arcgis/view_control.gif)
 
----?image=images/a034.png&size=contain&color=black
+---?image=images/a034.png&size=contain&color=#919191
 
 ---?image=https://farm8.staticflickr.com/7006/13159570895_96e15d3d15_h.jpg
 
