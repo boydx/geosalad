@@ -32,11 +32,13 @@ Uses laser light to densely sample the surface of the earth to make highly accur
 
 ---
 ## Lidar properties
+@ul[start]
 * Active sensor transmits pulses of light
 * Sensor records time of return
 * First return top (building/tree top), last return bottom (bare earth)
 * Point cloud of XYZ positions
 * [More info](http://pro.arcgis.com/en/pro-app/help/data/las-dataset/use-lidar-in-arcgis-pro.htm)
+@ulend
 
 ---
 ## KY lidar data sources
