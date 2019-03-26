@@ -63,13 +63,12 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 
 ---
 ## Extract from .laz file
-@code[bat zoom-20](src/convertlas.bat)
-
+@code[bat zoom-10](src/convertlas.bat)
 @snap[south span-100]
-@[1, zoom-25](Change directory to your data space)
-@[2, zoom-25](call utiltity)
-@[3, zoom-25](input .laz file)
-@[4, zoom-25](output .las file)
+@[1, zoom-15](Change directory to your data space)
+@[2, zoom-15](call utiltity)
+@[3, zoom-15](input .laz file)
+@[4, zoom-15](output .las file)
 @snapend
 
 
