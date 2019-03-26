@@ -194,7 +194,7 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 ---?image=images/a030.png&size=contain&color=#919191
 
 ---
-###Colorize LAS Dataset
+### Colorize LAS Dataset
 * Use NAIP aerial imagery to add RGB values
 * Outputs yet another LAS point cloud
 * Put in separate folder **outside** of any repository
