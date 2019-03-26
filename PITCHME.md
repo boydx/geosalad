@@ -21,7 +21,7 @@
 
 ---?image=images/skybridge-3.jpg&size=contain&color=black
 @snap[north-west]
-## Panorama of meander in Red River
+## Cliffs along Red River
 @snapend
 
 
