@@ -41,6 +41,11 @@ Uses laser light to densely sample the surface of the earth to make highly accur
 @ulend
 
 ---
+### Kentucky lidar
+At the forefront of providing access to data
+#### [usgs.entwine.io/](https://usgs.entwine.io/)
+
+---
 ### KY lidar data sources
 ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 @ul[start]
@@ -285,8 +290,3 @@ print(pdData)
 ---
 ### [Help with lab 6](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/examples)
 
-<!-- 
----?survey=https://docs.google.com/forms/
-
-docker run -it -v /Users/boyd/Repos/geosalad:/repo -p 9000:9000 gitpitch/desktop:pro
-->
