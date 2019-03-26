@@ -6,18 +6,20 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
 [animation](http://uky-gis.github.io/support/lidar-arcgis/view_control.gif)
 
----?image=images/skybridge-1.jpg
+---?image=images/skybridge-2.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Red River</h2>
 
----?image=images/skybridge-2.jpg
+---?image=images/skybridge-1.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">A little scary on the bridge</h2>
 
----?image=images/skybridge-3.jpg
+---?image=images/skybridge-4.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Sky Bridge</h2>
 
----?image=images/skybridge-4.jpg
+---?image=images/skybridge-1-2.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Hen's Nest</h2>
 [animation](https://giphy.com/gifs/lidar-hens-nest-sky-bridge-1ULAUtK63aM2cLBYMm/fullscreen)
+
+---?image=images/skybridge-1-2.jpg&background=contain
 
 
 ---
