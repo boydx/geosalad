@@ -87,10 +87,12 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 ---?image=images/a06.png&size=contain&color=#919191
 
 ---
-## LAS Dataset to Raster tool
+### LAS Dataset to Raster tool
+@ul
 * Input is LAS dataset filtered for ground points
 * *Sampling size* parameter (pixel resolution) is 5 (5-ft pixel)
 * Other parameters are default
+@ulend
 
 
 ---?image=images/a07.png&size=contain&color=#919191
@@ -103,7 +105,7 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 <h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Add elevation source</h2>
 
 ---
-## Access aerial photography
+### Access aerial photography
 * Add ArcGIS Server *https://kyraster.ky.gov/arcgis/services*
 * Load 2016 NAIP imagery
 
@@ -114,7 +116,7 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 <h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">KY NAIP 2016 2ft</h2>
 
 ---
-## Clip aerial photography
+### Clip aerial photography
 1. Create polygon from extent of LAS dataset
 * Use the LAS DEM as input raster
 * Tool: **Raster Domain**
@@ -126,14 +128,14 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 <h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">New area of interest</h2>
 
 ---
-## Clip areal photography
+### Clip areal photography
 2. Use raster clip tool to clip to area of interest
 
 ---?image=images/a020.png&size=contain&color=#919191
 <h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Raster Clip</h2>
 
 ---
-## Add new image to Scene
+### Add new image to Scene
 * Locate your landform
 * Spin around and explore
 * Perform preliminary measurements
@@ -143,7 +145,7 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 
 
 ---
-## Create new empty layer for landform
+### Create new empty layer for landform
 * Right-click geodatabase
 * Select **New > Feature Class**
 * Feature Class Type is **Point**
@@ -156,7 +158,7 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 ---?image=images/a024.png&size=contain&color=#919191
 
 ---
-## Add new point for landform
+### Add new point for landform
 * Add layer to **Contents**
 * Access **Edit > Create Features**
 * Drop on center of landform
@@ -167,14 +169,14 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 ---?image=images/a026.png&size=contain&color=#919191
 
 ---
-## Buffer point
+### Buffer point
 * Buffer point at 1,000 ft radius
 * New, high resolution area of interest
 
 ---?image=images/a027.png&size=contain&color=#919191
 
 ---
-## View buffer in 3D
+### View buffer in 3D
 * Edit buffer **Layer Properties**
 * Set **Elevation** property to **Absolute Height**
 * Use **Expression** and set feet above sea level
@@ -182,7 +184,7 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 ---?image=images/a028.png&size=contain&color=#919191
 
 ---
-## Extract LAS Dataset
+### Extract LAS Dataset
 * Use new buffer polygon to extract LAS points
 * Outputs new LAS point cloud
 * Put in separate folder **outside** of any repository
@@ -192,7 +194,7 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 ---?image=images/a030.png&size=contain&color=#919191
 
 ---
-## Colorize LAS Dataset
+###Colorize LAS Dataset
 * Use NAIP aerial imagery to add RGB values
 * Outputs yet another LAS point cloud
 * Put in separate folder **outside** of any repository
@@ -214,41 +216,41 @@ ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
 ### Advanced data structures
 
 ---
-## [Help with lab 4 and lab 6](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/examples)
+### [Help with lab 4 and lab 6](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/examples)
 
 ---
-## Lists
-## Tuples
-## Dictionaries
-## DataFrames
+### Lists
+### Tuples
+### Dictionaries
+### DataFrames
 
 ---
-# List
+## List
 A mutable sequence of values separated by a comma and enclosed in square brackets
 
 ---
-## List methods
+### List methods
 * `.sort()`
 * `.append()`
 * `.remove()`
 
 ---
-## Useful list functions
+### Useful list functions
 * `len()`
 * `range()`
 
-## Access (and change) elements
+### Access (and change) elements
 ```python
 for i in range(len(archesList)):
     print(f"The index of {archesList[i]} is {i}")
 ```
 
 ---
-# Tuple
+## Tuple
 An immutable sequence of values separated by a comma and enclosed in round brackets
 
 ---
-## Exercise using lists and tuples
+### Exercise using lists and tuples
 ### Sort arches by name and elevation
 Download [Kentucky GNIS](https://geonames.usgs.gov/domestic/download_data.htm)
 
@@ -262,10 +264,11 @@ with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
 ```
 
 ---
-# Dictionary
+## Dictionary
 An unordered collection of items that stored as key:value pairs separated by a comma and enclosed in curly brackets
 
-# DataFrame
+---
+## DataFrame
 A two-dimensional tabular data structure and the primary data structure for pandas
 
 ```python
@@ -280,4 +283,4 @@ print(pdData)
 ```
 
 ---
-## [Help with ab 6](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/examples)
+### [Help with lab 6](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/examples)
