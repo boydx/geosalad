@@ -20,6 +20,9 @@
 [animation](https://giphy.com/gifs/lidar-hens-nest-sky-bridge-1ULAUtK63aM2cLBYMm/fullscreen)
 
 ---?image=images/skybridge-3.jpg&size=contain&color=black
+@snap[north-west]
+## Panorama of meander in Red River
+@snapend
 
 
 ---
