@@ -19,7 +19,7 @@
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Hen's Nest</h2>
 [animation](https://giphy.com/gifs/lidar-hens-nest-sky-bridge-1ULAUtK63aM2cLBYMm/fullscreen)
 
----?image=images/skybridge-3.jpg&background=contain
+---?image=images/skybridge-3.jpg&size=contain&color=black
 
 
 ---
