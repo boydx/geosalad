@@ -19,9 +19,9 @@
 <h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Hen's Nest</h2>
 [animation](https://giphy.com/gifs/lidar-hens-nest-sky-bridge-1ULAUtK63aM2cLBYMm/fullscreen)
 
----?image=images/skybridge-3.jpg&size=contain&color=#919191
-@snap[north-west]
-### *Cliffs along Red River*
+---?image=images/skybridge-3.jpg&size=contain&color=linear-gradient(to top, #000, #333)
+@snap[north-west text-italic text-18]
+Cliffs along Red River
 @snapend
 
 
