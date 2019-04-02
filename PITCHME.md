@@ -3,18 +3,16 @@
 ### 3D and terrain analysis using lidar data
 
 ---
-# News!
-Python workflow will be a challenge in this lab
+# Prereq
+Make sure you have finished the presentation from [Module 06](https://gitpitch.com/boydx/geosalad/g409-06a) and watch the videos on Canvas for this module.
 
 ---
-# Trip to Grays Arch
-
----?image=https://farm5.staticflickr.com/4813/45662776342_89eba8446e_h.jpg
-
----?image=https://farm5.staticflickr.com/4827/31841578988_78e47778f4_h.jpg
+# News!
+If you've scaled the Python mountain, you will have a big payoff in this module.
 
 ---
 # [360](https://kuula.co/post/7Y4wL)
+Pick your landform today!
 
 ---
 @css[title-top-right](Flying to Grays Arch)
