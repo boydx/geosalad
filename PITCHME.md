@@ -43,8 +43,9 @@ Pick your landform today!
 ## Lidar: review
 @ul
 * active sensor
-* creates a point cloud
 * multiple returns with attributes
+* creates a point cloud
+* airborne vs. terrestrial
 @ulend
 
 ---?image=http://ucanr.org/blogs/Green/blogfiles/10250.png&size=contain
@@ -77,7 +78,6 @@ Pick your landform today!
 @ulend
 
 
-
 ---
 ## Kentucky classes
 Goal is to create high-resolution elevation products for bare-earth conditions. A statewide 5-ft resolution DEM is now available.
@@ -90,3 +90,43 @@ Goal is to create high-resolution elevation products for bare-earth conditions. 
 |7 |Noise (e.g., birds. Can be low or high, manually identified, if needed)|
 |9 |Water|
 |10 |Ignored Ground (Breakline Proximity)|
+
+--- 
+# Point cloud derivatives
+
+---
+Airborne point clouds can be reduced to high-resolution raster imagery.
+
+---
+# DEM
+@ul
+* Digital Elevation Model
+* Most often bare-earth surface
+@ulend
+
+---
+# DSM
+@ul
+* Digital Surface Model
+* Includes the reflected surface
+    * buildings, trees, bridges, etc.
+@ulend
+
+---
+# DTM
+@ul
+* Digital Terrain Model
+* bare-earth surface 
+* with vector features to model surface features
+    * lines for streams, polygons for lakes, etc.
+@ulend
+
+---
+## Practice
+Downloading, extracting, and displaying lidar data.
+* [Tutorial](https://gitpitch.com/boydx/geosalad/g409-06a)
+* [Video](https://uk.instructure.com/courses/1931541/pages/video-arcgis-pro-and-lidar?module_item_id=23767003)
+
+---
+# Vidoes
+* https://youtu.be/zREAEdXzOcw, https://youtu.be/EYbhNSUnIdU
