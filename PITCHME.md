@@ -11,9 +11,26 @@ Make sure you have finished the presentation from [Module 06](https://gitpitch.c
 If you've scaled the Python mountain, you will have a big payoff in this module.
 
 ---
+# Goals
+In the next month we will:
+@ul
+* Create two maps
+    * Cliffs over 30-feet
+    * Interactive map of your landform
+* Create an animation of your landform
+@ulend
+
+---
 # [360](https://kuula.co/post/7Y4wL)
 Pick your landform today!
 
+---
+## This module
+@ul
+* Cliffs over 30-feet in height
+* Video animation
+* All in ArcGIS!
+@ulend
 ---
 @css[title-top-right](Flying to Grays Arch)
 ![Gravity](https://www.youtube.com/embed/E8EJapOwvAc)
@@ -21,186 +38,55 @@ Pick your landform today!
 ---
 ![Fly to Grays Arch](https://www.youtube.com/embed/RB7x9B6OBkI)
 
----?image=images/a033.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
-[animation](http://uky-gis.github.io/support/lidar-arcgis/view_control.gif)
 
 ---
-### (light detection and ranging)
-# Lidar
-Uses laser light to densely sample the surface of the earth to make highly accurate x,y,z measurements.
+## Lidar: review
+@ul
+* active sensor
+* creates a point cloud
+* multiple returns with attributes
+@ulend
+
+---?image=http://ucanr.org/blogs/Green/blogfiles/10250.png&size=contain
 
 ---
-## Lidar properties
-* Active sensor transmits pulses of light
-* Sensor records time of return
-* First return top (building/tree top), last return bottom (bare earth)
-* Point cloud of XYZ positions
-* [More info](http://pro.arcgis.com/en/pro-app/help/data/las-dataset/use-lidar-in-arcgis-pro.htm)
+## Point cloud attributes
+@ul
+* x, y, z position
+* time
+* intensity of return
+* Custom algorithms classify point
+@ulend
 
 ---
-## KY lidar data sources
-ftp://ftp.kymartian.ky.gov/kyaped/LAZ/
-* LASer (LAS) is common public GIS format
-* LAZ is a zipped LAS file
-* Create ArcGIS LAS dataset (LASD) by merging LAZ files
+## Airborne lidar
+@ul
+* Massive sampling of earth's surface by plane
+* While can penetrate canopy, cannot 'see' under solid structures.
+* i.e., cannot see under our arches.
+@ulend
 
 ---
-## Access interactively
-1. Load data from Canvas
-2. Add "KY_5k_PointCloud_grid"
-3. Click on "Natural Bridge"
+## Kentucky project
+@ul
+* Collected during leaf-off conditions
+    * no snow
+    * water levels at or below normal.
+* Point cloud has 2.23-foot point horizontal spacing.
+* Access data in 5k ft x 5k ft tiles ~500 MB each
+@ulend
 
----?image=images/a01.png
-
----?image=images/a015.png
-
----
-## Extract from .laz file
-```bat
-cd /BoydsGIS/data
-laszip64.exe
-enter input file: N110E348.laz
-enter output file: N110E348.las
-```
-
----?image=images/a02.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Create LAS dataset</h2>
-
----?image=images/a03.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Explore LAS dataset</h2>
-
----?image=images/a04.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Filter for ground points</h2>
-
----?image=images/a05.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add symbology</h2>
-
----?image=images/a06.png
-
----
-## LAS Dataset to Raster tool
-* Input is LAS dataset filtered for ground points
-* *Sampling size* parameter (pixel resolution) is 5 (5-ft pixel)
-* Other parameters are default
-
-
----?image=images/a07.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">LAS Dataset to Raster</h2>
-
----?image=images/a08.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Convert to local scene</h2>
-
----?image=images/a09.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add elevation source</h2>
-
----
-## Access aerial photography
-* Add ArcGIS Server *https://kyraster.ky.gov/arcgis/services*
-* Load 2016 NAIP imagery
-
----?image=images/a016.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Add aerial photography</h2>
-
----?image=images/a017.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">KY NAIP 2016 2ft</h2>
-
----
-## Clip aerial photography
-1. Create polygon from extent of LAS dataset
-* Use the LAS DEM as input raster
-* Tool: **Raster Domain**
-
----?image=images/a018.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Raster Domain</h2>
-
----?image=images/a019.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">New area of interest</h2>
-
----
-## Clip areal photography
-2. Use raster clip tool to clip to area of interest
-
----?image=images/a020.png
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Raster Clip</h2>
-
----
-## Add new image to Scene
-* Locate your landform
-* Spin around and explore
-* Perform preliminary measurements
-
----?image=images/a021.png
-[animation](https://uky-gis.github.io/support/lidar-arcgis/locate_arch.gif)
 
 
 ---
-## Create new empty layer for landform
-* Right-click geodatabase
-* Select **New > Feature Class**
-* Feature Class Type is **Point**
-* Spatial Reference is NAD 1983 StatePlane Kentucky FIPS 1600 Feet
-
----?image=images/a022.png
-
----?image=images/a023.png
-
----?image=images/a024.png
+## Kentucky classes
+Goal is to create high-resolution elevation products for bare-earth conditions. A statewide 5-ft resolution DEM is now available.
 
 ---
-## Add new point for landform
-* Add layer to **Contents**
-* Access **Edit > Create Features**
-* Drop on center of landform
-* **Save** edits
-
----?image=images/a025.png
-
----?image=images/a026.png
-
----
-## Buffer point
-* Buffer point at 1,000 ft radius
-* New, high resolution area of interest
-
----?image=images/a027.png
-
----
-## View buffer in 3D
-* Edit buffer **Layer Properties**
-* Set **Elevation** property to **Absolute Height**
-* Use **Expression** and set feet above sea level
-
----?image=images/a028.png
-
----
-## Extract LAS Dataset
-* Use new buffer polygon to extract LAS points
-* Outputs new LAS point cloud
-* Put in separate folder **outside** of any repository
-
----?image=images/a029.png
-
----?image=images/a030.png
-
----
-## Colorize LAS Dataset
-* Use NAIP aerial imagery to add RGB values
-* Outputs yet another LAS point cloud
-* Put in separate folder **outside** of any repository
-
----?image=images/a031.png
-
----?image=images/a032.png
-
----?image=images/a033.png
-[animation](http://uky-gis.github.io/support/lidar-arcgis/view_control.gif)
-
----?image=images/a034.png
-
----?image=https://farm8.staticflickr.com/7006/13159570895_96e15d3d15_h.jpg
-
----
-## Python challenge
-[Run this script on your machine](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/pointcloud_extract)
-
+| Classification value | Meaning|
+|-------------|-----------:|
+|1 |Processed, but Unassigned (above ground features) |
+|2 |Bare-earth or ground|
+|7 |Noise (e.g., birds. Can be low or high, manually identified, if needed)|
+|9 |Water|
+|10 |Ignored Ground (Breakline Proximity)|
