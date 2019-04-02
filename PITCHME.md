@@ -1,6 +1,6 @@
 ---
 # GEO 409:07
-### 3D and terrain analysis using lidar data
+### 3D and terrain analysis using lidar data in Kentucky
 
 ---
 # Prereq
