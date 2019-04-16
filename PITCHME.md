@@ -113,5 +113,25 @@ Consider their license requirement:
 ---
 # Contouring
 
+---
+## Step 1
+Do **Focal Statistics** on our bare-earth DEM to help smooth contours with the mean (average) statistic.
+
+---
+## Step 2
+**Contour** to make elevation contours with a 20-foot interval (or 10-ft interval).
+
+---
+## Step 3
+**Field Calculator** to make index contours for every 100 feet. An index contour has an attribute that allows us to symbolize it differently on the map.
+
+---
+## Step 4 
+Use the **Clip** tool to reduce the size of area to the buffered area of interest and export Shapefile of contours that will load into Mapbox.
+
+---
+## Let's start
+with a [Jupyter Notebook](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples/Contour.ipynb)
+
 
 
