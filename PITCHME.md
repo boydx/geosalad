@@ -34,6 +34,15 @@ It's a good time to be a cartographer!
 ## for Mapbox portion of this module
 Check Canvas for link
 
+---
+## Map tiles
+# Base maps
+
+---
+## mid 2000s
+# Raster tiles
+#### 256x256 pixel image
+
 
 ---
 ## 2014
@@ -96,13 +105,6 @@ Consider their license requirement:
 ### Mapbox
 <iframe src="https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#17.23/38.044077/-84.507715" width="100%" height="500"></iframe>
 
-
-
----
-### Other services
-* [ArcGIS Online](https://developers.arcgis.com/)
-* [Here XYZ Beta](https://explore.xyz.here.com/)
-* Require payment (at volume) and familiarity with coding
 
 ---
 ### Other services
