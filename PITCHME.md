@@ -1,7 +1,7 @@
----
+---?image=https://www.outragegis.com/weather/img/animation/190822/PurchaseKnob.gif&pacity=40
 # Welcome!
 
----
+---?image=images/01/ky.svg&opacity=25
 # GEO 409
 ## Advanced topics in GIS
 
@@ -15,25 +15,26 @@ What experiences help me teach
 ### GIS & Cartography?
 
 
----?image=images/01/map-cuga.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I make maps</h2>
-<a href="https://outrageGIS.com" target="blank">outrageGIS.com</a>
+---?image=https://live.staticflickr.com/7480/27309184576_80b7d25ff0_o.jpg&opacity=40
+## I make maps
+### [outrageGIS.com](https://outrageGIS.com)
 
 ---?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I photograph</h2>
+## I photograph
 
 ---?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I walk a lot</h2>
+## I walk a lot
 
 ---?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I have a toddler</h2>
+## I have a toddler
 
----?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like to experiment</h2>
-<a href="https://kuula.co/post/7PcPp" target="blank">(with 3D maps)</a>
+---?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg&opacity=60
+## I like to experiment
+### [visualizing 3D maps](https://kuula.co/post/7PcPp)
 
----?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">I like field trips to see sunsets</h2>
+
+---?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg&opacity=60
+## I like field trips to see sunsets
 
 ---
 ## How about you?
@@ -44,7 +45,8 @@ What experiences help me teach
 ---
 ### How have I taught in the past?
 
----
+
+---?image=https://live.staticflickr.com/65535/48383254467_601404f58d_o.jpg&opacity=50
 ### Recognize that maps represent
 ## unique places
 
@@ -57,9 +59,9 @@ group project
 ### Get on the trail!
 <iframe width="100%" height="500px" src="https://townbranchtrail.carto.com/builder/712809d2-6ce1-4040-959a-3db96699f725/embed"></iframe>
 
----
+<!-- ---
 #### The team
-<iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe>
+<iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe> -->
 
 ---
 ## Student website
@@ -75,16 +77,15 @@ group project
 ### Finding the highest trees
 <iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
----?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg
-<a href="https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg" title="Estimated tree heights in Lexington&#x27;s North Limestone neighborhood" target="blank">Poster</a>
+---?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg&opacity=30
+## [Poster](https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg)
 
 ---
 ## Student website
 <a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">Link</a>
 
----?image=https://farm1.staticflickr.com/977/40242417740_0c91692078_o.jpg
-<!-- <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bluegrass Trails</h2> -->
-<a href="https://tastyfreeze.github.io/bluegrass/region/" target="blank">site</a>
+---?image=https://farm1.staticflickr.com/977/40242417740_0c91692078_o.jpg&opacity=30
+## [Site](https://tastyfreeze.github.io/bluegrass/region)
 
 ---
 ### Bluegrass Trails
@@ -343,7 +344,12 @@ else:
     print(':\'(')
 print("All done, friends! Should it be rounded up?")
 ```
+@[1]
+@[2,3]
+@[5-10]
+@snap[north-east span-100 text-06 text-gray]
 [Run](https://trinket.io/python3/055c60f8a0)
+@snapend
 
 ---
 <iframe src="https://trinket.io/embed/python3/b7b9a57518" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
