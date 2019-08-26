@@ -1,0 +1,1 @@
+docker run -it -v /Users/boyd/Repos/geosalad:/repo -p 9000:9000 gitpitch/desktop:pro
