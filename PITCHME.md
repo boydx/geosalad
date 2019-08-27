@@ -1,5 +1,8 @@
 ---?image=https://www.outragegis.com/weather/img/animation/190822/PurchaseKnob.gif&pacity=40
 # Welcome!
+@snap[south-west span-100]
+Great Smokies, August 22 2019
+@snapend
 
 ---?image=images/01/ky.svg&opacity=25
 # GEO 409
@@ -11,39 +14,39 @@
 Contact information in syllabus
 
 ---
-What experiences help me teach
-### GIS & Cartography?
+#### What experiences help me teach
+## GIS & Cartography?
 
 
 ---?image=https://live.staticflickr.com/7480/27309184576_80b7d25ff0_o.jpg&opacity=40
 ## I make maps
 ### [outrageGIS.com](https://outrageGIS.com)
 
----?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
+---?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg&opacity=40
 ## I photograph
 
----?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg
+---?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg&opacity=40
 ## I walk a lot
 
----?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg
-## I have a toddler
 
----?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg&opacity=60
+
+---?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg&opacity=40
 ## I like to experiment
-### [visualizing 3D maps](https://kuula.co/post/7PcPp)
+### [visualizing 3D](https://kuula.co/post/7PcPp)
 
 
----?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg&opacity=60
+---?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg&opacity=40
 ## I like field trips to see sunsets
 
 ---
 ## How about you?
-* What is your name?
-* Major?
-* What cartography/GIS courses have you taken?
-
+@ul[squares]
+* Name
+* Major
+* What cartography/GIS courses have you taken
+@ulend[squares]
 ---
-### How have I taught in the past?
+## How have I taught in the past?
 
 
 ---?image=https://live.staticflickr.com/65535/48383254467_601404f58d_o.jpg&opacity=50
@@ -59,9 +62,9 @@ group project
 ### Get on the trail!
 <iframe width="100%" height="500px" src="https://townbranchtrail.carto.com/builder/712809d2-6ce1-4040-959a-3db96699f725/embed"></iframe>
 
-<!-- ---
+---
 #### The team
-<iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe> -->
+<iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe> 
 
 ---
 ## Student website
@@ -416,6 +419,10 @@ group by
 
 ---?image=https://farm2.staticflickr.com/1814/43268734844_e27e85be68_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Field trips!</h2>
+
+
+---?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg&opacity=40
+## I have a toddler
 
 
 
