@@ -14,28 +14,39 @@ Great Smokies, August 22 2019
 Contact information in syllabus
 
 ---
-#### What experiences help me teach
-## GIS & Cartography?
+### What experiences help learn
+## GIS & mapping?
 
 
 ---?image=https://live.staticflickr.com/7480/27309184576_80b7d25ff0_o.jpg&opacity=40
-## I make maps
+## Make maps
 ### [outrageGIS.com](https://outrageGIS.com)
 
 ---?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg&opacity=40
 ## photograph
 
+Note:
+A good photograph is immediately compelling (no need for an explanation). It is also a tool for data collection.
+
 ---?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg&opacity=40
 ## explore
 
+Note:
+Get out of your comfort zone and find something new. 
 
 ---?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg&opacity=40
 ## experiment
 ### [visualizing 3D](https://kuula.co/post/7PcPp)
 
+Note:
+Map making is iterative.
+
 
 ---?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg&opacity=60
-## I like field trips to see sunsets!
+## Field trips to see sunsets!
+
+Note:
+Gotta find pleasure and excitement in what you pursue.
 
 ---
 <iframe width="100%" height="500px" style="width: 100%; height: 500px; border: none; max-width: 100%;" frameborder="0" allow="vr,gyroscope,accelerometer,fullscreen" scrolling="no" allowfullscreen="true" src="https://kuula.co/share/7Y4wL"></iframe>
@@ -47,10 +58,10 @@ Contact information in syllabus
 Note: 
 
 I ask you to consider the implications of your map making.
-
-- A map is an artistic rendering of Earth.
-- A map is a measurement of our environment.
-- A map is a tool for remembering the familiar and navigating the unknown.
+A map is 
+- an artistic rendering of Earth.
+- a measurement of our environment.
+- a tool for remembering the familiar and navigating the unknown.
 
 
 ---?image=https://live.staticflickr.com/930/42790171395_39f8afe83e_o.jpg&opacity=30
@@ -92,7 +103,7 @@ How would help people discover a trail that has yet to be completely built?
 group project | [student website](https://rvirto01.github.io/NRE355_Tree_canopy_study)
 
 Note:
-Which neighborhoods have the most canopy and tallest trees?
+Which neighborhoods have the most canopy and tallest trees? Why is urban tree canopy important?
 
 ---?image=images/01/lidar-trees.jpg&opacity=30
 ### Finding the highest trees
@@ -105,14 +116,12 @@ Which neighborhoods have the most canopy and tallest trees?
 Note:
 How can we determine which areas how the largest trees?
 
-
-
 ---?image=https://ethanrussell.github.io/bluegrass/sally_brown/lab_9/images/DJI_0091.jpg&opacity=30
 ## Bluegrass Trails
 group project | [student websites](https://tastyfreeze.github.io/bluegrass/region)
 
 Note:
-How would you help your fellow student visit and appreciate local trails in the Bluegrass?
+How would you help your fellow student appreciate local trails in the Bluegrass?
 
 ---?image=https://ethanrussell.github.io/bluegrass/sally_brown/lab_9/images/DJI_0091.jpg&opacity=30
 ### Bluegrass Trails
@@ -125,7 +134,7 @@ How would you help your fellow student visit and appreciate local trails in the 
 group project | [student websites](https://uky-gis.github.io/maps/rrg-arches)
 
 Note:
-How can we use new technology to measure landforms in the Red River Gorge?
+How can we use new technology and data to measure and visualize landforms in the Red River Gorge? 
 
 ---?image=https://live.staticflickr.com/65535/47966558966_d0230e13b7_o.jpg&opacity=40
 ### Red River Gorge landforms
@@ -144,7 +153,7 @@ Why do some parts of Kentucky have more wildfire than other parts?
 <iframe width="100%" height="500px" src="https://boydx.carto.com/viz/891d44d4-84ba-11e6-9e41-0e05a8b3e3d7/embed_map"></iframe>
 
 Note:
-What are the patterns of bike v car collisions in Kentucky?
+What are the patterns of bike v car collisions in Kentucky? Why does clustering occur?
 
 ---?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg&opacity=40
 ## Pilot Knob SNP
@@ -152,7 +161,7 @@ What are the patterns of bike v car collisions in Kentucky?
 group project | [student websites](http://sweb.uky.edu/~blshea1/nre355/pksnp)
 
 Note:
-Can we make a site map for a public spaces?
+Can we make a site map for a public spaces that identify overlooks?
 
 ---?image=https://farm6.staticflickr.com/5730/30340396284_a169bdc431_o.jpg
 <img src="https://farm5.staticflickr.com/4686/24053277287_2a7c9f041a_k.jpg" height="600px">
@@ -175,7 +184,7 @@ Can we make a site map for a public spaces?
 group project | [student maps](http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour)
 
 Note:
-How can we determine where scenic locations exist?
+How can we determine where scenic locations exist? Finding a tree canopy tour certainly helps.
 
 ---?image=https://farm1.staticflickr.com/576/23495298805_ce5ec0030d_h.jpg
 
@@ -185,6 +194,8 @@ How can we determine where scenic locations exist?
 ### Fayette County
 ## Scenic [analysis](https://geography.as.uky.edu/sites/default/files/SceniicLandscapeIndexFayetteCounty_th.jpg)
 
+Note:
+But what about proximity to cliffs, wooded areas, rivers, etc.
 
 ---?image=images/01/map-pedshed.jpg&opacity=40
 ## Analyzing Walkability
@@ -210,48 +221,53 @@ Saved the best for last. Which areas around campus have the most 'celebrations' 
 
 
 ---
-# Tools?
-Recognize that there is no one tool to accomplish a [complex task](https://www.outragegis.com/weather/goes16/).
+# 🚀🌎
+
+---
+## Our goal
+* Work in cutting-edge technology and data
+* Map a site in exquisite detail
+* Create a portfolio of visualizations and measurements
+* Publish and promote
+
 
 
 ---
-## Workspace
+## Our workspace
 @ul[squares]
 - ArcGIS Pro
+- Lidar data
 - Python
 - GitHub
-- with big data...
 @ulend
 
+Note:
+What can you put on your resume?
+
 ---
-## Maps: ArcGIS Pro (& QGIS)
+## ArcGIS Pro? 
 @ul[squares]
-- Students have requested both
-- QGIS is free and runs on MacOS
-- [ArcGIS Pro](https://uky-gis.github.io/support/lidar-arcgis/locate_arch.gif) is brave new frontier
+- Students have requested both ArcGIS & QGIS
+- QGIS is free and runs on macOS
+- [ArcGIS Pro](https://uky-gis.github.io/support/lidar-arcgis/locate_arch.gif) is mature, well documented and supported
 - Employers mostly in ArcGIS ecosystem
 @ulend
 
-
-
 ---
-## Code: Python 3
+## Lidar
 @ul[squares]
-- Text-based instructions are cool, dude
-- ESC the desktop, free your workflow
-- [Write it once, use it forever](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples/hillshade-challenge.ipynb)
-- Start with no programming knowledge
+- Available for entire state
+- Map ground and [above-ground features](https://uky-gis.github.io/support/python-arcgis/pointcloud_extract/cufa.gif)
+- New frontier in mapping
 @ulend
 
+Note:
+Working with lidar data is a highly desirable skill set
+
 ---
-## Publish: Web pages
-@ul[squares]
-- Use GitHub to publish maps online
-- Also for grading 😀 and code development
-- Use prebuilt templates
-- Learn basic Markdown, HTML, CSS (and JavaScript)
-- From here it is wide open...
-@ulend
+### Lidar point cloud visualization
+![Street sky walk](https://farm9.staticflickr.com/8062/29138854162_85f7e68158_h.jpg)   
+[link](https://farm9.staticflickr.com/8062/29138854162_1cd274d646_o.jpg)
 
 ---?image=images/terrabytes27.gif
 <div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
@@ -260,18 +276,29 @@ Recognize that there is no one tool to accomplish a [complex task](https://www.o
 <h1>> 20TB</h1>
 </div>
 
+Note:
+How do you deal with so much data??
+
 ---
-## Data: Lidar
+## Python
 @ul[squares]
-- Available for entire state
-- Map ground and [above-ground features](https://uky-gis.github.io/support/python-arcgis/pointcloud_extract/cufa.gif)
-- Data is redundant, instructions to process are unique
+- Among the most popular programming languages
+- We'll start with no programming knowledge
+- Text-based instructions (aka code) make working with big data a lot easier
+- [Automate custom workflows](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples/SurfaceModels.ipynb)
+
 @ulend
-
-
 
 ---
 ## Code examples?
+
+Note:
+First challenge in learning code is understanding syntax. 
+
+First identify 
+- Comments are not read by program
+- Data
+- Instructions
 
 ---
 ```sql
@@ -283,29 +310,38 @@ WHERE
     state_name = 'Kentucky'
 
 /* That's it! */
-
 ```
+@[1]
+@[3-4]
+@[5-6]
 
 ---
 ```markdown
-# My Project
+## My Project
+### of little kitties 🐱✊🏻
 
 This page hosts my mapping project assets:
-* [link name](path/to/link)
-* Vist my instagram page [@cats_of_instagram](https://www.instagram.com/cats_of_instagram) 
+* Visit my instagram page [@cats_of_instagram](https://www.instagram.com/cats_of_instagram) 
+* *A fun fact* I have over 10 million follwers!
 
-![Cats of Instagram](images/01/cats_of_instagram.jpg)
+\![Cats of Instagram](images/01/cats_of_instagram.jpg)
 ```
+@[1-2]
+@[4-6]
+@[8]
+
 
 ---
-# Renders to...
+## Renders
+in the browser to
 
 ---
-# My Project
+## My Project
+### of little kitties 🐱✊🏻
 
 This page hosts my mapping project assets:
-* [link name](path/to/link)
-* Vist my instagram page [@cats_of_instagram](https://www.instagram.com/cats_of_instagram) 
+* Visit my instagram page [@cats_of_instagram](https://www.instagram.com/cats_of_instagram) 
+* *A fun fact:* I have over 10 million follwers!
 
 ![Cats of Instagram](images/01/cats_of_instagram.jpg)
 
@@ -337,81 +373,53 @@ else:
 print("All done, friends! Should it be rounded up?")
 ```
 @[1]
-@[2,3]
-@[5-10]
+@[2-4]
+@[5-7]
+@[8-19]
+@[20-22]
 @snap[north-east span-100 text-06 text-gray]
-[Run](https://trinket.io/python3/055c60f8a0)
+[Run](https://trinket.io/python3/af47398bef)
 @snapend
 
 ---
 <iframe src="https://trinket.io/embed/python3/b7b9a57518" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
----?image=https://c1.staticflickr.com/6/5713/31179013342_da99860b71_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">How many acres have burned per county?</h2>
-
 ---
-### Spatial Join
-intersect and summarize    
-<a href="http://boydx.github.io/wildfires/" target="blank">1992-2013 analysis</a>
+## GitHub
+@ul[squares]
+- Project management at tremendous scale
+- Develop and share your code (aka data instructions)
+- Learn basic web page development with Markdown and HTML
+- Publish public web page portfolios of your maps 😀😀 
+@ulend
 
----
 
-```sql
-/* Sum wildfire acres by county polygon in PostGIS database */
+---?image=https://farm2.staticflickr.com/1814/43268734844_e27e85be68_k.jpg&opacity=40
+## Our theme?
 
-SELECT
-    sum(pts.fire_size) as fire_acres,
-    round((sum(pts.fire_size) / 
-        (poly.aland * 0.000247105)*100)::numeric,2) 
-        as percent_burned,
-    poly.geoid
-from
-    poly
-join
-    pts on ST_Intersects(pts.geom, poly.geom)
-group by
-    poly.geoid
-
-/* That's it! */
-```
-
----
-### Spring 2019
-## theme?
-
----
-### Lidar terrain measures in the
+---?image=https://farm2.staticflickr.com/1814/43268734844_e27e85be68_k.jpg&opacity=40
+## Practice
+### Lidar measures & visualizations in the
 ## Red River Gorge
 
+---?image=https://live.staticflickr.com/8607/28619548090_444d30a12e_o.jpg&opacity=40
+## Final project
+@ul
+* Make a 3D site map
+* in the Gorge
+* or anywhere else in the state
+@ulend
 
 ---
-<iframe width="100%" height="500px" src="https://kuula.co/share/7PcPp?fs"></iframe>
-
-[link](https://kuula.co/share/7PcPp?fs)
-
----
-### Lidar point cloud visualization
-![Street sky walk](https://farm9.staticflickr.com/8062/29138854162_85f7e68158_h.jpg)   
-[link](https://farm9.staticflickr.com/8062/29138854162_1cd274d646_o.jpg)
-
----?image=https://i0.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/nat_bridge.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Natural Bridge</h2>
-
----?image=https://i2.wp.com/www.outragegis.com/trails/wp-content/uploads/2018/05/RRF_cliff_1.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Cliffs >100ft</h2>
+<iframe width="100%" height="500px" src="https://outragegis.com/pointclouds/lex/"></iframe>
+[link](https://outragegis.com/pointclouds/lex/)
 
 ---
-### The plan
-* Adopt a landform, e.g., arch, pillar, chimney, cliff, waterfall, etc.
-* Measurement analysis, e.g., how high, wide, etc.
-* Create profile web page with summary stats, story, photos, etc.
-
----?image=https://farm2.staticflickr.com/1814/43268734844_e27e85be68_k.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Field trips!</h2>
+<iframe width="100%" height="500px" src="https://outragegis.com/pointclouds/legacy/"></iframe>
+[link](https://outragegis.com/pointclouds/legacy/)
 
 
----?image=https://c1.staticflickr.com/6/5555/25390145339_41f3abb792_h.jpg&opacity=40
-## I have a toddler
+
 
 
 
