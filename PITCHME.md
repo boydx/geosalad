@@ -8,6 +8,9 @@ Great Smokies, August 22 2019
 # GEO 409
 ## Advanced topics in GIS
 
+Note:
+With a distinct Kentucky flavor
+
 ---
 ### Instructor
 ## Boyd Shearer
