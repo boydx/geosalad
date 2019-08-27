@@ -1,6 +1,6 @@
 ---?image=https://www.outragegis.com/weather/img/animation/190822/PurchaseKnob.gif&pacity=40
 # Welcome!
-@snap[south-west span-100]
+@snap[south-west span-20 text-italic text-04]
 Great Smokies, August 22 2019
 @snapend
 
@@ -23,22 +23,30 @@ Contact information in syllabus
 ### [outrageGIS.com](https://outrageGIS.com)
 
 ---?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg&opacity=40
-## I photograph
+## photograph
 
 ---?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg&opacity=40
-## I walk a lot
-
+## explore
 
 
 ---?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg&opacity=40
-## I like to experiment
+## experiment
 ### [visualizing 3D](https://kuula.co/post/7PcPp)
 
 
----?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg&opacity=40
-## I like field trips to see sunsets
+---?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg&opacity=60
+## I like field trips to see sunsets!
 
 ---
+<iframe width="100%" height="500px" style="width: 100%; height: 500px; border: none; max-width: 100%;" frameborder="0" allow="vr,gyroscope,accelerometer,fullscreen" scrolling="no" allowfullscreen="true" src="https://kuula.co/share/7Y4wL"></iframe>
+
+---?image=https://live.staticflickr.com/65535/48383254467_601404f58d_o.jpg&opacity=50
+### Recognize that maps represent
+## unique places
+
+
+
+---?image=https://live.staticflickr.com/930/42790171395_39f8afe83e_o.jpg&opacity=30
 ## How about you?
 @ul[squares]
 * Name
@@ -48,58 +56,44 @@ Contact information in syllabus
 ---
 ## How have I taught in the past?
 
-
----?image=https://live.staticflickr.com/65535/48383254467_601404f58d_o.jpg&opacity=50
-### Recognize that maps represent
-## unique places
-
----
+---?image=images/01/tbt.jpg&opacity=40
 ## Discovering
 ### Town Branch Trail
-group project
+group project | [student website](https://reece2ke.github.io/geo409_site)
 
----
+---?image=images/01/tbt.jpg&opacity=40
 ### Get on the trail!
 <iframe width="100%" height="500px" src="https://townbranchtrail.carto.com/builder/712809d2-6ce1-4040-959a-3db96699f725/embed"></iframe>
 
----
+---?image=images/01/tbt.jpg&opacity=40
 #### The team
 <iframe width="100%" height="500px" src="https://kuula.co/share/7lLKn"></iframe> 
 
----
-## Student website
-<a href="https://reece2ke.github.io/geo409_site/index.html" target="blank">Link</a>
-
-
----
+---?image=images/01/lidar-trees.jpg&opacity=30
 ### Mapping trees with 
 ## Lidar
-group project
+group project | [student website](https://rvirto01.github.io/NRE355_Tree_canopy_study)
 
----
+---?image=images/01/lidar-trees.jpg&opacity=30
 ### Finding the highest trees
 <iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
----?image=https://farm5.staticflickr.com/4538/24677325668_1700ac43f7_h.jpg&opacity=30
-## [Poster](https://farm5.staticflickr.com/4538/24677325668_f74b390108_o.jpg)
 
----
-## Student website
-<a href="https://rvirto01.github.io/NRE355_Tree_canopy_study/" taRGET="BLANK">Link</a>
+---?image=https://ethanrussell.github.io/bluegrass/sally_brown/lab_9/images/DJI_0091.jpg&opacity=30
+## Bluegrass Trails
+group project | [student websites](https://tastyfreeze.github.io/bluegrass/region)
 
----?image=https://farm1.staticflickr.com/977/40242417740_0c91692078_o.jpg&opacity=30
-## [Site](https://tastyfreeze.github.io/bluegrass/region)
-
----
+---?image=https://ethanrussell.github.io/bluegrass/sally_brown/lab_9/images/DJI_0091.jpg&opacity=30
 ### Bluegrass Trails
 <iframe width="100%" height="500px" src="https://tastyfreeze.github.io/bluegrass/region/map.html"></iframe>
 
 
----?image=https://i1.wp.com/www.outragegis.com/trails/wp-content/uploads/2019/01/rrg-project.jpg
-<!-- <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Red River Gorge landforms</h2> -->
-<a href="https://uky-gis.github.io/maps/rrg-arches/" target="blank">site</a>
+---?image=https://live.staticflickr.com/65535/47966558966_d0230e13b7_o.jpg&opacity=40
+### Red River Gorge
+## Landforms
+group project | [student websites](https://uky-gis.github.io/maps/rrg-arches)
 
----
+---?image=https://live.staticflickr.com/65535/47966558966_d0230e13b7_o.jpg&opacity=40
 ### Red River Gorge landforms
 <iframe width="100%" height="500px" src="https://uky-gis.github.io/maps/rrg-arches/map.html"></iframe>
 
@@ -108,28 +102,19 @@ group project
 # Portfolio
 to share with mom and potential employers
 
----
-### Wildfire in Kentucky
+
+---?image=https://live.staticflickr.com/5713/31179013342_da99860b71_k.jpg&opacity=40
+### [Wildfire](http://boydx.github.io/wildfires/)
 <iframe width="100%" height="500px" src="https://nmp.carto.com/u/boyd/builder/3ea43d07-6d91-43fd-b869-9216b2908a3e/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B28.455561860623863%2C-114.30810928344728%5D%2C%22sw%22%3A%5B45.61127561558146%2C-61.09033584594727%5D%2C%22center%22%3A%5B37.52402236402927%2C-87.69922256469727%5D%2C%22zoom%22%3A5%7D%2C%22widgets%22%3A%7B%22613cc10d-cbae-4aa7-b5c1-51e4debbb488%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"></iframe>
 
----
-### Car vs. bike
+---?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg&opacity=40
+### [Car vs. bike](http://boydx.github.io/collisions/)
 <iframe width="100%" height="500px" src="https://boydx.carto.com/viz/891d44d4-84ba-11e6-9e41-0e05a8b3e3d7/embed_map"></iframe>
 
----
-## Field trips!
-
----
-<iframe width="100%" height="500px" style="width: 100%; height: 500px; border: none; max-width: 100%;" frameborder="0" allow="vr,gyroscope,accelerometer,fullscreen" scrolling="no" allowfullscreen="true" src="https://kuula.co/share/7Y4wL?fs=1&vr=0&thumbs=1&chromeless=0&logo=0"></iframe>
-
----
+---?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg&opacity=40
 ## Pilot Knob SNP
 ### Trails
-<a href="http://sweb.uky.edu/~blshea1/nre355/pksnp/" target="blank">Link</a>
-
----?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg
-
----?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg
+group project | [student websites](http://sweb.uky.edu/~blshea1/nre355/pksnp)
 
 
 ---?image=https://farm6.staticflickr.com/5730/30340396284_a169bdc431_o.jpg
@@ -138,82 +123,48 @@ to share with mom and potential employers
 ---?image=https://farm6.staticflickr.com/5730/30340396284_a169bdc431_o.jpg
 <iframe src="https://townbranch.carto.com/builder/dbce1cd2-b019-11e6-bd55-0e05a8b3e3d7/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
----
-## Pine Mountain SRP
-### Scenic Analysis
-<a href="http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour/" target="blank">Link</a>
+---?image=https://farm6.staticflickr.com/5678/23200804570_7ba220d2d1_h.jpg&opacity=40
+### Pine Mountain SRP
+## Scenic Analysis
+group project | [student maps](http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour)
 
----?image=https://farm6.staticflickr.com/5678/23200804570_7ba220d2d1_h.jpg
-
-
-<!-- ---?image=https://geography.as.uky.edu/sites/default/files/PineMountainCanopyTour.jpg -->
 ---?image=https://farm1.staticflickr.com/576/23495298805_ce5ec0030d_h.jpg
-
 
 ---?image=https://farm1.staticflickr.com/681/22868246864_2fb8e40e79_h.jpg
 
----?image=https://farm1.staticflickr.com/691/23469905426_2baff7bd7c_h.jpg
+
+---?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg&opacity=40
+### Arboretum Woods
+## Tree [census](https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg)
 
 
----
-## Arboretum Woods
-### Tree Census
-<a href="https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg" target="blank">Link</a>
 
----?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg
-
-
----
-## Robinson Forest Camp
-### trail map
-<a href="https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg" target="blank">map</a>
+---?image=https://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg&opacity=40
+### Robinson Forest Camp
+## Trail [map](https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg)
 
 ---?image=https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg
 
 ---?image=https://farm5.staticflickr.com/4175/34413343182_c906452c0b_h.jpg
 
----?image=https://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg
+---?image=images/01/ncaa-tournament.jpg&opacity=40
+## Student [observations](https://geography.as.uky.edu/sites/default/files/GEO309_PatternsOfCampusCelebrations_UK_NCAA_Basketball.jpg)
+(of what?)
+
+---?image=https://farm5.staticflickr.com/4263/35717804616_2a43fe322c_k.jpg&opacity=40
+### Fayette County
+## Scenic [analysis](https://geography.as.uky.edu/sites/default/files/SceniicLandscapeIndexFayetteCounty_th.jpg)
+
+---?image=images/01/map-pedshed.jpg&opacity=40
+## Analyzing Walkability
 
 
-
----
-## Student observations
-### NCAA tournament basketball celebrations
-<a href="https://geography.as.uky.edu/sites/default/files/GEO309_PatternsOfCampusCelebrations_UK_NCAA_Basketball.jpg" target="blank">map</a>
+---?image=images/01/map-digitize-paths.jpg&opacity=40
+## Digitize walking paths
 
 
-
----
-## Fayette County
-### Scenic Analysis
-<a href="https://geography.as.uky.edu/sites/default/files/SceniicLandscapeIndexFayetteCounty_th.jpg" target="blank">map</a>
-
----?image=https://farm5.staticflickr.com/4263/35717804616_2a43fe322c_k.jpg
-
-
----?image=https://farm5.staticflickr.com/4095/35717812836_4542c770d7_k.jpg
-
----
-## Analyzing
-### Walkability
-
----?image=images/01/map-create-zones.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Divide city into zones.</h2>
-
----?image=images/01/map-digitize-paths.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #fff;">Digitize walking paths.</h2>
-
----
-### Build a network model
-connecting paths to streets with sidewalks.
-
----
-![Pedshed](images/01/map-pedshed.jpg)   
-Create a pedshed to measure how many people can access what parts of town on foot.
-
----?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Where are the "cow paths" on campus?</h3>
-<h4 style="color:#eee;text-shadow: 2px 2px 4px #000;">Are they quicker than sidewalks?</h4>
+---?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg&opacity=40
+### Are the "cow paths" quicker than sidewalks?
 
 ---?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
