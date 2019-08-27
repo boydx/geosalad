@@ -412,6 +412,13 @@ print("All done, friends! Should it be rounded up?")
 ### Lidar measures & visualizations in the
 ## Red River Gorge
 
+Note:
+Convergence of tech
+* RRG is our location
+* Python and ArcGIS Pro are our tools
+* Lidar is our primary data
+* Github is the glue that brings it all together
+
 ---?image=https://live.staticflickr.com/8607/28619548090_444d30a12e_o.jpg&opacity=40
 ## Final project
 @ul
