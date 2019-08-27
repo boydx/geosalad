@@ -14,13 +14,16 @@ Great Smokies, August 22 2019
 Contact information in syllabus
 
 ---
-### What experiences help learn
+### What experiences help you learn
 ## GIS & mapping?
 
 
 ---?image=https://live.staticflickr.com/7480/27309184576_80b7d25ff0_o.jpg&opacity=40
 ## Make maps
 ### [outrageGIS.com](https://outrageGIS.com)
+
+Note:
+I've been making maps for 25 years. If you count the period in childhood when I made fantasy maps in Dungeons and Dragons, then much longer.
 
 ---?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg&opacity=40
 ## photograph
@@ -80,6 +83,9 @@ A map is
 * and summary measurements
 * @fa[arrow-circle-right] tell a story.
 @ulend[squares]
+
+Note:
+I'm going to frame past projects with question around problem statement. I'll invite you to propose a path towards a solution.
 
 ---?image=images/01/tbt.jpg&opacity=40
 ## Discovering
