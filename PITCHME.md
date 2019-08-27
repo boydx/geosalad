@@ -234,11 +234,12 @@ Saved the best for last. Which areas around campus have the most 'celebrations' 
 
 ---
 ## Our goal
+@ul[squares]
 * Work in cutting-edge technology and data
 * Map a site in exquisite detail
 * Create a portfolio of visualizations and measurements
 * Publish and promote
-
+@ulend
 
 
 ---
