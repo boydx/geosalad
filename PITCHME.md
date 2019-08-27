@@ -32,7 +32,7 @@ I've been making maps for 25 years. If you count the period in childhood when I 
 ## photograph
 
 Note:
-Conside this comparison. A picture is worth a thousand words. A map is literally a picture of thousand words. A good photograph is immediately compelling (no need for an explanation). It is also a tool for data collection. 
+Consider this comparison. A picture is worth a thousand words. A map is literally a picture of thousand words. A good photograph is immediately compelling (no need for an explanation). It is also a tool for data collection. 
 
 ---?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg&opacity=40
 ## explore
@@ -88,10 +88,7 @@ A map is
 @ulend[squares]
 
 Note:
-Publish and promote online!
-
-Note:
-I'm going to frame past projects with question around problem statement. I'll invite you to propose a path towards a solution.
+Publish and promote online! I'm going to frame past projects with question around problem statement. I'll invite you to propose a path towards a solution.
 
 ---?image=images/01/tbt.jpg&opacity=40
 ## Discovering
