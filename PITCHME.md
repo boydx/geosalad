@@ -44,6 +44,13 @@ Contact information in syllabus
 ### Recognize that maps represent
 ## unique places
 
+Note: 
+
+I ask you to consider the implications of your map making.
+
+- A map is an artistic rendering of Earth.
+- A map is a measurement of our environment.
+- A map is a tool for remembering the familiar and navigating the unknown.
 
 
 ---?image=https://live.staticflickr.com/930/42790171395_39f8afe83e_o.jpg&opacity=30
@@ -53,13 +60,23 @@ Contact information in syllabus
 * Major
 * What cartography/GIS courses have you taken
 @ulend[squares]
----
-## How have I taught in the past?
+
+---?image=images/01/ky.svg&opacity=25
+## Past courses
+@ul[squares]
+* Stay local
+* make snazzy visuals
+* and summary measurements
+* @fa[arrow-circle-right] tell a story.
+@ulend[squares]
 
 ---?image=images/01/tbt.jpg&opacity=40
 ## Discovering
 ### Town Branch Trail
 group project | [student website](https://reece2ke.github.io/geo409_site)
+
+Note:
+How would help people discover a trail that has yet to be completely built?
 
 ---?image=images/01/tbt.jpg&opacity=40
 ### Get on the trail!
@@ -74,14 +91,28 @@ group project | [student website](https://reece2ke.github.io/geo409_site)
 ## Lidar
 group project | [student website](https://rvirto01.github.io/NRE355_Tree_canopy_study)
 
+Note:
+Which neighborhoods have the most canopy and tallest trees?
+
 ---?image=images/01/lidar-trees.jpg&opacity=30
 ### Finding the highest trees
 <iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
+
+---?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg&opacity=40
+### Arboretum Woods
+## Tree [census](https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg)
+
+Note:
+How can we determine which areas how the largest trees?
+
 
 
 ---?image=https://ethanrussell.github.io/bluegrass/sally_brown/lab_9/images/DJI_0091.jpg&opacity=30
 ## Bluegrass Trails
 group project | [student websites](https://tastyfreeze.github.io/bluegrass/region)
+
+Note:
+How would you help your fellow student visit and appreciate local trails in the Bluegrass?
 
 ---?image=https://ethanrussell.github.io/bluegrass/sally_brown/lab_9/images/DJI_0091.jpg&opacity=30
 ### Bluegrass Trails
@@ -93,51 +124,41 @@ group project | [student websites](https://tastyfreeze.github.io/bluegrass/regio
 ## Landforms
 group project | [student websites](https://uky-gis.github.io/maps/rrg-arches)
 
+Note:
+How can we use new technology to measure landforms in the Red River Gorge?
+
 ---?image=https://live.staticflickr.com/65535/47966558966_d0230e13b7_o.jpg&opacity=40
 ### Red River Gorge landforms
 <iframe width="100%" height="500px" src="https://uky-gis.github.io/maps/rrg-arches/map.html"></iframe>
-
----
-## Student makes
-# Portfolio
-to share with mom and potential employers
 
 
 ---?image=https://live.staticflickr.com/5713/31179013342_da99860b71_k.jpg&opacity=40
 ### [Wildfire](http://boydx.github.io/wildfires/)
 <iframe width="100%" height="500px" src="https://nmp.carto.com/u/boyd/builder/3ea43d07-6d91-43fd-b869-9216b2908a3e/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B28.455561860623863%2C-114.30810928344728%5D%2C%22sw%22%3A%5B45.61127561558146%2C-61.09033584594727%5D%2C%22center%22%3A%5B37.52402236402927%2C-87.69922256469727%5D%2C%22zoom%22%3A5%7D%2C%22widgets%22%3A%7B%22613cc10d-cbae-4aa7-b5c1-51e4debbb488%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"></iframe>
 
+Note:
+Why do some parts of Kentucky have more wildfire than other parts?
+
 ---?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg&opacity=40
 ### [Car vs. bike](http://boydx.github.io/collisions/)
 <iframe width="100%" height="500px" src="https://boydx.carto.com/viz/891d44d4-84ba-11e6-9e41-0e05a8b3e3d7/embed_map"></iframe>
+
+Note:
+What are the patterns of bike v car collisions in Kentucky?
 
 ---?image=https://farm6.staticflickr.com/5620/31047412341_bf8ece65f4_h.jpg&opacity=40
 ## Pilot Knob SNP
 ### Trails
 group project | [student websites](http://sweb.uky.edu/~blshea1/nre355/pksnp)
 
+Note:
+Can we make a site map for a public spaces?
 
 ---?image=https://farm6.staticflickr.com/5730/30340396284_a169bdc431_o.jpg
 <img src="https://farm5.staticflickr.com/4686/24053277287_2a7c9f041a_k.jpg" height="600px">
 
 ---?image=https://farm6.staticflickr.com/5730/30340396284_a169bdc431_o.jpg
 <iframe src="https://townbranch.carto.com/builder/dbce1cd2-b019-11e6-bd55-0e05a8b3e3d7/embed" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
----?image=https://farm6.staticflickr.com/5678/23200804570_7ba220d2d1_h.jpg&opacity=40
-### Pine Mountain SRP
-## Scenic Analysis
-group project | [student maps](http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour)
-
----?image=https://farm1.staticflickr.com/576/23495298805_ce5ec0030d_h.jpg
-
----?image=https://farm1.staticflickr.com/681/22868246864_2fb8e40e79_h.jpg
-
-
----?image=https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus_700.jpg&opacity=40
-### Arboretum Woods
-## Tree [census](https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg)
-
-
 
 ---?image=https://farm5.staticflickr.com/4190/34444679751_f169c65f1a_h.jpg&opacity=40
 ### Robinson Forest Camp
@@ -147,16 +168,29 @@ group project | [student maps](http://sweb.uky.edu/~blshea1/nre355/pine-mountain
 
 ---?image=https://farm5.staticflickr.com/4175/34413343182_c906452c0b_h.jpg
 
----?image=images/01/ncaa-tournament.jpg&opacity=40
-## Student [observations](https://geography.as.uky.edu/sites/default/files/GEO309_PatternsOfCampusCelebrations_UK_NCAA_Basketball.jpg)
-(of what?)
+
+---?image=https://farm6.staticflickr.com/5678/23200804570_7ba220d2d1_h.jpg&opacity=40
+### Pine Mountain SRP
+## Scenic Analysis
+group project | [student maps](http://sweb.uky.edu/~blshea1/nre355/pine-mountain-canopy-tour)
+
+Note:
+How can we determine where scenic locations exist?
+
+---?image=https://farm1.staticflickr.com/576/23495298805_ce5ec0030d_h.jpg
+
+---?image=https://farm1.staticflickr.com/681/22868246864_2fb8e40e79_h.jpg
 
 ---?image=https://farm5.staticflickr.com/4263/35717804616_2a43fe322c_k.jpg&opacity=40
 ### Fayette County
 ## Scenic [analysis](https://geography.as.uky.edu/sites/default/files/SceniicLandscapeIndexFayetteCounty_th.jpg)
 
+
 ---?image=images/01/map-pedshed.jpg&opacity=40
 ## Analyzing Walkability
+
+Note: 
+How far can you walk if you only stayed on sidewalks?
 
 
 ---?image=images/01/map-digitize-paths.jpg&opacity=40
@@ -166,9 +200,13 @@ group project | [student maps](http://sweb.uky.edu/~blshea1/nre355/pine-mountain
 ---?image=https://geography.as.uky.edu/sites/default/files/GEO409_2014_FinalProject_Preview.jpg&opacity=40
 ### Are the "cow paths" quicker than sidewalks?
 
----?image=http://boydx.github.io/collisions/images/VineStreet_LexingtonKentucky.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Bike/Pedestrian vs. Car Collision Analysis</h3>
-<a href="http://boydx.github.io/collisions/" target="blank">Interactive map</a>
+
+---?image=images/01/ncaa-tournament.jpg&opacity=40
+## Student [observations](https://geography.as.uky.edu/sites/default/files/GEO309_PatternsOfCampusCelebrations_UK_NCAA_Basketball.jpg)
+(of what?)
+
+Note:
+Saved the best for last. Which areas around campus have the most 'celebrations' during NCAA basketball tournaments and why?
 
 
 ---
