@@ -32,7 +32,7 @@ I've been making maps for 25 years. If you count the period in childhood when I 
 ## photograph
 
 Note:
-A good photograph is immediately compelling (no need for an explanation). It is also a tool for data collection.
+Conside this comparison. A picture is worth a thousand words. A map is literally a picture of thousand words. A good photograph is immediately compelling (no need for an explanation). It is also a tool for data collection. 
 
 ---?image=https://c1.staticflickr.com/6/5324/30627102241_3cde14d218_o.jpg&opacity=40
 ## explore
@@ -45,14 +45,14 @@ Get out of your comfort zone and find something new.
 ### [visualizing 3D](https://kuula.co/post/7PcPp)
 
 Note:
-Map making is iterative.
+Map making is iterative. I like experimenting in visualizing 3D.
 
 
 ---?image=https://c1.staticflickr.com/6/5697/31017969892_6a6f41ec25_o.jpg&opacity=60
 ## Field trips to see sunsets!
 
 Note:
-Gotta find pleasure and excitement in what you pursue.
+Finally, you gotta find pleasure and excitement in what you pursue.
 
 ---
 <iframe width="100%" height="500px" style="width: 100%; height: 500px; border: none; max-width: 100%;" frameborder="0" allow="vr,gyroscope,accelerometer,fullscreen" scrolling="no" allowfullscreen="true" src="https://kuula.co/share/7Y4wL"></iframe>
@@ -67,7 +67,7 @@ I ask you to consider the implications of your map making.
 A map is 
 - an artistic rendering of Earth.
 - a measurement of our environment.
-- a tool for remembering the familiar and navigating the unknown.
+- a tool for remembering the past and navigating the unknown.
 
 
 ---?image=https://live.staticflickr.com/930/42790171395_39f8afe83e_o.jpg&opacity=30
@@ -86,6 +86,9 @@ A map is
 * and summary measurements
 * @fa[arrow-circle-right] tell a story.
 @ulend[squares]
+
+Note:
+Publish and promote online!
 
 Note:
 I'm going to frame past projects with question around problem statement. I'll invite you to propose a path towards a solution.
