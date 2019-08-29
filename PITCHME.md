@@ -123,20 +123,27 @@ cd C:\
 rem If you're not on C: drive execute
 C:
 ```
-@
+@[1]
+@[3]
+@[5]
+
 
 ---
 ### Type in the terminal II
 
+---
 ```bat
 rem make a directory on C:
 mkdir MyFunNameGIS
 rem go into the new directory
 cd MyFunNameGIS
 ```
+@[2]
+@[4]
+
 
 ---
-### Type in the terminal III
+### Example
 
 ---
 ```bat
@@ -146,6 +153,9 @@ mkdir BoydsGIS
 rem go into the new directory
 cd BoydsGIS 
 ```
+@[3]
+@[5]
+
 ---
 ## How will I
 ### know all of these commands?!?
