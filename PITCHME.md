@@ -1,6 +1,23 @@
----
+---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
 # GEO 409:01
 ## Advanced topics in GIS
+
+
+---
+## Organization
+@ul[squares]
+* Keep GIS folder organized
+* Be consistent
+* Don't put a file >50 MB in repo
+* Don't put a .gdb folder in repo
+* Don't put a repo in repo
+@ulend
+
+---
+## Example folder structure
+
+---?image=images/02/a001.png
+
 
 ---
 ## Topics
