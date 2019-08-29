@@ -7,6 +7,9 @@
 @ul[squares]
 * GIS and information intensive projects have many assets that sprawl across directories.
 @ulend
+@snap[south-west span-20 text-italic text-04]
+Great Smokies, yesterday
+@snapend
 
 ---?image=https://live.staticflickr.com/1821/42233874915_b274295437_o.jpg&opacity=40
 ## Where did it go?
@@ -17,7 +20,7 @@
 @ul[squares]
 * Set up our work environment
 * Tools for the knowledge worker
-* Review: measure area the desktop way
+* Review: measure US states's area the desktop way
 * Challenge: measure area by code
 @ulend
 
@@ -104,15 +107,13 @@ a browser-based editor for Python
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Themes</h3>
 
 ---
-#### Let's setup your local root
-### GIS project directory
-
----
-## Create working directory
+#### Let's setup your local
+## root GIS directory
 In VS Code, open *View > Terminal*
 
+
 ---?image=images/02/q-002.png
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Access console, terminal, command line, shell, etc.</h3>
+### Or, Terminal > New Terminal
 
 ---
 ### Type in the terminal I
