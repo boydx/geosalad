@@ -2,15 +2,31 @@
 # GEO 409:01
 ## Advanced topics in GIS
 
+---
+## Managing complex workflows
+@ul[squares]
+* GIS and information intensive projects have many assets that sprawl across directories.
+@ulend
+
+
+---?image=https://live.staticflickr.com/1824/42163152085_8a07212910_o.jpg&opacity=40
+## Topics
+@ul[squares]
+* Set up our work environment
+* Tools for the knowledge worker
+* Review: measure area the desktop way
+* Challenge: measure area by code
+@ulend
+
+---?image=https://live.staticflickr.com/1821/42233874915_b274295437_o.jpg&opacity=40
+## Where did it go?
 
 ---
-## Organization
+## Data hygiene
 @ul[squares]
-* Keep GIS folder organized
-* Be consistent
-* Don't put a file >50 MB in repo
-* Don't put a .gdb folder in repo
-* Don't put a repo in repo
+* Create single top-level directory for all projects, data, etc.
+* We'll call this our *root* GIS directory
+* Separate *redundant* from *created* assets
 @ulend
 
 ---
@@ -20,40 +36,29 @@
 
 
 ---
-## Topics
-@ul[squares]
-* Tools for the knowledge worker
-* Set up our work environment
-* Measure area the desktop way
-* Challenge: measure area by code
-@ulend
-
----
-## Your task:
-# Lesson 01
-on Canvas
-
-
----
 ### Tools for the
 ## Knowledge worker
 
 ---
-## We need to
-# manage text
+### We need to
+## manage text
 ✏️📓🎓
 
 
 ---
-# as code
+## as code
 ### a/k/a plain-text instructions
 that use *keywords* and *syntax*
 
 ---
 ## For example
+
+---
+This code
 ```html
 <p style="color:blue;">Hello, world!</p>
 ```
+---
 renders to:
 <p style="color:blue;">Hello, world!</p>
 
@@ -66,34 +71,26 @@ renders to:
 * Share exact instructions
 @ulend
 
----
-### History
-* Command Line Interface (CLI)
-* Many open source platforms started as command line library
-* CLI is hot again
 
----
-[Do anything with the CLI](https://geekprank.com/hacker/)
 
 ---
 First tool
 # Text editor
-Not Notepad, Microsoft Word, etc. but a platform to view/edit/create multiple code formats
+Not Notepad, Microsoft Word, etc.
 
 ---
 A good text editor offers
 ### Language syntax highlighting
-auto-complete as you type, find and replace, and very customizable
 
 ---
 We'll use
-### <a href="https://www.anaconda.com/download" target="blank">VS Code</a>
+## VS Code
 a popular open source and free editor
 
 ---
 and 
 ### [Jupyter Notebook](https://developers.arcgis.com/python/guide/using-the-jupyter-notebook-environment/)
-a browser-based editor installed by ArcGIS
+a browser-based editor for Python
 
 ---
 ## Customize VS Code
@@ -107,39 +104,46 @@ a browser-based editor installed by ArcGIS
 ---
 #### Let's setup your local root
 ### GIS project directory
-where all of your GIS projects, assets, files, repos, etc. will be stored.
 
 ---
 ## Create working directory
-Open *View > Terminal*
+In VS Code, open *View > Terminal*
 
 ---?image=images/02/q-002.png
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Access console, terminal, command line, shell, etc.</h3>
 
 ---
 ### Type in the terminal I
+
+---
 ```bat
-:: This is a comment in windows terminal
-:: Change directory to top of C: drive
+rem This is a comment in windows terminal
+rem Change directory to top of C: drive
 cd C:\
-:: If you're not on C: drive execute
+rem If you're not on C: drive execute
 C:
 ```
+@
+
 ---
 ### Type in the terminal II
+
 ```bat
-:: make a directory on C:
+rem make a directory on C:
 mkdir MyFunNameGIS
-:: go into the new directory
+rem go into the new directory
 cd MyFunNameGIS
 ```
+
 ---
 ### Type in the terminal III
+
+---
 ```bat
-:: make a directory on C:\
-:: Create your COOL COOL name
+rem make a directory on C:\
+rem Create your COOL COOL name
 mkdir BoydsGIS 
-:: go into the new directory
+rem go into the new directory
 cd BoydsGIS 
 ```
 ---
@@ -472,3 +476,11 @@ this semester and we'll keep at it!
 ## to local root GIS folder
 
 
+---
+### History
+* Command Line Interface (CLI)
+* Many open source platforms started as command line library
+* CLI is hot again
+
+---
+[Do anything with the CLI](https://geekprank.com/hacker/)
