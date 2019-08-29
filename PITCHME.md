@@ -1,12 +1,15 @@
----?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
+---
 # GEO 409:01
 ## Advanced topics in GIS
 
----
+---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
 ## Managing complex workflows
 @ul[squares]
 * GIS and information intensive projects have many assets that sprawl across directories.
 @ulend
+
+---?image=https://live.staticflickr.com/1821/42233874915_b274295437_o.jpg&opacity=40
+## Where did it go?
 
 
 ---?image=https://live.staticflickr.com/1824/42163152085_8a07212910_o.jpg&opacity=40
@@ -18,8 +21,7 @@
 * Challenge: measure area by code
 @ulend
 
----?image=https://live.staticflickr.com/1821/42233874915_b274295437_o.jpg&opacity=40
-## Where did it go?
+
 
 ---
 ## Data hygiene
@@ -42,7 +44,7 @@
 ---
 ### We need to
 ## manage text
-✏️📓🎓
+## ✏️📓🎓
 
 
 ---
@@ -127,7 +129,6 @@ C:
 @[3]
 @[5]
 
-
 ---
 ### Type in the terminal II
 
@@ -160,33 +161,13 @@ cd BoydsGIS
 ## How will I
 ### know all of these commands?!?
 
----?image=images/02/q-003.png
+---?image=images/02/q-003.png&opacity=40
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Commands</h2>
 <a href="http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt/" target="blank">cheat sheet</a>
 
 ---
-## Modify settings
-### For super-customized control
-Open *File > Preferences > Settings > Edit in settings.json*
-
-
-
----
-### After installing ArcGIS Pro
-### Copy and paste:
-```json
-{
-    // After you install ArcGIS Pro, add the next two lines
-    "python.pythonPath":"C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3",
-    // "terminal.integrated.shell.windows": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat",
-    // OSGeo tools from QGIS - Add after installing QGIS
-    "terminal.integrated.shell.windows": "C:\\Program Files\\QGIS 3.2\\OSGeo4W.bat", 
-    "editor.fontSize": 17,
-    "editor.lineHeight":25,
-    "terminal.integrated.fontSize": 18,
-    "terminal.integrated.lineHeight": 1.05,
-}
-```
+# Add info
+## about this space
 
 ---
 # Markdown
@@ -194,7 +175,6 @@ Open *File > Preferences > Settings > Edit in settings.json*
 
 ---
 ## Add readme.md
-### in new directory
 A Readme.md is a Markdown formatted file that tells visitors about your project 
 
 ---?image=images/02/q-004.png
@@ -239,7 +219,7 @@ Get account at [GitHub.com](https://github.com/) using your
 email address
 
 ---
-### Our GitHub flow each week
+### Our GitHub flow each lesson
 @ul[squares]
 * Find invitation to lesson in Canvas
 * Accept invitation and _clone remote repository_
@@ -266,6 +246,15 @@ Use GitHub to publish web pages, including
 ---?image=images/02/q-007.png
 
 ---?image=images/02/q-010.png
+
+---
+# STOP
+
+---
+---
+---
+---
+
 
 ---
 ## Create a local repo:
@@ -494,3 +483,28 @@ this semester and we'll keep at it!
 
 ---
 [Do anything with the CLI](https://geekprank.com/hacker/)
+
+
+---
+## Modify settings
+### For super-customized control
+Open *File > Preferences > Settings > Edit in settings.json*
+
+
+
+---
+### After installing ArcGIS Pro
+### Copy and paste:
+```json
+{
+    // After you install ArcGIS Pro, add the next two lines
+    "python.pythonPath":"C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3",
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat",
+    // OSGeo tools from QGIS - Add after installing QGIS
+    "terminal.integrated.shell.windows": "C:\\Program Files\\QGIS 3.2\\OSGeo4W.bat", 
+    "editor.fontSize": 17,
+    "editor.lineHeight":25,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.lineHeight": 1.05,
+}
+```
