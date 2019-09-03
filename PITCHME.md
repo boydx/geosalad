@@ -3,12 +3,19 @@
 ## Advanced topics in GIS
 
 ---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
-## Managing complex workflows
+### Managing complex workflows
+Office hours W 1:30-2:30 & Tr 5:30-6:30   
+[maptimeLEX](https://github.com/maptimelex/schedule): next Tr, 6-7 @ Miller Hall
 @ul[squares]
 * GIS and information intensive projects have many assets that sprawl across directories.
 @ulend
 @snap[south-west span-20 text-italic text-04]
 Great Smokies, yesterday
+@snapend
+
+---?image=images/02/heat-trees.png
+@snap[south-west span-20 text-italic text-04]
+[Link](https://www.npr.org/2019/09/03/754044732/as-rising-heat-bakes-u-s-cities-the-poor-often-feel-it-most)
 @snapend
 
 ---?image=https://live.staticflickr.com/1821/42233874915_b274295437_o.jpg&opacity=40
@@ -196,7 +203,7 @@ A Readme.md is a Markdown formatted file that tells visitors about your project
 What if we lost our text?
 
 ---
-# GIT
+# Git
 "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people."
 
 ---
@@ -210,7 +217,7 @@ What if we lost our text?
 
 
 ---
-We'll use the git hosting service
+We'll use the Git hosting service
 ### GitHub
 and their desktop app to manage our projects.
 
@@ -234,14 +241,24 @@ email address
 Use GitHub to publish web pages, including
 ### Map Portfolio!
 
+---
+Git is a
+## DVCS
+@ul[squares]
+* Distributed 
+* Version control system
+@ulend
+
 
 ---
 ### Let's clone our lesson
 ## Repo
 (use link in Canvas)
 
----?image=images/02/slides-01.png
----?image=images/02/slides-02.png
+---?image=images/02/slides-00.png
+---?image=images/02/slides-001.png
+---?image=images/02/slides-002.png
+---?image=images/02/slides-003.png
 ---?image=images/02/slides-03.png
 ---?image=images/02/slides-04.png
 ---?image=images/02/slides-05.png
