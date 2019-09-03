@@ -240,21 +240,65 @@ Use GitHub to publish web pages, including
 ## Repo
 (use link in Canvas)
 
+---?image=images/02/slides-01.png
+---?image=images/02/slides-02.png
+---?image=images/02/slides-03.png
+---?image=images/02/slides-04.png
+---?image=images/02/slides-05.png
+
 ---
-### First, let's install and
-## sign in
+## Sign in
+### to GitHub 
 
 ---?image=images/02/q-007.png
-
 ---?image=images/02/q-010.png
 
 ---
-# STOP
+## Workflow
+### in Git repo
+
+
+---?image=images/02/slides-02-01.png
+---?image=images/02/slides-02-02.png
+---?image=images/02/slides-02-03.png
+---?image=images/02/slides-02-04.png
+---?image=images/02/slides-02-05.png
+---?image=images/02/slides-02-06.png
+---?image=images/02/slides-02-07.png
 
 ---
+## How to undo in Git
+@ul[squares]
+* Can undo almost anything
+* GitHub Desktop
+  * Before commit: **Discard Changes**
+  * After commit: **Revert this Commit**
+  * **Add file to .gitignore**
+* More complex undos need to use command line ([Cheat sheet](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/))
+@ulend
+
 ---
+# Tips
+@ul[squares]
+* Add @UKy-GIS to your GitHub.com profile information
+* Always Fetch and pull remote changes before you start
+* Commit and push often!
+@ulend
+
 ---
+# MEGA!!
+@ul[squares]
+* Create a folder outside of any repo to download data.
+* Create: c:/BoydsGIS/**data** folder
+* 100 MB limit in GitHub
+* Data is redundant, code is unique
+@ulend
+
+
+
+
 ---
+# Practice
 
 
 ---
@@ -277,41 +321,16 @@ from GitHub Desktop
 
 Let's practice measuring state areas.
 
-[Downloads this data](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces_lakes.zip)
+* [Downloads data on Canvas](https://uk.instructure.com/courses/1950078/modules)
+* [Source on Natural Earth](https://www.naturalearthdata.com/downloads/)
 ```
 
----?image=images/02/natural-earth-download.jpg
+---?image=images/02/natural-earth-download.jpg&opacity=40
+## Layer on Canvas
 
 ---
 # Publish
 ## in GitHub
-
-
----
-# Tips
-@ul[squares]
-* Add @UKy-GIs to your profile information
-* Always Fetch and pull remote changes before you start
-* Commit and push often!
-@ulend
-
----
-# !!
-@ul[squares]
-* Create a folder outside of any repo to download data.
-* Create: c:/BoydsGIS/**data** folder
-* 100 MB limit in GitHub
-* Data is redundant, code is unique
-@ulend
-
----
-## How to undo in Git
-* Can undo almost anything
-* "Revert This Commit" is just for single undo
-* More complex undo need to use command line
-* [Cheat sheet](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/)
-
-
 
 ---
 ## Measure state areas in
@@ -325,13 +344,14 @@ Let's practice measuring state areas.
 <h2 style="color:#111;text-shadow: 2px 2px 4px #eee;">EPSG: 5070</h2>
 
 ---
-```
-NAD_1983_Contiguous_USA_Albers
-WKID: 5070 Authority: EPSG
+## Investigate 
+Coordinate reference system (CRS) parameters
 
+---
+```yaml
+Name: NAD_1983_Contiguous_USA_Albers
+WKID: 5070 Authority: EPSG
 Projection: Albers
-False_Easting: 0.0
-False_Northing: 0.0
 Central_Meridian: -96.0
 Standard_Parallel_1: 29.5
 Standard_Parallel_2: 45.5
@@ -346,18 +366,13 @@ Datum: D_North_American_1983
     Semimajor Axis: 6378137.0
     Semiminor Axis: 6356752.314140356
     Inverse Flattening: 298.257222101
-
 ```
-
 
 ---
-```
-North_America_Albers_Equal_Area_Conic
+```yaml
+Name: North_America_Albers_Equal_Area_Conic
 WKID: 102008 Authority: Esri
-
 Projection: Albers
-False_Easting: 0.0
-False_Northing: 0.0
 Central_Meridian: -96.0
 Standard_Parallel_1: 20.0   // Only change in
 Standard_Parallel_2: 60.0   // standard parallels
@@ -372,14 +387,22 @@ Datum: D_North_American_1983
     Semimajor Axis: 6378137.0
     Semiminor Axis: 6356752.314140356
     Inverse Flattening: 298.257222101
-
 ```
+
+---
+## Compare 
+Many CRS definitions are very similar
+
+---
+## Select three states
+@ul[squares]
+* We want only Alaska, Texas, and Kentucky
+* How do we do it?
+@ulend
 
 
 ---
-### Select only those states we need
-## Definition Query
-```
+```sql
 "name" in ('Texas','Alaska','Kentucky')
 ```
 
@@ -413,11 +436,6 @@ Alaska,     1496210
 Texas,      685531
 Kentucky,   104525
 ```
-
----
-## Measure area in
-# QGIS
-
 ---
 # Challenge
 Do all of this without opening a desktop program?
@@ -463,23 +481,13 @@ ogr2ogr -f CSV output.csv -sql "select name, (OGR_GEOM_AREA/1000000) as sq_km fr
 # Challenge
 this semester and we'll keep at it!
 
-
 ---
-## Create a remote repo called
-## _rrg_
-(if you haven't already)
-
----?image=images/02/q-011.png
-
----
-# Clone
-## to local root GIS folder
-
+## Addendum
 
 ---
 ### History
 * Command Line Interface (CLI)
-* Many open source platforms started as command line library
+* Many applications have command line interface
 * CLI is hot again
 
 ---
@@ -488,7 +496,7 @@ this semester and we'll keep at it!
 
 ---
 ## Modify settings
-### For super-customized control
+### In VS Code
 Open *File > Preferences > Settings > Edit in settings.json*
 
 
@@ -498,11 +506,10 @@ Open *File > Preferences > Settings > Edit in settings.json*
 ### Copy and paste:
 ```json
 {
-    // After you install ArcGIS Pro, add the next two lines
-    "python.pythonPath":"C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3",
-    // "terminal.integrated.shell.windows": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat",
+    // After you install ArcGIS Pro, add the next three lines
+    "terminal.integrated.shell.windows": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat",
     // OSGeo tools from QGIS - Add after installing QGIS
-    "terminal.integrated.shell.windows": "C:\\Program Files\\QGIS 3.2\\OSGeo4W.bat", 
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\QGIS 3.8\\OSGeo4W.bat", 
     "editor.fontSize": 17,
     "editor.lineHeight":25,
     "terminal.integrated.fontSize": 18,
