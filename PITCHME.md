@@ -459,18 +459,18 @@ Do all of this without opening a desktop program?
 ## Script it!
 
 ---
-### Create files called
-## ares.bat & info.bat
-in VS Code
-
----
 ### Access terminal
 @ul[squares]
-* change directory to rootGIS\measure-states
+* Change directory to **rootGIS\measure-states**
 * Open terminal in VS Code
-* Type: C:\"Program Files"\"QGIS 3.8"\OSGeo4W.bat
-* Type: o-help
+* Type: **C:\\"Program Files"\\"QGIS 3.8"\OSGeo4W.bat**
+* Type: **o-help**
 @ulend
+
+---
+### Create files called
+## area.bat & info.bat
+in VS Code
 
 ---
 ### Experiment with
