@@ -468,14 +468,36 @@ Do all of this without opening a desktop program?
 @ulend
 
 ---
+### Experiment with
+## [ogrinfo](https://gdal.org/programs/ogrinfo.html) & [ogr2ogr](https://gdal.org/programs/ogr2ogr.html)
+Libraries that supports vector data manipulation in QGIS
+
+
+---
 ### Create files called
 ## area.bat & info.bat
 in VS Code
 
 ---
-### Experiment with
-## ogrinfo & ogr2ogr
-Libraries that supports vector data manipulation in QGIS
+### Edit info.bat
+@ul[squares]
+* Display fields and summary info
+* forKentucky, Texas, Alaska
+* Add `rem` comment for purpose
+* Add `ogrinfo <options> <dataset>`
+@ulend
+
+---
+```bat
+rem Describe dataset
+ogrinfo -so -al ^
+ -where "name in ('Kentucky','Texas','Alaska')" ^
+ c:\BoydsGIS\data\ne_10m_admin_1_states_provinces_lakes.shp
+```
+@[1]
+@[2]
+@[3]
+@[4]
 
 
 ---
