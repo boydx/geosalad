@@ -459,7 +459,7 @@ Do all of this without opening a desktop program?
 ## Script it!
 
 ---
-### Access terminal
+## VS Code
 @ul[squares]
 * Change directory to **rootGIS\measure-states**
 * Open terminal in VS Code
@@ -573,7 +573,7 @@ ogr2ogr projected.shp -sql ^
 ```bat
 rem Use ogr2ogr internal measurement feature
 ogr2ogr output.csv -sql ^
- "select name, (OGR_GEOM_AREA/2.59e+6) as sq_km from projected" ^
+ "select name, (ogr_geom_area/2.59e+6) as sq_km from projected" ^
  projected.shp
 
 ```
@@ -596,8 +596,7 @@ del projected.*
 ---
 ## Add Variables
 @ul[squares]
-1. Create new branch in GitHub
-  * Menu > Repository > New Branch > add-variables
+1. Create new branch in GitHub (Menu > Repository > New Branch)
 2. Make VS Code is using new branch
 3. Find solution (get [help](https://github.com/tastyfreeze/measure-states))
 4. Save, commit, and publish branch
