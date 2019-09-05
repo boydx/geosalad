@@ -454,25 +454,28 @@ Texas,      685531
 Kentucky,   104525
 ```
 ---
-# Challenge
+## Challenge
 Do all of this without opening a desktop program?
 ## Script it!
 
 ---
-### Create a file called
-## measure.bat
+### Create files called
+## ares.bat & info.bat
 in VS Code
 
 ---
 ### Access terminal
+@ul[squares]
+* change directory to rootGIS\measure-states
 * Open terminal in VS Code
-* QGIS 3 > OS4GeoW Shell
-* change directory to BoydsGIS\measure-states
+* Type: C:\"Program Files"\"QGIS 3.8"\OSGeo4W.bat
+* Type: o-help
+@ulend
 
 ---
 ### Experiment with
-## ogr2ogr
-Library that supports vector data manipulation in QGIS
+## ogrinfo & ogr2ogr
+Libraries that supports vector data manipulation in QGIS
 
 
 ---
