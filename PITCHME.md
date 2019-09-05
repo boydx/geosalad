@@ -596,8 +596,8 @@ del projected.*
 ---
 ## Add Variables
 @ul[squares]
-1. Create new branch in GitHub (Menu > Repository > New Branch)
-2. Make VS Code is using new branch
+1. Create new branch in GitHub (Menu > Repository > New Branch).
+2. Make sure VS Code is using new branch
 3. Find solution (get [help](https://github.com/tastyfreeze/measure-states))
 4. Save, commit, and publish branch
 5. Create Pull Request and Merge
