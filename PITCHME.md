@@ -482,9 +482,9 @@ in VS Code
 ### Edit info.bat
 @ul[squares]
 * Display fields and summary info
-* forKentucky, Texas, Alaska
-* Add `rem` comment for purpose
-* Add `ogrinfo <options> <dataset>`
+* for Kentucky, Texas, Alaska.
+* Command format:
+  * `ogrinfo <options> <dataset>`
 @ulend
 
 ---
@@ -498,6 +498,41 @@ ogrinfo -so -al ^
 @[2]
 @[3]
 @[4]
+
+---
+## Execute
+@ul[squares]
+* Save file
+* In terminal, type: `info.bat`
+* Errors?
+  * Look for typos!
+@ulend
+
+---
+## Variables
+@ul[squares]
+* Substitute data with variable names
+* Put variables at top of script
+* Variable substitution
+@ulend
+
+---
+```bat
+rem set variables
+set states='Kentucky', 'Texas', 'Alaska'
+set data=c:\BoydsGIS\data\ne_10m_admin_1_states_provinces_lakes.shp
+
+rem print them to the CLI
+echo looking for %states% in %data%
+
+rem Describe data
+ogrinfo -so -al ^
+ -where "name in (%states%)" ^
+ %data%
+```
+@[1-3]
+@[5-6]
+@[9-11]
 
 
 ---
