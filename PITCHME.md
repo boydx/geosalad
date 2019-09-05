@@ -517,6 +517,15 @@ ogrinfo -so -al ^
 @ulend
 
 ---
+What can be converted to a variable and moved to top?
+```bat
+rem Describe dataset
+ogrinfo -so -al ^
+ -where "name in ('Kentucky','Texas','Alaska')" ^
+ c:\BoydsGIS\data\ne_10m_admin_1_states_provinces_lakes.shp
+```
+
+---
 ```bat
 rem set variables
 set states='Kentucky', 'Texas', 'Alaska'
@@ -532,26 +541,68 @@ ogrinfo -so -al ^
 ```
 @[1-3]
 @[5-6]
-@[9-11]
+@[8-11]
+
+---
+### Edit area.bat
+@ul[squares]
+* Calculate sq mi for our states
+* Two steps
+  1. Project layer
+  2. Calculate fields
+* Command format:
+  * `ogr2ogr <output> <options> <input>`
+@ulend
 
 
 ---
 ```bat
-:: run program
-ogr2ogr --version
+rem Create projected Shapefile
+ogr2ogr projected.shp -sql ^
+ "select name from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" ^
+ -s_srs EPSG:4326 -t_srs EPSG:5070 ^
+ c:\BoydsGIS\data\ne_10m_admin_1_states_provinces_lakes.shp
 
-:: Create projected GeoJSON and select three states
-ogr2ogr -f geojson projected.geojson -sql "select name from ne_10m_admin_1_states_provinces_lakes where name in ('Texas','Alaska','Kentucky')" -s_srs EPSG:4326 -t_srs EPSG:5070 ne_10m_admin_1_states_provinces_lakes.shp
+```
+@[1-2]
+@[3]
+@[4]
+@[5]
 
-:: Use ogr2ogr internal measurement feature
-ogr2ogr -f CSV output.csv -sql "select name, (OGR_GEOM_AREA/1000000) as sq_km from ne_10m_admin_1_states_provinces_lakes" projected.geojson
+---
+```bat
+rem Use ogr2ogr internal measurement feature
+ogr2ogr output.csv -sql ^
+ "select name, (OGR_GEOM_AREA/2.59e+6) as sq_km from projected" ^
+ projected.shp
 
+```
+@[1-2]
+@[3]
+@[4]
+
+
+---
+```bat
+rem Delete intermediate files
+del projected.*
 ```
 
 ---
 ### Save your
 ## project files
 #### then commit and push!
+
+---
+## Add Variables
+@ul[squares]
+1. Create new branch in GitHub
+  * Menu > Repository > New Branch > add-variables
+2. Make VS Code is using new branch
+3. Find solution (get [help](https://github.com/tastyfreeze/measure-states))
+4. Save, commit, and publish branch
+5. Create Pull Request and Merge
+@ulend
 
 ---
 ## That's the
@@ -577,14 +628,13 @@ this semester and we'll keep at it!
 Open *File > Preferences > Settings > Edit in settings.json*
 
 
-
 ---
 ### After installing ArcGIS Pro
 ### Copy and paste:
 ```json
 {
     // After you install ArcGIS Pro, add the next three lines
-    "terminal.integrated.shell.windows": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat",
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat",
     // OSGeo tools from QGIS - Add after installing QGIS
     // "terminal.integrated.shell.windows": "C:\\Program Files\\QGIS 3.8\\OSGeo4W.bat", 
     "editor.fontSize": 17,
