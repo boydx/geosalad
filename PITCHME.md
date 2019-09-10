@@ -1,23 +1,18 @@
----
+---?image=https://live.staticflickr.com/65535/47966553676_2ae0b1a989_o.jpg&opacity=40
 # GEO 409:02
 ## Intro to ArcGIS Pro and Python 3
 
+
 ---
 # NEWS
-* Cartography Contest => $$$
-* Geography Career Night
+@ul[squares]
+* maptimeLEX this Thursday after class
+* Free pizza!
+* Info: https://github.com/maptimelex/monochromatic-maps
+@ulend
 
----
-## Gyula Pauer Cartography Project Award 
-Contact me if you're interested
 
----
-## Career Night
-ALL STUDENTS WELCOME
-Wed., February 6th, 5:30-7:30pm
-Stuckert Career Center (free parking)
-
----?image=images/02/00_careernight.png
+---?image=https://raw.githubusercontent.com/maptimelex/monochromatic-maps/master/images/tie-dye-kentucky.jpg
 
 ---
 ## Goals
@@ -26,11 +21,14 @@ Stuckert Career Center (free parking)
 * Test-drive ArcGIS Pro
 * Begin Red River Gorge base map
 * Start hacking Python (proper intro next module)
-* Stay warm
+* Stay cool
 @ulend
 
+---?image=https://live.staticflickr.com/65535/47966498192_274d29b412_o.jpg&opacity=40
+## Data
 
----?image=https://farm2.staticflickr.com/1483/24448087730_5b3b991737_h.jpg
+---?image=https://live.staticflickr.com/65535/47834322722_86a0fd6035_o.jpg&opacity=40
+## Real places
 
 ---
 ## Organization
@@ -47,13 +45,6 @@ Stuckert Career Center (free parking)
 
 ---?image=images/03/a001.png
 
----
-## Undo?
-* Can undo almost anything
-* "Revert This Commit" is for single undo in GitHub
-* More complex undo need to use Git command line
-* [Cheat sheet](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/)
-
 
 ---
 ## Use your student resources
@@ -67,15 +58,20 @@ Stuckert Career Center (free parking)
 
 ---
 ## Download ArcGIS Pro
+@ul[squares]
 * For installation on personal computer
-* Use this [OneDrive shared link](https://luky-my.sharepoint.com/:u:/g/personal/blshea1_uky_edu/EXZc5GPN41ZIrqjiSlO3AjEBJo3Z7ybHSc1qWDqkrySpVw?e=yHASu6)
+* Use this [OneDrive shared link](https://luky-my.sharepoint.com/:u:/g/personal/blshea1_uky_edu/EXZc5GPN41ZIrqjiSlO3AjEBJo3Z7ybHSc1qWDqkrySpVw?e=yHASu6) then update ArcGIS Pro OR
+* In class: \\as-beijing.ad.uky.edu\geo\software\fall19\ 
 * On MacOS? [Get Parallels](https://www.parallels.com/products/desktop/trial/)
+@ulend
 
 ---
 ## UKy ArcGIS Online
+@ul[squares]
 * UKy has Organization account
 * URL: [UKY-EDU.maps.arcgis.com](https://UKY-EDU.maps.arcgis.com)
 * Login with credentials created after invite
+@ulend
 
 ---?image=images/03/a003.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Our Portal</h2>
@@ -87,9 +83,11 @@ Stuckert Career Center (free parking)
 
 ---
 ## Let's get started!
+@ul[squares]
 * Launch ArcGIS Pro
 * [Tutorials](http://pro.arcgis.com/en/pro-app/get-started/pro-quickstart-tutorials.htm)
 * Tour drive around GUI
+@ulend
 
 
 
@@ -104,9 +102,14 @@ Stuckert Career Center (free parking)
 
 ---
 ## Add all layers
+@ul[squares]
 * Explore how to symbolize layers
 * Reorder them in the **Contents** pane
 * Flex your GIS muscle memory!
+@ulend
+
+---
+# STOP
 
 ---
 ## Start coding
