@@ -6,9 +6,9 @@
 ---
 # NEWS
 @ul[squares]
-* maptimeLEX this Thursday after class
+* maptimeLEX tonight at 6pm
 * Free pizza!
-* Info: https://github.com/maptimelex/monochromatic-maps
+* Info: https://maptimelex.github.com/monochromatic-maps
 @ulend
 
 
@@ -109,12 +109,37 @@
 @ulend
 
 ---
-# STOP
+## Geoprocessing
+@ul[squares]
+* Tools with input, function, output
+* Chain tools together for complex analysis
+* Recognize sequence that can be coded
+@ulend
 
----
+---?image=https://live.staticflickr.com/65535/47966498192_274d29b412_o.jpg&opacity=40
+## First tool
+@ul[squares]
+* CLIP
+* Remove extraneous data outside area of interest (aoi)
+* Use the [help docs!](http://desktop.arcgis.com/en/arcmap/10.3/tools/analysis-toolbox/clip.htm)
+@ulend
+
+---?image=https://live.staticflickr.com/65535/47834322722_86a0fd6035_o.jpg&opacity=40
+## First task
+@ul[squares]
+* Clip our layers to the aoi
+* Let's do it!
+@ulend
+
+---?image=https://live.staticflickr.com/65535/47966553676_2ae0b1a989_o.jpg&opacity=40
 ## Start coding
 * Getting scrappy with Python!
-* Watch [second lesson videos](https://www.py4e.com/lessons/intro) in *Python for Everybody*
+* Watch [these short videos](https://www.py4e.com/lessons/intro) in *Python for Everybody*
+
+
+---
+# STOP
+
 
 
 ---
@@ -221,7 +246,7 @@ arcpy.analysis.Clip("cookie dough", "cookie cutter", "output cookie")
 
 
 ---
-# Wanna see into the future?
+# STOP
 
 ---
 ```python
