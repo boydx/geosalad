@@ -136,40 +136,46 @@
 * Getting scrappy with Python!
 * Watch [these short videos](https://www.py4e.com/lessons/intro) in *Python for Everybody*
 
-
----
-# STOP
-
-
-
 ---
 ## Python 
 @ul[squares]
 * Modular programming
-* functions >> modules >> packages
+* functions => modules => packages
     * for: simplicity, maintainability, reusability
-* package.module.function
+* package.module.function or package.function
+* e.g., `arcpy.Clip_analysis()`
 @ulend
 
----
-## An open-source quilt of contributions
+---?image=https://www.metmuseum.org/toah/images/hb/hb_1996.4.jpg&opacity=40
+## Quilt of contributions
+Note:
+- Each thread in a single pattern depends on neighboring threads to match
 
----?image=https://www.metmuseum.org/toah/images/hb/hb_1996.4.jpg
-
 ---
-## Managing your environment
+## Managing environments
 @ul[squares]
-* A development environment is a constellation of packages
+* A *development environment* is a constellation of packages
 * Most depend on a distinct version of other packages
+    * [Semantic versioning](https://semver.org/) makes app version numbers meaningful
 * Chain of dependencies must not be broken!
 @ulend
 
+---?image=images/02/slides-0007.png
+
+---?image=images/02/slides-0008.png
+
+---?image=images/02/slides-0009.png
+
+---?image=images/02/slides-0010.png
+
 ---
 ## Dependency Hell
+@ul[squares]
 * [Yep, there's a term for it](https://en.wikipedia.org/wiki/Dependency_hell)
+* You will experience it
 * [Image Dependencies for Gentoo Linux](https://cgatoxford.files.wordpress.com/2017/05/gentoo-deps.jpg)
-* [link](https://cgatoxford.wordpress.com/2017/05/12/the-dependency-hell-in-software-development/) 
-
+    * [Link to article](https://cgatoxford.wordpress.com/2017/05/12/the-dependency-hell-in-software-development/) 
+@ulend
 
 ---
 ## Python in ArcGIS Pro
@@ -183,11 +189,68 @@
 ---
 ## Python in VS Code
 @ul[squares]
-* Use Anaconda or ArcGIS Pro
+* Use [Conda](https://docs.conda.io/en/latest/miniconda.html) or ArcGIS Pro
 * Create *.py* files to execute in terminal
 * Develop on most operating systems
-* Create first program: "Geography, Y'all!"
 @ulend
+
+---
+## Create first program
+### "Geography, Y'all!"
+
+
+---
+## Create 
+### & save *hi.py* file
+
+
+---
+## Add
+```python
+print("Geography, Y'all!")
+```
+---
+## Execute
+on the command line
+
+```bash
+python hi.py
+```
+
+---
+## Notice
+The use of double & single quotes?
+```python
+print("Geography, Y'all!")
+```
+
+---
+## Try this...
+```python
+print('Geography, Y'all!')
+```
+
+---
+## Escape character
+@ul[squares]
+* A [character](https://en.wikipedia.org/wiki/Escape_character) that invokes an alternative interpretation on subsequent characters in a character sequence.
+* The escape character for many popular languages is a `\` backslash.
+@ulend
+
+---
+# \
+
+---
+## Escape the single quote
+```python
+print('Geography, Y\'all!')
+```
+
+---
+## Add escape sequence
+```python
+print('Geography, \nY\'all!')
+```
 
 ---
 ## Development in ArcGIS Pro
@@ -196,6 +259,13 @@
 * Run cells of code rather than the entire script
 * Cells can be Python or Markdown
 @ulend
+
+---
+## Launch batch script
+on the command line
+```bash
+C:\"Program Files"\ArcGIS\Pro\bin\Python\Scripts\proenv.bat
+```
 
 ---
 ## Setting up geoprocessing 
@@ -217,7 +287,7 @@ import arcpy # case-sensitive!
 ---
 ```python
 # set environment properties
-arcpy.env.workspace = r"Z:\BoydsGIS\data\rrg_build.gdb"
+arcpy.env.workspace = "C:\\BoydsGIS\\data\\rrg_build.gdb"
 arcpy.env.overwriteOutput = True
 # use dot notation to address functions, properties, etc.
 ```
