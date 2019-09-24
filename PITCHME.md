@@ -1,6 +1,6 @@
----
+---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
 # GEO 409:03
-## Basic Python data structures and conditional execution
+### Basic Python data structures and conditional execution
 
 ---
 ## Python Objectives
@@ -8,71 +8,109 @@
 * Learn basic types
 * Be able to test for value
 * `if/else` statements
-* Lab: modify a program to export CSV of US Arches
+* Lab: make program to query/export locations of arches
 @ulend
 
 ---
-## AcrGIS Pro Objectives
+## Pro Objectives
 @ul[squares]
 * Make map of US Arches
 * Practice SQL queries
 * Begin your base map of RRG
 @ulend
 
----
+---?image=https://live.staticflickr.com/65535/48788851843_afbb1670d4_k.jpg&opacity=40
 ## How to learn?
+@ul[squares]
 * Clone this lesson's repo 
 * Open Jupyter Notebook and follow along!
 * [Typical workflow](https://uky-gis.github.io/support/python-arcgis/)
 * Read the readme.md
+@ulend
 
 ---
-![Complexity](https://imgs.xkcd.com/comics/python_environment.png)
+# Lab challenge!
+
+---?image=images/03/challenge-map.png
+
+---
+## Arches, like Grays Arch, are formed by [differential weathering](https://kgs.uky.edu/kgsweb/olops/pub/kgs/GeoStory.pdf)
+
+---?image=https://live.staticflickr.com/65535/48789360117_94439e2314_k.jpg
+
+---?image=https://live.staticflickr.com/65535/48789359227_79273ca1d1_k.jpg
+
+---?image=https://live.staticflickr.com/65535/48788850923_9e67afd3b8_k.jpg
+
+---?image=https://live.staticflickr.com/65535/48789211076_a1d9f7c7ac_k.jpg
 
 ---
 ## Value
+@ul[squares]
 * A value is data that we use in our program. 
 * All values have a distinct type.
 * Many different types of value.
+@ulend
 
 ---
 ## Basic types
-### String
-### Integer
-### Float
-Can you identify their properties?
+@ul[squares]
+* String
+* Integer
+* Float
+* Can you identify their properties?
+@ulend
+
 
 ---
 ## Levels of Measurement
-### Nominal
-### Ordinal
-### Ratio 
-When you see an integer don't assume it's a quantity.
+@ul[squares]
+* Nominal
+* Ordinal
+* Ratio 
+* When you see an integer don't assume it's a quantity.
+@ulend
+
 
 ---
 ## Constants
-### Literals
-The syntax of type tells what it is.
-```
+Literals: the syntax tells us what type it is.
+
+---
+```python
 "I am a literally a string of characters"
+1.0 # I'm a float value
+1 # Just an integer!
+```
+
+---
+## Objects
+Once a value is created, it is an object with properties and powers (more later).
+
+---
+```python
+"I am a literally a string of characters".upper()
+# returns 'I AM A LITERALLY A STRING OF CHARACTERS'
 ```
 
 ---
 ## Variables
-### Assign value
-to an arbitrary and limited set of characters.
+Assign value to an arbitrary and limited set of characters.
 
 ---
 ## Variables
-### Make meaningful variable names
-not var1, 1var, or reserved keyword
+Make meaningful variable names, e.g., not var1, 1var, or use a reserved keyword.
 
 ---
 ## Type
-### determine type
-```
+Knowing the *type* of value tells you powers the value has.
+
+---
+```python
+v = 1.0
 # type() function
 type(v)
+# returns float
 ```
 
 ---?image=https://farm8.staticflickr.com/7330/26735803704_1b2f65bb9e_h.jpg
@@ -81,8 +119,10 @@ type(v)
 ---
 ## Challenge 
 How tall is it compared to Natural Bridge?
-```
-yourHeight = input("height: ")
+
+---
+```python
+yourHeight = input("height in feet: ")
 natbridgeHeight = 65
 print(type(yourHeight))
 
@@ -178,11 +218,11 @@ place = "Grays Arch"
 ```
 
 ---?image=http://annessky.net/blog/wp-content/uploads/2017/11/Interval_20.png
-<h1 style="text-shadow: 2px 2px;">Challenge</h1>
+# Challenge
 
 ---
 ### Contouring program
-The new [KyTopo Map](http://kygeonet.ky.gov/) uses the new lidar data to create new statewide topographic maps. The 40-ft contour interval is indexed every fifth contour. Determine if any value is an index.
+The new [KyTopo Map](http://kygeonet.ky.gov/) uses the new lidar data to create new statewide topographic maps. The 40-ft contour interval is indexed every fifth contour, or 200 ft. Determine if any value is an index.
 
 ---
 ## Modulus operator
@@ -560,3 +600,10 @@ ArcGIS Pro can have multiple maps and layouts in one document! 🤯 Make one for
 # Export GeoPDF
 
 ---?image=images/03/a019.png&size=contain&opacity=100
+
+
+---
+![Complexity](https://imgs.xkcd.com/comics/python_environment.png)   
+@snap[west span-20]
+This is what it can feel like solving a challenge...
+@snapend
