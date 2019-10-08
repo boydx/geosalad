@@ -1,6 +1,10 @@
----
+---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
 # GEO 409:04
 ## Functions, methods, and loops
+
+---?image=https://www.outragegis.com/weather/img/animation/190515/PurchaseKnob.gif&opacity=40
+# Challenge
+### Working on animation feature in ArcGIS Pro
 
 ---
 ## Learning curve
@@ -20,9 +24,9 @@
 ---
 ## Objectives
 @ul[squares]
-* Create script to quickly process data for mapping
+* Create script to process large amounts data
+* Learn hillshade function and animation
 * Learn more Python!
-* Finish draft of base map
 @ulend
 
 ---?image=https://farm2.staticflickr.com/1978/44221432854_c4570602c1_h.jpg&opacity=100
@@ -60,12 +64,19 @@ function(x, y)
 ```
 
 ---
+```python
+# What is this function doing?
+function(2, 3)
+# prints 8
+```
+
+---
 ## Define function
 @ul[squares]
 * Store and reuse statements
 * `def` keyword defines a function
 * followed by unique name and `():`
-* Function inputs?
+* Parameters?
 * Indent function body four spaces
 @ulend
 
@@ -78,10 +89,10 @@ function(x, y)
 # define function
 def powersXtoY(x, y): # function has arbitrary name
 	z = int(x)**int(y)
-	print(int(x) + int(y)) # prints to screen
-	return z # when executed, function becomes this
+	print(z) # prints to screen
+	return z # when executed, function becomes value of z
 
-powersXtoY(2,4) # Need documentation!
+powersXtoY(2,3) # Need documentation!
 ```
 ---
 ```python
@@ -114,9 +125,12 @@ print(round(7.555, 2))
 
 ---
 ## Adding functions
-* Python's sprawling [standard library](https://docs.python.org/3/library/)
+@ul[squares]
+* Python's sprawling [standard library](https://docs.python.org/3/library/) of modules
 * Adds new functions and data types
 * The `decimal` module to correctly round numbers
+* Use dot notation to address functions
+@ulend
 
 ---
 ```python
@@ -126,6 +140,8 @@ x = decimal.Decimal('7.555')
 from decimal import * # access the module functions directly
 x = Decimal('7.555')
 ```
+@[1-2]
+@[3-4]
 
 ---
 ## decimal properties
@@ -154,11 +170,15 @@ x = Decimal('7.555')
 
 
 ---
-## Objects and methods
-* Every object has a value, identity, and type
+## Objects & methods
+@ul[squares]
+* Every object has a 
+    * *identity*
+    * *value*
+    * *type*
 * Methods are functions that operate on certain objects
 	* object.function()
-
+@ulend
 
 ---?
 ```python
@@ -172,12 +192,13 @@ x.is_integer() # true
 ```
 
 ---
-## String methods more common
+## String methods 
 @ul[squares]
+* More common
 * Perform common tasks on strings
 * Find substrings, change case, etc.
 * [Built-in methods](https://www.w3schools.com/python/python_ref_string.asp)
-* Always returns new values
+* Most return new values, others return `True`/`False`
 @ulend
 
 ---
@@ -192,6 +213,8 @@ x.is_integer() # true
 ---
 ```python
 "Hello World!"[0] # returns H
+"Hello World!"[-1] # returns !
+"Hello World!"[4] # returns o
 ```
 
 ---
@@ -208,18 +231,24 @@ len("Hello World!") # returns 12
 "Hello World!"[0] # returns H
 "Hello World!"[11] # !
 "Hello World!"[0:12] # returns all
-"Hello World!"[12] # returns error
+"Hello World!"[:12] # returns all
+"Hello World!"[12] # returns error, out of index range
 ```
 
 ---
 ## String index challenge
 Print the arch variable backwards using only string indexes
 
+---?image=https://www.outragegis.com/weather/img/animation/190101/LookRock.gif&opcity=40
+# Loops
+
 ---
 ## while loop
+@ul[squares]
 * Runs while true
 * Avoid infinite loop with breaks
 * loop body indented with four spaces
+@ulend
 
 
 ---
@@ -238,6 +267,9 @@ while i < length_of_word:
     print(arch[i])
     # What's missing?
 ```
+
+---
+# STOP
 
 ---
 ## while loop challenge
