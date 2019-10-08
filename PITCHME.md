@@ -30,13 +30,22 @@
 @ulend
 
 ---?image=https://farm2.staticflickr.com/1978/44221432854_c4570602c1_h.jpg&opacity=100
+# Lab work
 
 ---
 ## Lab 3
 @ul[squares]
 * Your commit log shows how much work you're doing
 * 19 commits v 1 commit
-* commit often, perfect later
+* **commit often, perfect later**
+@ulend
+
+---
+## Lab 4
+@ul[squares]
+* More Python 🏋️💪🎓
+* Refactor lab 2 code
+* Make hillshade layers
 @ulend
 
 
