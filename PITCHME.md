@@ -1,13 +1,27 @@
 ---
-# Spring is here!
+# Fall is here!
 
----
-## What did you do?
 
----?image=images/st-pat-weekend-1.jpg&opacity=100
-<h2 style="text-shadow:0 0 2px #333, 0 0 5px #333;color:white">Parade!</h2>
+---?image=https://live.staticflickr.com/65535/48942588231_3809d4f187_k.jpg&opacity=40
+## Conference(s) report
 
----?image=images/st-pat-weekend-3.jpg&opacity=100
+---?image=https://live.staticflickr.com/65535/48942588231_3809d4f187_k.jpg&opacity=30
+## Kentucky GIS
+@ul[squares]
+* Python is in demand
+* ArcGIS Pro is coming...
+* Still trying to figure out uses for lidar
+@ulend
+
+---?image=https://live.staticflickr.com/65535/48942588231_3809d4f187_k.jpg&opacity=30
+## NACIS
+@ul[squares]
+* Big data, terrain, automation
+* Command line and scripting
+* Visualization
+@ulend
+
+---?image=https://live.staticflickr.com/65535/48888457648_acf487f13e_k.jpg&opacity=40
 <h2 style="text-shadow:0 0 2px #333, 0 0 5px #333;color:white">Walk in the woods</h2>
 
 ---
@@ -18,34 +32,21 @@
 ## Short break from Python
 
 ---
-## Adopt your landform
-
-
----
-# Spring
-## Field trips!
-
+## Adopt a landform
+### Field trip!
 
 ---
-## Dates
+## Fri, Oct 25
 @ul[squares]
-* March 23
-* April 13
-* April 27
-* All Saturdays
+* 9 am - 4:30 pm
+* Pick up at Wildcat statute [[38.0389,-84.5012](https://www.google.com/maps/@38.0389114,-84.5012686,20.44z)]
+* Bring walking shoes, camera, map, mobile device
 @ulend
 
----
-## Logistics
-@ul[squares]
-* Rendezvous @ [38.0441828,-84.5075976](https://www.google.com/maps/@38.0441828,-84.5075976,19.55z), parking lot by Mad Mushroom
-* Leave at 9 AM
-* Return at 1 PM
-* Carpool!
-@ulend
+
 ---
 # Due
-## April 28
+## End of semester
 
 ---?image=https://farm2.staticflickr.com/1901/44221426354_d8a711a753_h.jpg&opacity=100
 
@@ -69,7 +70,7 @@
 ---
 ## Use map in the field
 ### on a 
-# phone!?!
+## phone!?!
 
 ---?image=images/avenza-1.jpg&opacity=100
 
@@ -79,16 +80,17 @@
 # Step 2
 
 ---
-## Load app
-# Avenza Maps 
+### Load app
+## Avenza Maps 
 #### on your mobile device.
 [avenzamaps.com](https://avenzamaps.com)
 
 ---
-## Load campus map with QR code
+## Load campus map 
+### with QR code
 ![images/get-map.png](images/get-map.png)
 
----?image=images/get-map.png&opacity=100
+---?image=images/get-map.png&opacity=100&&size=auto 90%
 
 
 
@@ -101,9 +103,9 @@
 @ulend
 
 ---
-# Example map
+## Example map
 
----?image=images/rrg.jpg&opacity=100&background-size:contain
+---?image=images/rrg.jpg&opacity=100&&size=auto 90%
 
 ---?image=https://farm2.staticflickr.com/1959/43128931410_daceab6096_h.jpg&opacity=100
 
@@ -112,3 +114,11 @@
 
 ---
 @quote[I took a walk in the woods and came out taller than the trees](Henry David Thoreau)
+
+---
+## Visit site
+@ul[squares]
+* Photograph
+* Measure
+* Drop pin
+@ulend
