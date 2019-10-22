@@ -1,273 +1,114 @@
-#HSLIDE
-# GEO 409:05
-## Week 07
+---
+# Spring is here!
 
-#HSLIDE
-## Spatial join & density analysis
+---
+## What did you do?
 
-#HSLIDE
-## Please work on lesson
+---?image=images/st-pat-weekend-1.jpg&opacity=100
+<h2 style="text-shadow:0 0 2px #333, 0 0 5px #333;color:white">Parade!</h2>
 
-#HSLIDE
-## Table join?
+---?image=images/st-pat-weekend-3.jpg&opacity=100
+<h2 style="text-shadow:0 0 2px #333, 0 0 5px #333;color:white">Walk in the woods</h2>
 
-#HSLIDE
-### Relate two tables
-* Where records share a common attribute, i.e., an ID
-* Units of geography have unique IDs
+---
+# GEO 409
+## Module 05: Field mapping
 
-#HSLIDE
-### Tables without common IDs
-* Spatial layers that don't have shared common attributes
-* How do we find out how much x is in y?
-
-#HSLIDE
-## Where do people bike?
-### City is using CycleTrack
+---
+## Short break from Python
 
-#HSLIDE?image=https://c1.staticflickr.com/3/2427/32895996896_b64e682795_k.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32895996896/in/dateposted-public/" target="blank">Bike trips</a></h3>
+---
+## Adopt your landform
 
 
-#HSLIDE?image=http://media.graytvinc.com/images/810*455/estill+forest+fire.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Wildfire in Kentucky</h2>
+---
+# Spring
+## Field trips!
 
 
-#HSLIDE?image=https://c1.staticflickr.com/1/752/32464606700_d84d79ce9b_h.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32464606700/in/photostream/" target="blank">how much is here?</a></h3>
+---
+## Dates
+@ul[squares]
+* March 23
+* April 13
+* April 27
+* All Saturdays
+@ulend
 
-<!-- #HSLIDE?image=https://c1.staticflickr.com/4/3855/32692041102_1f92661f70_h.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32692041102/in/photostream/" target="blank">how much is here?</a></h3> -->
+---
+## Logistics
+@ul[squares]
+* Rendezvous @ [38.0441828,-84.5075976](https://www.google.com/maps/@38.0441828,-84.5075976,19.55z), parking lot by Mad Mushroom
+* Leave at 9 AM
+* Return at 1 PM
+* Carpool!
+@ulend
+---
+# Due
+## April 28
 
-#HSLIDE
-# Spatial join
-### how much of x is in y?
+---?image=https://farm2.staticflickr.com/1901/44221426354_d8a711a753_h.jpg&opacity=100
 
-#HSLIDE?image=https://c1.staticflickr.com/1/496/31340122270_488c594cad_k.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">How many trees are in the watershed?</h3>
+---?image=https://farm2.staticflickr.com/1922/43128933340_d6d61a6bb2_h.jpg&opacity=100
 
-#HSLIDE?image=https://c1.staticflickr.com/1/496/31340122270_488c594cad_k.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">What is the average diameter?</h3>
+---
+# Step 1
 
-#HSLIDE
-## Point in polygon analysis
+---
+## Finish base map for RRG
+@ul[squares]
+* Layers should include arches
+* streams, waterbodies, rivers
+* labeled streams and arches
+* a hillshade background with semi-transparent landuse layer
+* Export as GeoPDF
+@ulend
 
-* Aggregate by polygon and count number
-* Perform summary statistics on numeric attributes
-* "many to one" join
+---?image=https://farm1.staticflickr.com/930/42790171395_a745af0f06_h.jpg&opacity=100
 
-#HSLIDE
-## Hexagonal grids
+---
+## Use map in the field
+### on a 
+# phone!?!
 
-* Tessellation; create a grid of same polygon
-* Area is same, so already normalized
-* Count by hexagon
+---?image=images/avenza-1.jpg&opacity=100
 
+---?image=images/avenza-2.jpg&opacity=100
 
-#HSLIDE
-## Intersect test
-* `st_intersects()` function
-* Tests two geometries for overlap
-* Exact fit but slow
+---
+# Step 2
 
-#HSLIDE
-## Spatial index
+---
+## Load app
+# Avenza Maps 
+#### on your mobile device.
+[avenzamaps.com](https://avenzamaps.com)
 
-* Create hidden tables spatially index layers storing:
-	* Minimum bounding rectangle for feature and its ID
-* Each feature ID is related all other intersecting IDs in database
-* Loose fit but fast
+---
+## Load campus map with QR code
+![images/get-map.png](images/get-map.png)
 
+---?image=images/get-map.png&opacity=100
 
-#HSLIDE
-## Spatial Index Query
-### PostGIS is the reason for the season
-Manages spatial indexes in the background
 
-#HSLIDE
-## Create spatial index setting
-### When importing with DB Manager
 
-#HSLIDE
-```sql
-/* Spatial index function syntax:
-CREATE INDEX [indexname] ON [tablename] USING GIST ( [geometrycolumn] );
-The GIST stands for Generalized Search Tree */
+---
+## Load RRG base map
+@ul[squares]
+* Use your RRG repository
+* Upload PDF and find URL
+* https://username.github.io/rrg/basemap/rrg.pdf
+@ulend
 
-create index sidx_table_name on table using gist (geom);
-```
+---
+# Example map
 
-#HSLIDE
-<!-- ```sql
-select
-  *
-from
-  layer_a
-join
-  layer_b
-on
-  st_intersects(layer_a.geom, layer_b.geom)
-group by
-  layer_a.id --or geoid, county_name, etc.
-``` -->
+---?image=images/rrg.jpg&opacity=100&background-size:contain
 
-```sql
-select
-  *
-from
-  layer_a, layer_b
-where
-  st_intersects(layer_a.geom, layer_b.geom)
-group by
-  layer_a.id --or geoid, county_name, etc.
-```
+---?image=https://farm2.staticflickr.com/1959/43128931410_daceab6096_h.jpg&opacity=100
 
+---
+# Step 3
 
-#HSLIDE
-# TBC
-
-<!-- #HSLIDE
-## Heat Map
-
-* Hot spot map
-* Density surface raster
-* Distance from each point weighted by curve
-
-#HSLIDE?image=images/05/Curves.png
-
-
-#HSLIDE
-## Raster Data model
-* Array of cell values (always a number!)
-* Types of rasters
-	* Continuous, e.g., elevation
-	* Integer, landuse
-	* Imaging, photograph
-
-
-
-#HSLIDE?image=https://c1.staticflickr.com/3/2832/32813689775_27afa15b82_h.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Town Branch</h2>
-
-
-#HSLIDE
-# Lab 03
-### Springs of Kentucky & Fayette County
-
-
-#HSLIDE?image=images/05/L03-1.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new database</h3>
-
-#HSLIDE?image=images/05/L03-2.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new project with EPSG: 3089</h3>
-
-#HSLIDE?image=images/05/L03-3.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Import layers in correct SRID</h3>
-
-#HSLIDE?image=images/05/L03-4.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Symbolize springs</h3>
-
-#HSLIDE?image=images/05/L03-5.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Make hex grid</h3>
-
-#HSLIDE?image=images/05/L03-6.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Add to Map Canvas</h3>
-
-
-#HSLIDE?image=images/05/L03-7.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Multipart to singlepart tool</h3>
-
-#HSLIDE?image=images/05/L03-8.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Import into database and Create spatial index</h3>
-
-#HSLIDE?image=images/05/L03-9.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Practice spatial join</h3>
-
-#HSLIDE
-```sql
-/* Spatial join prings to 5-mile long diagonal hexagon grid */
-
-/* uncomment when ready to insert
-
-insert into  ky_springs_by_5mi_hexgrid
-
-(average_elev,
-average_flow_cfs,
-count,
-hex_id,
-hex_name,
-geom)
-
-*/
-
-
-select
-	 avg(dow_groundwater_springs.elevation) as average_elev,
-	 avg(dow_groundwater_springs.flowqty) as average_flow_cfs,
-	 count(dow_groundwater_springs.id) as count,
-	 ky_hexgrid_5mi_diagonal.id,
-	 ky_hexgrid_5mi_diagonal.Kentucky_springs_5mi_hexgrid,
-	 ky_hexgrid_5mi_diagonal.geom
-
-from
-	ky_hexgrid_5mi_diagonal
-join
-	dow_groundwater_springs
-on
-	st_intersects(dow_groundwater_springs.geom, ky_hexgrid_5mi_diagonal.geom)
-and
-	dow_groundwater_springs.rowid in
-	(select dow_groundwater_springs.rowid from SpatialIndex
-	where f_table_name = 'dow_groundwater_springs'
-	and search_frame = ky_hexgrid_5mi_diagonal.geom)
-group by
-	ky_hexgrid_5mi_diagonal.id
-	```
-
-#HSLIDE?image=images/05/L03-10.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create new table</h3>
-
-
-#HSLIDE?image=images/05/L03-11.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Insert spatial join output</h3>
-
-#HSLIDE?image=images/05/L03-12.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Your output</h3>
-
-#HSLIDE?image=images/05/L03-13.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Symbolized layer</h3>
-
-#HSLIDE?image=images/05/L03-14.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Use numeric attributes</h3>
-
-#HSLIDE?image=images/05/L03-15.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Challenge: make hex grid for Fayette county</h3>
-
-
-
-
-#HSLIDE?image=images/05/L03-18.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Challenge: spatial join springs to hex grid</h3>
-
-
-
-#HSLIDE?image=images/05/L03-19.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Challenge: spatial join springs to census polygons</h3>
-
-
-#HSLIDE?image=images/05/L03-20.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Create heatmap raster</h3>
-
-#HSLIDE?image=images/05/L03-21.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Style properties for grayscale raster</h3>
-
-#HSLIDE?image=images/05/L03-22.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Pseudocolor singleband raster with transparency</h3>
-
-#HSLIDE?image=images/05/L03-23.png
-<h3 style="color:#ffac68;text-shadow: 2px 2px 4px #000;">Final style properties for heatmap</h3>
-
-
-
-#HSLIDE?image=https://c1.staticflickr.com/3/2261/32077384194_cd27ccf612_k.jpg
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;"><a href="https://www.flickr.com/photos/28640579@N02/32077384194/in/dateposted-public/" target="_blank">Example map</a></h3> -->
+---
+@quote[I took a walk in the woods and came out taller than the trees](Henry David Thoreau)
