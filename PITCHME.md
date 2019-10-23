@@ -304,8 +304,17 @@
 ## Example
 @ul[squares]
 * Finished map?
-* Add photos and other info
+* Add photos, logos, etc.
+* Tweak colors, transparency, etc.
 * Maps are never done!
 @ulend
 
 ---?image=images/a17.jpg&opacity=100&&size=auto 95%
+
+---
+## Need a map?
+@ul[squares]
+* if you can't get a map finished by field trip
+* add this URL to your Avenza Map app
+* https://tastyfreeze.github.io/rrg/basemap/rrg.pdf
+@ulend
