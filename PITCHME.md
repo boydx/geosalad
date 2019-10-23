@@ -56,7 +56,7 @@
 # Step 1
 
 ---
-## Finish base map for RRG
+## Finish RRG base map
 @ul[squares]
 * Layers should include arches
 * streams, waterbodies, rivers
@@ -69,8 +69,7 @@
 
 ---
 ## Use map in the field
-### on a phone
-#### without cell service?
+### on phone with no cell data?
 # 🤯
 
 ---?image=images/avenza-1.jpg&opacity=100
@@ -272,6 +271,7 @@
 * Add other elements as desired...
 @ulend
 
+---
 ## Bonus technique
 @ul[squares]
 * Add **Legend** tool
