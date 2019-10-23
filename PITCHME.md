@@ -39,18 +39,18 @@
 ## Fri, Oct 25
 @ul[squares]
 * 9 am - 4:30 pm
+* Drive UKy white van
 * Pick up at Wildcat statute [[38.0389,-84.5012](https://www.google.com/maps/@38.0389114,-84.5012686,20.44z)]
 * Bring walking shoes, camera, map, mobile device
 @ulend
+
+---?image=https://farm2.staticflickr.com/1922/43128933340_d6d61a6bb2_h.jpg&opacity=100
 
 
 ---
 # Due
 ## End of semester
 
----?image=https://farm2.staticflickr.com/1901/44221426354_d8a711a753_h.jpg&opacity=100
-
----?image=https://farm2.staticflickr.com/1922/43128933340_d6d61a6bb2_h.jpg&opacity=100
 
 ---
 # Step 1
@@ -69,19 +69,18 @@
 
 ---
 ## Use map in the field
-### on a 
-## phone!?!
+### on a phone
+#### without cell service?
+# 🤯
 
 ---?image=images/avenza-1.jpg&opacity=100
-
----?image=images/avenza-2.jpg&opacity=100
 
 ---
 # Step 2
 
 ---
 ### Load app
-## Avenza Maps 
+# Avenza Maps 
 #### on your mobile device.
 [avenzamaps.com](https://avenzamaps.com)
 
@@ -106,6 +105,8 @@
 ## Example map
 
 ---?image=images/rrg.jpg&opacity=100&&size=auto 90%
+
+---?image=images/a17.jpg&opacity=100&&size=auto 95%
 
 ---?image=https://farm2.staticflickr.com/1959/43128931410_daceab6096_h.jpg&opacity=100
 
@@ -133,7 +134,7 @@
 * Adjust Land cover layer
     * transparency and 
     * lightness
-    * try to hillshade beneath
+    * try to show hillshade beneath
 @ulend
 
 ---?image=images/a00.jpg&opacity=100&&size=auto 95%
@@ -170,7 +171,7 @@
 ## Insert > Map Frame
 @ul[squares]
 * Add Map
-* Tip: use Spatial Bookmarks to exact view
+* Tip: use Spatial Bookmarks for exact view
 @ulend
 
 ---?image=images/a04.jpg&opacity=100&&size=auto 95%
@@ -259,7 +260,7 @@
 @ul[squares]
 * Use **Picture** tool
 * Add image of land cover legend
-* Link: [images/NLCD_classes.png]
+* Link: [Download image](https://www.mrlc.gov/sites/default/files/NLCD_Colour_Classification_Update.jpg)
 @ulend
 
 ---?image=images/a13.jpg&opacity=100&&size=auto 95%
@@ -268,7 +269,14 @@
 ## Insert map elements
 @ul[squares]
 * Use **Scale Bar** tool
-* Bonus: Use **Legend** tool and convert to graphics
+* Add other elements as desired...
+@ulend
+
+## Bonus technique
+@ul[squares]
+* Add **Legend** tool
+* *Break* legend into component parts
+* Use graphic design methods to balance layout
 @ulend
 
 ---?image=images/a14.jpg&opacity=100&&size=auto 95%
@@ -295,7 +303,9 @@
 ---
 ## Example
 @ul[squares]
-* Finished map
+* Finished map?
+* Add photos and other info
+* Maps are never done!
 @ulend
 
 ---?image=images/a17.jpg&opacity=100&&size=auto 95%
