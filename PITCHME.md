@@ -130,43 +130,172 @@
 ---
 ## Add clipped layers
 @ul[squares]
-* Adjust Landcover layer's
+* Adjust Land cover layer
     * transparency and 
     * lightness
+    * try to hillshade beneath
 @ulend
 
 ---?image=images/a00.jpg&opacity=100&&size=auto 95%
 
+---
+## Edit arch layer
+@ul[squares]
+* Change default symbol
+* Label with FEATURE_NAME field
+* Make symbol stand out against background
+@ulend
+
 ---?image=images/a01.jpg&opacity=100&&size=auto 95%
+
+---
+## Edit arch layer
+@ul[squares]
+* Add halo
+* Use color that is similar to background
+@ulend
 
 ---?image=images/a02.jpg&opacity=100&&size=auto 95%
 
+---
+## Insert > New Layout
+@ul[squares]
+* Select a size roughly 20" x 20"
+* Target scale for map is between 1:30k and 1:40k
+@ulend
+
 ---?image=images/a03.jpg&opacity=100&&size=auto 95%
+
+---
+## Insert > Map Frame
+@ul[squares]
+* Add Map
+* Tip: use Spatial Bookmarks to exact view
+@ulend
 
 ---?image=images/a04.jpg&opacity=100&&size=auto 95%
 
+---
+## Edit map frame
+@ul[squares]
+* Right-click the map frame to **Activate**
+* Pan and zoom your map to fit frame
+* Exit map frame when finished
+@ulend
+
 ---?image=images/a05.jpg&opacity=100&&size=auto 95%
+
+---
+## Check scale in Map Layout
+@ul[squares]
+* Use lower-left settings to check
+    1. scale of map
+    2. text is easily read at 400%
+@ulend
 
 ---?image=images/a06.jpg&opacity=100&&size=auto 95%
 
+---
+## Label streams
+@ul[squares]
+* Right-click the layer for **Label Properties**
+* Create Python expression to replace "Branch" with "Br"
+@ulend
+
+---
+## Expression
+```python
+[GNIS_NAME].replace("Branch", " Br")
+```
+
 ---?image=images/a07.jpg&opacity=100&&size=auto 95%
+
+---
+## Label streams
+@ul[squares]
+* Increase **Word Spacing** to add space between words
+@ulend
 
 ---?image=images/a08.jpg&opacity=100&&size=auto 95%
 
+---
+## Navigate layout
+@ul[squares]
+* Use **Navigate tools** to move around page
+* Use **Select tools** to select/edit map elements
+@ulend
+
 ---?image=images/a09.jpg&opacity=100&&size=auto 95%
+
+---
+## Label streams
+@ul[squares]
+* Use Position > Offset curved
+* Explore/edit other properties
+@ulend
 
 ---?image=images/a10.jpg&opacity=100&&size=auto 95%
 
+---
+## Label streams
+@ul[squares]
+* Add halo
+* Use transparency
+@ulend
+
 ---?image=images/a11.jpg&opacity=100&&size=auto 95%
+
+---
+## Insert map elements
+@ul[squares]
+* Use **Rectangle** text tool
+* Add title, author, etc.
+@ulend
 
 ---?image=images/a12.jpg&opacity=100&&size=auto 95%
 
+---
+## Insert map elements
+@ul[squares]
+* Use **Picture** tool
+* Add image of land cover legend
+* Link: [images/NLCD_classes.png]
+@ulend
+
 ---?image=images/a13.jpg&opacity=100&&size=auto 95%
+
+---
+## Insert map elements
+@ul[squares]
+* Use **Scale Bar** tool
+* Bonus: Use **Legend** tool and convert to graphics
+@ulend
 
 ---?image=images/a14.jpg&opacity=100&&size=auto 95%
 
+---
+## Edit custom legend
+@ul[squares]
+* **Covert To Graphics**
+* Unlinks legend and makes it editable
+* Can be fun!
+@ulend
+
 ---?image=images/a15.jpg&opacity=100&&size=auto 95%
 
+---
+## Edit map elements
+@ul[squares]
+* Right-click element
+* Use **Group**, **Ungroup**, and **Align** tools for layout/design
+@ulend
+
 ---?image=images/a16.jpg&opacity=100&&size=auto 95%
+
+---
+## Example
+@ul[squares]
+* Finished map
+@ulend
 
 ---?image=images/a17.jpg&opacity=100&&size=auto 95%
