@@ -122,3 +122,51 @@
 * Measure
 * Drop pin
 @ulend
+
+---
+# Addendum
+## Making base map in ArcGIS Pro
+
+---
+## Add clipped layers
+@ul[squares]
+* Adjust Landcover layer's
+    * transparency and 
+    * lightness
+@ulend
+
+---?image=images/a00.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a01.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a02.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a03.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a04.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a05.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a06.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a07.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a08.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a09.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a10.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a11.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a12.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a13.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a14.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a15.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a16.jpg&opacity=100&&size=auto 95%
+
+---?image=images/a17.jpg&opacity=100&&size=auto 95%
