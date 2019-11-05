@@ -387,9 +387,30 @@ At the forefront of providing access to data
 ### DataFrames
 
 ---
-## List
-A mutable sequence of values separated by a comma and enclosed in square brackets
+## Collections
+@ul[squares]
+* Ordered vs. unordered
+* mutable vs. immutable
+* Looping through collections (of collections)
+@ulend
 
+---?opacity=20
+## List
+An ordered mutable sequence of values separated by a comma and enclosed in square brackets
+
+---
+```python
+archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch'] 
+```
+
+---
+```python
+n = 0
+for i in archesList:
+    print(i)
+    print(archesList[n])
+    n += 1
+```
 ---
 ### List methods
 * `.sort()`
@@ -413,22 +434,37 @@ for i in range(len(archesList)):
 An immutable sequence of values separated by a comma and enclosed in round brackets
 
 ---
-### Exercise using lists and tuples
-### Sort arches by name and elevation
-Download [Kentucky GNIS (or US)](https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names/download-gnis-data)
+```python
+oneArchTuple = ('Silvermine Arch', [37.7873, -83.6243])
+```
 
 ---
 ```python
-import csv #module to handle csv files
-with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
-    reader = csv.reader(csvfile, delimiter="|")
-    for row in reader:
-        print(row)
+oneArchTuple = ('Silvermine Arch', [37.7873, -83.6243])
+oneArchTuple[0] = "Castle Arch" # Blows up!
+oneArchTuple[1][0] = 37.112 # 😀
 ```
+
 
 ---
 ## Dictionary
 An unordered collection of items that stored as key:value pairs separated by a comma and enclosed in curly brackets
+
+---
+```python
+archesDictionary = {
+ 'Castle Arch': [37.8123, -83.5796],
+ 'Red-byrd Arch': [37.8148, -83.5504],
+ 'Rock Bridge Arch': [37.7686, -83.5582],
+ 'Silvermine Arch': [37.7873, -83.6243]
+ }
+```
+
+---
+```python
+for i in archesDictionary:
+    print(i, archesDictionary[i])
+```
 
 ---
 ## DataFrame
@@ -442,6 +478,20 @@ with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
     pdData = pd.DataFrame(reader)
 
 print(pdData)
+```
+
+---
+### Exercise using lists and tuples
+### Sort arches by name and elevation
+Download [US GNIS (or US)](https://uk.instructure.com/courses/1950078/modules) from Canvas
+
+---
+```python
+import csv #module to handle csv files
+with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
+    reader = csv.reader(csvfile, delimiter="|")
+    for row in reader:
+        print(row)
 ```
 
 ---
