@@ -468,8 +468,16 @@ for i in archesDictionary:
 ```
 
 ---
+## Advantages of each?
+@ul[squares]
+* Lists are easy to search/build
+* Tuples are fast to access
+* Dictionaries are so tidy!
+@ulend
+
+---
 ## DataFrame
-A two-dimensional tabular data structure and the primary data structure for pandas
+A two-dimensional tabular data structure and the primary data structure for pandas. NOT a built-in data type.
 
 ```python
 import pandas as pd
