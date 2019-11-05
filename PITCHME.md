@@ -394,9 +394,9 @@ At the forefront of providing access to data
 * Looping through collections (of collections)
 @ulend
 
----?background-opacity=20
+---
 ## List
-An ordered mutable sequence of values separated by a comma and enclosed in square brackets
+An mutable sequence of values separated by a comma and enclosed in square brackets
 
 ---
 ```python
@@ -411,6 +411,13 @@ for i in archesList:
     print(archesList[n])
     n += 1
 ```
+
+---
+### Change elements
+```python
+archesList[4]= "Rainbow Arch"
+```
+
 ---
 ### List methods
 * `.sort()`
@@ -422,12 +429,6 @@ for i in archesList:
 * `len()`
 * `range()`
 
----
-### Access (and change) elements
-```python
-for i in range(len(archesList)):
-    print(f"The index of {archesList[i]} is {i}")
-```
 
 ---
 ## Tuple
@@ -448,7 +449,7 @@ oneArchTuple[1][0] = 37.112 # 😀
 
 ---
 ## Dictionary
-An unordered collection of items that stored as key:value pairs separated by a comma and enclosed in curly brackets
+An unordered collection of items stored as key:value pairs separated by a comma and enclosed in curly brackets
 
 ---
 ```python
