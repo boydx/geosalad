@@ -394,7 +394,7 @@ At the forefront of providing access to data
 * Looping through collections (of collections)
 @ulend
 
----?opacity=20
+---?background-opacity=20
 ## List
 An ordered mutable sequence of values separated by a comma and enclosed in square brackets
 
