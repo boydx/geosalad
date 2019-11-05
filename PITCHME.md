@@ -436,7 +436,6 @@ A two-dimensional tabular data structure and the primary data structure for pand
 
 ```python
 import pandas as pd
-import numpy as np
 
 with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
     reader = pd.read_csv(csvfile, delimiter='|')
