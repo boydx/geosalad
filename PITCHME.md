@@ -69,19 +69,21 @@
 ---
 ### Access aerial photography
 * Add ArcGIS Server *https://kyraster.ky.gov/arcgis/services*
-* Load 2016 NAIP imagery
+* Load 2018 NAIP imagery
 
 ---?image=images/a016.png&size=contain&color=#919191
 <h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Add aerial photography</h2>
 
 ---?image=images/a017.png&size=contain&color=#919191
-<h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">KY NAIP 2016 2ft</h2>
+<h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">KY NAIP 2018 2ft</h2>
 
 ---
 ### Clip aerial photography
+@ul
 1. Create polygon from extent of LAS dataset
 * Use the LAS DEM as input raster
 * Tool: **Raster Domain**
+@end
 
 ---?image=images/a018.png&size=contain&color=#919191
 <h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Raster Domain</h2>
@@ -98,9 +100,11 @@
 
 ---
 ### Add new image to Scene
+@ul
 * Locate your landform
 * Spin around and explore
 * Perform preliminary measurements
+@ulend
 
 ---?image=images/a021.png&size=contain&color=#919191
 [animation](https://uky-gis.github.io/support/lidar-arcgis/locate_arch.gif)
@@ -108,10 +112,12 @@
 
 ---
 ### Create new empty layer for landform
+@ul
 * Right-click geodatabase
 * Select **New > Feature Class**
 * Feature Class Type is **Point**
 * Spatial Reference is NAD 1983 StatePlane Kentucky FIPS 1600 Feet
+@ulend
 
 ---?image=images/a022.png&size=contain&color=#919191
 
@@ -121,10 +127,12 @@
 
 ---
 ### Add new point for landform
+@ul
 * Add layer to **Contents**
 * Access **Edit > Create Features**
 * Drop on center of landform
 * **Save** edits
+@ulend
 
 ---?image=images/a025.png&size=contain&color=#919191
 
@@ -139,17 +147,31 @@
 
 ---
 ### View buffer in 3D
+@ul
 * Edit buffer **Layer Properties**
 * Set **Elevation** property to **Absolute Height**
 * Use **Expression** and set feet above sea level
+@ulend
 
 ---?image=images/a028.png&size=contain&color=#919191
 
 ---
+### Filter LAS Dataset
+@ul
+* Remove noise (class codes 7 and 18)
+* Double-click LAS Dataset to **Layer Properties**
+* Select **LAS Filter**
+@ulend
+
+---?image=images/filter.png&size=contain&color=#919191
+
+---
 ### Extract LAS Dataset
+@ul
 * Use new buffer polygon to extract LAS points
 * Outputs new LAS point cloud
 * Put in separate folder **outside** of any repository
+@ulend
 
 ---?image=images/a029.png&size=contain&color=#919191
 
