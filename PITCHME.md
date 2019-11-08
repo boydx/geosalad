@@ -179,9 +179,11 @@
 
 ---
 ### Colorize LAS Dataset
+@ul
 * Use NAIP aerial imagery to add RGB values
 * Outputs yet another LAS point cloud
 * Put in separate folder **outside** of any repository
+@ulend
 
 ---?image=images/a031.png&size=contain&color=#919191
 
@@ -193,3 +195,7 @@
 ---?image=images/a034.png&size=contain&color=#919191
 
 ---?image=https://farm8.staticflickr.com/7006/13159570895_96e15d3d15_h.jpg
+
+---
+# That's it!
+### You're now ready for analysis and visualization
