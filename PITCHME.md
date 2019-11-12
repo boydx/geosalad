@@ -1,50 +1,75 @@
+---?image=images/geo_depart.png&size=50%
+
 ---
 # GEO 409:07
 ### 3D and terrain analysis using lidar data in Kentucky
 
 ---
 ## Prereq
-Make sure you have finished the presentation from [Module 06](https://gitpitch.com/boydx/geosalad/g409-06a) and watch the videos on Canvas for this module.
-
----
-## News!
-If you've scaled the Python mountain, you will have a big payoff in this module.
-
----
-## Goals
-In the next month we will:
 @ul
-* Create two maps
-    * Cliffs over 30-feet
-    * Interactive map of your landform
-* Create an animation of your landform
+* Finished the presentation about [about accessing and extracting lidar data](https://gitpitch.com/boydx/geosalad/g409-07c)
+* Watch the videos on Canvas for this module
 @ulend
 
 ---
-# [360](https://kuula.co/post/7Y4wL)
-Pick your landform today!
+## News!
+@ul
+* If you've scaled the Python mountain, you will have a big payoff in this module.
+* Check out the addendum and Jupyter Notebook
+@ulend
+
+---?image=https://uky-gis.github.io/gisday/assets/images/splash.png&size=contain
+
+---?image=https://maptimelex.github.io/wildcat-eyes/assets/images/wildcat-eyes-logo.jpg&size=contain
+
+---
+## Goals
+Over the final month:
+@ul
+* Create two maps
+    * Cliffs over 30-feet
+    * Interactive map of your location
+* Create an animation of your location
+* Publish this to your GitHub Repo, e.g., *boydsGIS.github.io/rrg*
+@ulend
 
 ---
 ## This module
 @ul
-* Cliffs over 30-feet in height
+* Surface modeling
+    * Cliffs over 30-feet in height
+    * Tree-height measurement
 * Video animation
-* All in ArcGIS!
+* Point cloud rendering
 @ulend
+
 ---
-@css[title-top-right](Flying to Grays Arch)
+# Examples
+
+---?image=https://live.staticflickr.com/1913/44871763315_6228d74f85_k.jpg&size=contain
+
+---
+<!-- @css[title-top-right](Flying to Grays Arch) -->
 ![Gravity](https://www.youtube.com/embed/E8EJapOwvAc)
 
 ---
-![Fly to Grays Arch](https://www.youtube.com/embed/RB7x9B6OBkI)
+![Hike up to Indian Arch](https://www.youtube.com/embed/nFV8ftGN0aM)
+
+---
+<iframe src="https://www.outrageGIS.com/pointclouds/johnson" width="100%" height="600px"></iframe>
 
 
 ---
-## Lidar: review
+# [360](https://kuula.co/post/7lpQt)
+Start thinking about what you want to map!
+
+---
+(light detection and ranging)
+## Lidar
 @ul
 * active sensor
 * multiple returns with attributes
-* creates a point cloud
+* creates a point cloud (massively sampled locations)
 * airborne vs. terrestrial
 @ulend
 
@@ -66,6 +91,11 @@ Pick your landform today!
 * While can penetrate canopy, cannot 'see' under solid structures.
 * i.e., cannot see under our arches.
 @ulend
+
+---?image=images/quantum_airplanes.jpg&size=contain
+## Quantum Spatial fleet
+
+---?image=images/quantum_lidar.jpg&size=contain
 
 ---
 ## Kentucky project
@@ -100,12 +130,30 @@ Create high-resolution elevation products for bare-earth conditions. A statewide
 |9 |Water|
 |10 |Ignored Ground (Breakline Proximity)|
 
+---
+## QC/QA
+@ul
+* Heads-up digitizing to enforce hydro rule
+    * Classify bridges and noise
+* Field measurements to verify accuracy
+    * Most measurements within .2 ft
+@ulend
+
+---?image=images/cp_dz.png&size=contain
+
+---?image=images/quantum_qc.jpg&size=contain
+
+---?image=images/lidar-progress.png
+## Future of lidar collection [KyFromAbove](http://kyfromabove.ky.gov/)
 
 ---
 ## Practice
 Downloading, extracting, and displaying lidar data.
-* [Tutorial](https://gitpitch.com/boydx/geosalad/g409-06a)
+* [Tutorial](https://gitpitch.com/boydx/geosalad/g409-07c)
 * [Video](https://uk.instructure.com/courses/1931541/pages/video-arcgis-pro-and-lidar?module_item_id=23767003)
+
+---
+# STOP
 
 --- 
 # Point cloud derivatives

@@ -1,8 +1,18 @@
 background-size : cover
-theme : night
-footnote : "GEO 409, Spring 2019"
-background: https://live.staticflickr.com/899/41107776512_2923afb4ab_k.jpg
-background-opacity : 20
+footnote : "GEO 409, Fall 2019"
+background: images/background.jpg
 
 
+theme            : template
 
+theme-background : [ "linear-gradient(#000, #232629)" ]
+theme-headline   : [ "Montserrat", "white", "none" ]
+theme-byline     : [ "Montserrat", "#white", "none" ]
+theme-text       : [ "Lato", "#F5FFFA", "none" ]
+theme-links      : [ "#FFD700", "#ffe862" ]
+theme-code       : [ "Victor Mono" ] # Victor Mono Italic
+theme-controls   : [ "#eee" ]
+theme-margins    : [ "0px", "15px" ]
+highlight        : hybrid
+
+theme-override : assets/pitchmd.css
