@@ -37,8 +37,8 @@ Over the final month:
 ## This module
 @ul
 * Surface modeling
-    * Cliffs over 30-feet in height
-    * Tree-height measurement
+    * ground height
+    * above-ground height
 * Video animation
 * Point cloud rendering
 @ulend
