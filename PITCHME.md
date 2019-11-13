@@ -1,17 +1,35 @@
----?image=images/background.jpg&size=80%
+---?image=images/geo_depart.png&size=50%
 
 
 ---
 ## boyd.xyz/409
+@color[#444](link to this presentation)
 
 ---?image=https://farm8.staticflickr.com/7669/26770757943_3e76b3921d_h.jpg"
 <div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
-<h2>UKy GIS & mapping</h2>
-Boyd Shearer - [uky-gis.github.io](https://uky-gis.github.io)
+<h2>Boyd Shearer</h2>
+[boydx.github.io](https://boydx.github.io) | [outrageGIS.com](https://outrageGIS.com)
 </div>
 
+---
+# GEO 409
+## Spring 2020 
+### T/Tr 3:30–4:45
+
 ---?image=i/001.jpg
-@quote[demand for cartographers is projected to grow nearly 30% by 2024.]([Wired Magazine]((https://www.wired.com/tag/cartography))
+@quote[Demand for cartographers is projected to grow nearly 30% by 2024.]([Wired Magazine]((https://www.wired.com/tag/cartography))
+
+
+---?image=images/kamp.png&opacity=5
+@quote[In no other time have we had so much access to data.]([David Cater]((https://kampro.org/ky-gis-conference/2019-conference-agenda-and-abstracts/))
+
+
+---?image=i/terrabytes27.gif
+<div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
+<h2>Lidar point clouds</h2>
+<h3>46,105 tiles in Kentucky</h3>
+<h1>> 20TB</h1>
+</div>
 
 ---
 ## Cartography
@@ -34,20 +52,7 @@ Download [125,192,184](https://github.com/Microsoft/USBuildingFootprints) polygo
 ### A map of every building in America
 October, 2018. [New York Times](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html)
 
----?image=i/004.jpg
 
----?image=i/0055.jpg
-# @size[2em](Art)
-
----?image=i/006.jpg
-# Seeing
-## differently.
-
-
----?image=i/005.jpg
-<div style="background-color: rgba(0,0,0,0.4);width:80%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
-[Shaded Relief](http://shadedrelief.com/3D_Terrain_Maps/) by Tom Patterson
-</div>
 
 ---
 ## Maps are both
@@ -60,26 +65,9 @@ Cartographers manage data to make art.
 
 
 ---
-### Car vs. bike
-<iframe width="100%" height="500px" src="https://boydx.carto.com/viz/891d44d4-84ba-11e6-9e41-0e05a8b3e3d7/embed_map"></iframe>
-
----
 ### Finding the highest trees
 <iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
 
----
-## Spring, 2019 courses
-### GEO 109, 309, 305, 409, 509
-All use cartography.
-
----
-## Mapping Minor
-### GEO 109, 309, 409
-Many other Geography courses can be elected to fulfill minor requirements.
-
----
-# GEO 409
-## T/Tr 2:00–3:15
 
 ---
 ## Tools & Data
@@ -90,12 +78,7 @@ Many other Geography courses can be elected to fulfill minor requirements.
 - with big data...
 @ulend
 
----?image=i/terrabytes27.gif
-<div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
-<h2>Lidar point clouds</h2>
-<h3>46,105 tiles in Kentucky</h3>
-<h1>> 20TB</h1>
-</div>
+
 
 ---?image=images/01/lidar-02.jpg
 
