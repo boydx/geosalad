@@ -55,9 +55,6 @@ Cartographers manage data to make art.
 ## Projects in
 ## 📡 📊 👓
 
----
-### Wildfire in Kentucky
-<iframe width="100%" height="500px" src="https://nmp.carto.com/u/boyd/builder/3ea43d07-6d91-43fd-b869-9216b2908a3e/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B28.455561860623863%2C-114.30810928344728%5D%2C%22sw%22%3A%5B45.61127561558146%2C-61.09033584594727%5D%2C%22center%22%3A%5B37.52402236402927%2C-87.69922256469727%5D%2C%22zoom%22%3A5%7D%2C%22widgets%22%3A%7B%22613cc10d-cbae-4aa7-b5c1-51e4debbb488%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"></iframe>
 
 ---
 ### Car vs. bike
