@@ -3,7 +3,7 @@
 
 ---
 ## boyd.xyz/409
-@color[#444](link to this presentation)
+@color[#444](URL to this presentation)
 
 ---?image=https://farm8.staticflickr.com/7669/26770757943_3e76b3921d_h.jpg"
 <div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
@@ -20,7 +20,7 @@
 @quote[Demand for cartographers is projected to grow nearly 30% by 2024.]([Wired Magazine]((https://www.wired.com/tag/cartography))
 
 
----?image=images/kamp.png&opacity=5
+---?image=images/kamp.png&opacity=10
 @quote[In no other time have we had so much access to data.]([David Cater]((https://kampro.org/ky-gis-conference/2019-conference-agenda-and-abstracts/))
 
 
@@ -31,84 +31,71 @@
 <h1>> 20TB</h1>
 </div>
 
----
-## Cartography
-### requires many skills
-
----?image=images/01/lidar-00.jpg
-# @size[2em](Data)
-
----?image=i/002.jpg
-# Challenge
-## to manage.
+---?image=images/usgs.png
+<div style="background-color: rgba(0,0,0,0.4);width:100%;margin: 0 auto;padding:20px 0px;box-shadow: 0 0 80px ;border-radius: 8px;"> 
+<h2>KY leads the way</h2>
+[KyFromAbove](http://kyfromabove.ky.gov/)
+</div>
 
 ---
-### 2018 Microsoft released
-## building footprints
-### for the entire US.
-Download [125,192,184](https://github.com/Microsoft/USBuildingFootprints) polygons
-
----?image=i/003.jpg
-### A map of every building in America
-October, 2018. [New York Times](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html)
-
-
+## What can you do with point clouds?
+massively dense collections of (x,y,z) locations
 
 ---
-## Maps are both
-# art & data
-Cartographers manage data to make art.
+![Hike up to Indian Arch](https://www.youtube.com/embed/nFV8ftGN0aM)
 
 ---
-## Projects in
-## 📡 📊 👓
+<iframe src="https://www.outrageGIS.com/pointclouds/johnson" width="100%" height="600px"></iframe>
+
+---?image=https://uky-gis.github.io/support/lidar-arcgis/locate_arch.gif&size=80%
+
+---
+<iframe width="100%" height="600px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
+
 
 
 ---
-### Finding the highest trees
-<iframe width="100%" height="500px" src="https://bluegrassland.carto.com/builder/50150569-e092-4c28-a67f-eb4bfbc7a50e/embed"></iframe>
-
-
----
-## Tools & Data
+## Class tools:
 @ul[squares]
 - ArcGIS Pro
 - Python
 - GitHub
-- with big data...
 @ulend
 
 
 
----?image=images/01/lidar-02.jpg
+
 
 ---
-## Theme
-# Kentucky 
-(It's what we map!)
+## Theme:
+## Kentucky
+## Y'all!
 
 ---?image=https://c1.staticflickr.com/1/390/31713088315_f0326f577c_k.jpg
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Red River Gorge</h2>
-<h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Lidar mapping</h3>
 
 ---?image=https://farm2.staticflickr.com/1769/42671081904_40c84be780_h.jpg
 
----
-![Video](https://www.youtube.com/embed/1uE9A8t7AZI)
 
 ---
 # Quiz
+## Where are we?
 
 ---?image=https://uky-gis.github.io/support/python-arcgis/pointcloud_extract/cufa.jpg
 
+---?image=images/01/lidar-02.jpg
+
 ---
-Cumberland Falls!
-## Course more than pretty pictures
-[Measure this!](https://uky-gis.github.io/support/lidar-arcgis/locate_arch.gif)
+# Python
+
+---
+## @color[#444](Data is redundant)
+## Code is unique
 
 ---
 ```python
 # Make Python script to simulate landscape illumination
+# and predict insolation rates.
 import arcpy 
 azimuth = 90 
 while azimuth < 271:
@@ -120,6 +107,11 @@ while azimuth < 271:
 ---
 ![Video](https://player.vimeo.com/video/292571411)
 
+
+---
+## Last but not least...
+
+
 ---
 ## Resume additions
 @ul[squares]
@@ -128,8 +120,11 @@ while azimuth < 271:
 - Big data
 @ulend
 
+---
+## Thank you!
+@color[#444](Keep going to see other class projects)
 
-
+---?image=images/geo_depart.png&size=50%
 
 ---
 ## Other class projects
