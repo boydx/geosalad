@@ -124,6 +124,8 @@ while azimuth < 271:
 ## Thank you!
 @color[#444](Keep going to see other class projects)
 
+---?image=https://maptimelex.github.io/wildcat-eyes/assets/images/wildcat-eyes-logo.jpg&size=80%
+
 ---?image=images/geo_depart.png&size=50%
 
 ---
