@@ -34,7 +34,7 @@ It's a good time to be a cartographer!
 ## for Mapbox portion of this module
 Check Canvas for link
 
----?image=images/s01.jpg
+---?image=images/s01.jpg&opacity=100
 
 ---
 ## Map tiles
