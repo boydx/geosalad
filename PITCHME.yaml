@@ -1,6 +1,7 @@
 background-size : cover
 footnote : "GEO 409, Fall 2019"
 background: https://live.staticflickr.com/65535/48888991771_14f7d5cbe4_k.jpg
+backgorund-opacity: 30
 
 
 theme            : template
