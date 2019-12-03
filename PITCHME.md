@@ -137,5 +137,38 @@ Use the **Clip** tool to reduce the size of area to the buffered area of interes
 ## Let's start
 with a [Jupyter Notebook](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples/Contour.ipynb)
 
+---
+# Web Publishing
+
+---
+## URL
+Uniform resource locator makes the internet because it provides a unique address for **all** resources on the interent.
+
+---
+## Characteristics
+@ul
+* https://tastyfreeze.github.io/rrr
+    ** domains: sub.main.top-level
+* forward slashes `/` separate directories
+* Most servers *surface* index.html (don't have to type it)
+* No spaces in file names for us
+* Look for file extension
+* Case sensitive
+@end
+
+---
+## Linking
+* Use relative paths if asset is in your repo
+    * `../index.html` up one directory
+    * `rrg/basemap/image.jpg` down two directories
+
+---
+## Examples
+* Maddie [code](https://github.com/maddyblandford/rrg) | [rendered](https://maddyblandford.github.io/rrg/)
+* Alex [code](https://github.com/alexgis-projects/rrg) | [rendered](https://alexgis-projects.github.io/rrg/elevation/)
+* Conner [code](https://github.com/CRLedington/rrg) | [rendered](https://CRLedington.github.io/rrg/)
+* Jerry [code](https://github.com/jmo335/rrg) | [rendered](https://jmo335.github.io/rrg)
+* Beth Ann [code](https://github.com/Winebarger/RRG2) | [rendered](https://Winebarger.github.io/RRG2)
+
 
 
