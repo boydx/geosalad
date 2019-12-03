@@ -162,7 +162,8 @@ Uniform resource locator makes the internet work because it provides a unique ad
 * Use relative paths if asset is in your repo
     * `../index.html` 
         * up one directory
-    * `rrg/basemap/image.jpg` down two directories
+    * `rrg/basemap/image.jpg` 
+        * down two directories
 @ulend
 
 ---
