@@ -142,13 +142,13 @@ with a [Jupyter Notebook](https://github.com/UKy-GIS/uky-gis.github.io/blob/mast
 
 ---
 ## URL
-Uniform resource locator makes the internet because it provides a unique address for **all** resources on the interent.
+Uniform resource locator makes the internet work because it provides a unique address for **all** resources on the interent.
 
 ---
 ## Characteristics
 @ul
-* https://tastyfreeze.github.io/rrr
-    ** domains: sub.main.top-level
+* `https://tastyfreeze.github.io/rrr`
+    * domains: sub.main.top-level
 * forward slashes `/` separate directories
 * Most servers *surface* index.html (don't have to type it)
 * No spaces in file names for us
