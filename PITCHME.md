@@ -147,7 +147,7 @@ Uniform resource locator makes the internet work because it provides a unique ad
 ---
 ## Characteristics
 @ul
-* `https://tastyfreeze.github.io/rrr`
+* `https://tastyfreeze.github.io/rrg`
     * domains: sub.main.top-level
 * forward slashes `/` separate directories
 * Most servers *surface* index.html (don't have to type it)
@@ -158,9 +158,12 @@ Uniform resource locator makes the internet work because it provides a unique ad
 
 ---
 ## Linking
+@ul
 * Use relative paths if asset is in your repo
-    * `../index.html` up one directory
+    * `../index.html` 
+        * up one directory
     * `rrg/basemap/image.jpg` down two directories
+@ulend
 
 ---
 ## Examples
