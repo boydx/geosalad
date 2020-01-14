@@ -1,55 +1,87 @@
----
-# GEO 409:01
-## Advanced topics in GIS
-
 ---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
-### Managing complex workflows
-Office hours W 1:30-2:30 & Tr 5:30-6:30   
-[maptimeLEX](https://github.com/maptimelex/schedule): next Tr, 6-7 @ Miller Hall
-@ul[squares]
-* GIS and information intensive projects have many assets that sprawl across directories.
-@ulend
+# GEO 409
+## Advanced topics in GIS
 @snap[south-west span-20 text-italic text-04]
 Great Smokies, yesterday
 @snapend
 
----?image=images/02/heat-trees.png
+
+---?image=https://www.outragegis.com/weather/img/animation/yesterday/PurchaseKnob.gif&opacity=40
+## Managing complex workflows
+### Module 01
 @snap[south-west span-20 text-italic text-04]
-[Link](https://www.npr.org/2019/09/03/754044732/as-rising-heat-bakes-u-s-cities-the-poor-often-feel-it-most)
+Great Smokies, yesterday
 @snapend
+
+
+
+---?image=https://live.staticflickr.com/65535/49373904012_3e6813174b_h.jpg&opacity=30
+## The challenge
+@ul[squares]
+* GIS and information-intensive projects have many assets that sprawl across directories.
+* We'll download a lot of data.
+* We'll write code to process it.
+  * Code is unique (back it up)
+  * Downloaded data is redundant (don't back it up)
+* Own your assets...
+* or they will haunt you...
+@ulend
+
+
 
 ---?image=https://live.staticflickr.com/1821/42233874915_b274295437_o.jpg&opacity=40
 ## Where did it go?
 
 
----?image=https://live.staticflickr.com/1824/42163152085_8a07212910_o.jpg&opacity=40
+---?image=https://live.staticflickr.com/65535/48789211076_36cf732bc6_h.jpg
 ## Topics
 @ul[squares]
-* Set up our work environment
-* Tools for the knowledge worker
-* Review: measure US states's area the desktop way
-* Challenge: measure area by code
+1. Set up our local workspace
+2. Tools for the knowledge worker
+  * Code editor
+  * Git version and backup control
+3. Create and run our first program
+4. Challenge: measure area old school
 @ulend
 
-
+---
+# I. Local
+## workspace
 
 ---
 ## Data hygiene
 @ul[squares]
 * Create single top-level directory for all projects, data, etc.
-* We'll call this our *root* GIS directory
-* Separate *redundant* from *created* assets
+  * We call this our *root* GIS directory
+  * E.g., C:\BoydsGIS
+* Put projects in well-named folders inside this folder
+  * Use only alphanumeric characters and no spaces
+* Separate *downloaded* from *created* assets
 @ulend
 
 ---
 ## Example folder structure
 
----?image=images/02/a001.png
-
+---?image=images/02/a001.png&opacity=100
 
 ---
-### Tools for the
-## Knowledge worker
+## Repo?
+A *repository* ("repo") is a special project that we synchronize and backup on a remote server. More about this soon.
+
+---
+### File naming conventions
+@ul[squares]
+* Name should explain contents, author, metadata, etc.
+* Always use a file extension, e.g., myPictureGrayscale.jpg
+* No spaces; replace with hyphen, underscore, or use "camelCase"
+* If need to sort by date, add date in format of YYYYMMDD
+* Be descriptive and consistent!
+* How the [Smithsonian does it](https://library.si.edu/sites/default/files/tutorial/pdf/filenamingorganizing20180227.pdf)
+@ulend
+
+---
+# II. Tools 
+## for the knowledge worker
 
 ---
 ### We need to
@@ -59,8 +91,8 @@ Great Smokies, yesterday
 
 ---
 ## as code
-### a/k/a plain-text instructions
-that use *keywords* and *syntax*
+### plain-text instructions
+that have *keywords* and *syntax*
 
 ---
 ## For example
@@ -75,6 +107,12 @@ renders to:
 <p style="color:blue;">Hello, world!</p>
 
 ---
+or this...
+```py
+print("Hey, Geography Y'all!") #Print it to the terminal!
+```
+
+---
 ### Advantages of coding
 @ul[squares]
 * Work simply
@@ -86,23 +124,24 @@ renders to:
 
 
 ---
-First tool
 # Text editor
-Not Notepad, Microsoft Word, etc.
+🚫**Not** Notepad, Microsoft Word, etc.🚫
 
 ---
-A good text editor offers
-### Language syntax highlighting
+## Benefits
+@ul[squares]
+* Language syntax highlighting
+* Autocomplete as you write
+* Open source with vibrant development communities
+@ulend
 
 ---
-We'll use
-## VS Code
-a popular open source and free editor
-
----
-and 
-### [Jupyter Notebook](https://developers.arcgis.com/python/guide/using-the-jupyter-notebook-environment/)
-a browser-based editor for Python
+## Editors
+@ul[squares]
+* [VS Code](https://code.visualstudio.com/docs/editor/codebasics) is free, open source 🔥
+* [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html) a browser-based editor for Python (not really a full-fledged editor but it makes running Python very easy).
+* Both installed in lab
+@ulend
 
 ---
 ## Customize VS Code
@@ -110,7 +149,7 @@ a browser-based editor for Python
 2. Create working directory, our root
 3. Pro tips: modify settings
 
----?image=images/a01.png
+---?image=images/a01.png&opacity=100
 <h3 style="color:#eee;text-shadow: 2px 2px 4px #000;">Themes</h3>
 
 ---
@@ -171,7 +210,7 @@ cd BoydsGIS
 
 ---?image=images/02/q-003.png&opacity=40
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Commands</h2>
-<a href="http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt/" target="blank">cheat sheet</a>
+<a href="http://www.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf" target="blank">cheat sheet</a>
 
 ---
 # Add info
@@ -179,11 +218,11 @@ cd BoydsGIS
 
 ---
 # Markdown
-"write using an easy-to-read and easy-to-write plain text format" and convert it to pretty web pages
+"write using an easy-to-read and easy-to-write plain text format" and convert it to pretty web pages. <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="blank">Cheat sheet</a>
 
 ---
-## Add readme.md
-A Readme.md is a Markdown formatted file that tells visitors about your project 
+## Add a README.md
+A README.md is a Markdown formatted file that tells visitors about your project.
 
 ---?image=images/02/q-004.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Open Folder...</h2>
@@ -194,32 +233,40 @@ A Readme.md is a Markdown formatted file that tells visitors about your project
 ---?image=images/02/q-006.png
 <h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Preview</h2>
 
----?image=images/02/markdown.md.jpg
-<h2 style="color:#eee;text-shadow: 2px 2px 4px #000;">Many ways to create</h2>
-<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="blank">Markdown.md</a>
-
 ---
-# Whew!
+## Backup
 What if we lost our text?
 
 ---
 # Git
 "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people."
 
+---  
+[Git](https://git-scm.com/) was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
+
+---
+Git is a
+## DVCS
+@ul[squares]
+* Distributed
+  * Local repo synched to remote repo ("the backup")
+* Version control
+  * Make "snapshots" of project
+  * Create multiple versions by *branching* project
+* System
+  * Can scale to allow many collaborators
+@ulend
+
 ---
 ![Git](images/02/git.png)    
 
-[xctd](http://xkcd.com/)
-
-
----  
-[Git](https://git-scm.com/) was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
+In practice, [xkcd](http://xkcd.com/)
 
 
 ---
 We'll use the Git hosting service
 ### GitHub
-and their desktop app to manage our projects.
+to store our remote repos and their desktop app to manage our projects.
 
 ---
 Get account at [GitHub.com](https://github.com/) using your
@@ -232,22 +279,11 @@ email address
 * Find invitation to lesson in Canvas
 * Accept invitation and _clone remote repository_
 * _Commit_ changes as you work 
-* _Push to remote_ when finished
+* _Push_ to remote when finished
 * _Pull_ in changes that I request
 @ulend
 
----
-### GitHub Pages
-Use GitHub to publish web pages, including
-### Map Portfolio!
 
----
-Git is a
-## DVCS
-@ul[squares]
-* Distributed 
-* Version control system
-@ulend
 
 
 ---
@@ -255,33 +291,33 @@ Git is a
 ## Repo
 (use link in Canvas)
 
----?image=images/02/slides-00.png
----?image=images/02/slides-001.png
----?image=images/02/slides-002.png
----?image=images/02/slides-003.png
----?image=images/02/slides-03.png
----?image=images/02/slides-04.png
----?image=images/02/slides-05.png
+---?image=images/02/slides-00.png&opacity=100
+---?image=images/02/slides-001.png&opacity=100
+---?image=images/02/slides-002.png&opacity=100
+---?image=images/02/slides-003.png&opacity=100
+---?image=images/02/slides-03.png&opacity=100
+---?image=images/02/slides-04.png&opacity=100
+---?image=images/02/slides-05.png&opacity=100
 
 ---
 ## Sign in
 ### to GitHub 
 
----?image=images/02/q-007.png
----?image=images/02/q-010.png
+---?image=images/02/q-007.png&opacity=100
+---?image=images/02/q-010.png&opacity=100
 
 ---
 ## Workflow
 ### in Git repo
 
 
----?image=images/02/slides-02-01.png
----?image=images/02/slides-02-02.png
----?image=images/02/slides-02-03.png
----?image=images/02/slides-02-04.png
----?image=images/02/slides-02-05.png
----?image=images/02/slides-02-06.png
----?image=images/02/slides-02-07.png
+---?image=images/02/slides-02-01.png&opacity=100
+---?image=images/02/slides-02-02.png&opacity=100
+---?image=images/02/slides-02-03.png&opacity=100
+---?image=images/02/slides-02-04.png&opacity=100
+---?image=images/02/slides-02-05.png&opacity=100
+---?image=images/02/slides-02-06.png&opacity=100
+---?image=images/02/slides-02-07.png&opacity=100
 
 ---
 ## How to undo in Git
@@ -306,7 +342,8 @@ Git is a
 # MEGA!!
 @ul[squares]
 * Create a folder outside of any repo to download data.
-* Create: c:/BoydsGIS/**data** folder
+  * Create: c:/BoydsGIS/**data** folder
+* Never store a repo inside another repo
 * 100 MB limit in GitHub
 * Data is redundant, code is unique
 @ulend
@@ -315,24 +352,24 @@ Git is a
 
 
 ---
-# Practice
+# Challange
+Measure state area without desktop program
 
 
 ---
-## Create a local repo:
+### Create folder called
 ## _measure-states_
-inside your root GIS folder
-
----?image=images/a02.png
+inside your lesson repo
 
 ---
-## Open in VS Code
-from GitHub Desktop
-
----?image=images/a03.png
+## VS Code
+@ul[squares]
+* Open root GIS folder
+* Open terminal
+@ulend
 
 ---
-## Edit readme.md:
+## Create readme.md:
 ```md
 # measure-states
 
@@ -340,132 +377,19 @@ Let's practice measuring state areas.
 
 * [Downloads data on Canvas](https://uk.instructure.com/courses/1950078/modules)
 * [Source on Natural Earth](https://www.naturalearthdata.com/downloads/)
+
 ```
 
 ---?image=images/02/natural-earth-download.jpg&opacity=40
-## Layer on Canvas
+## Download layer from Canvas
+into your data folder
 
 ---
-# Publish
-## in GitHub
-
----
-## Measure state areas in
-# ArcMap
-
----
-## Change your Data Frame's
-# Projection
-
----?image=images/02/arcmap-projection.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #eee;">EPSG: 5070</h2>
-
----
-## Investigate 
-Coordinate reference system (CRS) parameters
-
----
-```yaml
-Name: NAD_1983_Contiguous_USA_Albers
-WKID: 5070 Authority: EPSG
-Projection: Albers
-Central_Meridian: -96.0
-Standard_Parallel_1: 29.5
-Standard_Parallel_2: 45.5
-Latitude_Of_Origin: 23.0
-Linear Unit: Meter (1.0)
-
-Geographic Coordinate System: GCS_North_American_1983
-Angular Unit: Degree (0.0174532925199433)
-Prime Meridian: Greenwich (0.0)
-Datum: D_North_American_1983
-  Spheroid: GRS_1980
-    Semimajor Axis: 6378137.0
-    Semiminor Axis: 6356752.314140356
-    Inverse Flattening: 298.257222101
+## In terminal type:
+```sh
+C:\\"Program Files"\\"QGIS 3.810"\OSGeo4W.bat
+o-help
 ```
-
----
-```yaml
-Name: North_America_Albers_Equal_Area_Conic
-WKID: 102008 Authority: Esri
-Projection: Albers
-Central_Meridian: -96.0
-Standard_Parallel_1: 20.0   // Only change in
-Standard_Parallel_2: 60.0   // standard parallels
-Latitude_Of_Origin: 40.0    // and refocus north
-Linear Unit: Meter (1.0)
-
-Geographic Coordinate System: GCS_North_American_1983
-Angular Unit: Degree (0.0174532925199433)
-Prime Meridian: Greenwich (0.0)
-Datum: D_North_American_1983
-  Spheroid: GRS_1980
-    Semimajor Axis: 6378137.0
-    Semiminor Axis: 6356752.314140356
-    Inverse Flattening: 298.257222101
-```
-
----
-## Compare 
-Many CRS definitions are very similar
-
----
-## Select three states
-@ul[squares]
-* We want only Alaska, Texas, and Kentucky
-* How do we do it?
-@ulend
-
-
----
-```sql
-"name" in ('Texas','Alaska','Kentucky')
-```
-
----?image=images/02/arcmap-definition-query.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
-
-
----
-## Open attribute table
-# Add Field
-as **Type: Float**
-
----?image=images/02/arcmap-add-field.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
-
----
-## Right+click
-# Field
-and **Calculate Geometry**
-
----?image=images/02/arcmap-area.jpg
-<h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
-
-
----
-## ArcMap mesaurement
-
-```
-name,       area_sq_km
-Alaska,     1496210
-Texas,      685531
-Kentucky,   104525
-```
----
-## Challenge
-Do all of this without opening a desktop program?
-## Script it!
-
----
-## VS Code
-@ul[squares]
-* Change directory to **rootGIS\measure-states**
-* Open terminal in VS Code
-* Type: **C:\\"Program Files"\\"QGIS 3.8"\OSGeo4W.bat**
-* Type: **o-help**
-@ulend
 
 ---
 ### Experiment with
@@ -573,7 +497,7 @@ ogr2ogr projected.shp -sql ^
 ```bat
 rem Use ogr2ogr internal measurement feature
 ogr2ogr output.csv -sql ^
- "select name, (ogr_geom_area/2.59e+6) as sq_km from projected" ^
+ "select name, (ogr_geom_area/2.59e+6) as sq_mi from projected" ^
  projected.shp
 
 ```
@@ -609,6 +533,66 @@ del projected.*
 this semester and we'll keep at it!
 
 ---
+## Compare
+### to ArcGIS Desktop
+
+---
+## Measure state areas in
+# ArcMap
+
+---
+## Change your Data Frame's
+# Projection
+
+---?image=images/02/arcmap-projection.jpg&opacity=40
+<h2 style="color:#111;text-shadow: 2px 2px 4px #eee;">EPSG: 5070</h2>
+
+
+---
+## Select three states
+@ul[squares]
+* We want only Alaska, Texas, and Kentucky
+* How do we do it?
+@ulend
+
+
+---
+```sql
+"name" in ('Texas','Alaska','Kentucky')
+```
+
+---?image=images/02/arcmap-definition-query.jpg&opacity=100
+<h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
+
+
+---
+## Open attribute table
+# Add Field
+as **Type: Float**
+
+---?image=images/02/arcmap-add-field.jpg&opacity=100
+<h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
+
+---
+## Right+click
+# Field
+and **Calculate Geometry**
+
+---?image=images/02/arcmap-area.jpg&opacity=100
+<h2 style="color:#111;text-shadow: 2px 2px 4px #eee;"></h2>
+
+
+---
+## ArcMap mesaurement
+
+```
+name,       area_sq_km
+Alaska,     1496210
+Texas,      685531
+Kentucky,   104525
+```
+
+---
 ## Addendum
 
 ---
@@ -642,3 +626,10 @@ Open *File > Preferences > Settings > Edit in settings.json*
     "terminal.integrated.lineHeight": 1.05,
 }
 ```
+
+
+
+---?image=images/02/heat-trees.png
+@snap[south-west span-20 text-italic text-04]
+[Link](https://www.npr.org/2019/09/03/754044732/as-rising-heat-bakes-u-s-cities-the-poor-often-feel-it-most)
+@snapend
