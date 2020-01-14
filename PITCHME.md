@@ -98,7 +98,7 @@ that have *keywords* and *syntax*
 ## For example
 
 ---
-This code
+This code is a well-formed "sentence"
 ```html
 <p style="color:blue;">Hello, world!</p>
 ```
@@ -348,12 +348,67 @@ email address
 * Data is redundant, code is unique
 @ulend
 
+---
+# III. First Program
 
+---
+## Python
+@ul[squares]
+* Created by Guido van Rossum; released in 1991
+* One of the most popular programming languages
+* Designed to be easy to read and write
+* Named after Monty Python; not a constrictor
+@ulend
+
+---
+### Objective
+@ul[squares]
+* We'll cover enough to work in ArcGIS Pro
+* Not a formal class in programming
+* Watch these [short videos](https://www.py4e.com/lessons/intro) in *Python for Everybody*
+@ulend
+
+---
+### Step 1
+@ul[squares]
+1. Create a file in VS Code called, "hello.py"
+2. Open the file and add...
+@ulend
+
+---
+### Step 2
+```py
+# Add the following line to the file.
+print("Hey, Geography Y'all!")
+# When finished, save it!
+```
+
+---
+### Step 3
+@ul[squares]
+1. To use ArcGIS's Python we need to run a batch script
+2. Open a terminal in VS Code
+3. Copy and paste the following line and hit **Enter**
+@ulend
+
+---
+### Step 4
+```txt
+C:\"Program Files"\ArcGIS\Pro\bin\Python\Scripts\proenv.bat
+```
+
+---
+### Step 5
+@ul[squares]
+1. You should see `(arcgis)
+2. Open a terminal in VS Code
+3. Copy and paste the following line and hit **Enter**
+@ulend
 
 
 ---
-# Challange
-Measure state area without desktop program
+# IV. Challenge
+If we have time, measure state area using [technology](https://gdal.org/) that's 20 years old.
 
 
 ---
@@ -387,14 +442,14 @@ into your data folder
 ---
 ## In terminal type:
 ```sh
-C:\\"Program Files"\\"QGIS 3.810"\OSGeo4W.bat
+C:\\"Program Files"\\"QGIS 3.10"\OSGeo4W.bat
 o-help
 ```
 
 ---
 ### Experiment with
 ## [ogrinfo](https://gdal.org/programs/ogrinfo.html) & [ogr2ogr](https://gdal.org/programs/ogr2ogr.html)
-Libraries that supports vector data manipulation in QGIS
+Libraries that support vector data manipulation.
 
 
 ---
