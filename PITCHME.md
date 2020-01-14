@@ -400,10 +400,14 @@ C:\"Program Files"\ArcGIS\Pro\bin\Python\Scripts\proenv.bat
 ---
 ### Step 5
 @ul[squares]
-1. You should see `(arcgis)
-2. Open a terminal in VS Code
-3. Copy and paste the following line and hit **Enter**
+1. You should see `(arcgispro-py3) C:\myRootGIS>` in the terminal
+2. Type: `python`
+3. Type: `exit()`
+4. Type: `python hello.py`
 @ulend
+
+---
+# ✊🐍
 
 
 ---
