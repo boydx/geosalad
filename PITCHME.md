@@ -1,7 +1,7 @@
----?image=https://www.outragegis.com/weather/img/animation/190822/PurchaseKnob.gif&pacity=40
+---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&pacity=40
 # Welcome!
 @snap[south-west span-20 text-italic text-04]
-Great Smokies, August 22 2019
+Great Smokies, yesterday
 @snapend
 
 ---?image=images/01/ky.svg&opacity=25
@@ -17,7 +17,7 @@ With a distinct Kentucky flavor
 Contact information in syllabus
 
 ---
-### What experiences help you learn
+### What experiences help learn
 ## GIS & mapping?
 
 
@@ -72,10 +72,10 @@ A map is
 
 ---?image=https://live.staticflickr.com/930/42790171395_39f8afe83e_o.jpg&opacity=30
 ## How about you?
+Quickly go around the room and tell us your
 @ul[squares]
-* Name
-* Major
-* What cartography/GIS courses have you taken
+* Name?
+* What cartography/GIS courses have you taken?
 @ulend[squares]
 
 ---?image=images/01/ky.svg&opacity=25
@@ -148,6 +148,10 @@ How can we use new technology and data to measure and visualize landforms in the
 ---?image=https://live.staticflickr.com/65535/47966558966_d0230e13b7_o.jpg&opacity=40
 ### Red River Gorge landforms
 <iframe width="100%" height="500px" src="https://uky-gis.github.io/maps/rrg-arches/map.html"></iframe>
+
+---?image=https://live.staticflickr.com/65535/47966558966_d0230e13b7_o.jpg&opacity=40
+### 🔥 2020 Map of Maps! 🔥
+<iframe width="100%" height="500px" src="https://uky-gis.github.io/maps/student-projects/"></iframe>
 
 
 ---?image=https://live.staticflickr.com/5713/31179013342_da99860b71_k.jpg&opacity=40
@@ -326,6 +330,11 @@ WHERE
 @[5-6]
 
 ---
+That was
+# SQL
+Structured Query Language
+
+---
 ```markdown
 ## My Project
 ### of little kitties 🐱✊🏻
@@ -356,7 +365,15 @@ This page hosts my mapping project assets:
 ![Cats of Instagram](images/01/cats_of_instagram.jpg)
 
 ---
+That was
+# Markdown
+One of the most popular markup languages to make well-formatted documentation.
 
+---
+Let's try
+# Python
+
+---
 ```python
 # What's your letter grade this semester?
 number_grade = input("Enter value between 0 and 100: ")
@@ -434,6 +451,10 @@ Convergence of tech
 ---
 <iframe width="100%" height="500px" src="https://outragegis.com/pointclouds/legacy/"></iframe>
 [link](https://outragegis.com/pointclouds/legacy/)
+
+---
+# Syllabus
+on Canvas
 
 
 
