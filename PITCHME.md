@@ -17,7 +17,7 @@ With a distinct Kentucky flavor
 Contact information in syllabus
 
 ---
-### What experiences help learn
+### What helps me teach
 ## GIS & mapping?
 
 
