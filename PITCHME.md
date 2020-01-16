@@ -186,9 +186,9 @@ Can we make a site map for a public spaces that identify overlooks?
 ### Robinson Forest Camp
 ## Trail [map](https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg)
 
----?image=https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg
+---?image=https://geography.as.uky.edu/sites/default/files/RobinsonForestCamp_TrailMap.jpg&opacity=100
 
----?image=https://farm5.staticflickr.com/4175/34413343182_c906452c0b_h.jpg
+---?image=https://farm5.staticflickr.com/4175/34413343182_c906452c0b_h.jpg&opacity=100
 
 
 ---?image=https://farm6.staticflickr.com/5678/23200804570_7ba220d2d1_h.jpg&opacity=40
@@ -199,9 +199,9 @@ group project | [student maps](http://sweb.uky.edu/~blshea1/nre355/pine-mountain
 Note:
 How can we determine where scenic locations exist? Finding a tree canopy tour certainly helps.
 
----?image=https://farm1.staticflickr.com/576/23495298805_ce5ec0030d_h.jpg
+---?image=https://farm1.staticflickr.com/576/23495298805_ce5ec0030d_h.jpg&opacity=100
 
----?image=https://farm1.staticflickr.com/681/22868246864_2fb8e40e79_h.jpg
+---?image=https://farm1.staticflickr.com/681/22868246864_2fb8e40e79_h.jpg&opacity=100
 
 ---?image=https://farm5.staticflickr.com/4263/35717804616_2a43fe322c_k.jpg&opacity=40
 ### Fayette County
