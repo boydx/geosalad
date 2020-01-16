@@ -2,6 +2,8 @@ background-size : cover
 footnote : "GEO 409, Spring 2020"
 speaker-mode: true
 
+background: https://live.staticflickr.com/65535/49334235692_7c684876dd_k.jpg
+background-opacity: 40
 theme            : template
 
 theme-background : [ "linear-gradient(#000, #232629)" ]
