@@ -96,7 +96,7 @@ Publish and promote online! I'm going to frame past projects with question aroun
 group project | [student website](https://reece2ke.github.io/geo409_site)
 
 Note:
-How would help people discover a trail that has yet to be completely built?
+How would you help people discover a trail that has yet to be completely built?
 
 ---?image=images/01/tbt.jpg&opacity=40
 ### Get on the trail!
@@ -123,7 +123,7 @@ Which neighborhoods have the most canopy and tallest trees? Why is urban tree ca
 ## Tree [census](https://geography.as.uky.edu/sites/default/files/BoydShearer_Lab3_ArboretumWoodsTreeCensus.jpg)
 
 Note:
-How can we determine which areas how the largest trees?
+How can we determine which areas have the largest trees?
 
 ---?image=https://ethanrussell.github.io/bluegrass/sally_brown/lab_9/images/DJI_0091.jpg&opacity=30
 ## Bluegrass Trails
@@ -302,6 +302,10 @@ How do you deal with so much data??
 - [Automate custom workflows](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples/SurfaceModels.ipynb)
 
 @ulend
+
+---
+## New approach this semester
+Code => Map => Visualize
 
 ---
 ## Code examples?
