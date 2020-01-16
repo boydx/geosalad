@@ -305,7 +305,7 @@ How do you deal with so much data??
 
 ---
 ### New approach this semester
-Code => Map => Visualize
+### Code => Map => Visualize
 
 ---
 ## Code examples?
