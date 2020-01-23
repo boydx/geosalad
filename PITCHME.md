@@ -1,5 +1,5 @@
 ---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
-# GEO 409:03
+# GEO 409:02
 ### Basic Python data structures and conditional execution
 
 ---
@@ -11,13 +11,6 @@
 * Lab: make program to query/export locations of arches
 @ulend
 
----
-## Pro Objectives
-@ul[squares]
-* Make map of US Arches
-* Practice SQL queries
-* Begin your base map of RRG
-@ulend
 
 ---?image=https://live.staticflickr.com/65535/48788851843_afbb1670d4_k.jpg&opacity=40
 ## How to learn?
@@ -28,10 +21,6 @@
 * Read the readme.md
 @ulend
 
----
-# Lab challenge!
-
----?image=images/03/challenge-map.png
 
 ---
 ## Arches, like Grays Arch, are formed by [differential weathering](https://kgs.uky.edu/kgsweb/olops/pub/kgs/GeoStory.pdf)
@@ -346,9 +335,6 @@ if contourInt > 4139 or contourInt < 257:
     print("You're not in Kentucky!")
 ```
 
----?image=http://annessky.net/blog/wp-content/uploads/2017/11/KyTopo_24K_N17E22_Bradfordsville.png
-## Jupyter Notebooks
-[Link](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples)
 
 ---?image=https://www.outragegis.com/pixel/_data/i/galleries/1403013_RRG/_IMG1071-me.jpg
 ## Lab 2
@@ -369,19 +355,7 @@ if contourInt > 4139 or contourInt < 257:
 * Focus on finished cartography
 @ulend
 
----
-## Function pattern
-```python
-arcpy.analysis.Clip("input_layer", "clip_layer", "output_layer") 
-```
 
----
-## Find repetition
-@[2]
-```python
-arcpy.analysis.Clip("streams_water_areas", "area_of_interest",
-r"C:\BoydsGIS\L2\L2.gdb\streams_water_areas") 
-```
 
 ---
 ## Variablize
@@ -415,195 +389,4 @@ Easy access to change data sources, options, etc.
 # Print
 # Organize
 
----
-## ArcPy Functions
-@ul
-* Search function help
-* "arcpy pro [clip](http://pro.arcgis.com/en/pro-app/tool-reference/analysis/clip.htm)"
-* "arcpy pro [exists](http://pro.arcgis.com/en/pro-app/arcpy/functions/exists.htm)"
 
----
-## Does it exist?
-@[1]
-@[2]
-@[3]
-```python
-arcpy.Exists() 
-# Returns True if resource exits
-# use in if/else statement
-```
-
----
-## if/else
-@[1]
-@[2]
-@[3]
-@[4]
-```python
-if arcpy.Exists(f"C:\\{myRoot}\\L2\\output.gdb"):
-    print("GDB exists!")
-else:
-    print("The GDB doesn't exist. Let's create it!")
-```
-
----
-## Create GDB
-@[1]
-@[2]
-@[3]
-```python
-arcpy.CreateFileGDB_management (p1, p2)
-# p1 = file path to directory
-# p2 = GDB name, e.g., output.gdb
-```
-
----
-## Create GDB
-@[1]
-@[2]
-@[3]
-@[4]
-```python
-if arcpy.Exists(f"C:\\{myRoot}\\L2\\output.gdb"):
-    print("GDB exists!")
-else:
-    arcpy.CreateFileGDB_management (f"C:\\{myRoot}\\L2", "output.gdb")
-```
-
----
-# Jupyter Notebook
-
----?image=https://www.outragegis.com/pixel/_data/i/galleries/1403013_RRG/_IMG1071-me.jpg
-# Lab 3
-
----
-## Table conversion
-@[1]
-@[2]
-@[3]
-@[4]
-@[5]
-```python
-arcpy.TableToTable_conversion (p1, p2, p3, p4)
-# p1 = input table
-# p2 = output file path
-# p3 = table name
-# p4 = SQL where clause 
-```
-
----
-## Example where clause
-@[1]
-@[2]
-@[3]
-```python
-# Build the where clause, aka the SQL statement to select features
-whereClause = f"base_elevation_ft >= {elevationNumber}"
-whereClause = "base_elevation_ft >= 1000 and state_alpha = 'KY'"
-```
-
-
----
-## ArcGIS Pro map
-Setup US Arches project. Can you find the highest arch above sea level?
-
----
-# Base map layout
-Create locator maps for our project
-
----
-## Get data from Canvas module
-Source:
-[Natural Earth administrative boundaries](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) and [Geographic Names Information System](https://geonames.usgs.gov/domestic/download_data.htm)
-
----
-# Add New Map
-
----?image=images/03/a005.png&size=contain&opacity=100
-
----
-# Organize databases
-
----?image=images/03/add-database.gif&size=contain&opacity=100
-
----
-# Set coordinate system
-
----?image=images/03/a006.png&size=contain&opacity=100
-
----
-# Format point symbol
-
----?image=images/03/a007.png&size=contain&opacity=100
-
----
-# Insert new layout
-
----?image=images/03/a008.png&size=contain&opacity=100
-
----
-# Insert map frame
-
----?image=images/03/a009.png&size=contain&opacity=100
-
----
-# Adjust layout properties
-
----?image=images/03/a010.png&size=contain&opacity=100
-
----
-# Activate map frame
-To fine tune it's placement in frame
-
----?image=images/03/a011.png&size=contain&opacity=100
-
----
-# Add elements
-
----?image=images/03/a012.png&size=contain&opacity=100
-
----
-# Fine tune
-
----?image=images/03/a013.png&size=contain&opacity=100
-
----
-# New map
-ArcGIS Pro can have multiple maps and layouts in one document! 🤯 Make one for area of interest.
-
----
-# Definition query
-
----?image=images/03/a014.png&size=contain&opacity=100
-
----
-# Add halo
-
----?image=images/03/a015.png&size=contain&opacity=100
-
----
-# Add labels
-
----?image=images/03/a016.png&size=contain&opacity=100
-
----
-# Adjust position
-
----?image=images/03/a017.png&size=contain&opacity=100
-
----
-# Tweak endlessly
-
----?image=images/03/a018.png&size=contain&opacity=100
-
----
-# Export GeoPDF
-
----?image=images/03/a019.png&size=contain&opacity=100
-
-
----
-![Complexity](https://imgs.xkcd.com/comics/python_environment.png)   
-@snap[west span-20]
-This is what it can feel like solving a challenge...
-@snapend
