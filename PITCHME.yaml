@@ -1,6 +1,7 @@
 background-size : cover
 footnote : "GEO 409, Spring 2020"
-
+background: https://live.staticflickr.com/65535/48789211076_36cf732bc6_h.jpg
+background-opacity: 40
 
 theme            : template
 
