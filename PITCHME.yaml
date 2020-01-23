@@ -1,6 +1,6 @@
 background-size : cover
 footnote : "GEO 409, Spring 2020"
-background: https://live.staticflickr.com/65535/48789211076_36cf732bc6_h.jpg
+background: https://live.staticflickr.com/7412/26868845604_7b45f6bf9c_k.jpg
 background-opacity: 40
 
 theme            : template
@@ -16,3 +16,4 @@ theme-margins    : [ "0px", "15px" ]
 highlight        : hybrid
 
 theme-override : assets/pitchmd.css
+

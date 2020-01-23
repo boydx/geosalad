@@ -28,13 +28,13 @@ Great Smokies, yesterday
 ---
 ## Arches, like Grays Arch, are formed by [differential weathering](https://kgs.uky.edu/kgsweb/olops/pub/kgs/GeoStory.pdf)
 
----?image=https://live.staticflickr.com/65535/48789360117_94439e2314_k.jpg
+---?image=https://live.staticflickr.com/65535/48789360117_94439e2314_k.jpg&opacity=100
 
----?image=https://live.staticflickr.com/65535/48789359227_79273ca1d1_k.jpg
+---?image=https://live.staticflickr.com/65535/48789359227_79273ca1d1_k.jpg&opacity=100
 
----?image=https://live.staticflickr.com/65535/48788850923_9e67afd3b8_k.jpg
+---?image=https://live.staticflickr.com/65535/48788850923_9e67afd3b8_k.jpg&opacity=100
 
----?image=https://live.staticflickr.com/65535/48789211076_a1d9f7c7ac_k.jpg
+---?image=https://live.staticflickr.com/65535/48789211076_a1d9f7c7ac_k.jpg&opacity=100
 
 ---
 ## Value
