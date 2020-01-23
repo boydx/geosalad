@@ -16,12 +16,12 @@ Great Smokies, yesterday
 
 
 ---?image=https://live.staticflickr.com/65535/48788851843_afbb1670d4_k.jpg&opacity=40
-## How to learn?
+## How to learn? 🧐
 @ul[squares]
 * Clone this lesson's repo 
 * Open Jupyter Notebook and follow along!
-* [Typical workflow](https://uky-gis.github.io/support/python-arcgis/)
-* Read the readme.md
+* [Typical workflow](https://uky-gis.github.io/support/python-arcgis/) (we'll download different data)
+* Read the README.md
 @ulend
 
 
@@ -35,6 +35,12 @@ Great Smokies, yesterday
 ---?image=https://live.staticflickr.com/65535/48788850923_9e67afd3b8_k.jpg&opacity=100
 
 ---?image=https://live.staticflickr.com/65535/48789211076_a1d9f7c7ac_k.jpg&opacity=100
+
+---
+## River deltas
+[300 million years ago](https://dinosaurpictures.org/ancient-earth/#300) this part of Kentucky was a coast with massive river deltas.
+
+---?image=images/300-million-years-ago.jpg&opacity=100
 
 ---
 ## Value
@@ -57,10 +63,10 @@ Great Smokies, yesterday
 ---
 ## Levels of Measurement
 @ul[squares]
+* When you see an integer don't assume it's a quantity.
 * Nominal
 * Ordinal
 * Ratio 
-* When you see an integer don't assume it's a quantity.
 @ulend
 
 
@@ -77,7 +83,7 @@ Literals: the syntax tells us what type it is.
 
 ---
 ## Objects
-Once a value is created, it is an object with properties and powers (more later).
+Once a value is created, it is an object with properties and powers 🔌 (actually they're called methods).
 
 ---
 ```python
@@ -91,40 +97,38 @@ Assign value to an arbitrary and limited set of characters.
 
 ---
 ## Variables
-Make meaningful variable names, e.g., not var1, 1var, or use a reserved keyword.
+Make meaningful variable names, e.g., not var1, 1var, or one of the reserved keywords.
+
+---
+```python
+myZipcode = "40588"
+# type() is a function
+# Functions have () where we can accept input.
+type(myZipcode)
+# returns str
+```
 
 ---
 ## Type
-Knowing the *type* of value tells you powers the value has.
+Knowing the *type* of value tells you methods 🔌 the value has. View [string methods](https://www.w3schools.com/python/python_ref_string.asp)
 
 ---
 ```python
-v = 1.0
-# type() function
-type(v)
-# returns float
+myZipcode = "40588"
+# Test to see if it only contains numbers
+myZipcode.isnumeric()
+# returns True
 ```
+
+
 
 ---?image=https://farm8.staticflickr.com/7330/26735803704_1b2f65bb9e_h.jpg
 ## Challenge
+Let's place with some text. Fire up a new notebook and copy the following text...
 
 ---
-## Challenge 
-How tall is it compared to Natural Bridge?
+@quote[I am more than just a serious basketball fan. I am a life-long addict. I was addicted from birth, in fact, because I was born in Kentucky and I learned, early on, that Habitual Domination was a natural way of life.](Hunter S. Thompson)
 
----
-```python
-yourHeight = input("height in feet: ")
-natbridgeHeight = 65
-print(type(yourHeight))
-
-# percentDifference = 
-# print(percentDifference)
-```
-
----
-## (a) Solution
-### [Jupyter Notebook](https://github.com/UKy-GIS/uky-gis.github.io/blob/master/support/python-arcgis/examples/height_challenge.ipynb)
 
 ---
 ## Assignment operators
@@ -224,7 +228,7 @@ Divides left by right and returns remainder
 ---
 ```python
 contourInterval = 40
-countour = 120
+contour = 120
 print(countour % contourInterval) # returns 0. It's a contour!
 ```
 
@@ -301,12 +305,18 @@ else:
 Anticipate and prevent
 
 ---
-![Errors](http://phdcomics.com/comics/archive/phd120804s.gif)
-
----
 # Syntax
 # Exception
 # Logic
+
+---
+## Syntax
+Incorrect sequence of charactors
+
+---
+## Exceptions
+Syntactically correct but still flawed.
+"John is a married bachelor." Can't be true!
 
 ---
 ### try/except statement
@@ -317,9 +327,13 @@ If it works continue, if it blows up let's do something else
 ```python
 try:
     countInt = int(contour)
+    if countInt % 40 == 0:
+        print("Yup!")
 except:
     print("not a number, yo!")
 ```
+@[1-4]
+@[5-6]
 
 ---
 ### Exceptions can be
@@ -334,8 +348,8 @@ The program executes properly, but the result isn't valid.
 
 ---
 ```python
-if contourInt > 4139 or contourInt < 257:
-    print("You're not in Kentucky!")
+elevKY = 6400
+elevKY % 40 == 0 # True! But not for KY. Why?
 ```
 
 
@@ -345,51 +359,58 @@ if contourInt > 4139 or contourInt < 257:
 ---
 ## Review
 @ul
-* Copy Python function
-* Combine functions together
-* Execute
+* Jupyter Notebook 
+* Six code puzzles
+* Import CSV module and work on real data
+    * US Place name database (GNIS) 2.5 M records
+    * [Download data](https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names/download-gnis-data) and put in data folder
 @ulend
 
 ---
 ## Goals
 @ul
-* Be able to scale up
-* Do complex analysis
-* Focus on finished cartography
+* Solve and debug simple problems
+* Get more comfortable with code
+* Make a handy tool 🔨
 @ulend
 
-
-
 ---
-## Variablize
-### Abstract string to a variable
-@[1]
-@[2]
-@[3]
+## Modules
+@ul
+* Import additional functions
+* Extend [built-in functions](https://www.w3schools.com/python/python_ref_functions.asp)
+* CSV module from the [standard library](https://docs.python.org/3/library/) (no need to install anything!)
+@ulend
+
+--- 
+### Import module
 ```python
-myOutputGDB = f"C:\\BoydsGIS\\L2\\L2.gdb\\"
-arcpy.analysis.Clip("streams_water_areas", "area_of_interest", 
-f"{myOutputGDB}streams_water_areas") 
+import csv
 ```
 
 ---
-## Print
-### Verify correct input/output
-@[1]
-@[2]
+## Namespace
+@ul
+* Uniquely identify resources
+* Access functions in module with dot notation
+* `csv.reader()` to access the read-in function
+@ulend
+
+---
+### Add location of data
 ```python
-print(myOutputGDB)
-# outputs: C:\BoydsGIS\L2\L2.gdb\
+# Make variable to data location
+myData = 'C:\\MyGIS\\data\\NationalFile_20200101.txt'
 ```
 
 ---
-## Organize
-### Move variables to top
-Easy access to change data sources, options, etc.
-
----
-# Variablize
-# Print
-# Organize
-
-
+### Open and create CSV object
+```python
+with open(myData) as csvFile:
+    # Create the CSV object. 
+    reader = csv.reader(csvFile, delimiter='|')
+    # Loop through records and print them.
+    for row in reader:
+        # Each row is a list of values.
+        print(row)
+```
