@@ -1,6 +1,9 @@
 ---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
 # GEO 409:02
 ### Basic Python data structures and conditional execution
+@snap[south-west span-20 text-italic text-04]
+Great Smokies, yesterday
+@snapend
 
 ---
 ## Python Objectives
