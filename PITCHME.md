@@ -404,6 +404,13 @@ myData = 'C:\\MyGIS\\data\\NationalFile_20200101.txt'
 ```
 
 ---
+|NAME       | CLASS          | ELEV  |
+| ------------- |:-------------:| -----:|
+| Grays Arch      | Arch | 1290 |
+| Natural Bridge      | Arch      |   1301 |
+| Chimney Top | Pillar      |    1145 |
+
+---
 ### Open and create CSV object
 ```python
 with open(myData) as csvFile:
