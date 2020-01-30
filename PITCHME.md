@@ -181,7 +181,30 @@ True if different value
 ---
 ## When to use?
 # == !=
-As long as it is *not equal to* x, continue working!
+As long as x is *not equal to* y, continue working!
+
+---
+## 🔭 into the future!
+### **Looping** through data is an essential concept
+
+---
+```python
+x = 0
+while x != 7:
+    print(x)
+    x += 1
+```
+
+---
+## Another way to code this and get same result?
+
+---
+```python
+x = 0
+while x < 7:
+    print(x)
+    x += 1
+```
 
 ---
 ## Membership operators
@@ -212,6 +235,16 @@ place = "Grays Arch"
 "Gray" in place and "arch" in place # False
 "Gray" in place and "Arch" in place # True
 ```
+
+---?image=images/1890-map-distribution-of-germans.jpg
+# Challenge
+
+---
+### Is that a correct abbreviation?
+It's 2020 Census time and your department needs to check if a two-letter abbreviation for a state is correct. Hint in next slide.
+
+---
+states = "AL AK AZ AR CA CO CT DC DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY"
 
 ---?image=http://annessky.net/blog/wp-content/uploads/2017/11/Interval_20.png
 # Challenge
