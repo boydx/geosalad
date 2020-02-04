@@ -457,3 +457,15 @@ with open(myData) as csvFile:
 
 ---
 ![CSV content](images/CSV-diagram.png)
+
+---
+### Open and create CSV object
+```python
+with open(myData) as csvFile:
+    # Create the CSV object. 
+    reader = csv.reader(csvFile, delimiter='|')
+    # Loop through records and print them.
+    for row in reader:
+        # Each row is a list of values.
+        print(row[2])
+```
