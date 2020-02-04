@@ -454,3 +454,6 @@ with open(myData) as csvFile:
         # Each row is a list of values.
         print(row)
 ```
+
+---
+![CSV content](images/CSV-diagram.png)
