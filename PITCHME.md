@@ -502,6 +502,6 @@ with open(myData) as csvFile:
 ### Open QGIS!
 and import CSV
 
----?image=images/q01.jpg
+---?image=images/q01.jpg&opacity=100
 
----?image=images/q02.jpg
+---?image=images/q02.jpg&opacity=100
