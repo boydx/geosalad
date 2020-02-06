@@ -468,4 +468,40 @@ with open(myData) as csvFile:
     for row in reader:
         # Each row is a list of values.
         print(row[2])
+        # Use if block to search records
 ```
+
+---
+# Errors?
+@ul
+* If you have an exception, Google the message on the last line 
+* Good news!
+    * 😊A solution can always be found.
+@ulend
+
+
+---
+### Write out data!
+```py
+# Open data
+with open(myData) as csvFile:
+    # Open empty file to write output
+    with open(myOutput, "w") as csvOutput:
+        # Create reader object
+        reader = csv.reader(csvFile, delimiter='|')
+        # Create writer object
+        writer = csv.writer(csvOutput)
+        # Loop through records
+        for row in reader:
+            if row[3] == 'UT':
+                # Write out selected columns
+                writer.writerow(row)
+```
+
+---
+### Open QGIS!
+and import CSV
+
+---?image=images/q01.jpg
+
+---?image=images/q02.jpg
