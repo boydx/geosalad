@@ -1,10 +1,6 @@
 ---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
-# GEO 409:04
+# GEO 409:03
 ## Functions, methods, and loops
-
----?image=https://www.outragegis.com/weather/img/animation/190515/PurchaseKnob.gif&opacity=40
-# Challenge
-### Working on animation feature in ArcGIS Pro
 
 ---
 ## Learning curve
@@ -19,58 +15,150 @@
 ---
 ## Payoff coming!
 
----?image=https://outragegis.com/gorge/animations/sun.gif&opacity=100
+---?image=https://maptimelex.github.io/wildcat-eyes/assets/images/q01.png&opacity=100
+
+---?image=https://maptimelex.github.io/wildcat-eyes/assets/images/q02.png&opacity=100
+
+---?image=https://maptimelex.github.io/wildcat-eyes/assets/images/q06.png&opacity=100
+
 
 ---
 ## Objectives
 @ul[squares]
-* Create script to process large amounts data
-* Learn hillshade function and animation
-* Learn more Python!
+* Learn more fundamental Python to process data
+* Work with a Python script
+* Extract raster imagery
 @ulend
 
----?image=https://farm2.staticflickr.com/1978/44221432854_c4570602c1_h.jpg&opacity=100
-# Lab work
+---?image=https://live.staticflickr.com/4882/44529819000_3487acf8b7_3k.jpg&opacity=100
+## Your lab work
 
 ---
-## Lab 3
+## Lab 2
 @ul[squares]
 * Your commit log shows how much work you're doing
 * 19 commits v 1 commit
 * **commit often, perfect later**
 @ulend
 
+
 ---
-## Lab 4
+## Lab 2
+@ul[squares]
+* Grade tomorrow
+* Everyone submitted, thank you!
+* Chance to fix answers...
+@ulend
+
+---
+```py
+x == 1 # returns x undefined
+# how to fix?
+```
+
+---
+```py
+x = True # really? That's cheeky.
+# 🚫👻🤷
+```
+
+---
+## Lab 3
 @ul[squares]
 * More Python 🏋️💪🎓
-* Refactor lab 2 code
-* Make hillshade layers
+* Learn to go loopy
+* Manage even larger datasets
 @ulend
+
+
+---
+## TOC
+@ul[squares]
+* Functions
+* Sequences
+* Loops
+* An application
+@ulend
+
+
+---
+# Functions
+
+---
+## Workhorse
+of any programming language
+
+---
+# 📚 ➡ 🔨 ➡ 🌟
+
+---
+## Most important function for you now?
+
+--- 
+```python
+print(someVariable) # What is this variable?
+# Print to find out!
+```
 
 
 ---
 ## Functions
 @ul[squares]
+* Syntax: `functionName()`
 * Block of statements that execute when called
-* Might take arguments
-* Might return data
+* Might pass info into function as **arguments**
+* Might **return** data
 @ulend
 
---- 
 
-```python
-print("Hello World!")
-w = "Hello Universe!"
-print(w)
-```
 
 ---
 ```python
 # function with two parameters
-function(x, y)
+functionName(x, y)
 # parameters are 'placeholders' for passing arguments
 ```
+
+---
+## Parameters
+@ul[squares]
+* Variables inside function
+* Allows us to pass information to the function
+* **SEQUENCE is CRITICAL**
+@ulend
+
+---?
+## Example: clip function
+@ul[squares]
+* Probably most common GIS tool
+* Extract spatial features by area of interest
+@ulend
+
+---?image=https://66.media.tumblr.com/31fbae995fe05a3c19f3bc88d9a78e1e/5fb2e54a0288ab22-41/s500x750/953e49b56ea5c634aadcc12801531a3774bff6a7.gifv
+## What?
+@ul[squares]
+* Spatial features: cookie dough
+* AOI: cookie cutter
+@ulend
+
+---
+#### Sequence of parameters are critical
+```py
+arcpy.Clip_Management(x, y, z) # what are x, y, and z?
+```
+
+---
+#### Sequence of parameters are critical
+```py
+x = "c:\\data\\KY_Rivers
+y = "c:\\data\\Bluegrass
+z = "c:\\project\\Bluegrass_Rivers
+arcpy.Clip_Management(x, y, z)
+```
+
+---
+# Challenge I
+Build a function
 
 ---
 ```python
@@ -114,9 +202,17 @@ help(powersXtoY)
 ```
 
 ---
+# Challenge II
+Build a function that finds the highest elevation in a list of elevations.
+
+---
+elevations = [1232, 452, 1224, 599, 745, 355, 899]
+
+
+---
 ## Built-in functions
 @ul[squares]
-* Python comes with about [60 functions](https://docs.python.org/3.6/library/functions.html)
+* Python comes with about [60 functions](https://docs.python.org/3.8/library/functions.html)
 * Don't need to `import` anything
 @ulend
 
@@ -146,7 +242,7 @@ print(round(7.555, 2))
 import decimal # use the module's namespace to access its functions
 x = decimal.Decimal('7.555')
 
-from decimal import * # access the module functions directly
+from decimal import Decimal # access the module functions directly
 x = Decimal('7.555')
 ```
 @[1-2]
@@ -173,20 +269,15 @@ x = Decimal('7.555')
 @ulend
 
 ---
-## Jupyter Notebook
-* Open workbook for lesson
-* Work through challenges
-
-
----
-## Objects & methods
+## Objects & methods 🔮
 @ul[squares]
 * Every object has a 
     * *identity*
     * *value*
-    * *type*
-* Methods are functions that operate on certain objects
+    * *type* 
+* **Methods** are functions that operate on certain objects
 	* object.function()
+    * e.g., `readerObject = csv.reader(csvFile)`
 @ulend
 
 ---?
@@ -199,6 +290,9 @@ x = Decimal('7.555')
 x = 1.0
 x.is_integer() # true
 ```
+
+---
+# Strings
 
 ---
 ## String methods 
