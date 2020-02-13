@@ -148,11 +148,11 @@ arcpy.Clip_Management(x, y, z) # what are x, y, and z?
 ```
 
 ---
-#### Sequence of parameters are critical
+#### Sequence of parameters is critical
 ```py
-x = "c:\\data\\KY_Rivers
-y = "c:\\data\\Bluegrass
-z = "c:\\project\\Bluegrass_Rivers
+x = "c:\\data\\KY_Rivers"
+y = "c:\\data\\Bluegrass"
+z = "c:\\project\\Bluegrass_Rivers"
 arcpy.Clip_Management(x, y, z)
 ```
 
@@ -210,6 +210,56 @@ elevations = [1232, 452, 1224, 599, 745, 355, 899]
 
 
 ---
+```py
+def findStats(dataList):
+    x = 0
+    for number in dataList:
+        if number > x:
+            x = number
+    print(x)
+```
+
+---
+## `return` value
+@ul[squares]
+* To access value we need to return it in the function definition
+@ulend
+
+---
+```py
+def findStats(dataList):
+    x = 0
+    for number in dataList:
+        if number > x:
+            x = number
+    print(f"{x} is the highest elevation.")
+    return x
+```
+
+---
+## How can you find the average elevation?
+
+---
+```py
+def findStats(dataList):
+    x = 0
+    count = 0
+    total = 0
+    for number in dataList:
+        count += 1
+        total += number
+        if number > x:
+            x = number
+    print(f"{x} is the highest elevation. {total/count} is the average elevation.")
+    return x
+```
+@[1]
+@[2-4]
+@[5-7]
+@[10]
+@[11]
+
+---
 ## Built-in functions
 @ul[squares]
 * Python comes with about [60 functions](https://docs.python.org/3.8/library/functions.html)
@@ -244,9 +294,12 @@ x = decimal.Decimal('7.555')
 
 from decimal import Decimal # access the module functions directly
 x = Decimal('7.555')
+
+print(round(x, 2))
 ```
 @[1-2]
-@[3-4]
+@[4-5]
+@[7]
 
 ---
 ## decimal properties
@@ -260,7 +313,7 @@ x = Decimal('7.555')
 ## Lat/lon coords
 @ul[squares]
 * 38.038015, -84.5046852!
-* 1&deg; of lattitude = 69 miles
+* 1&deg; of latitude = 69 miles
 * 1.0&deg;  6.9 mi of precision
 * 1.00&deg;  3600 ft
 * 1.000&deg;  360 ft
@@ -269,13 +322,12 @@ x = Decimal('7.555')
 @ulend
 
 ---
-## Objects & methods 🔮
+## Objects & methods
 @ul[squares]
 * Every object has a 
-    * *identity*
-    * *value*
-    * *type* 
-* **Methods** are functions that operate on certain objects
+    * *value* and *identity*
+    * *type* 🔮🐉
+* **Methods** are functions that operate only on certain objects
 	* object.function()
     * e.g., `readerObject = csv.reader(csvFile)`
 @ulend
@@ -301,7 +353,7 @@ x.is_integer() # true
 * Perform common tasks on strings
 * Find substrings, change case, etc.
 * [Built-in methods](https://www.w3schools.com/python/python_ref_string.asp)
-* Most return new values, others return `True`/`False`
+* Most return new values, others return `True` or `False`
 @ulend
 
 ---
@@ -323,7 +375,7 @@ x.is_integer() # true
 ---
 ## String slice
 @ul[squares]
-* Access substring using start:end indexes
+* Access substring using [*start*:*end*] indexes
 * End index is up-to-but-not-including
 * Address in string v. length of string
 @ulend
@@ -336,59 +388,91 @@ len("Hello World!") # returns 12
 "Hello World!"[0:12] # returns all
 "Hello World!"[:12] # returns all
 "Hello World!"[12] # returns error, out of index range
+"Hello World!"[:] # returns all
+"Hello World!"[] # returns syntax error
+"Hello World!"[-1] # returns !
+"Hello World!"[:-1] # returns Hello World
 ```
 
 ---
-## String index challenge
-Print the arch variable backwards using only string indexes
+## String stride
+@ul[squares]
+* Optional third number in [*start*:*end*:*stride*]
+* Return every nth number
+* negative numbers reverse the string
+@ulend
 
----?image=https://www.outragegis.com/weather/img/animation/190101/LookRock.gif&opcity=40
+---
+## String index challenge
+Print "Maps, Y'all!" backwards using only string indexes
+
+---
+```py
+y = "Maps, Y'all!"
+print(y[::-1])
+```
+
+---
 # Loops
 
 ---
 ## while loop
 @ul[squares]
 * Runs while true
-* Avoid infinite loop with breaks
+* Avoid infinite loop with `break`
 * loop body indented with four spaces
 @ulend
+
 
 
 ---
 ```python
 arch = "Grays Arch"
-while "Natural Bridge" not in arch:
-    print("Crash this program")
-# No!
-```
-
----
-```python
-length_of_word = len(arch)
+archLength = len(arch)
 i = 0
-while i < length_of_word:
+while i < archLength:
     print(arch[i])
     # What's missing?
 ```
 
 ---
-# STOP
-
----
-## while loop challenge
-Create a while loop that runs until a correct state name is input
+```python
+arch = "Grays Arch"
+archLength = len(arch)
+i = 0
+while i < archLength:
+    print(arch[i])
+    i += 1
+    if arch[i] == "A":
+        break
+```
 
 ---
 ## for loop
-* Iterates through a list, value by value.
+@ul[squares]
+* Iterates through a sequence, value by value.
+* Iterating variable
 * Indented four spaces
 * Runs a definite number of times
+@ulend
 
+---
+```py
+arch = "Grays Arch"
+for i in arch:
+    print(i)
+```
+---
+## Python list
+@ul[squares]
+* A collection in a sequence
+* Enclosed in `[ ]`
+* Values separated by commas.
+@ulend
 
 ---
 ```python
-# We need to create a list first.
-# Assume we have a much, much large string than this
+# String
 place = "Welcome to the lost treasures of Silvermine Arch and Hidden Arch in Wolfe county!"
 
 # Split a string into list on each space in string
@@ -399,28 +483,36 @@ print(listOfWords) # use the print function to see how it works
 ```
 
 ---
-## for loop challenge
+## `for` loop challenge
 Scan text and print the names of the arches in the text.
+Hint: use the `.index()` method on a sequence.
+
+---
+```py
+help(str.index)
+```
+
+---
+```py
+print(listOfWords)
+x = 0
+for word in listOfWords:
+    if word.lower() == "arch":
+        x = listOfWords.index(word)
+        print(x)
+```
+
+---
+```py
+archesInString = []
+x = 0
+for word in listOfWords:
+    if word.lower() == "arch":
+        print("Before:", x)
+        x = listOfWords.index(word, x + 1)
+        print(" After:", x)
+        archesInString.append(f"{listOfWords[x - 1]} Arch")
+print(archesInString)
+```
 
 ---?image=https://farm2.staticflickr.com/1901/44221426354_d8a711a753_h.jpg&opacity=100
-
----
-## Lesson addendum
-* `import csv` module
-* iterate through `arches.csv`
-
-
---- 
-## Lab practice
-* Refactor script from lab 2
-* Create hillshade script
-
-
-
----
-```python
-# build field data type showing properties of us_arches fields.
-fields = arcpy.ListFields(layer_name)
-for field in fields:
-    print(f"{field.name} is a type of {field.type}")
-```
