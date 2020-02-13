@@ -352,9 +352,23 @@ x.is_integer() # true
 * More common
 * Perform common tasks on strings
 * Find substrings, change case, etc.
-* [Built-in methods](https://www.w3schools.com/python/python_ref_string.asp)
 * Most return new values, others return `True` or `False`
+* They **do not change** the original string.
+* [Built-in methods](https://www.w3schools.com/python/python_ref_string.asp)
 @ulend
+
+---
+justWords = "If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you."
+
+---
+## Try these methods
+```py
+justWords.upper()
+justWords.center(200, "😘")
+justWords.replace("hundred", "seven-hundred") # for elves
+justWords.index("hundred")
+```
+
 
 ---
 ## String indexes
