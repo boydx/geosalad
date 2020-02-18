@@ -529,4 +529,7 @@ for word in listOfWords:
 print(archesInString)
 ```
 
----?image=https://farm2.staticflickr.com/1901/44221426354_d8a711a753_h.jpg&opacity=100
+---?image=https://farm2.staticflickr.com/1901/44221426354_d8a711a753_h.jpg&opacity=50
+## Application:
+### Extracting remote imagery
+All instructions can be found in Lesson
