@@ -40,7 +40,7 @@ myFunction(input, output, buffer)
 * Explore new data formats 
 * Finish the Python drills 
     * Recognize fundamental stuff
-* Intro to ArcPy, highly abstracted tools
+* Intro to ArcPy's highly abstracted tools
     * 🚂 vs 📐. Tools already built. Give ticket & itinerary.
 @ulend
 
