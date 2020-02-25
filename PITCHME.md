@@ -15,7 +15,7 @@
 * More Python calisthenics 🏃‍♀️🏋️🧐
 * Impressed with your dedication!
 * Recognize that scripting an application has a flow.
-    * You may not how everything works, but you know how to set local variables.
+    * You may not know how everything works, but you know how to set local variables.
 @ulend
 
 ---
