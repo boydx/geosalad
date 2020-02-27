@@ -183,20 +183,57 @@ for i in archCoords:
 
 ---
 ### List methods
-* `.sort()`
-* `.append()`
-* `.remove()`
+Changes source list
+```py
+.sort() # alphabetically
+.append() # add one element
+.extend() # add elements from one iterable
+.remove() # remove first occurrence
+```
 
 ---
-## Practice with lesson notebook
+### `.sort()`
+Alphabetize elements in list
+```py
+# archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+archesList.sort() 
+# ['Castle Arch', 'Rock Bridge Arch', 'Silvermine Arch']
+archesList.sort(reverse=True)  # keyword argument
+# ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+```
 
 ---
-# 🛑
+### `.append()`
+One argument. Adds element to end of list
+```py
+# archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+archesList.append('Grays Arch') 
+# ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch', 'Grays Arch']
+```
+
+---
+### `.extend()`
+One argument: an iterable. Adds element(s) to end of list
+```py
+# archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+archesList.extend(['Grays Arch', 'Natural Bridge']) 
+# ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch', 'Grays Arch', 'Natural Bridge']
+```
 
 ---
 ### Useful list functions
-* `len()`
-* `range()`
+Returns a value
+```py
+len() # number of elements in the list
+range() # range of index values
+```
+
+---
+### `.len()`
+
+---
+## Challenge: 
+### add, sort, and report on arch names and locations
 
 
 ---
