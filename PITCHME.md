@@ -257,8 +257,55 @@ archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
 
 ---
 ## Challenge: 
-### add, sort, and report on arch names and locations
+### combine, sort, and report on arch names and locations
+```py
+archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
+```
 
+---
+## Challenge: 
+### Sort by west to east
+```py
+archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
+```
+
+---
+## Solutions
+
+---
+```py
+archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+for i in range(len(archesList)):
+    for j in range(len(archesList[i])):
+        print(j, archesList[i][j])
+```
+
+---
+```py
+aList = []
+archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
+n = 0
+for i in archesList:
+    aList.append([i, archCoords[n]])
+    n += 1
+print(aList)
+```
+
+---
+```py
+aList = []
+archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
+n = 0
+for i in archesList:
+    aList.append([[archCoords[n][1], archCoords[n][0]], i])
+    n += 1
+aList.sort(reverse=True) # reverse needed?
+print(aList)
+```
 
 ---
 ## Tuple
@@ -276,10 +323,26 @@ oneArchTuple[0] = "Castle Arch" # Blows up!
 oneArchTuple[1][0] = 37.112 # 😀
 ```
 
+---
+### Unique assignment
+Tuple on the left side of an assignment statement
+```py
+aList = ['Silvermine Arch', 'Castle Arch']
+(x, y) = aList # or x, y = aList
+print(x, y) # Silvermine Arch Castle Arch
+```
+
+---
+### Tuple unpacking
+```py
+archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
+for x, y in archCoords:
+    print(y, x)
+```
 
 ---
 ## Dictionary
-An unordered collection of items stored as key:value pairs separated by a comma and enclosed in curly brackets
+An unordered collection of **items** stored as key:value pairs separated by a comma and enclosed in curly brackets
 
 ---
 ```python
@@ -292,10 +355,117 @@ archesDictionary = {
 ```
 
 ---
+### Iterate through dictionary
 ```python
 for i in archesDictionary:
     print(i, archesDictionary[i])
 ```
+
+---
+### Iterate just keys
+```py
+for k in archesDictionary.keys():
+    print(k)
+```
+
+---
+### Iterate just values
+```py
+for v in archesDictionary.values():
+    print(v)
+```
+---
+### Iterate each item with key:value as tuple
+```py
+for i in archesDictionary.items(): # returns tuple of items!
+    print(i)
+```
+
+---
+## Challenge
+### In two lines, print the value:key in
+```py
+archesDictionary = {
+ 'Castle Arch': [37.8123, -83.5796],
+ 'Red-byrd Arch': [37.8148, -83.5504],
+ 'Rock Bridge Arch': [37.7686, -83.5582],
+ 'Silvermine Arch': [37.7873, -83.6243]
+ }
+```
+
+---
+## Challenge
+Most common character in
+```py
+spring = """
+I've banished Winter, saith the Spring,
+Awake! arise, ye flowers!
+Brisk breezes blow,
+Bright sunshine glow,
+And rouse the young Year's powers.
+"""
+# -Henry James Slack (1818–1896)
+```
+
+---
+### Hint
+```py
+myDict = {}
+for letter in spring:
+    # create new keys and values
+    myDict[letter] = 1
+print(myDict)
+# Missing keys!!!
+```
+
+---
+### Hint `.get(key, "default value")`
+If key exists, will return value
+If key doesn't exist, will add default value
+
+---
+### Hint
+```py
+myDict = {}
+for letter in spring:
+    # create new keys and values
+    myDict[letter] = myDict.get(letter,0) + 1
+print(myDict)
+# Missing keys!!!
+```
+
+---
+## Solutions
+
+---
+```py
+for k, v in archesDictionary.items(): # returns tuple of items!
+    print(v, k)
+```
+
+---
+```py
+lettersInWord = {} # create empty dict
+for letter in spring:
+    # create new key:values based on occurrence of letter
+    lettersInWord[letter] = lettersInWord.get(letter,0) + 1
+print(lettersInWord)
+```
+
+---
+```py
+letterCount = []
+for k, v in lettersInWord.items():
+    letterCount.append([v, k])
+letterCount.sort(reverse=True)
+print(letterCount)
+```
+
+---
+### Wheel of Fortune analysis!
+Pick spaces??
+
+
 
 ---
 ## Advantages of each?
