@@ -229,7 +229,31 @@ range() # range of index values
 ```
 
 ---
-### `.len()`
+### `len()`
+Returns number of characters in string or elements in list
+```py
+# archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+x = len(archesList)
+print(x) 
+# 3
+```
+
+---
+### `range()`
+Returns sequence of numbers (over which to iterate)
+```py
+for i in range(6):
+    print(i)
+for i in range(len(archesList)):
+    print(i, archesList[i])
+```
+
+---
+## Challenge: 
+### iterate over each word and letter in the following sequence
+```py
+archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
+```
 
 ---
 ## Challenge: 
