@@ -475,9 +475,146 @@ Pick spaces??
 * Dictionaries are so tidy!
 @ulend
 
+---?image=https://live.staticflickr.com/65535/33813132438_2c62d8c92b_k.jpg&opacity=100
+<h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Application</h3>
+@snap[south-west]
+<p style="color:#FFD27F;text-shadow: 2px 2px 4px #000;"><i>Sky Bridge</i></p>
+@snapend
+
 ---
-## DataFrame
-A two-dimensional tabular data structure and the primary data structure for pandas. NOT a built-in data type.
+@quote[Everything is related to everything else, but near things are more related than distant things.](Tobler's first law of geography)
+
+---
+### Find *areas* within *distance* of *selected* features.
+
+---
+### How do we do *that*?
+
+---
+### Assuming no barriers (like rivers) create polygon about feature.
+
+---?image=https://pro.arcgis.com/en/pro-app/tool-reference/analysis/GUID-267CF0D1-DB92-456F-A8FE-F819981F5467-web.png&opacity=100
+
+---
+### Buffer
+ArcGIS Pro [tool documentation and syntax](https://pro.arcgis.com/en/pro-app/tool-reference/analysis/buffer.htm)
+
+---
+# 🛎️
+## Look up all tools
+E.g., Google the following phrase "arcpy buffer"    
+@ul[squares]
+* Why arcpy?
+@ulend
+
+---
+## ArcPy
+@ul[squares]
+* Python site package for geospatial applications
+* Published by ESRI and ships with ArcGIS Pro
+* ESRI's [What is ArcPy?](https://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm)
+@ulend
+
+---
+### Using ArcPy
+Add to first cell in Jupyter Notebook with all other import statements.
+```py
+import arcpy # lower case
+# that's it!
+```
+
+---
+## Geoprocessing overview
+@ul[squares]
+* Get data
+* Project data (if necessary)
+* Analyze data
+* View 📍🗺️📊📈
+@ulend
+
+---
+### Get data
+@ul[squares]
+* [GNIS database](https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names/download-gnis-data) of place names and locations
+* Lab 2 script to filter and export CSV file
+
+@ulend
+
+---
+### Store data
+@ul[squares]
+* Most of the data used in arcpy will be stored in a **file geodatabase**
+    * a folder with a *.gdb* extension
+* Create the database if doesn't exist
+* Convert CSV to ArcPy **feature class**
+    * a collection of geographic features that share the same geometry type and attributes
+    * e.g., a layer of points, lines, or polygons
+@ulend
+
+---
+### Project data
+@ul[squares]
+* The CSV data uses spherical coordinates (lat, long)
+* We need to transform to Cartesian coordinates (plane coordinates)
+* Define and use the official KY CRS, EPSG: 3089
+* All data will be in this CRS before analysis
+    * Luckily, most of data is already in this CRS (after this lab).
+@ulend
+
+---
+### Analyze data
+@ul[squares]
+* Create chain of [geoprocessing](https://desktop.arcgis.com/en/arcmap/latest/analyze/main/what-is-geoprocessing.htm) tools
+* This exercise uses one tool, buffer, to perform a [proximity analysis](https://desktop.arcgis.com/en/arcmap/latest/analyze/commonly-used-tools/proximity-analysis.htm)
+* Classic example: Dr. John Snow's 1854 analysis of London cholera epidemic
+@ulend
+
+---?image=https://open.lib.umn.edu/app/uploads/sites/178/2017/07/Image100.jpg&opacity=100
+
+---
+## Application overview
+@ul[squares]
+* Jupyter Notebook cells
+    1. `import` statements
+    2. set local variables
+        * 🛎️ Only edit this cell!
+    3. remaining cells perform geoprocessing
+@ulend
+
+---
+### Environment settings
+@ul[squares]
+* ArcPy's default settings
+    * E.g., tool output can overwrite existing data?
+* Exposed as properties on [ArcPy's env class](https://pro.arcgis.com/en/pro-app/arcpy/classes/env.htm).
+    * arcpy.env.[propertyName] = [some value]
+@ulend
+
+---
+### Environment settings
+@ul[squares]
+* Two are important to always set
+* `arcpy.env.workspace` = [file/path/to/gdb]
+* `arcpy.env.overwriteOutput = True`
+@ulend
+
+---
+### Follow along
+@ul[squares]
+* In the lesson, find the section, "Application: Finding areas within a distance of selected features with ArcPy"
+* Open the Jupyter Notebook **lab-04/Lab-04-application.ipynb**
+@ulend
+
+
+---?image=https://live.staticflickr.com/4023/35739307185_4c4ffc805b_k.jpg&opacity=100
+<h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Spring break is almost here!</h3>
+@snap[south-west]
+<p style="color:#FFD27F;text-shadow: 2px 2px 4px #000;"><i>Jump rock</i></p>
+@snapend
+
+---
+## Addendum: Pandas 
+A DataFrame is a two-dimensional tabular data structure and the primary data structure for pandas.
 
 ```python
 import pandas as pd
@@ -489,27 +626,4 @@ with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
 print(pdData)
 ```
 
----
-### Exercise using lists and tuples
-### Sort arches by name and elevation
-Download [US GNIS (or US)](https://uk.instructure.com/courses/1950078/modules) from Canvas
 
----
-```python
-import csv #module to handle csv files
-with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
-    reader = csv.reader(csvfile, delimiter="|")
-    for row in reader:
-        print(row)
-```
-
----
-### [Help with Lab 6](https://github.com/UKy-GIS/uky-gis.github.io/tree/master/support/python-arcgis/examples)
-
----?image=images/skybridge-3.jpg&size=contain&color=linear-gradient(to top, #000, #333)
-@snap[north-west text-italic text-18]
-Cliffs along Red River
-@snapend
-
----?image=images/skybridge-4.jpg
-<h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Sky Bridge</h3>
