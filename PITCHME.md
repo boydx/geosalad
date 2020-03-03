@@ -488,7 +488,13 @@ Pick spaces??
 ### Find *areas* within *distance* of *selected* features.
 
 ---
-### How do we do *that*?
+### [Proximity analysis](https://desktop.arcgis.com/en/arcmap/latest/analyze/commonly-used-tools/proximity-analysis.htm)
+
+---
+### Classic example: Dr. John Snow's 1854 analysis of London cholera epidemic
+
+---?image=https://open.lib.umn.edu/app/uploads/sites/178/2017/07/Image100.jpg&opacity=100
+
 
 ---
 ### Assuming no barriers (like rivers) create polygon about feature.
@@ -511,6 +517,7 @@ E.g., Google the following phrase "arcpy buffer"
 ## ArcPy
 @ul[squares]
 * Python site package for geospatial applications
+* Uniquely named (handy for searches)
 * Published by ESRI and ships with ArcGIS Pro
 * ESRI's [What is ArcPy?](https://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm)
 @ulend
@@ -566,10 +573,8 @@ import arcpy # lower case
 @ul[squares]
 * Create chain of [geoprocessing](https://desktop.arcgis.com/en/arcmap/latest/analyze/main/what-is-geoprocessing.htm) tools
 * This exercise uses one tool, buffer, to perform a [proximity analysis](https://desktop.arcgis.com/en/arcmap/latest/analyze/commonly-used-tools/proximity-analysis.htm)
-* Classic example: Dr. John Snow's 1854 analysis of London cholera epidemic
 @ulend
 
----?image=https://open.lib.umn.edu/app/uploads/sites/178/2017/07/Image100.jpg&opacity=100
 
 ---
 ## Application overview
