@@ -604,6 +604,21 @@ import arcpy # lower case
 @ulend
 
 ---
+### ArcPy Functions
+@ul[squares]
+* Always look up documentation!
+* Know required parameters
+* Know optional parameters and their default value
+* Know sequence of arguments in function call
+@ulend
+
+---
+### ArcPy [Clip](https://pro.arcgis.com/en/pro-app/tool-reference/analysis/clip.htm)
+```py
+Clip(in_features, clip_features, out_feature_class, {cluster_tolerance})
+```
+
+---
 ### Follow along
 @ul[squares]
 * In the lesson, find the section, "Application: Finding areas within a distance of selected features with ArcPy"
