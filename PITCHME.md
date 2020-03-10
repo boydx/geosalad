@@ -98,3 +98,7 @@ Imagine if you needed to know the variety and acreage of land use and land cover
 @ulend
 
 ---?image=images/lclu-us-total.jpg&opacity=100
+
+---
+# 🛑
+Read lesson!
