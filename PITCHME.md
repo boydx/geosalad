@@ -1,6 +1,6 @@
 ---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
-# GEO 409:04
-## Advanced data structures & intro to ArcPy
+# GEO 409:05
+## Automated geoprocessing and into to Pro
 
 ---
 ## Crossing the bridge
