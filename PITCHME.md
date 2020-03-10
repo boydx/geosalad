@@ -5,647 +5,96 @@
 ---
 ## Online Class
 @ul[squares]
-* Canvas [course content](https://uk.instructure.com/courses/1966559)
+* Canvas [course content and new videos](https://uk.instructure.com/courses/1966559)
 * Zoom [screen sharing](https://uky.zoom.us/my/boyd.shearer)
 * ArcGIS Pro [download & install](https://uk.instructure.com/courses/1966559/files/93580698/download)
 * Virtual Den [remote applications](https://appstore.uky.edu/)
 @ulend
 
 ---
-## Lab 3
-@ul[squares]
-* More Python calisthenics 🏃‍♀️🏋️🧐
-* Impressed with your dedication!
-* Recognize that scripting an application has a flow.
-    * You may not know how everything works, but you know how to set local variables.
-@ulend
-
----
-### Example application
-
-```py
-# Import tools
-import xyz
-# Set local parameters
-workspace = "myHuckleberry"
-buffer = 1000 # units?
-# The application body
-myFunction(input, output, buffer)
-```
-@[1-2]
-@[3-5]
-@[6-7]
-
----
 ## Lab 4
 @ul[squares]
-* Explore new data formats 
-* Finish the Python drills 
-    * Recognize fundamental stuff
-* Intro to ArcPy's highly abstracted tools
-    * 🚂 vs 📐. Tools already built. Give ticket & itinerary.
+* Get familiar with the tool documentation
+    * Don't have to know all settings all the time
+* Get comfortable moving data, running code, examining output
 @ulend
 
 ---
-## Implications
+## Lab 5
 @ul[squares]
-* Functions can have many parameters
-    * Reading documentation required
-* ⛓️Chaining functions together 
-    * What to do with intermediate data?
+* Clipping data to an AOI with ArcPy
+    * Need to work through lesson
+* Write new script from lesson example
+* Fire up ArcGIS Pro to publish a base map
 @ulend
 
+---?image=images/ky-basemap.png&opacity=100
+
 ---
+## Problem 🧱
+Data is not perfectly isolated for your area of interest. The extra load can become an obstacle to efficient mapping.
+
+---
+## Solution
+## ✂️ 🗺️
+
+---
+## Clip tool
+@ul[squares]
+* Isolate data to area of interest
+* Input > function() > Output
+* `arcpy.Clip_analysis(in, clip, out)`
+* What happens if you have 100 layers?
+@ulend
+
+
+---
+## Automate tools
 ```py
-# Import tools
 import arcpy
-# Set local parameters
-workspace = "myHuckleberry"
-# The application body
-myFuncOne(inData, outData1, a, b, c, {x}, {y}, {z})
-myFuncTwo(outData2, outFinal, i, j, {k})
+# set default workspace
+arcpy.env.workspace = "z:\\myGIS\\data\\myProject.gdb"
+# get list of data in the geodatabase
+listOfData = arcpy.ListFeatureClasses()
+# loop through list
+for layer in listOfData:
+    # ✂️ 🗺️
+    arcpy.Clip_analysis(layer, "area_of_interest", f"{outputDB}\\layer")
 ```
-@[1-2]
-@[3-4]
-@[5-7]
+@[1]
+@[2-3]
+@[4-5]
+@[6-9]
 
 ---
-## Model Builder?
-
-![Model Builder](https://www.arcgis.com/sharing/rest/content/items/04d37668a2d745e8a17b3366ea8dedd2/resources/1573037919202.png)
-
----
-## Lab 4: Application
-Find areas within some distance of selected GNIS features. 1) Jupyter Notebook processing then 2) 🔥up ArcGIS Pro to view data!
+## Geoprocessing
+"A framework and set of tools for processing geographic and related data."
 
 ---
-## Outline
+## Automate at scale
 @ul[squares]
-* Collections
-    * types 
-    * methods
-* Application
-    * `arcpy.Exists()`
-    * `arcpy.CreateFileGDB()`
-    * `arcpy.XYTableToPoint()`
-    * `arcpy.Buffer()`
+* Tools chained together
+    * Programmatically run an entire workflow
+* Operate on unlimited amounts of data
+* Once coded, work on same data but from different area
 @ulend
 
+---?image=images/tools.png&opacity=100
+
 ---
-## Collections
+## Example
+Imagine if you needed to know the variety and acreage of land use and land cover for all counties in US?
+
+---?image=images/lclu-ky.jpg&opacity=100
+
+---?image=images/lclu-us.jpg&opacity=100
+
+---
+## Solution?
 @ul[squares]
-* Ordered vs. unordered
-* mutable vs. immutable
-* Nested collections (collection of collections)
-* Looping through collections
+* for loop [Clip Raster > Export Table]
+    * Don't get name of county in table
+* RasterToVector > Intersect > for loop [Clip Raster > Export Table]
 @ulend
 
----
-## Videos
-@ul[squares]
-* Collections of data
-* Watch videos!
-    * [lists](https://www.py4e.com/lessons/lists)
-    * [tuples](https://www.py4e.com/lessons/tuples)
-    * [dictionaries](https://www.py4e.com/lessons/dictionary)
-@ulend
-
----
-## List
-An mutable, **sequence** of **items** or **elements** separated by a comma and enclosed in square brackets. Items can be any value.
-
----
-```python
-archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch'] 
-```
-
----
-### Index bracket notation
-Address items in sequence with integer, just like strings.
-
-
----
-```py
-myList[item]
-# where item is an integer
-```
-
----
-```python
-# archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch'] 
-n = 0
-for i in archesList:
-    print(i)
-    print(archesList[n])
-    n += 1
-```
-
----
-### Add items
-```python
-archesList[3]= "Rainbow Arch"
-# ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch', "Rainbow Arch"] 
-```
-
----
-### Change items
-```python
-archesList[3]= "Sky Bridge"
-# ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch', "Sky Bridge"] 
-```
-
----
-### Nested collections
-Because lists can contain any type, you can have lists inside lists. Gang together brackets to access nested collection.
-
-
----
-```py
-myList[outerItem][innerItem]
-# where outerItem and innerItem are integers
-```
-
----
-```py
-archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
-```
-
----
-```python
-# archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
-n = 0
-for i in archCoords:
-    print(i)
-    print(archesList[n])
-    print(archesList[n][0])
-    print(archesList[n][1])
-    n += 1
-```
-
-
----
-### List methods
-Changes source list
-```py
-.sort() # alphabetically
-.append() # add one element
-.extend() # add elements from one iterable
-.remove() # remove first occurrence
-```
-
----
-### `.sort()`
-Alphabetize elements in list
-```py
-# archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-archesList.sort() 
-# ['Castle Arch', 'Rock Bridge Arch', 'Silvermine Arch']
-archesList.sort(reverse=True)  # keyword argument
-# ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-```
-
----
-### `.append()`
-One argument. Adds element to end of list
-```py
-# archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-archesList.append('Grays Arch') 
-# ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch', 'Grays Arch']
-```
-
----
-### `.extend()`
-One argument: an iterable. Adds element(s) to end of list
-```py
-# archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-archesList.extend(['Grays Arch', 'Natural Bridge']) 
-# ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch', 'Grays Arch', 'Natural Bridge']
-```
-
----
-### Useful list functions
-Returns a value
-```py
-len() # number of elements in the list
-range() # range of index values
-```
-
----
-### `len()`
-Returns number of characters in string or elements in list
-```py
-# archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-x = len(archesList)
-print(x) 
-# 3
-```
-
----
-### `range()`
-Returns sequence of numbers (over which to iterate)
-```py
-for i in range(6):
-    print(i)
-for i in range(len(archesList)):
-    print(i, archesList[i])
-```
-
----
-## Challenge: 
-### iterate over each word and letter in the following sequence
-```py
-archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-```
-
----
-## Challenge: 
-### combine, sort, and report on arch names and locations
-```py
-archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
-```
-
----
-## Challenge: 
-### Sort by west to east
-```py
-archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
-```
-
----
-## Solutions
-
----
-```py
-archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-for i in range(len(archesList)):
-    for j in range(len(archesList[i])):
-        print(j, archesList[i][j])
-```
-
----
-```py
-aList = []
-archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
-n = 0
-for i in archesList:
-    aList.append([i, archCoords[n]])
-    n += 1
-print(aList)
-```
-
----
-```py
-aList = []
-archesList = ['Silvermine Arch', 'Castle Arch', 'Rock Bridge Arch']
-archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
-n = 0
-for i in archesList:
-    aList.append([[archCoords[n][1], archCoords[n][0]], i])
-    n += 1
-aList.sort(reverse=True) # reverse needed?
-print(aList)
-```
-
----
-## Tuple
-An immutable sequence of values separated by a comma and enclosed in round brackets
-
----
-```python
-oneArchTuple = ('Silvermine Arch', [37.7873, -83.6243])
-```
-
----
-```python
-oneArchTuple = ('Silvermine Arch', [37.7873, -83.6243])
-oneArchTuple[0] = "Castle Arch" # Blows up!
-oneArchTuple[1][0] = 37.112 # 😀
-```
-
----
-### Unique assignment
-Tuple on the left side of an assignment statement
-```py
-aList = ['Silvermine Arch', 'Castle Arch']
-(x, y) = aList # or x, y = aList
-print(x, y) # Silvermine Arch Castle Arch
-```
-
----
-### Tuple unpacking
-```py
-archCoords = [[37.7873, -83.6243], [37.8123, -83.5796], [37.7686, -83.5582]]
-for x, y in archCoords:
-    print(y, x)
-```
-
----
-## Dictionary
-An unordered collection of **items** stored as key:value pairs separated by a comma and enclosed in curly brackets
-
----
-```python
-archesDictionary = {
- 'Castle Arch': [37.8123, -83.5796],
- 'Red-byrd Arch': [37.8148, -83.5504],
- 'Rock Bridge Arch': [37.7686, -83.5582],
- 'Silvermine Arch': [37.7873, -83.6243]
- }
-```
-
----
-### Iterate through dictionary
-```python
-for i in archesDictionary:
-    print(i, archesDictionary[i])
-```
-
----
-### Iterate just keys
-```py
-for k in archesDictionary.keys():
-    print(k)
-```
-
----
-### Iterate just values
-```py
-for v in archesDictionary.values():
-    print(v)
-```
----
-### Iterate each item with key:value as tuple
-```py
-for i in archesDictionary.items(): # returns tuple of items!
-    print(i)
-```
-
----
-## Challenge
-### In two lines, print the value:key in
-```py
-archesDictionary = {
- 'Castle Arch': [37.8123, -83.5796],
- 'Red-byrd Arch': [37.8148, -83.5504],
- 'Rock Bridge Arch': [37.7686, -83.5582],
- 'Silvermine Arch': [37.7873, -83.6243]
- }
-```
-
----
-## Challenge
-Most common character in
-```py
-spring = """
-I've banished Winter, saith the Spring,
-Awake! arise, ye flowers!
-Brisk breezes blow,
-Bright sunshine glow,
-And rouse the young Year's powers.
-"""
-# -Henry James Slack (1818–1896)
-```
-
----
-### Hint
-```py
-myDict = {}
-for letter in spring:
-    # create new keys and values
-    myDict[letter] = 1
-print(myDict)
-# Missing keys!!!
-```
-
----
-### Hint `.get(key, "default value")`
-If key exists, will return value
-If key doesn't exist, will add default value
-
----
-### Hint
-```py
-myDict = {}
-for letter in spring:
-    # create new keys and values
-    myDict[letter] = myDict.get(letter,0) + 1
-print(myDict)
-# Missing keys!!!
-```
-
----
-## Solutions
-
----
-```py
-for k, v in archesDictionary.items(): # returns tuple of items!
-    print(v, k)
-```
-
----
-```py
-lettersInWord = {} # create empty dict
-for letter in spring:
-    # create new key:values based on occurrence of letter
-    lettersInWord[letter] = lettersInWord.get(letter,0) + 1
-print(lettersInWord)
-```
-
----
-```py
-letterCount = []
-for k, v in lettersInWord.items():
-    letterCount.append([v, k])
-letterCount.sort(reverse=True)
-print(letterCount)
-```
-
----
-### Wheel of Fortune analysis!
-Pick spaces??
-
-
-
----
-## Advantages of each?
-@ul[squares]
-* Lists are easy to search/build
-* Tuples are fast to access
-* Dictionaries are so tidy!
-@ulend
-
----?image=https://live.staticflickr.com/65535/33813132438_2c62d8c92b_k.jpg&opacity=100
-<h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Application</h3>
-@snap[south-west]
-<p style="color:#FFD27F;text-shadow: 2px 2px 4px #000;"><i>Sky Bridge</i></p>
-@snapend
-
----
-@quote[Everything is related to everything else, but near things are more related than distant things.](Tobler's first law of geography)
-
----
-### Find *areas* within *distance* of *selected* features.
-
----
-### [Proximity analysis](https://desktop.arcgis.com/en/arcmap/latest/analyze/commonly-used-tools/proximity-analysis.htm)
-
----
-### Classic example: Dr. John Snow's 1854 analysis of London cholera epidemic
-
----?image=https://open.lib.umn.edu/app/uploads/sites/178/2017/07/Image100.jpg&opacity=100
-
-
----
-### Assuming no barriers (like rivers) create polygon about feature.
-
----?image=https://pro.arcgis.com/en/pro-app/tool-reference/analysis/GUID-267CF0D1-DB92-456F-A8FE-F819981F5467-web.png&opacity=100
-
----
-### Buffer
-ArcGIS Pro [tool documentation and syntax](https://pro.arcgis.com/en/pro-app/tool-reference/analysis/buffer.htm)
-
----
-# 🛎️
-## Look up all tools
-E.g., Google the following phrase "arcpy buffer"    
-@ul[squares]
-* Why arcpy?
-@ulend
-
----
-## ArcPy
-@ul[squares]
-* Python site package for geospatial applications
-* Uniquely named (handy for searches)
-* Published by ESRI and ships with ArcGIS Pro
-* ESRI's [What is ArcPy?](https://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm)
-@ulend
-
----
-### Using ArcPy
-Add to first cell in Jupyter Notebook with all other import statements.
-```py
-import arcpy # lower case
-# that's it!
-```
-
----
-## Geoprocessing overview
-@ul[squares]
-* Get data
-* Project data (if necessary)
-* Analyze data
-* View 📍🗺️📊📈
-@ulend
-
----
-### Get data
-@ul[squares]
-* [GNIS database](https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names/download-gnis-data) of place names and locations
-* Lab 2 script to filter and export CSV file
-
-@ulend
-
----
-### Store data
-@ul[squares]
-* Most of the data used in arcpy will be stored in a **file geodatabase**
-    * a folder with a *.gdb* extension
-* Create the database if doesn't exist
-* Convert CSV to ArcPy **feature class**
-    * a collection of geographic features that share the same geometry type and attributes
-    * e.g., a layer of points, lines, or polygons
-@ulend
-
----
-### Project data
-@ul[squares]
-* The CSV data uses spherical coordinates (lat, long)
-* We need to transform to Cartesian coordinates (plane coordinates)
-* Define and use the official KY CRS, EPSG: 3089
-* All data will be in this CRS before analysis
-    * Luckily, most of data is already in this CRS (after this lab).
-@ulend
-
----
-### Analyze data
-@ul[squares]
-* Create chain of [geoprocessing](https://desktop.arcgis.com/en/arcmap/latest/analyze/main/what-is-geoprocessing.htm) tools
-* This exercise uses one tool, buffer, to perform a [proximity analysis](https://desktop.arcgis.com/en/arcmap/latest/analyze/commonly-used-tools/proximity-analysis.htm)
-@ulend
-
-
----
-## Application overview
-@ul[squares]
-* Jupyter Notebook cells
-    1. `import` statements
-    2. set local variables
-        * 🛎️ Only edit this cell!
-    3. remaining cells perform geoprocessing
-@ulend
-
----
-### Environment settings
-@ul[squares]
-* ArcPy's default settings
-    * E.g., tool output can overwrite existing data?
-* Exposed as properties on [ArcPy's env class](https://pro.arcgis.com/en/pro-app/arcpy/classes/env.htm).
-    * arcpy.env.[propertyName] = [some value]
-@ulend
-
----
-### Environment settings
-@ul[squares]
-* Two are important to always set
-* `arcpy.env.workspace` = [file/path/to/gdb]
-* `arcpy.env.overwriteOutput = True`
-@ulend
-
----
-### ArcPy Functions
-@ul[squares]
-* Always look up documentation!
-* Know required parameters
-* Know optional parameters and their default value
-* Know sequence of arguments in function call
-@ulend
-
----
-### ArcPy [Clip](https://pro.arcgis.com/en/pro-app/tool-reference/analysis/clip.htm)
-```py
-Clip(in_features, clip_features, out_feature_class, {cluster_tolerance})
-```
-
----
-### Follow along
-@ul[squares]
-* In the lesson, find the section, "Application: Finding areas within a distance of selected features with ArcPy"
-* Open the Jupyter Notebook **lab-04/Lab-04-application.ipynb**
-@ulend
-
-
----?image=https://live.staticflickr.com/4023/35739307185_4c4ffc805b_k.jpg&opacity=100
-<h3 style="color:#FFD27F;text-shadow: 2px 2px 4px #000;">Spring break is almost here!</h3>
-@snap[south-west]
-<p style="color:#FFD27F;text-shadow: 2px 2px 4px #000;"><i>Jump rock</i></p>
-@snapend
-
----
-## Addendum: Pandas 
-A DataFrame is a two-dimensional tabular data structure and the primary data structure for pandas.
-
-```python
-import pandas as pd
-
-with open("KY_Features_20181001.txt", encoding='utf-8') as csvfile:
-    reader = pd.read_csv(csvfile, delimiter='|')
-    pdData = pd.DataFrame(reader)
-
-print(pdData)
-```
-
-
+---?image=images/lclu-us-total.jpg&opacity=100
