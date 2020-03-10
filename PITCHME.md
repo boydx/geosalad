@@ -1,12 +1,14 @@
 ---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
 # GEO 409:05
-## Automated geoprocessing and into to Pro
+## Automated geoprocessing & intro to ArcGIS Pro
 
 ---
-## Crossing the bridge
+## Online Class
 @ul[squares]
-* From Python fundamentals
-* to ArcPy, ESRI's Python site package.
+* Canvas [course content](https://uk.instructure.com/courses/1966559)
+* Zoom [screen sharing](https://uky.zoom.us/my/boyd.shearer)
+* ArcGIS Pro [download & install](https://uk.instructure.com/courses/1966559/files/93580698/download)
+* Virtual Den [remote applications](https://appstore.uky.edu/)
 @ulend
 
 ---
