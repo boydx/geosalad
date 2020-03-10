@@ -93,7 +93,7 @@ Imagine if you needed to know the variety and acreage of land use and land cover
 ## Solution?
 @ul[squares]
 * for loop [Clip Raster > Export Table]
-    * Don't get name of county in table
+    * Doesn't get name of county in table
 * RasterToVector > Intersect > for loop [Clip Raster > Export Table]
 @ulend
 
