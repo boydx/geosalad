@@ -1,62 +1,40 @@
----
-# Fall is here!
-
-
----?image=https://live.staticflickr.com/65535/48942588231_3809d4f187_k.jpg&opacity=40
-## Conference(s) report
-
----?image=https://live.staticflickr.com/65535/48942588231_3809d4f187_k.jpg&opacity=30
-## Kentucky GIS
-@ul[squares]
-* Python is in demand
-* ArcGIS Pro is coming...
-* Still trying to figure out uses for lidar
-@ulend
-
----?image=https://live.staticflickr.com/65535/48942588231_3809d4f187_k.jpg&opacity=30
-## NACIS
-@ul[squares]
-* Big data, terrain, automation
-* Command line and scripting
-* Visualization
-@ulend
-
----?image=https://live.staticflickr.com/65535/48888457648_acf487f13e_k.jpg&opacity=40
-<h2 style="text-shadow:0 0 2px #333, 0 0 5px #333;color:white">Walk in the woods</h2>
-
----
+------?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=40
 # GEO 409
-## Module 05: Field mapping
+## Module 06: 
+### Cartography (and Field mapping)
+
+---?image=https://live.staticflickr.com/4345/35932585353_86b4720238_k.jpg&opacity=40
+<h2 style="text-shadow:0 0 2px #333, 0 0 5px #333;color:white">Take a walk in the woods</h2>
+
 
 ---
-## Short break from Python
-
----
-## Adopt a landform
-### Field trip!
-
----
-## Fri, Oct 25
+## Spring 2020
 @ul[squares]
-* 9 am - 4:30 pm
-* Drive UKy white van
-* Pick up at Wildcat statute [[38.0389,-84.5012](https://www.google.com/maps/@38.0389114,-84.5012686,20.44z)]
-* Bring walking shoes, camera, map, mobile device
+* Field Trip!
+* Plan your own trip
+* Make your own map
+* Measure your space
 @ulend
 
----?image=https://farm2.staticflickr.com/1922/43128933340_d6d61a6bb2_h.jpg&opacity=100
 
+---?image=https://live.staticflickr.com/7786/27482504770_267470cc1f_o.jpg&opacity=40
+## Adopt a landform
+
+---?image=https://live.staticflickr.com/8185/29282811394_acffec2f45_o.jpg&opacity=40
+## or a building, skyline, etc.
+
+---?image=https://farm2.staticflickr.com/1922/43128933340_d6d61a6bb2_h.jpg&opacity=40
+## Explore a big space
 
 ---
-# Due
-## End of semester
-
+## Example
+### Red River Gorge
 
 ---
 # Step 1
 
 ---
-## Finish RRG base map
+## Make RRG base map
 @ul[squares]
 * Layers should include arches
 * streams, waterbodies, rivers
@@ -76,6 +54,20 @@
 
 ---
 # Step 2
+
+---
+## Publish map
+@ul[squares]
+* Create new repo on Github.com
+* Enable Github pages 
+* Add `boydx` as a collaborator
+* Clone down new repo, add map, commit, and push
+* Find URL to map, e.g. https://username.github.io/rrg/basemap/rrg-arches.pdf
+@ulend
+
+
+---
+# Step 3
 
 ---
 ### Load app
@@ -110,10 +102,7 @@
 ---?image=https://farm2.staticflickr.com/1959/43128931410_daceab6096_h.jpg&opacity=100
 
 ---
-# Step 3
-
----
-@quote[I took a walk in the woods and came out taller than the trees](Henry David Thoreau)
+# Step 4
 
 ---
 ## Visit site
@@ -122,6 +111,11 @@
 * Measure
 * Drop pin
 @ulend
+
+---
+@quote[I took a walk in the woods and came out taller than the trees](Henry David Thoreau)
+
+
 
 ---
 # Addendum
