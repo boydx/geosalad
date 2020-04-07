@@ -1,6 +1,6 @@
 ---?image=images/geo_depart.png&size=50%&opacity=100
 
----
+---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=100
 # GEO 409:07
 ### 3D and terrain analysis using lidar data
 
