@@ -1,7 +1,7 @@
 background-size : cover
-footnote : "GEO 409, Fall 2019"
-background: "images/fieldtrip_geo409_191025-5.jpg"
-background-opacity: 100
+footnote : "GEO 409, Adding lidar data to ArcGIS Pro"
+background: "https://www.outragegis.com/weather/img/MaCa.jpg"
+background-opacity: 50
 
 theme            : template
 
