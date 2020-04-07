@@ -1,6 +1,7 @@
 background-size : cover
-footnote : "GEO 409, Fall 2019"
-background: images/background.jpg
+footnote : "GEO 409, Srping 2020"
+background: https://www.outragegis.com/weather/img/MaCa.jpg
+background-opacity: 60
 
 
 theme            : template
