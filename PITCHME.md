@@ -17,9 +17,6 @@
 ### You can complete alternate lab requirements for the same credit as defined here.
 
 ---
-### You can complete alternate lab requirements for the same credit as defined here.
-
----
 ## Lab 5
 ### Make a base map of Kentucky
 @ul
