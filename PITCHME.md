@@ -20,7 +20,7 @@
 ## Lab 5
 ### Make a base map of Kentucky
 @ul
-* [Video](https://uky.yuja.com/V/PlayList?node=3145240&a=293972110&autoplay=1)  starting at 38:00 minutes into presentation
+* [Video](https://uky.yuja.com/Dashboard/Permalink?authCode=125623104&b=758507&linkType=video)  starting at 38:00 minutes into presentation
 * [Download map layers](https://outragegis.com/d/L5_Geo409.mpkx.zip)
 @ulend
 
@@ -37,7 +37,7 @@
 ## Lab 7
 ### Colorize point cloud and make a 3D view of feature
 @ul
-* [Video](#) to be made in class on Tuesday
+* [Video](https://uky.yuja.com/V/Video?v=1043981&node=4011361&a=400653928&autoplay=1) starting at 41:00 minutes into presentation
 * [Download map layers](https://outragegis.com/d/L7_Geo409.mpkx.zip)
 @ulend
 
