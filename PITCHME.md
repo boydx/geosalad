@@ -5,6 +5,26 @@
 ### 3D and terrain analysis using lidar data
 
 ---
+## Announcements
+### April 21, 2020
+(Check Canvas announcements)
+
+---
+## Cash Awards!
+@ul
+* If you are Geo major (or mapping minor)...
+* Send me your (any) map by noon tomorrow to enter competition.
+@ulend
+
+---
+## Update!
+@ul
+* Fixed problem with ArcGIS Pro 2.5...
+* and Virtual Den.
+* Download and use [new scripts](https://outragegis.com/d/UpdatedNotebooks_Geo409_Lidar.zip)
+@ulend
+
+---
 ## Prereq
 @ul
 * Finished the presentation about [about accessing and extracting lidar data](https://gitpitch.com/boydx/geosalad/g409-07c)
@@ -155,8 +175,6 @@ Downloading, extracting, and displaying lidar data.
 * [Tutorial](https://gitpitch.com/boydx/geosalad/g409-07c)
 * [Video](https://uk.instructure.com/courses/1931541/pages/video-arcgis-pro-and-lidar?module_item_id=23767003)
 
----
-# STOP
 
 --- 
 # Point cloud derivatives
@@ -188,8 +206,27 @@ Airborne point clouds can be reduced to high-resolution raster imagery.
     * lines for streams, polygons for lakes, etc.
 @ulend
 
-
+---
+## Tools used
+@ul
+* [LAS dataset to raster](https://pro.arcgis.com/en/pro-app/tool-reference/conversion/las-dataset-to-raster.htm)
+* [LAS point statistics as raster](https://pro.arcgis.com/en/pro-app/tool-reference/data-management/las-point-statistics-as-raster.htm)
+* [Focal Statistics](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-analyst/focal-statistics.htm)
+* NOTE: filtering a point cloud in ArcGIS Pro will control contributing points to output
+@ulend
 
 ---
-## Vidoes
+# Visualization
+
+---
+## Potree converter
+@ul
+* Point cloud renderer (fast!)
+* Open source [potree.org/](http://potree.org/)
+* Uses WebGL
+* Upload to your repo
+@ulend
+
+---
+## Videos
 * https://youtu.be/zREAEdXzOcw, https://youtu.be/EYbhNSUnIdU
