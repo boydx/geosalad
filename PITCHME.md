@@ -41,6 +41,16 @@
 * [Download map layers](https://outragegis.com/d/L7_Geo409.mpkx.zip)
 @ulend
 
+
+---
+## Lab 8 & final project
+### Create Mapbox map of Natural Bridge with elevation contours and labels
+@ul
+* [Video](#) to be posted after Tuesday's class
+* [Download contours](https://outragegis.com/d/L8_Geo409_contour_10ft_aoi.zip)
+@ulend
+
+
 ---
 ## How to use data
 @ul
