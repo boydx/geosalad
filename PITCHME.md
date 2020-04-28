@@ -7,226 +7,193 @@
 ---
 ## Announcements
 ### April 28, 2020
-(Check Canvas announcements)
 
 ---
-## Cash Awards!
-@ul
-* If you are Geo major (or mapping minor)...
-* Send me your (any) map by noon tomorrow to enter competition.
+## Lesson & Lab 
+@ul[squares]
+* Are combined
+* We'll create a contour layer and make a slippy web map
+* Add link to map on your custom repository page
 @ulend
 
 ---
-## Update!
-@ul
-* Fixed problem with ArcGIS Pro 2.5...
-* and Virtual Den.
-* Download and use [new scripts](https://outragegis.com/d/UpdatedNotebooks_Geo409_Lidar.zip)
+## Final Project
+@ul[squares]
+* Showcase three maps or visualizations
+* On your custom repository portfolio page
+* Add a few other items for content
+* Past [example projects](https://uky-gis.github.io/#examples-of-student-work)
 @ulend
 
 ---
-## Prereq
-@ul
-* Finished the presentation about [about accessing and extracting lidar data](https://gitpitch.com/boydx/geosalad/g409-07c)
-* Watch the videos on Canvas for this module
+## Alt lab and final project
+@ul[squares]
+* Create Mapbox map of Natural Bridge 
+* With elevation contours and labels
+* Use this zipped [Shapefile of contours](https://outragegis.com/d/L8_Geo409_contour_10ft_aoi.zip)
+* Submit link to map on Canvas
 @ulend
 
 ---
-## Good news!
-@ul
-* We're using Python again! 🎉🥳
-* We can do a lot of repetitive work with Python.
-* Leave more time for the fun stuff 🎥🎬
+## Slippy map
+### Pan map and change symbology on zoom
+Add interactive layers and you have a map application
+
+---
+## Mapbox
+@ul[squares]
+- primo 🍭 slippy map builder/host
+- recognize our connected devices make us sensors
+- real-time data-driven location services
+- [mapbox.com](https://www.mapbox.com/)
 @ulend
 
 ---
-## Goals
+### Rise of mapping services
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1lrJug1kgM0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+It's a good time to be a cartographer!
+
+---
+# Video
+## for Mapbox portion of this module
+Check Canvas for link
+
+---?image=images/s01.jpg&opacity=100
+
+---
+## Map tiles
+# Base maps
+
+---
+## mid 2000s
+# Raster tiles
+#### 256x256 pixel image
+
+
+---
+## 2014
+# Vector tiles
+#### geometries and metadata
+
+---
+## Raster v. Vector
+# Compare
+* [OSM](https://www.openstreetmap.org/#map=2/37.3/-79.4)
+* [Mapbox](https://api.mapbox.com/styles/v1/mapbox/streets-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#1.07/0/0)
+
+---
+### The winner
+<iframe src="https://api.mapbox.com/styles/v1/mapbox/streets-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#1.07/0/0" width="100%" height="500"></iframe>
+
+---
+## Mapbox uses
+# OSM Data
+Consider their license requirement:
+
+`© Mapbox © OpenStreetMap Improve this map.`
+
+---
+### [mapbox.com/signup](https://www.mapbox.com/signup/)
+
+---
+## Terminology
+* **Dataset** is editable
+* **Tileset** is symbolized
+* Tilesets can contain many layers
+
+
+---
+### Formats we can use (open source)
+* **Vector**: Shapefile, GeoJSON (edited) at EPSG: 4326
+* **Raster**: GeoTIFF, EPSG: 3857
+
+---
+## Studio
+* The Photoshop of online mapping
+* Rule-based classification and symbology
+* Change appearance as we zoom
+
+---
+## Styles
+* Aka "the map"
+* Symbolized tilesets that we can share
+* Free, curated "Designer" sets!
+
+---
+## Their imagery is amazing
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1C2PbWr9tpY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+### Google Maps
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1767.8700418407502!2d-84.50757895563086!3d38.0442129886452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1523388053130" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+---
+### Mapbox
+<iframe src="https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#17.23/38.044077/-84.507715" width="100%" height="500"></iframe>
+
+
+---
+### Other services
+* [ArcGIS Online](https://developers.arcgis.com/)
+* [Here XYZ Beta](https://explore.xyz.here.com/)
+* Require payment (at volume) and familiarity with coding
+
+---
+# Contouring
+
+---
+## Step 1
+Do **Focal Statistics** on our bare-earth DEM to help smooth contours with the mean (average) statistic.
+
+---
+## Step 2
+**Contour** to make elevation contours with a 20-foot interval (or 10-ft interval).
+
+---
+## Step 3
+**Field Calculator** to make index contours for every 100 feet. An index contour has an attribute that allows us to symbolize it differently on the map.
+
+---
+## Step 4 
+Use the **Clip** tool to reduce the size of area to the buffered area of interest and export Shapefile of contours that will load into Mapbox.
+
+---
+## Or use Jupyter Notebook
+in the module repository
+
+---
+# Web Publishing
+
+---
+## URL
+Uniform resource locator makes the internet work because it provides a unique address for **all** resources on the internet.
+
+---
+## Characteristics
 @ul
-* Create two maps
-    * Cliffs over 30-feet
-    * Interactive map of your location
-* Create an animation of your location
-* Publish this to your GitHub Repo, e.g., *boydsGIS.github.io/rrg*
+* `https://tastyfreeze.github.io/rrg`
+    * domains: sub.main.top-level
+* forward slashes `/` separate directories
+* Most servers *surface* index.html (don't have to type it)
+* No spaces in file names for us
+* Look for file extension
+* Case sensitive
 @ulend
 
 ---
-## This module
+## Linking
 @ul
-* Surface modeling
-    * ground height
-    * above-ground height
-* Video animation
-* Point cloud rendering
+* Use relative paths if asset is in your repo
+    * `../index.html` 
+        * up one directory
+    * `rrg/basemap/image.jpg` 
+        * down two directories
 @ulend
 
 ---
-# Examples
-
----?image=https://live.staticflickr.com/1913/44871763315_6228d74f85_k.jpg&size=contain&opacity=100
-
----
-<!-- @css[title-top-right](Visiting Mammoth Cave's Historic Entrace) -->
-![Gravity](https://www.youtube.com/embed/BVVCe_BSsT4)
-
----
-![Hike up to Indian Arch](https://www.youtube.com/embed/nFV8ftGN0aM)
-
----
-<iframe src="https://www.outrageGIS.com/pointclouds/johnson" width="100%" height="600px"></iframe>
-
-
----
-## Lidar
-@ul
-* light detection and ranging
-* Uses laser light to densely sample the surface of the earth to make highly accurate x,y,z measurements.
-@ulend
-
----
-## Lidar properties
-@ul
-* Active sensor records reflections of rapidly pulsing laser
-* Multiple returns with attributes
-* Platform: airborne vs. terrestrial
-* Creates a point cloud of massively sampled locations
-@ulend
-
-
----?image=http://ucanr.org/blogs/Green/blogfiles/10250.png&size=contain&opacity=100
-
----
-## Point cloud attributes
-@ul
-* x, y, z position
-* time
-* intensity of return
-* Custom algorithms classify point as ground, water, noise, above-ground features
-@ulend
-
----
-## Airborne lidar
-@ul
-* Massive sampling of earth's surface by plane
-* While can penetrate canopy, cannot 'see' under solid structures.
-* i.e., cannot see under our arches.
-@ulend
-
----?image=images/quantum_airplanes.jpg&size=contain
-## Quantum Spatial fleet
-
----?image=images/quantum_lidar.jpg&size=contain&opacity=100
-
----
-## Kentucky project
-@ul
-* Collected during leaf-off conditions
-    * no snow
-    * water levels at or below normal.
-* Point cloud has 2.23-foot point horizontal spacing.
-* Access data in 5k ft x 5k ft tiles ~100-600 MB each
-@ulend
-
-
----
-## Goal
-@ul
-* Create high-resolution elevation products for bare-earth conditions. 
-* Model accurate hydrological conditions
-* Create a seamless statewide Digital Elevation Model with a 5-ft resolution
-@ulend
-
----
-## Classification
-@ul
-* Algorithms classify point
-* Need to filter for ground points
-* All (non-noise) points give us height of above-ground features like trees, buildings, etc.
-@ulend
-
-
----
-| KY classes | Meaning|
-|-------------|-----------:|
-|1 |Processed, but Unassigned (above ground features) |
-|2 |Bare-earth or ground|
-|7 |Noise (e.g., birds. Can be low or high, manually identified, if needed)|
-|9 |Water|
-|10 |Ignored Ground (Breakline Proximity)|
-
----
-## QC/QA
-@ul
-* Heads-up digitizing to enforce hydrological rules
-    * Remove bridges, flatten lakes and wide rivers (lidar can record waves)
-* Field measurements to verify accuracy
-    * Most measurements within .2 ft
-@ulend
-
----?image=images/cp_dz.png&size=contain&opacity=100
-
----?image=images/quantum_qc.jpg&size=contain&opacity=100
-
----?image=images/lidar-progress.png
-## Future of lidar collection [KyFromAbove](http://kyfromabove.ky.gov/)
-
----
-## Practice
-Downloading, extracting, and displaying lidar data.
-* [Tutorial](https://gitpitch.com/boydx/geosalad/g409-07c)
-* [Video](https://uk.instructure.com/courses/1931541/pages/video-arcgis-pro-and-lidar?module_item_id=23767003)
-
-
---- 
-# Point cloud derivatives
-
----
-Airborne point clouds can be reduced to high-resolution raster imagery.
-
----
-## DEM
-@ul
-* Digital Elevation Model
-* Most often bare-earth surface
-@ulend
-
----
-## DSM
-@ul
-* Digital Surface Model
-* Includes the reflected surface
-    * buildings, trees, bridges, etc.
-@ulend
-
----
-## DTM
-@ul
-* Digital Terrain Model
-* bare-earth surface 
-* with vector features to model surface features
-    * lines for streams, polygons for lakes, etc.
-@ulend
-
----
-## Tools used
-@ul
-* [LAS dataset to raster](https://pro.arcgis.com/en/pro-app/tool-reference/conversion/las-dataset-to-raster.htm)
-* [LAS point statistics as raster](https://pro.arcgis.com/en/pro-app/tool-reference/data-management/las-point-statistics-as-raster.htm)
-* [Focal Statistics](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-analyst/focal-statistics.htm)
-* NOTE: filtering a point cloud in ArcGIS Pro will control contributing points to output
-@ulend
-
----
-# Visualization
-
----
-## Potree converter
-@ul
-* Point cloud renderer (fast!)
-* Open source [potree.org/](http://potree.org/)
-* Uses WebGL
-* Upload to your repo
-@ulend
-
----
-## Videos
-* https://youtu.be/zREAEdXzOcw, https://youtu.be/EYbhNSUnIdU
+## Examples
+* Maddie [code](https://github.com/maddyblandford/rrg) | [rendered](https://maddyblandford.github.io/rrg/)
+* Alex [code](https://github.com/alexgis-projects/rrg) | [rendered](https://alexgis-projects.github.io/rrg/elevation/)
+* Conner [code](https://github.com/CRLedington/rrg) | [rendered](https://CRLedington.github.io/rrg/)
+* Jerry [code](https://github.com/jmo335/rrg) | [rendered](https://jmo335.github.io/rrg)
+* Beth Ann [code](https://github.com/Winebarger/RRG2) | [rendered](https://Winebarger.github.io/RRG2)
