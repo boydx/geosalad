@@ -97,10 +97,12 @@ Consider their license requirement:
 
 ---
 ## Terminology
+@ul[squres]
 * **Dataset** is editable
 * **Tileset** is symbolized
-* Tilesets can contain many layers
-
+    * Tilesets can contain many layers
+* **Style** is a map
+@ulend
 
 ---
 ### Formats we can use (open source)
@@ -109,15 +111,19 @@ Consider their license requirement:
 
 ---
 ## Studio
+@ul[squres]
 * The Photoshop of online mapping
 * Rule-based classification and symbology
 * Change appearance as we zoom
+@ulend
 
 ---
 ## Styles
+@ul[squares]
 * Aka "the map"
 * Symbolized tilesets that we can share
 * Free, curated "Designer" sets!
+@ulend
 
 ---
 ## Their imagery is amazing
@@ -138,8 +144,11 @@ Consider their license requirement:
 * [Here XYZ Beta](https://explore.xyz.here.com/)
 * Require payment (at volume) and familiarity with coding
 
+
 ---
 # Contouring
+
+Contours are in meter units on Mapbox. Create contours on ArcGIS Pro
 
 ---
 ## Step 1
@@ -160,6 +169,35 @@ Use the **Clip** tool to reduce the size of area to the buffered area of interes
 ---
 ## Or use Jupyter Notebook
 in the module repository
+
+
+---
+# Mapbox
+
+---
+## Step 1
+Load datasets into Mapbox
+@ul[squares]
+* Load arches.geojson as a Dataset
+* Load zipped contours as a Tileset
+@ulend
+
+---
+## Step 2
+Create new style
+@ul[squares]
+* Add arches and contours to new map
+* Symbolize features
+* Adjust layers to fade on zoom
+@ulend
+
+---
+## Step 3
+Publish style
+@ul[squares]
+* Share URL
+@ulend
+
 
 ---
 # Web Publishing
