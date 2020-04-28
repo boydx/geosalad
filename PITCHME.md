@@ -1,12 +1,12 @@
 ---?image=images/geo_depart.png&size=50%&opacity=100
 
 ---?image=https://www.outragegis.com/weather/img/animation/yesterday/LookRock.gif&opacity=100
-# GEO 409:07
-### 3D and terrain analysis using lidar data
+# GEO 409:08
+### Mapbox and final project
 
 ---
 ## Announcements
-### April 21, 2020
+### April 28, 2020
 (Check Canvas announcements)
 
 ---
