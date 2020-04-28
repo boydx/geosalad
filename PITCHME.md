@@ -138,17 +138,11 @@ Consider their license requirement:
 <iframe src="https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#17.23/38.044077/-84.507715" width="100%" height="500"></iframe>
 
 
----
-### Other services
-* [ArcGIS Online](https://developers.arcgis.com/)
-* [Here XYZ Beta](https://explore.xyz.here.com/)
-* Require payment (at volume) and familiarity with coding
-
 
 ---
 # Contouring
 
-Contours are in meter units on Mapbox. Create contours on ArcGIS Pro
+Contours are in meter units on Mapbox. Create contours on ArcGIS Pro. You can use [these contours](https://outragegis.com/d/L8_Geo409_contour_10ft_aoi.zip)
 
 ---
 ## Step 1
@@ -176,7 +170,7 @@ in the module repository
 
 ---
 ## Step 1
-Load datasets into Mapbox
+### Load datasets into Mapbox
 @ul[squares]
 * Load arches.geojson as a Dataset
 * Load zipped contours as a Tileset
@@ -184,7 +178,7 @@ Load datasets into Mapbox
 
 ---
 ## Step 2
-Create new style
+### Create new style
 @ul[squares]
 * Add arches and contours to new map
 * Symbolize features
@@ -193,7 +187,7 @@ Create new style
 
 ---
 ## Step 3
-Publish style
+### Publish style
 @ul[squares]
 * Share URL
 @ulend
