@@ -46,7 +46,7 @@
 ## Lab 8 & final project
 ### Create Mapbox map of Natural Bridge with elevation contours and labels
 @ul
-* [Video](#) to be posted after Tuesday's class
+* [Video](https://uky.yuja.com/V/Video?v=1079575&node=4089610&a=32801286&autoplay=1) 
 * [Download contours](https://outragegis.com/d/L8_Geo409_contour_10ft_aoi.zip)
 @ulend
 
